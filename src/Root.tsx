@@ -4,6 +4,8 @@ import { Logo } from "./HelloWorld/Logo";
 import { Title } from "./HelloWorld/Title";
 import { EleicoesEUA } from "./Eleicoes/EleicoesEUA";
 import { VIDEO_SECONDS } from "./Eleicoes/data";
+import { TerrasRaras } from "./TerrasRaras/TerrasRaras";
+import { FPS as TR_FPS, VIDEO_SECONDS as TR_SECONDS } from "./TerrasRaras/data";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -21,6 +23,20 @@ export const RemotionRoot: React.FC = () => {
           narration: "narracao.mp3",
           music: "",
           musicVolume: 0.25,
+          showCaptions: true,
+        }}
+      />
+      <Composition
+        id="TerrasRaras"
+        component={TerrasRaras}
+        durationInFrames={Math.round(TR_SECONDS * TR_FPS)}
+        fps={TR_FPS}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          narration: "",
+          music: "",
+          musicVolume: 0.3,
           showCaptions: true,
         }}
       />
