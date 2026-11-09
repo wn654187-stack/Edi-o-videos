@@ -20,7 +20,7 @@ export const Scene3Nascimento: React.FC<{ from: number }> = ({ from }) => {
 
   const L = v
     ? { lineX: 80, lineW: 920, lineY: 560, nodeX: [180, 540, 900], labelW: 340, year: 60, label: 27, chipTop: 345, quote: { left: 60, top: 850, width: 960 }, quoteSize: 56 }
-    : { lineX: 260, lineW: 1400, lineY: 330, nodeX: [360, 960, 1560], labelW: 400, year: 64, label: 30, chipTop: 185, quote: { left: 360, top: 560, width: 1200 }, quoteSize: 60 };
+    : { lineX: 260, lineW: 1400, lineY: 330, nodeX: [360, 960, 1560], labelW: 400, year: 64, label: 30, chipTop: 200, quote: { left: 360, top: 560, width: 1200 }, quoteSize: 60 };
   const rel = (x: number) => (x - L.lineX) / L.lineW;
 
   const lineProgress = interpolate(
