@@ -5,10 +5,10 @@ import { bodyFont, clamp, colors, textGlow } from "./theme";
 
 type Chunk = { start: number; end: number; words: string[] };
 
-const MAX_WORDS = 6;
+
 
 /** Groups the narration's timed words into short caption chunks. */
-const buildChunks = (fps: number): Chunk[] => {
+const buildChunks = (fps: number, MAX_WORDS: number): Chunk[] => {
   const groups: (typeof WORDS)[] = [];
   let current: typeof WORDS = [];
   for (const w of WORDS) {
@@ -37,11 +37,12 @@ const colorOf = (word: string) => {
   return tone ? colors[tone as keyof typeof colors] : null;
 };
 
-/** Lower-third dynamic captions with keyword colouring (16:9). */
+/** Lower dynamic captions with keyword colouring (16:9 and 9:16). */
 export const Captions: React.FC = () => {
   const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
-  const chunks = useMemo(() => buildChunks(fps), [fps]);
+  const { fps, width, height } = useVideoConfig();
+  const v = height > width;
+  const chunks = useMemo(() => buildChunks(fps, v ? 4 : 6), [fps, v]);
   const chunk = chunks.find((c) => frame >= c.start && frame < c.end);
   if (!chunk) return null;
 
@@ -52,10 +53,10 @@ export const Captions: React.FC = () => {
     <div
       style={{
         position: "absolute",
-        left: 160,
-        right: 160,
-        top: 905,
-        height: 130,
+        left: v ? 80 : 160,
+        right: v ? 140 : 160,
+        top: v ? 1290 : 905,
+        height: v ? 230 : 130,
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
@@ -64,7 +65,7 @@ export const Captions: React.FC = () => {
         columnGap: 18,
         fontFamily: bodyFont,
         fontWeight: 900,
-        fontSize: 56,
+        fontSize: v ? 70 : 56,
         lineHeight: 1.1,
         textAlign: "center",
         scale: interpolate(pop, [0, 1], [0.86, 1]),

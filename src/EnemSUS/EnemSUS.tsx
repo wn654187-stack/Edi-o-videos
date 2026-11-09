@@ -26,12 +26,13 @@ const SCENES = [Scene1Hook, Scene2Antes, Scene3Nascimento, Scene4Principios, Sce
 /** Persistent progress bar + topic tag (keeps viewers oriented and watching). */
 const Overlay: React.FC = () => {
   const frame = useCurrentFrame();
-  const { fps, durationInFrames } = useVideoConfig();
+  const { fps, durationInFrames, width, height } = useVideoConfig();
+  const v = height > width;
   const tagIn = interpolate(frame, [SCENE_STARTS[1] * fps, SCENE_STARTS[1] * fps + 10], [0, 1], clamp);
   return (
     <>
       <div style={{ position: "absolute", left: 0, top: 0, height: 8, width: `${(frame / durationInFrames) * 100}%`, background: `linear-gradient(90deg, ${colors.green}, ${colors.susNeon})` }} />
-      <div style={{ position: "absolute", left: 36, top: 34, opacity: tagIn, scale: 0.62, transformOrigin: "0 0" }}>
+      <div style={{ position: "absolute", left: v ? 60 : 36, top: v ? 150 : 34, opacity: tagIn, scale: 0.62, transformOrigin: "0 0" }}>
         <Chip color={colors.gold}>Enem 2026 · Redação · SUS</Chip>
       </div>
     </>

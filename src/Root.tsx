@@ -39,6 +39,20 @@ export const RemotionRoot: React.FC = () => {
           showCaptions: true,
         }}
       />
+      <Composition
+        id="EnemSUSVertical"
+        component={EnemSUS}
+        durationInFrames={ENEM_SUS_SECONDS * 30}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          narration: "narracao-sus.mp3",
+          music: "",
+          musicVolume: 0.2,
+          showCaptions: true,
+        }}
+      />
       <Folder name="Elements">
         <Composition
           id="Logo"

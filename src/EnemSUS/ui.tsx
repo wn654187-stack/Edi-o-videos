@@ -10,6 +10,12 @@ import {
 import { at } from "./data";
 import { bodyFont, clamp, colors, glow, headlineFont, textGlow } from "./theme";
 
+/** True when the composition is portrait (9:16). */
+export const useVertical = () => {
+  const { width, height } = useVideoConfig();
+  return height > width;
+};
+
 /** Frame (relative to the scene start `from`) at which `word` is spoken. */
 export const useCue = (from: number) => {
   const { fps } = useVideoConfig();
@@ -111,12 +117,14 @@ export const Title: React.FC<{
   color?: string;
   glowColor?: string;
   delay?: number;
-}> = ({ children, top = 92, size = 92, color = colors.white, glowColor, delay = 2 }) => (
-  <Pop at={delay} style={{ left: 0, right: 0, top, textAlign: "center" }}>
+}> = ({ children, top, size, color = colors.white, glowColor, delay = 2 }) => {
+  const v = useVertical();
+  return (
+  <Pop at={delay} style={{ left: v ? 60 : 0, right: v ? 60 : 0, top: top ?? (v ? 230 : 92), textAlign: "center" }}>
     <div
       style={{
         fontFamily: headlineFont,
-        fontSize: size,
+        fontSize: size ?? (v ? 84 : 92),
         color,
         lineHeight: 1.05,
         letterSpacing: 2,
@@ -127,7 +135,8 @@ export const Title: React.FC<{
       {children}
     </div>
   </Pop>
-);
+  );
+};
 
 export const Card: React.FC<{
   color: string;
