@@ -8,7 +8,7 @@ const CollegeMap: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const count = Math.round(
-    interpolate(frame, [0.4 * fps, 3 * fps], [0, TOTAL_EV], { ...clamp, easing: Easing.out(Easing.cubic) }),
+    interpolate(frame, [2.3 * fps, 3.8 * fps], [0, TOTAL_EV], { ...clamp, easing: Easing.out(Easing.cubic) }),
   );
   return (
     <>
@@ -67,8 +67,8 @@ const FLORIDA_PATH =
 const Florida: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const flashAt = 3.4 * fps;
-  const blueShare = interpolate(frame, [0.6 * fps, 2.8 * fps], [50, 50.5], {
+  const flashAt = 1.9 * fps; // "Leva os 30 delegados"
+  const blueShare = interpolate(frame, [0.2 * fps, 1.4 * fps], [50, 50.5], {
     ...clamp,
     easing: Easing.inOut(Easing.cubic),
   });
@@ -77,7 +77,7 @@ const Florida: React.FC = () => {
   const fill = won ? colors.blue : "#2a2f4a";
   const trophiesStart = flashAt + 10;
   const delegates = Math.round(
-    interpolate(frame, [trophiesStart, trophiesStart + 2.2 * fps], [0, 30], clamp),
+    interpolate(frame, [trophiesStart, trophiesStart + 2 * fps], [0, 30], clamp),
   );
   const winnerPop = spring({ frame: frame - flashAt - 4, fps, config: { damping: 10 } });
 
@@ -118,7 +118,7 @@ const Florida: React.FC = () => {
           }}
         >
           <span style={{ color: colors.blueNeon }}>{blueShare.toFixed(1)}%</span>
-          <span style={{ color: colors.gold, opacity: frame > 1.6 * fps ? 1 : 0 }}>+1 VOTO</span>
+          <span style={{ color: colors.gold, opacity: frame > 0.9 * fps ? 1 : 0 }}>+1 VOTO</span>
           <span style={{ color: colors.redNeon }}>{(100 - blueShare).toFixed(1)}%</span>
         </div>
         <div
@@ -156,7 +156,7 @@ const Florida: React.FC = () => {
         </defs>
         <path
           d={FLORIDA_PATH}
-          fill={frame > 0.6 * fps && !won ? "url(#split)" : fill}
+          fill={frame > 0.2 * fps && !won ? "url(#split)" : fill}
           stroke={colors.white}
           strokeWidth={6}
         />
@@ -227,7 +227,7 @@ const Florida: React.FC = () => {
 
 export const Scene4Colegio: React.FC = () => {
   const { fps } = useVideoConfig();
-  const floridaAt = 8 * fps;
+  const floridaAt = 10.9 * fps; // "Ganhou a Flórida..."
   return (
     <SceneIn>
       <Sequence durationInFrames={floridaAt} layout="none">

@@ -68,10 +68,10 @@ const Stars: React.FC = () => {
 };
 
 const COMMENTS: { text: string; x: number; y: number; at: number; color: string }[] = [
-  { text: "Genial!", x: 60, y: 480, at: 2.6, color: colors.gold },
-  { text: "Confuso demais...", x: 560, y: 530, at: 3.2, color: colors.redNeon },
-  { text: "E se der empate em 269?", x: 60, y: 1200, at: 3.8, color: colors.purple },
-  { text: "Explica Maine e Nebraska!", x: 420, y: 1290, at: 4.4, color: colors.blueNeon },
+  { text: "Genial!", x: 60, y: 480, at: 5.2, color: colors.gold },
+  { text: "Confuso demais...", x: 560, y: 530, at: 5.6, color: colors.redNeon },
+  { text: "E se der empate em 269?", x: 60, y: 1200, at: 6.0, color: colors.purple },
+  { text: "Explica Maine e Nebraska!", x: 420, y: 1290, at: 6.4, color: colors.blueNeon },
 ];
 
 const Comment: React.FC<{ c: (typeof COMMENTS)[number] }> = ({ c }) => {
@@ -120,7 +120,7 @@ export const Scene6Final: React.FC = () => {
       {COMMENTS.map((c) => (
         <Comment key={c.text} c={c} />
       ))}
-      <Headline top={1390} size={100} delay={5.4 * fps} color={colors.gold} glowColor={colors.gold}>
+      <Headline top={1390} size={100} delay={7.6 * fps} color={colors.gold} glowColor={colors.gold}>
         Comenta aí ↓
       </Headline>
     </SceneIn>

@@ -1,40 +1,37 @@
 import React, { useMemo } from "react";
 import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
-import { KEYWORDS, SCRIPT } from "./data";
+import { KEYWORDS } from "./data";
+import narration from "./narration.json";
 import { bodyFont, clamp, colors, textGlow } from "./theme";
 
 type Chunk = { start: number; end: number; words: string[] };
 
 const MAX_WORDS = 4;
 
-/** Splits each scene's narration into short chunks, timed by character length. */
+/** Groups the narration's timed words into short caption chunks. */
 const buildChunks = (fps: number): Chunk[] => {
-  const chunks: Chunk[] = [];
-  for (const scene of SCRIPT) {
-    const words = scene.text.split(/\s+/).filter((w) => w !== "—");
-    const groups: string[][] = [];
-    let current: string[] = [];
-    for (const w of words) {
-      current.push(w);
-      if (current.length >= MAX_WORDS || /[.,!?:]$/.test(w)) {
-        groups.push(current);
-        current = [];
-      }
+  const words = narration.words;
+  const groups: (typeof words)[] = [];
+  let current: typeof words = [];
+  for (const w of words) {
+    current.push(w);
+    if (current.length >= MAX_WORDS || /[.,!?:]$/.test(w.text)) {
+      groups.push(current);
+      current = [];
     }
-    if (current.length) groups.push(current);
-
-    const weights = groups.map((g) => g.join(" ").length + 6);
-    const total = weights.reduce((a, b) => a + b, 0);
-    const startF = scene.from * fps;
-    const span = (scene.to - scene.from) * fps;
-    let acc = 0;
-    groups.forEach((g, i) => {
-      const s = startF + (acc / total) * span;
-      acc += weights[i];
-      chunks.push({ start: Math.round(s), end: Math.round(startF + (acc / total) * span), words: g });
-    });
   }
-  return chunks;
+  if (current.length) groups.push(current);
+
+  return groups.map((g, i) => {
+    const next = groups[i + 1];
+    const last = g[g.length - 1];
+    const endSec = next ? Math.min(next[0].start, last.end + 0.8) : last.end + 1;
+    return {
+      start: Math.round(g[0].start * fps) - 1,
+      end: Math.round(endSec * fps),
+      words: g.map((w) => w.text),
+    };
+  });
 };
 
 const colorOf = (word: string) => {

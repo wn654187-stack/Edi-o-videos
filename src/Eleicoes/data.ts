@@ -27,38 +27,40 @@ export const SWING_STATES = ["AZ", "GA", "MI", "NV", "NC", "PA", "WI"];
 export const leansBlue = (code: string) =>
   (code.charCodeAt(0) * 7 + code.charCodeAt(1) * 13) % 2 === 0;
 
-// Narration / caption script. Times in seconds.
+// Narration script and scene boundaries (seconds), aligned to public/narracao.mp3.
+// Word-level caption timings live in narration.json (scripts/build-narration.py).
+export const VIDEO_SECONDS = 61;
 export type SceneScript = { from: number; to: number; text: string };
 
 export const SCRIPT: SceneScript[] = [
   {
     from: 0,
-    to: 5,
+    to: 9.0,
     text: "Sabia que nos Estados Unidos o candidato com mais votos pode PERDER a eleição presidencial? Pois é, bem-vindo ao sistema eleitoral mais maluco do mundo!",
   },
   {
-    from: 5,
-    to: 15,
+    from: 9.0,
+    to: 17.4,
     text: "Tudo começa meses antes. Os dois grandes partidos — Democratas e Republicanos — realizam as Primárias e Caucuses para escolher quem vai representá-los.",
   },
   {
-    from: 15,
-    to: 25,
+    from: 17.4,
+    to: 28.4,
     text: "No dia da eleição, o cidadão não vota direto no presidente. Ele vota em DELEGADOS. E o voto nem precisa ser no dia: dá pra votar pelo correio ou antecipadamente, semanas antes.",
   },
   {
-    from: 25,
-    to: 42,
+    from: 28.4,
+    to: 43.65,
     text: "Aqui tá o segredo: o Colégio Eleitoral tem 538 delegados, divididos entre os 50 estados e a capital. Em quase todos os estados, quem ganha fica com TODOS os delegados. Ganhou a Flórida por 1 voto? Leva os 30 delegados do estado inteirinho!",
   },
   {
-    from: 42,
-    to: 52,
+    from: 43.65,
+    to: 51.7,
     text: "É por isso que a campanha foca nos Swing States — os estados indecisos. Vence quem chegar primeiro aos 270 delegados no placar final.",
   },
   {
-    from: 52,
-    to: 60,
+    from: 51.7,
+    to: 61,
     text: "E nas Midterms? Aí eles elegem a Câmara inteira e um terço do Senado pelo voto direto! Achou o sistema genial ou confuso? Comenta aí!",
   },
 ];

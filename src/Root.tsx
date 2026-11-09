@@ -3,6 +3,7 @@ import { HelloWorld } from "./HelloWorld";
 import { Logo } from "./HelloWorld/Logo";
 import { Title } from "./HelloWorld/Title";
 import { EleicoesEUA } from "./Eleicoes/EleicoesEUA";
+import { VIDEO_SECONDS } from "./Eleicoes/data";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -12,12 +13,12 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="EleicoesEUA"
         component={EleicoesEUA}
-        durationInFrames={60 * 30}
+        durationInFrames={VIDEO_SECONDS * 30}
         fps={30}
         width={1080}
         height={1920}
         defaultProps={{
-          narration: "",
+          narration: "narracao.mp3",
           music: "",
           musicVolume: 0.25,
           showCaptions: true,

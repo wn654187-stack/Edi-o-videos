@@ -74,8 +74,8 @@ const Confetti: React.FC<{ from: number }> = ({ from }) => {
 export const Scene5Corrida: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const raceStart = 4.6 * fps;
-  const finish = 8 * fps;
+  const raceStart = 3.6 * fps; // "Vence quem chegar primeiro"
+  const finish = 5.7 * fps; // "...aos 270"
   const ease = { ...clamp, easing: Easing.inOut(Easing.cubic) };
   const blue = Math.round(interpolate(frame, [raceStart, finish], [226, 270], ease));
   const red = Math.round(interpolate(frame, [raceStart, finish - 6], [219, 268], ease));

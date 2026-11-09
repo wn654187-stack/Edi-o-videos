@@ -32,8 +32,8 @@ export const EleicoesEUA: React.FC<EleicoesProps> = ({ narration, music, musicVo
           <Sequence
             key={i}
             name={`Cena ${i + 1}`}
-            from={scene.from * fps}
-            durationInFrames={(scene.to - scene.from) * fps}
+            from={Math.round(scene.from * fps)}
+            durationInFrames={Math.round(scene.to * fps) - Math.round(scene.from * fps)}
           >
             <Scene />
           </Sequence>

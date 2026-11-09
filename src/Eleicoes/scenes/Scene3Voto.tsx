@@ -90,7 +90,7 @@ export const Scene3Voto: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const mapStart = 1.8 * fps;
-  const swap = 4.2 * fps;
+  const swap = 3.4 * fps; // "Ele vota em DELEGADOS"
   return (
     <SceneIn>
       {frame < swap ? (
@@ -119,7 +119,7 @@ export const Scene3Voto: React.FC = () => {
         <DataStream />
       </Sequence>
       <Mailbox />
-      <Sequence from={6 * fps} layout="none">
+      <Sequence from={7.8 * fps} layout="none">
         <ChipIn />
       </Sequence>
     </SceneIn>

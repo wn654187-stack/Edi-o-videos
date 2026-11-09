@@ -1,0 +1,850 @@
+{
+"tempo": 1.1,
+"words": [
+{
+"text": "Sabia",
+"start": 0.249,
+"end": 0.436
+},
+{
+"text": "que",
+"start": 0.473,
+"end": 0.509
+},
+{
+"text": "nos",
+"start": 0.582,
+"end": 0.655
+},
+{
+"text": "Estados",
+"start": 0.727,
+"end": 1.018
+},
+{
+"text": "Unidos",
+"start": 1.091,
+"end": 1.455
+},
+{
+"text": "o",
+"start": 1.491,
+"end": 1.527
+},
+{
+"text": "candidato",
+"start": 1.564,
+"end": 1.964
+},
+{
+"text": "com",
+"start": 2.036,
+"end": 2.255
+},
+{
+"text": "mais",
+"start": 2.327,
+"end": 2.545
+},
+{
+"text": "votos",
+"start": 2.618,
+"end": 2.909
+},
+{
+"text": "pode",
+"start": 2.982,
+"end": 3.2
+},
+{
+"text": "PERDER",
+"start": 3.273,
+"end": 3.636
+},
+{
+"text": "a",
+"start": 3.709,
+"end": 3.757
+},
+{
+"text": "eleição",
+"start": 3.806,
+"end": 4.073
+},
+{
+"text": "presidencial?",
+"start": 4.145,
+"end": 4.945
+},
+{
+"text": "Pois",
+"start": 5.164,
+"end": 5.455
+},
+{
+"text": "é,",
+"start": 5.527,
+"end": 5.891
+},
+{
+"text": "bem-vindo",
+"start": 5.964,
+"end": 6.4
+},
+{
+"text": "ao",
+"start": 6.436,
+"end": 6.473
+},
+{
+"text": "sistema",
+"start": 6.509,
+"end": 6.764
+},
+{
+"text": "eleitoral",
+"start": 6.836,
+"end": 7.2
+},
+{
+"text": "mais",
+"start": 7.418,
+"end": 7.709
+},
+{
+"text": "maluco",
+"start": 7.782,
+"end": 8.218
+},
+{
+"text": "do",
+"start": 8.255,
+"end": 8.291
+},
+{
+"text": "mundo!",
+"start": 8.364,
+"end": 8.836
+},
+{
+"text": "Tudo",
+"start": 9.122,
+"end": 9.164
+},
+{
+"text": "começa",
+"start": 9.236,
+"end": 9.6
+},
+{
+"text": "meses",
+"start": 9.745,
+"end": 10.109
+},
+{
+"text": "antes.",
+"start": 10.182,
+"end": 10.618
+},
+{
+"text": "Os",
+"start": 10.764,
+"end": 10.909
+},
+{
+"text": "dois",
+"start": 10.982,
+"end": 11.127
+},
+{
+"text": "grandes",
+"start": 11.2,
+"end": 11.418
+},
+{
+"text": "partidos,",
+"start": 11.491,
+"end": 12.145
+},
+{
+"text": "Democratas",
+"start": 12.218,
+"end": 12.727
+},
+{
+"text": "e",
+"start": 12.752,
+"end": 12.775
+},
+{
+"text": "Republicanos,",
+"start": 12.8,
+"end": 13.673
+},
+{
+"text": "realizam",
+"start": 13.782,
+"end": 14.109
+},
+{
+"text": "as",
+"start": 14.182,
+"end": 14.255
+},
+{
+"text": "Primárias",
+"start": 14.327,
+"end": 14.764
+},
+{
+"text": "e",
+"start": 14.8,
+"end": 14.836
+},
+{
+"text": "Caucuses",
+"start": 14.909,
+"end": 15.418
+},
+{
+"text": "para",
+"start": 15.491,
+"end": 15.564
+},
+{
+"text": "escolher",
+"start": 15.636,
+"end": 16.073
+},
+{
+"text": "quem",
+"start": 16.109,
+"end": 16.218
+},
+{
+"text": "vai",
+"start": 16.291,
+"end": 16.364
+},
+{
+"text": "representá-los.",
+"start": 16.436,
+"end": 17.455
+},
+{
+"text": "No",
+"start": 17.527,
+"end": 17.6
+},
+{
+"text": "dia",
+"start": 17.673,
+"end": 17.745
+},
+{
+"text": "da",
+"start": 17.818,
+"end": 17.891
+},
+{
+"text": "eleição,",
+"start": 17.964,
+"end": 18.545
+},
+{
+"text": "o",
+"start": 18.57,
+"end": 18.594
+},
+{
+"text": "cidadão",
+"start": 18.618,
+"end": 19.055
+},
+{
+"text": "não",
+"start": 19.127,
+"end": 19.345
+},
+{
+"text": "vota",
+"start": 19.443,
+"end": 19.636
+},
+{
+"text": "direto",
+"start": 19.745,
+"end": 20.0
+},
+{
+"text": "no",
+"start": 20.036,
+"end": 20.073
+},
+{
+"text": "presidente.",
+"start": 20.182,
+"end": 20.873
+},
+{
+"text": "Ele",
+"start": 20.982,
+"end": 21.091
+},
+{
+"text": "vota",
+"start": 21.164,
+"end": 21.455
+},
+{
+"text": "em",
+"start": 21.564,
+"end": 21.673
+},
+{
+"text": "DELEGADOS.",
+"start": 21.745,
+"end": 22.764
+},
+{
+"text": "E",
+"start": 22.8,
+"end": 22.836
+},
+{
+"text": "o",
+"start": 22.873,
+"end": 22.909
+},
+{
+"text": "voto",
+"start": 22.982,
+"end": 23.273
+},
+{
+"text": "nem",
+"start": 23.345,
+"end": 23.491
+},
+{
+"text": "precisa",
+"start": 23.564,
+"end": 23.855
+},
+{
+"text": "ser",
+"start": 23.927,
+"end": 24.0
+},
+{
+"text": "no",
+"start": 24.073,
+"end": 24.145
+},
+{
+"text": "dia:",
+"start": 24.218,
+"end": 24.655
+},
+{
+"text": "dá",
+"start": 24.727,
+"end": 24.8
+},
+{
+"text": "pra",
+"start": 24.873,
+"end": 24.945
+},
+{
+"text": "votar",
+"start": 24.994,
+"end": 25.164
+},
+{
+"text": "pelo",
+"start": 25.236,
+"end": 25.382
+},
+{
+"text": "correio",
+"start": 25.491,
+"end": 25.964
+},
+{
+"text": "ou",
+"start": 26.036,
+"end": 26.109
+},
+{
+"text": "antecipadamente,",
+"start": 26.218,
+"end": 27.127
+},
+{
+"text": "semanas",
+"start": 27.2,
+"end": 27.709
+},
+{
+"text": "antes.",
+"start": 27.782,
+"end": 28.436
+},
+{
+"text": "Aqui",
+"start": 28.509,
+"end": 28.727
+},
+{
+"text": "tá",
+"start": 28.8,
+"end": 28.873
+},
+{
+"text": "o",
+"start": 28.909,
+"end": 28.945
+},
+{
+"text": "segredo:",
+"start": 29.055,
+"end": 29.673
+},
+{
+"text": "o",
+"start": 29.797,
+"end": 29.818
+},
+{
+"text": "Colégio",
+"start": 29.927,
+"end": 30.182
+},
+{
+"text": "Eleitoral",
+"start": 30.218,
+"end": 30.618
+},
+{
+"text": "tem",
+"start": 30.691,
+"end": 30.909
+},
+{
+"text": "538",
+"start": 30.982,
+"end": 32.073
+},
+{
+"text": "delegados,",
+"start": 32.145,
+"end": 32.8
+},
+{
+"text": "divididos",
+"start": 32.873,
+"end": 33.309
+},
+{
+"text": "entre",
+"start": 33.418,
+"end": 33.527
+},
+{
+"text": "os",
+"start": 33.564,
+"end": 33.6
+},
+{
+"text": "50",
+"start": 33.709,
+"end": 34.036
+},
+{
+"text": "estados",
+"start": 34.182,
+"end": 34.545
+},
+{
+"text": "e",
+"start": 34.582,
+"end": 34.618
+},
+{
+"text": "a",
+"start": 34.643,
+"end": 34.666
+},
+{
+"text": "capital.",
+"start": 34.691,
+"end": 35.418
+},
+{
+"text": "Em",
+"start": 35.491,
+"end": 35.564
+},
+{
+"text": "quase",
+"start": 35.636,
+"end": 35.927
+},
+{
+"text": "todos",
+"start": 36.0,
+"end": 36.218
+},
+{
+"text": "os",
+"start": 36.291,
+"end": 36.364
+},
+{
+"text": "estados,",
+"start": 36.509,
+"end": 37.018
+},
+{
+"text": "quem",
+"start": 37.055,
+"end": 37.236
+},
+{
+"text": "ganha",
+"start": 37.309,
+"end": 37.6
+},
+{
+"text": "fica",
+"start": 37.673,
+"end": 37.891
+},
+{
+"text": "com",
+"start": 38.036,
+"end": 38.182
+},
+{
+"text": "TODOS",
+"start": 38.255,
+"end": 38.473
+},
+{
+"text": "os",
+"start": 38.545,
+"end": 38.618
+},
+{
+"text": "delegados.",
+"start": 38.655,
+"end": 39.491
+},
+{
+"text": "Ganhou",
+"start": 39.527,
+"end": 39.709
+},
+{
+"text": "a",
+"start": 39.782,
+"end": 39.855
+},
+{
+"text": "Flórida",
+"start": 39.927,
+"end": 40.218
+},
+{
+"text": "por",
+"start": 40.291,
+"end": 40.364
+},
+{
+"text": "1",
+"start": 40.4,
+"end": 40.436
+},
+{
+"text": "voto?",
+"start": 40.509,
+"end": 41.091
+},
+{
+"text": "Leva",
+"start": 41.164,
+"end": 41.309
+},
+{
+"text": "os",
+"start": 41.382,
+"end": 41.6
+},
+{
+"text": "30",
+"start": 41.636,
+"end": 41.891
+},
+{
+"text": "delegados",
+"start": 41.927,
+"end": 42.327
+},
+{
+"text": "do",
+"start": 42.4,
+"end": 42.436
+},
+{
+"text": "estado",
+"start": 42.473,
+"end": 42.764
+},
+{
+"text": "inteirinho!",
+"start": 42.909,
+"end": 43.709
+},
+{
+"text": "É",
+"start": 43.782,
+"end": 43.855
+},
+{
+"text": "por",
+"start": 43.927,
+"end": 44.0
+},
+{
+"text": "isso",
+"start": 44.073,
+"end": 44.218
+},
+{
+"text": "que",
+"start": 44.255,
+"end": 44.291
+},
+{
+"text": "a",
+"start": 44.327,
+"end": 44.364
+},
+{
+"text": "campanha",
+"start": 44.473,
+"end": 44.727
+},
+{
+"text": "foca",
+"start": 44.873,
+"end": 45.091
+},
+{
+"text": "nos",
+"start": 45.2,
+"end": 45.309
+},
+{
+"text": "Swing",
+"start": 45.382,
+"end": 45.6
+},
+{
+"text": "States,",
+"start": 45.673,
+"end": 46.255
+},
+{
+"text": "os",
+"start": 46.291,
+"end": 46.327
+},
+{
+"text": "estados",
+"start": 46.4,
+"end": 46.764
+},
+{
+"text": "indecisos.",
+"start": 46.836,
+"end": 47.855
+},
+{
+"text": "Vence",
+"start": 47.891,
+"end": 48.218
+},
+{
+"text": "quem",
+"start": 48.255,
+"end": 48.364
+},
+{
+"text": "chegar",
+"start": 48.4,
+"end": 48.655
+},
+{
+"text": "primeiro",
+"start": 48.836,
+"end": 49.091
+},
+{
+"text": "aos",
+"start": 49.164,
+"end": 49.236
+},
+{
+"text": "270",
+"start": 49.309,
+"end": 50.182
+},
+{
+"text": "delegados",
+"start": 50.255,
+"end": 50.691
+},
+{
+"text": "no",
+"start": 50.764,
+"end": 50.836
+},
+{
+"text": "placar",
+"start": 50.873,
+"end": 51.127
+},
+{
+"text": "final.",
+"start": 51.273,
+"end": 51.782
+},
+{
+"text": "E",
+"start": 51.806,
+"end": 51.83
+},
+{
+"text": "nas",
+"start": 51.855,
+"end": 52.0
+},
+{
+"text": "Midterms?",
+"start": 52.109,
+"end": 52.873
+},
+{
+"text": "Aí",
+"start": 52.945,
+"end": 53.164
+},
+{
+"text": "eles",
+"start": 53.309,
+"end": 53.527
+},
+{
+"text": "elegem",
+"start": 53.564,
+"end": 53.891
+},
+{
+"text": "a",
+"start": 53.964,
+"end": 54.036
+},
+{
+"text": "Câmara",
+"start": 54.085,
+"end": 54.327
+},
+{
+"text": "inteira",
+"start": 54.509,
+"end": 54.909
+},
+{
+"text": "e",
+"start": 54.982,
+"end": 55.055
+},
+{
+"text": "um",
+"start": 55.164,
+"end": 55.273
+},
+{
+"text": "terço",
+"start": 55.345,
+"end": 55.636
+},
+{
+"text": "do",
+"start": 55.709,
+"end": 55.782
+},
+{
+"text": "Senado",
+"start": 55.891,
+"end": 56.145
+},
+{
+"text": "pelo",
+"start": 56.182,
+"end": 56.364
+},
+{
+"text": "voto",
+"start": 56.4,
+"end": 56.655
+},
+{
+"text": "direto!",
+"start": 56.8,
+"end": 57.455
+},
+{
+"text": "Achou",
+"start": 57.527,
+"end": 57.818
+},
+{
+"text": "o",
+"start": 57.855,
+"end": 57.891
+},
+{
+"text": "sistema",
+"start": 57.927,
+"end": 58.255
+},
+{
+"text": "genial",
+"start": 58.4,
+"end": 58.836
+},
+{
+"text": "ou",
+"start": 58.909,
+"end": 59.055
+},
+{
+"text": "confuso?",
+"start": 59.127,
+"end": 59.855
+},
+{
+"text": "Comenta",
+"start": 59.927,
+"end": 60.218
+},
+{
+"text": "aí!",
+"start": 60.255,
+"end": 60.655
+}
+]
+}
