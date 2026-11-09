@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import { AbsoluteFill, interpolate, random, useCurrentFrame, useVideoConfig } from "remotion";
 import { CUES, KEYWORDS } from "./data";
-import { BAR, bodyFont, clamp, colors, H, titleFont, W } from "./theme";
+import { BAR, bodyFont, clamp, colors, titleFont, useSize } from "./theme";
 
 type ParticleOpts = {
   seed: string;
@@ -25,9 +25,11 @@ export const Particles: React.FC<ParticleOpts> = ({
   size = [1.5, 4],
   opacity = [0.3, 0.9],
   bokeh = 0.15,
-  area = { x: 0, y: 0, w: W, h: H },
+  area: areaProp,
 }) => {
   const frame = useCurrentFrame();
+  const { W, H } = useSize();
+  const area = areaProp ?? { x: 0, y: 0, w: W, h: H };
   const items = useMemo(
     () =>
       new Array(count).fill(0).map((_, i) => {
@@ -79,6 +81,7 @@ export const Particles: React.FC<ParticleOpts> = ({
 /** Animated film grain + vignette shared by all scenes. */
 export const FilmLook: React.FC = () => {
   const frame = useCurrentFrame();
+  const { W, H } = useSize();
   return (
     <AbsoluteFill style={{ pointerEvents: "none" }}>
       <svg width={W} height={H} style={{ position: "absolute", opacity: 0.07, mixBlendMode: "overlay" }}>
@@ -105,6 +108,7 @@ export const Letterbox: React.FC<{ label: string; labelFrom: number; showCaption
 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
+  const { W, v } = useSize();
   const t = frame / fps;
   const labelOpacity = interpolate(frame - labelFrom, [8, 24, 100, 120], [0, 1, 1, 0], clamp);
 
@@ -113,6 +117,77 @@ export const Letterbox: React.FC<{ label: string; labelFrom: number; showCaption
   const cueOpacity = cue
     ? interpolate(cueLocal, [0, 0.25, cue.to - cue.from - 0.25, cue.to - cue.from], [0, 1, 1, 0], clamp)
     : 0;
+
+  const words = cue
+    ? cue.text.split(" ").map((w, i) => {
+        const key = w.toLowerCase().replace(/[^\p{L}]/gu, "");
+        const hot = KEYWORDS.has(key);
+        return (
+          <span
+            key={i}
+            style={{
+              color: hot ? colors.gold : undefined,
+              textShadow: hot ? `0 0 18px ${colors.goldDeep}` : v ? "0 4px 18px rgba(0,0,0,0.9)" : undefined,
+            }}
+          >
+            {w}
+          </span>
+        );
+      })
+    : null;
+
+  if (v) {
+    // Portrait: no bars; label on top, large captions in the lower third.
+    return (
+      <AbsoluteFill style={{ pointerEvents: "none" }}>
+        <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(0,0,0,0.55) 0%, transparent 14%, transparent 62%, rgba(0,0,0,0.7) 100%)" }} />
+        <div
+          style={{
+            position: "absolute",
+            left: 0,
+            top: 150,
+            width: W,
+            textAlign: "center",
+            fontFamily: titleFont,
+            fontSize: 40,
+            letterSpacing: 12,
+            textTransform: "uppercase",
+            color: colors.gold,
+            textShadow: "0 2px 12px rgba(0,0,0,0.9)",
+            opacity: labelOpacity,
+          }}
+        >
+          {label}
+        </div>
+        {showCaptions && cue ? (
+          <div
+            style={{
+              position: "absolute",
+              left: 70,
+              right: 70,
+              top: 1420,
+              height: 260,
+              display: "flex",
+              flexWrap: "wrap",
+              alignContent: "center",
+              justifyContent: "center",
+              columnGap: 20,
+              fontFamily: bodyFont,
+              fontWeight: 800,
+              fontSize: 66,
+              lineHeight: 1.15,
+              textAlign: "center",
+              color: colors.white,
+              opacity: cueOpacity,
+              translate: `0 ${interpolate(cueLocal, [0, 0.3], [14, 0], clamp)}px`,
+            }}
+          >
+            {words}
+          </div>
+        ) : null}
+      </AbsoluteFill>
+    );
+  }
 
   return (
     <AbsoluteFill style={{ pointerEvents: "none" }}>
@@ -158,21 +233,7 @@ export const Letterbox: React.FC<{ label: string; labelFrom: number; showCaption
             gap: 14,
           }}
         >
-          {cue.text.split(" ").map((w, i) => {
-            const key = w.toLowerCase().replace(/[^\p{L}]/gu, "");
-            const hot = KEYWORDS.has(key);
-            return (
-              <span
-                key={i}
-                style={{
-                  color: hot ? colors.gold : undefined,
-                  textShadow: hot ? `0 0 18px ${colors.goldDeep}` : undefined,
-                }}
-              >
-                {w}
-              </span>
-            );
-          })}
+          {words}
         </div>
       ) : null}
     </AbsoluteFill>
@@ -187,6 +248,7 @@ export const LensFlare: React.FC<{ x: number; y: number; color: string; intensit
   intensity = 1,
 }) => {
   const frame = useCurrentFrame();
+  const { W, H } = useSize();
   const flicker = 0.85 + 0.15 * Math.sin(frame / 5) * Math.sin(frame / 13);
   const o = intensity * flicker;
   const ghosts = [0.35, 0.6, 1.25, 1.6];

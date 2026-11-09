@@ -1,7 +1,7 @@
 import React from "react";
 import { AbsoluteFill, Easing, interpolate, random, Sequence, useCurrentFrame } from "remotion";
 import { Particles } from "../fx";
-import { clamp, colors, H, W } from "../theme";
+import { clamp, colors, useSize } from "../theme";
 
 const CUT1 = 70;
 const CUT2 = 145;
@@ -22,8 +22,10 @@ const Shot: React.FC<{ len: number; children: React.ReactNode }> = ({ len, child
 
 const Microchip: React.FC = () => {
   const frame = useCurrentFrame();
+  const { W, H, v } = useSize();
   const zoom = interpolate(frame, [0, 45, CUT1], [1, 1.5, 5], { ...clamp, easing: Easing.in(Easing.exp) });
   const size = 420;
+  const chipScale = v ? 1.35 : 1;
   const x0 = (W - size) / 2;
   const y0 = (H - size) / 2;
   const traces = new Array(28).fill(0).map((_, i) => {
@@ -45,7 +47,7 @@ const Microchip: React.FC = () => {
     return { d: `M ${pts.map((p) => p.join(" ")).join(" L ")}`, len: len + bend * 2 };
   });
   return (
-    <AbsoluteFill style={{ background: "#020a08", scale: zoom }}>
+    <AbsoluteFill style={{ background: "#020a08", scale: zoom * chipScale }}>
       <svg width={W} height={H} style={{ position: "absolute" }}>
         <defs>
           <linearGradient id="die" x1="0" y1="0" x2="1" y2="1">
@@ -120,7 +122,10 @@ const Turbine: React.FC<{ x: number; y: number; s: number; speed: number; phase:
 
 const MistyMountain: React.FC = () => {
   const frame = useCurrentFrame();
+  const { W, H, v } = useSize();
   const local = frame;
+  const dy = v ? 560 : 0;
+  const tx = v ? W / 2 + 110 : 960;
   const rise = interpolate(local, [0, CUT2 - CUT1], [80, -40]);
   const ridge = (seed: string, base: number, amp: number) => {
     let d = `M -100 ${H}`;
@@ -133,22 +138,22 @@ const MistyMountain: React.FC = () => {
     <AbsoluteFill style={{ background: "linear-gradient(180deg, #6f8fb8 0%, #c9d6e6 55%, #eef2f6 100%)" }}>
       <AbsoluteFill style={{ translate: `${-local * 1.5}px ${rise * 0.4}px` }}>
         <svg width={W + 400} height={H} style={{ position: "absolute" }}>
-          <path d={ridge("m1", 640, 160)} fill="#8ea3bd" />
-          <Turbine x={500} y={600} s={0.35} speed={7} phase={10} />
-          <Turbine x={1500} y={580} s={0.3} speed={7.5} phase={70} />
-          <path d={ridge("m2", 760, 140)} fill="#62778f" />
+          <path d={ridge("m1", 640 + dy, 160)} fill="#8ea3bd" />
+          <Turbine x={v ? 180 : 500} y={600 + dy} s={0.35} speed={7} phase={10} />
+          <Turbine x={v ? 880 : 1500} y={580 + dy} s={0.3} speed={7.5} phase={70} />
+          <path d={ridge("m2", 760 + dy, 140)} fill="#62778f" />
         </svg>
       </AbsoluteFill>
       <AbsoluteFill style={{ background: "linear-gradient(180deg, transparent 45%, rgba(240,244,250,0.85) 75%)" }} />
       <AbsoluteFill style={{ translate: `${-local * 3}px ${rise}px` }}>
         <svg width={W + 600} height={H + 200} style={{ position: "absolute", overflow: "visible" }}>
-          <path d="M -100 1200 L 600 760 Q 900 640 1200 760 L 2200 1200 Z" fill="#33414f" />
-          <Turbine x={960} y={770} s={0.78} speed={6} phase={0} />
+          <path d={`M -100 ${1200 + dy} L ${tx - 360} ${760 + dy} Q ${tx - 60} ${640 + dy} ${tx + 240} ${760 + dy} L 2200 ${1200 + dy} Z`} fill="#33414f" />
+          <Turbine x={tx} y={770 + dy} s={v ? 1.05 : 0.78} speed={6} phase={0} />
         </svg>
       </AbsoluteFill>
       <AbsoluteFill
         style={{
-          background: `radial-gradient(ellipse 1200px 220px at ${(local * 9) % (W + 1200) - 600}px 820px, rgba(255,255,255,0.7), transparent 70%)`,
+          background: `radial-gradient(ellipse 1200px 220px at ${(local * 9) % (W + 1200) - 600}px ${820 + dy}px, rgba(255,255,255,0.7), transparent 70%)`,
         }}
       />
     </AbsoluteFill>
@@ -157,13 +162,17 @@ const MistyMountain: React.FC = () => {
 
 const CyberCity: React.FC = () => {
   const frame = useCurrentFrame();
+  const { W, H, v } = useSize();
+  const dy = v ? 600 : 0;
+  const dx = W / 2 - 971;
+  const tall = v ? 1.8 : 1;
   const layer = (seed: string, speed: number, base: number, maxH: number, tint: string, windowColor: string) => {
     const scroll = (frame * speed) % 2400;
     return (
       <AbsoluteFill style={{ translate: `${-scroll}px 0` }}>
         {new Array(40).fill(0).map((_, i) => {
           const w = 90 + random(`${seed}w${i}`) * 140;
-          const h = 200 + random(`${seed}h${i}`) * maxH;
+          const h = (200 + random(`${seed}h${i}`) * maxH) * tall;
           const x = i * 120;
           const neon = [colors.magenta, colors.cyan, "#ffb347"][i % 3];
           return (
@@ -189,30 +198,30 @@ const CyberCity: React.FC = () => {
   const carBob = Math.sin(frame / 3) * 1.5;
   return (
     <AbsoluteFill style={{ background: "linear-gradient(180deg, #07041a 0%, #2a0b45 55%, #12051f 100%)" }}>
-      {layer("c1", 6, 640, 420, "#140c2c", "rgba(120,200,255,0.18)")}
-      {layer("c2", 16, 720, 380, "#0b0718", "rgba(255,80,220,0.28)")}
+      {layer("c1", 6, 640 + dy, 420, "#140c2c", "rgba(120,200,255,0.18)")}
+      {layer("c2", 16, 720 + dy, 380, "#0b0718", "rgba(255,80,220,0.28)")}
       {/* Wet road with reflections */}
       <div
         style={{
           position: "absolute",
           left: 0,
-          top: 720,
+          top: 720 + dy,
           width: W,
-          height: H - 720,
+          height: H - 720 - dy,
           background: "linear-gradient(180deg, #1a0f30 0%, #05030b 100%)",
         }}
       />
-      <AbsoluteFill style={{ top: 720, translate: `${-((frame * 60) % 240)}px 0` }}>
+      <AbsoluteFill style={{ top: 720 + dy, translate: `${-((frame * 60) % 240)}px 0` }}>
         {new Array(14).fill(0).map((_, i) => (
           <div key={i} style={{ position: "absolute", left: i * 240, top: 150, width: 120, height: 8, background: "#ffe08a", opacity: 0.8 }} />
         ))}
       </AbsoluteFill>
-      <AbsoluteFill style={{ top: 730, opacity: 0.35, filter: "blur(6px)", transform: "scaleY(-0.6)", transformOrigin: "50% 0%" }}>
-        {layer("c2", 16, 720, 380, "#0b0718", "rgba(255,80,220,0.5)")}
+      <AbsoluteFill style={{ top: 730 + dy, opacity: 0.35, filter: "blur(6px)", transform: "scaleY(-0.6)", transformOrigin: "50% 0%" }}>
+        {layer("c2", 16, 720 + dy, 380, "#0b0718", "rgba(255,80,220,0.5)")}
       </AbsoluteFill>
       {/* Light streaks */}
       {new Array(16).fill(0).map((_, i) => {
-        const y = 760 + random(`ls${i}`) * 260;
+        const y = 760 + dy + random(`ls${i}`) * 260;
         const x = W - ((frame * (70 + random(`lv${i}`) * 50) + random(`lx${i}`) * 3000) % 3000);
         const c = i % 2 ? colors.cyan : colors.magenta;
         return (
@@ -232,7 +241,7 @@ const CyberCity: React.FC = () => {
         );
       })}
       {/* Electric sports car */}
-      <svg width={W} height={H} style={{ position: "absolute", translate: `0 ${carBob}px` }}>
+      <svg width={W} height={H} style={{ position: "absolute", translate: `${dx}px ${carBob + dy}px`, overflow: "visible" }}>
         <defs>
           <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0" stopColor="#e9f1ff" />

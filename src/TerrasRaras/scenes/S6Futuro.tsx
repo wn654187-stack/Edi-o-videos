@@ -2,14 +2,23 @@ import React from "react";
 import { AbsoluteFill, Easing, interpolate, random, useCurrentFrame } from "remotion";
 import { cellOf, isRareEarth, SYMBOLS } from "../data";
 import { Particles } from "../fx";
-import { clamp, colors, H, titleFont, W } from "../theme";
+import { clamp, colors, titleFont, useSize } from "../theme";
 
-const CELL = 44;
 const GAP = 4;
-const TABLE = { x: (W - 18 * CELL) / 2, y: 150 };
-const HORIZON = 860;
 
-const cellXY = (z: number) => {
+type Lay = ReturnType<typeof useLayout>;
+
+const useLayout = () => {
+  const { W, H, v } = useSize();
+  const CELL = v ? 54 : 44;
+  const TABLE = { x: (W - 18 * CELL) / 2, y: v ? 380 : 150 };
+  const HORIZON = v ? 1520 : 860;
+  const TOWER = v ? 1220 : 680;
+  const LANTH_FOCUS = { x: TABLE.x + 10 * CELL, y: TABLE.y + 8 * CELL + 16 + CELL / 2 };
+    return { W, H, v, CELL, TABLE, HORIZON, TOWER, LANTH_FOCUS };
+};
+
+const cellXY = ({ TABLE, CELL }: Lay, z: number) => {
   const { col, row } = cellOf(z);
   return {
     x: TABLE.x + (col - 1) * CELL,
@@ -17,10 +26,11 @@ const cellXY = (z: number) => {
   };
 };
 
-const LANTH_FOCUS = { x: TABLE.x + 10 * CELL, y: TABLE.y + 8 * CELL + 16 + CELL / 2 };
 
 const Hologram: React.FC<{ dim: number }> = ({ dim }) => {
   const frame = useCurrentFrame();
+  const lay = useLayout();
+  const { W, H, CELL, TABLE, LANTH_FOCUS, v } = lay;
   const flicker = 0.9 + 0.1 * Math.sin(frame * 1.7) * Math.sin(frame * 0.31);
   const goldOn = (z: number) => {
     const order = z === 21 ? 0 : z === 39 ? 1 : z - 55;
@@ -36,7 +46,7 @@ const Hologram: React.FC<{ dim: number }> = ({ dim }) => {
         </defs>
         {SYMBOLS.map((sym, i) => {
           const z = i + 1;
-          const { x, y } = cellXY(z);
+          const { x, y } = cellXY(lay, z);
           const rare = isRareEarth(z);
           const g = rare ? goldOn(z) : 0;
           const stroke = rare ? (g > 0.5 ? colors.gold : colors.cyan) : colors.cyan;
@@ -55,11 +65,11 @@ const Hologram: React.FC<{ dim: number }> = ({ dim }) => {
               />
               <text
                 x={x + CELL / 2}
-                y={y + CELL / 2 + 6}
+                y={y + CELL / 2 + (v ? 8 : 6)}
                 textAnchor="middle"
                 fontFamily="Inter, sans-serif"
                 fontWeight={700}
-                fontSize={17}
+                fontSize={v ? 22 : 17}
                 fill={rare && g > 0.5 ? "#fff3c4" : "#9ff3ff"}
                 opacity={rare ? 0.7 + 0.3 * g : 0.55}
               >
@@ -74,7 +84,7 @@ const Hologram: React.FC<{ dim: number }> = ({ dim }) => {
           y={TABLE.y + 10 * CELL + 70}
           textAnchor="middle"
           fontFamily={titleFont}
-          fontSize={24}
+          fontSize={v ? 30 : 24}
           letterSpacing={8}
           fill={colors.gold}
           opacity={interpolate(frame, [70, 100], [0, 1], clamp)}
@@ -88,9 +98,11 @@ const Hologram: React.FC<{ dim: number }> = ({ dim }) => {
 
 const City: React.FC = () => {
   const frame = useCurrentFrame();
+  const { W, H, HORIZON, TOWER, v } = useLayout();
+  const tall = v ? 1.9 : 1;
   const buildings = new Array(26).fill(0).map((_, i) => {
     const w = 46 + random(`bw${i}`) * 60;
-    const h = 70 + random(`bh${i}`) * 150 * (0.4 + Math.abs(i - 13) / 13);
+    const h = (70 + random(`bh${i}`) * 150 * (0.4 + Math.abs(i - 13) / 13)) * tall;
     return { x: i * 75 - 20, w, h, round: random(`br${i}`) > 0.5 };
   });
   return (
@@ -103,7 +115,7 @@ const City: React.FC = () => {
         </linearGradient>
       </defs>
       {/* far green hills */}
-      <path d={`M 0 ${HORIZON} Q 400 ${HORIZON - 70} 800 ${HORIZON - 20} T 1920 ${HORIZON - 40} L 1920 ${H} L 0 ${H} Z`} fill="#3f7a5a" />
+      <path d={`M 0 ${HORIZON} Q 400 ${HORIZON - 70} 800 ${HORIZON - 20} T ${W} ${HORIZON - 40} L ${W} ${H} L 0 ${H} Z`} fill="#3f7a5a" />
       {buildings.map((b, i) => (
         <g key={i}>
           <rect x={b.x} y={HORIZON + 40 - b.h} width={b.w} height={b.h} rx={b.round ? 16 : 4} fill="url(#tower)" opacity={0.92} />
@@ -116,10 +128,10 @@ const City: React.FC = () => {
         </g>
       ))}
       {/* central projector tower */}
-      <rect x={936} y={680} width={48} height={220} rx={18} fill="url(#tower)" />
-      <circle cx={960} cy={680} r={22} fill="#e8ffff" style={{ filter: `drop-shadow(0 0 20px ${colors.cyan})` }} />
+      <rect x={W / 2 - 24} y={TOWER} width={48} height={HORIZON + 40 - TOWER} rx={18} fill="url(#tower)" />
+      <circle cx={W / 2} cy={TOWER} r={22} fill="#e8ffff" style={{ filter: `drop-shadow(0 0 20px ${colors.cyan})` }} />
       {/* small turbines on the hills */}
-      {[180, 320, 1620, 1760].map((x, i) => (
+      {(v ? [90, 990] : [180, 320, 1620, 1760]).map((x, i) => (
         <g key={x} transform={`translate(${x} ${HORIZON - 30})`}>
           <rect x={-2} y={-90} width={4} height={90} fill="#f0f4f7" />
           <g transform={`translate(0 -90) rotate(${frame * 5 + i * 40})`}>
@@ -138,6 +150,7 @@ const City: React.FC = () => {
 
 export const S6Futuro: React.FC = () => {
   const frame = useCurrentFrame();
+  const { W, CELL, TABLE, HORIZON, TOWER, LANTH_FOCUS, v } = useLayout();
   const pull = interpolate(frame, [0, 200], [2.3, 1], { ...clamp, easing: Easing.inOut(Easing.cubic) });
   const dim = interpolate(frame, [190, 220], [1, 0.35], clamp);
   const title = interpolate(frame, [200, 235], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
@@ -154,7 +167,7 @@ export const S6Futuro: React.FC = () => {
         <div
           style={{
             position: "absolute",
-            left: 1380,
+            left: W - 540,
             top: HORIZON - 260,
             width: 520,
             height: 520,
@@ -170,7 +183,7 @@ export const S6Futuro: React.FC = () => {
             left: TABLE.x,
             top: TABLE.y + 10 * CELL,
             width: 18 * CELL,
-            height: 680 - (TABLE.y + 10 * CELL),
+            height: TOWER - (TABLE.y + 10 * CELL),
             clipPath: "polygon(0 0, 100% 0, 52% 100%, 48% 100%)",
             background: `linear-gradient(0deg, ${colors.cyan}cc, ${colors.cyan}11)`,
             opacity: beam * dim,
@@ -192,20 +205,30 @@ export const S6Futuro: React.FC = () => {
           style={{
             fontFamily: titleFont,
             fontWeight: 700,
-            fontSize: 150,
-            letterSpacing: interpolate(title, [0, 1], [40, 18]),
+            fontSize: v ? 170 : 150,
+            lineHeight: 1.05,
+            textAlign: "center",
+            letterSpacing: interpolate(title, [0, 1], v ? [30, 12] : [40, 18]),
             color: colors.gold,
             textShadow: `0 0 30px ${colors.goldDeep}, 0 0 80px ${colors.goldDeep}88`,
             marginTop: -60,
           }}
         >
-          TERRAS RARAS
+          {v ? (
+            <>
+              TERRAS
+              <br />
+              RARAS
+            </>
+          ) : (
+            "TERRAS RARAS"
+          )}
         </div>
         <div
           style={{
             fontFamily: titleFont,
-            fontSize: 38,
-            letterSpacing: 14,
+            fontSize: v ? 34 : 38,
+            letterSpacing: v ? 8 : 14,
             color: colors.white,
             marginTop: 6,
             opacity: interpolate(frame, [225, 250], [0, 1], clamp),

@@ -1,10 +1,8 @@
 import React from "react";
 import { AbsoluteFill, Easing, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 import { Particles } from "../fx";
-import { clamp, colors, H, W } from "../theme";
+import { clamp, colors, useSize } from "../theme";
 
-const CX = 960;
-const CY = 640;
 
 type CrystalProps = { x: number; y: number; w: number; h: number; rot: number; shade?: number };
 
@@ -48,6 +46,10 @@ const CRYSTALS: CrystalProps[] = [
 export const S1Origem: React.FC = () => {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
+  const { W, H, v } = useSize();
+  const CX = W / 2;
+  const CY = v ? H * 0.56 : 640;
+  const k = v ? 1.45 : 1;
   const zoom = interpolate(frame, [0, durationInFrames], [1, 1.32], {
     ...clamp,
     easing: Easing.inOut(Easing.sin),
@@ -78,7 +80,7 @@ export const S1Origem: React.FC = () => {
           style={{
             mixBlendMode: "screen",
             opacity: reveal * pulse,
-            background: `radial-gradient(ellipse 620px 460px at ${CX}px ${CY - 80}px, ${colors.crystalBlue}99 0%, ${colors.crystalPurple}55 40%, transparent 75%)`,
+            background: `radial-gradient(ellipse ${620 * k}px ${460 * k}px at ${CX}px ${CY - 80}px, ${colors.crystalBlue}99 0%, ${colors.crystalPurple}55 40%, transparent 75%)`,
           }}
         />
         {/* Slow light rays */}
@@ -94,10 +96,10 @@ export const S1Origem: React.FC = () => {
         <div
           style={{
             position: "absolute",
-            left: CX - 330,
+            left: CX - 330 * k,
             top: CY - 20,
-            width: 660,
-            height: 170,
+            width: 660 * k,
+            height: 170 * k,
             borderRadius: "50%",
             background: "radial-gradient(ellipse, #000 30%, transparent 70%)",
           }}
@@ -130,7 +132,7 @@ export const S1Origem: React.FC = () => {
               <stop offset="1" stopColor="#ffffff" />
             </linearGradient>
           </defs>
-          <g transform={`translate(${CX} ${CY + 40})`}>
+          <g transform={`translate(${CX} ${CY + 40}) scale(${k})`}>
             {CRYSTALS.map((c, i) => (
               <Crystal key={i} {...c} />
             ))}
@@ -140,10 +142,10 @@ export const S1Origem: React.FC = () => {
         <div
           style={{
             position: "absolute",
-            left: CX - 70,
-            top: CY - 260,
-            width: 140,
-            height: 260,
+            left: CX - 70 * k,
+            top: CY - 260 * k,
+            width: 140 * k,
+            height: 260 * k,
             borderRadius: "50%",
             background: "radial-gradient(ellipse, rgba(255,255,255,0.75), transparent 70%)",
             mixBlendMode: "screen",

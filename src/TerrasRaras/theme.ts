@@ -1,5 +1,6 @@
 import { loadFont as loadCinzel } from "@remotion/google-fonts/Cinzel";
 import { loadFont as loadInter } from "@remotion/google-fonts/Inter";
+import { useVideoConfig } from "remotion";
 
 export const { fontFamily: titleFont } = loadCinzel("normal", {
   weights: ["400", "700"],
@@ -11,8 +12,12 @@ export const { fontFamily: bodyFont } = loadInter("normal", {
   subsets: ["latin", "latin-ext"],
 });
 
-export const W = 1920;
-export const H = 1080;
+/** Frame size of the current composition; `v` is true for portrait (9:16). */
+export const useSize = () => {
+  const { width, height } = useVideoConfig();
+  return { W: width, H: height, v: height > width };
+};
+
 /** Height of each cinematic letterbox bar (≈2.39:1 picture). */
 export const BAR = 130;
 

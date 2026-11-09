@@ -40,6 +40,20 @@ export const RemotionRoot: React.FC = () => {
           showCaptions: true,
         }}
       />
+      <Composition
+        id="TerrasRarasVertical"
+        component={TerrasRaras}
+        durationInFrames={Math.round(TR_SECONDS * TR_FPS)}
+        fps={TR_FPS}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          narration: "",
+          music: "terras-raras-trilha.mp3",
+          musicVolume: 0.35,
+          showCaptions: true,
+        }}
+      />
       <Folder name="Elements">
         <Composition
           id="Logo"

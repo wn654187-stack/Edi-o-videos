@@ -1,7 +1,7 @@
 import React from "react";
 import { AbsoluteFill, Easing, interpolate, random, useCurrentFrame, useVideoConfig } from "remotion";
 import { LensFlare, Particles } from "../fx";
-import { clamp, colors, H, W } from "../theme";
+import { clamp, colors, useSize } from "../theme";
 
 const ORB_R = 74;
 
@@ -40,13 +40,14 @@ const Tube: React.FC<{ x: number; top: number; h: number; w: number; fill: numbe
   );
 };
 
-const BASE = { x: 1520, y: 830 };
 const SEG1 = 300;
 const SEG2 = 250;
 const GRIP = 118;
 
 /** Joint angles (degrees) and the resulting orb centre for a given frame. */
-const armPose = (frame: number) => {
+type Pt = { x: number; y: number };
+
+const armPose = (frame: number, BASE: Pt) => {
   const sway = Math.sin(frame / 30) * 2.5;
   const a1 = -118 + sway;
   const a2 = -58 - sway * 1.4;
@@ -63,9 +64,10 @@ const armPose = (frame: number) => {
 };
 
 /** Robotic arm holding a liquid-silver sphere with a slowly rippling surface. */
-const ArmAndOrb: React.FC = () => {
+const ArmAndOrb: React.FC<{ base: Pt }> = ({ base: BASE }) => {
   const frame = useCurrentFrame();
-  const { a1, a2, a3, orb } = armPose(frame);
+  const { W, H } = useSize();
+  const { a1, a2, a3, orb } = armPose(frame, BASE);
   const metal = "url(#metal)";
   return (
     <svg width={W} height={H} style={{ position: "absolute", overflow: "visible" }}>
@@ -92,8 +94,8 @@ const ArmAndOrb: React.FC = () => {
           <feDisplacementMap in="SourceGraphic" scale={6} />
         </filter>
       </defs>
-      <rect x={BASE.x - 130} y={880} width={260} height={70} rx={14} fill="#1b222c" />
-      <rect x={BASE.x - 80} y={820} width={160} height={80} rx={18} fill={metal} />
+      <rect x={BASE.x - 130} y={BASE.y + 50} width={260} height={70} rx={14} fill="#1b222c" />
+      <rect x={BASE.x - 80} y={BASE.y - 10} width={160} height={80} rx={18} fill={metal} />
       <circle cx={orb.x} cy={orb.y} r={ORB_R * 2} fill={colors.cyan} opacity={0.14} style={{ filter: "blur(30px)" }} />
       <g transform={`translate(${BASE.x} ${BASE.y}) rotate(${a1})`}>
         <rect x={-30} y={-26} width={SEG1 + 30} height={52} rx={26} fill={metal} />
@@ -124,8 +126,13 @@ export const S3Alquimia: React.FC = () => {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
   const t = interpolate(frame, [0, durationInFrames], [0, 1], { ...clamp, easing: Easing.inOut(Easing.sin) });
+  const { W, H, v } = useSize();
+  const base = v ? { x: 930, y: 1300 } : { x: 1520, y: 830 };
   const track = interpolate(t, [0, 1], [120, -120]);
-  const { orb } = armPose(frame);
+  const { orb } = armPose(frame, base);
+  const tubeTop = v ? 420 : 200;
+  const tubeH = v ? 820 : 560;
+  const benchY = base.y + 70;
 
   return (
     <AbsoluteFill style={{ background: "#03090d", overflow: "hidden" }}>
@@ -140,14 +147,14 @@ export const S3Alquimia: React.FC = () => {
               key={i}
               seed={`far${i}`}
               x={80 + i * 190}
-              top={200 + (i % 3) * 40}
-              h={560 - (i % 3) * 60}
+              top={tubeTop + (i % 3) * 40}
+              h={tubeH - (i % 3) * 60}
               w={70}
               fill={0.45 + random(`ff${i}`) * 0.4}
               color={i % 4 === 0 ? colors.magenta : colors.cyan}
             />
           ))}
-          <rect x={0} y={300} width={W + 400} height={10} fill="rgba(160,240,255,0.25)" />
+          <rect x={0} y={tubeTop + 100} width={W + 400} height={10} fill="rgba(160,240,255,0.25)" />
         </svg>
         <Particles seed="bokeh" count={22} color={colors.cyan} drift={[0, -0.1]} size={[18, 40]} opacity={[0.1, 0.35]} bokeh={1} />
       </AbsoluteFill>
@@ -159,7 +166,7 @@ export const S3Alquimia: React.FC = () => {
             style={{
               position: "absolute",
               left: 120 + i * 480,
-              top: 150,
+              top: v ? 330 : 150,
               width: 340,
               height: 8,
               borderRadius: 4,
@@ -176,22 +183,22 @@ export const S3Alquimia: React.FC = () => {
           style={{
             position: "absolute",
             left: -300,
-            top: 900,
+            top: benchY,
             width: W + 600,
-            height: 200,
+            height: H - benchY,
             background: "linear-gradient(180deg, #a9c6cf 0%, #2a3a40 6%, #0b1215 100%)",
           }}
         />
       </AbsoluteFill>
       {/* Subject in focus */}
       <AbsoluteFill style={{ translate: `${track}px 0` }}>
-        <ArmAndOrb />
+        <ArmAndOrb base={base} />
       </AbsoluteFill>
       <LensFlare x={orb.x - 24 + track} y={orb.y - 30} color={colors.cyan} intensity={0.75} />
       {/* Foreground glass passing out of focus */}
       <AbsoluteFill style={{ translate: `${track * 2.2}px 0`, filter: "blur(16px)", opacity: 0.7 }}>
         <svg width={W} height={H} style={{ position: "absolute" }}>
-          <Tube seed="fg" x={140} top={120} h={1000} w={150} fill={0.55} color={colors.cyan} />
+          <Tube seed="fg" x={140} top={120} h={H - 80} w={150} fill={0.55} color={colors.cyan} />
         </svg>
       </AbsoluteFill>
       <Particles seed="lab-motes" count={50} color="#bff8ff" drift={[0.1, -0.2]} size={[1, 2.5]} opacity={[0.2, 0.6]} />

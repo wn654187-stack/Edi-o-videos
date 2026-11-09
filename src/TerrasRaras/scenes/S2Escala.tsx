@@ -1,20 +1,25 @@
 import React from "react";
 import { AbsoluteFill, Easing, interpolate, random, useCurrentFrame, useVideoConfig } from "remotion";
 import { Particles } from "../fx";
-import { clamp, colors, H, W } from "../theme";
+import { clamp, colors, useSize } from "../theme";
 
-const HORIZON = 360;
-const PX = 980;
-const PY = 780;
 const LEVELS = 10;
-const SUN = { x: 360, y: HORIZON - 10 };
 
-const bench = (i: number) => {
-  const rx = 1250 - i * 118;
-  return { rx, ry: rx * 0.27, cy: PY + i * 14 };
+type Geo = { W: number; H: number; HORIZON: number; PX: number; PY: number; SUN: { x: number; y: number }; v: boolean };
+
+const useGeo = (): Geo => {
+  const { W, H, v } = useSize();
+  const HORIZON = v ? 640 : 360;
+  return { W, H, v, HORIZON, PX: W / 2 + 20, PY: v ? 1240 : 780, SUN: { x: v ? 260 : 360, y: HORIZON - 10 } };
 };
 
-const ridge = (seed: string, base: number, amp: number, step = 60) => {
+const bench = (g: Geo, i: number) => {
+  const rx = (g.v ? 1100 : 1250) - i * (g.v ? 104 : 118);
+  return { rx, ry: rx * (g.v ? 0.42 : 0.27), cy: g.PY + i * (g.v ? 24 : 14) };
+};
+
+const ridge = (g: Geo, seed: string, base: number, amp: number, step = 60) => {
+  const { W, HORIZON } = g;
   let d = `M -200 ${HORIZON + 40}`;
   for (let x = -200; x <= W + 400; x += step) {
     const y = base - amp * (0.4 + random(`${seed}-${x}`) * 0.6);
@@ -25,7 +30,9 @@ const ridge = (seed: string, base: number, amp: number, step = 60) => {
 
 const Truck: React.FC<{ level: number; offset: number; speed: number }> = ({ level, offset, speed }) => {
   const frame = useCurrentFrame();
-  const { rx, ry, cy } = bench(level);
+  const g = useGeo();
+  const { PX, PY } = g;
+  const { rx, ry, cy } = bench(g, level);
   const th = offset + frame * speed;
   const x = PX + (rx - 50) * Math.cos(th);
   const y = cy - 6 + (ry - 18) * Math.sin(th);
@@ -45,7 +52,9 @@ const Truck: React.FC<{ level: number; offset: number; speed: number }> = ({ lev
 
 const Excavator: React.FC<{ level: number; angle: number; phase: number }> = ({ level, angle, phase }) => {
   const frame = useCurrentFrame();
-  const { rx, ry, cy } = bench(level);
+  const g = useGeo();
+  const { PX, PY } = g;
+  const { rx, ry, cy } = bench(g, level);
   const x = PX + (rx - 70) * Math.cos(angle);
   const y = cy - 8 + (ry - 22) * Math.sin(angle);
   const depth = interpolate(y, [PY - 400, PY + 300], [0.6, 1.7], clamp);
@@ -70,6 +79,8 @@ const Excavator: React.FC<{ level: number; angle: number; phase: number }> = ({ 
 export const S2Escala: React.FC = () => {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
+  const g = useGeo();
+  const { W, H, HORIZON, PX, PY, SUN } = g;
   const t = interpolate(frame, [0, durationInFrames], [0, 1], { ...clamp, easing: Easing.inOut(Easing.sin) });
   const camX = interpolate(t, [0, 1], [140, -140]);
   const camScale = interpolate(t, [0, 1], [1.18, 1.04]);
@@ -97,8 +108,8 @@ export const S2Escala: React.FC = () => {
           }}
         />
         <svg width={W} height={H} style={{ position: "absolute" }}>
-          <path d={ridge("far", HORIZON, 70, 50)} fill="#9b5a6e" opacity={0.55} />
-          <path d={ridge("near", HORIZON + 20, 50, 80)} fill="#6e3d48" opacity={0.75} />
+          <path d={ridge(g, "far", HORIZON, 70, 50)} fill="#9b5a6e" opacity={0.55} />
+          <path d={ridge(g, "near", HORIZON + 20, 50, 80)} fill="#6e3d48" opacity={0.75} />
         </svg>
       </AbsoluteFill>
 
@@ -140,7 +151,7 @@ export const S2Escala: React.FC = () => {
           </defs>
           <rect x={-400} y={HORIZON + 10} width={W + 800} height={H} fill="url(#ground)" />
           {new Array(LEVELS).fill(0).map((_, i) => {
-            const { rx, ry, cy } = bench(i);
+            const { rx, ry, cy } = bench(g, i);
             return (
               <g key={i}>
                 <ellipse cx={PX} cy={cy} rx={rx} ry={ry} fill="url(#benchTop)" />
@@ -163,9 +174,9 @@ export const S2Escala: React.FC = () => {
           })}
           <ellipse
             cx={PX}
-            cy={bench(LEVELS).cy + 10}
-            rx={bench(LEVELS - 1).rx * 0.8}
-            ry={bench(LEVELS - 1).ry * 0.8}
+            cy={bench(g, LEVELS).cy + 10}
+            rx={bench(g, LEVELS - 1).rx * 0.8}
+            ry={bench(g, LEVELS - 1).ry * 0.8}
             fill="url(#pool)"
             opacity={0.85 * veinPulse + 0.15}
           />
