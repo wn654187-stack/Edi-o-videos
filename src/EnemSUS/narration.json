@@ -1,0 +1,1135 @@
+{
+"tempo": 1.1,
+"words": [
+{
+"text": "O",
+"start": 0.125,
+"end": 0.145
+},
+{
+"text": "tema",
+"start": 0.218,
+"end": 0.436
+},
+{
+"text": "da",
+"start": 0.473,
+"end": 0.509
+},
+{
+"text": "redação",
+"start": 0.582,
+"end": 0.945
+},
+{
+"text": "do",
+"start": 1.018,
+"end": 1.055
+},
+{
+"text": "Enem",
+"start": 1.091,
+"end": 1.309
+},
+{
+"text": "2026",
+"start": 1.345,
+"end": 1.455
+},
+{
+"text": "pegou",
+"start": 1.527,
+"end": 2.691
+},
+{
+"text": "muita",
+"start": 2.727,
+"end": 3.055
+},
+{
+"text": "gente",
+"start": 3.2,
+"end": 3.418
+},
+{
+"text": "de",
+"start": 3.491,
+"end": 3.564
+},
+{
+"text": "surpresa:",
+"start": 3.673,
+"end": 4.436
+},
+{
+"text": "a",
+"start": 4.509,
+"end": 4.582
+},
+{
+"text": "valorização",
+"start": 4.655,
+"end": 5.236
+},
+{
+"text": "do",
+"start": 5.309,
+"end": 5.455
+},
+{
+"text": "SUS",
+"start": 5.527,
+"end": 5.745
+},
+{
+"text": "como",
+"start": 5.818,
+"end": 5.964
+},
+{
+"text": "direito",
+"start": 6.036,
+"end": 6.4
+},
+{
+"text": "universal.",
+"start": 6.691,
+"end": 7.345
+},
+{
+"text": "Em",
+"start": 7.418,
+"end": 7.491
+},
+{
+"text": "90 segundos,",
+"start": 7.564,
+"end": 8.509
+},
+{
+"text": "você",
+"start": 8.545,
+"end": 8.727
+},
+{
+"text": "vai",
+"start": 8.752,
+"end": 8.8
+},
+{
+"text": "entender",
+"start": 8.873,
+"end": 9.236
+},
+{
+"text": "por",
+"start": 9.345,
+"end": 9.455
+},
+{
+"text": "que",
+"start": 9.527,
+"end": 9.6
+},
+{
+"text": "esse",
+"start": 9.709,
+"end": 9.818
+},
+{
+"text": "tema",
+"start": 9.891,
+"end": 10.073
+},
+{
+"text": "é",
+"start": 10.109,
+"end": 10.327
+},
+{
+"text": "tão",
+"start": 10.375,
+"end": 10.473
+},
+{
+"text": "importante.",
+"start": 10.618,
+"end": 11.636
+},
+{
+"text": "Antes",
+"start": 11.745,
+"end": 11.927
+},
+{
+"text": "de",
+"start": 12.0,
+"end": 12.145
+},
+{
+"text": "1988,",
+"start": 12.182,
+"end": 13.818
+},
+{
+"text": "o",
+"start": 13.855,
+"end": 13.891
+},
+{
+"text": "atendimento",
+"start": 13.964,
+"end": 14.4
+},
+{
+"text": "público",
+"start": 14.545,
+"end": 14.982
+},
+{
+"text": "era",
+"start": 15.055,
+"end": 15.273
+},
+{
+"text": "só",
+"start": 15.345,
+"end": 15.418
+},
+{
+"text": "pra",
+"start": 15.491,
+"end": 15.636
+},
+{
+"text": "quem",
+"start": 15.685,
+"end": 15.782
+},
+{
+"text": "tinha",
+"start": 15.855,
+"end": 16.0
+},
+{
+"text": "carteira",
+"start": 16.109,
+"end": 16.364
+},
+{
+"text": "assinada",
+"start": 16.473,
+"end": 16.873
+},
+{
+"text": "e",
+"start": 16.945,
+"end": 17.091
+},
+{
+"text": "contribuía",
+"start": 17.236,
+"end": 17.673
+},
+{
+"text": "com",
+"start": 17.709,
+"end": 17.745
+},
+{
+"text": "a",
+"start": 17.782,
+"end": 17.818
+},
+{
+"text": "Previdência.",
+"start": 17.891,
+"end": 18.764
+},
+{
+"text": "Quem",
+"start": 18.788,
+"end": 18.836
+},
+{
+"text": "não",
+"start": 18.909,
+"end": 18.982
+},
+{
+"text": "tinha,",
+"start": 19.127,
+"end": 19.564
+},
+{
+"text": "dependia",
+"start": 19.709,
+"end": 20.0
+},
+{
+"text": "de",
+"start": 20.073,
+"end": 20.145
+},
+{
+"text": "caridade,",
+"start": 20.218,
+"end": 20.873
+},
+{
+"text": "como",
+"start": 20.945,
+"end": 21.018
+},
+{
+"text": "as",
+"start": 21.055,
+"end": 21.091
+},
+{
+"text": "Santas",
+"start": 21.127,
+"end": 21.382
+},
+{
+"text": "Casas.",
+"start": 21.455,
+"end": 22.182
+},
+{
+"text": "Isso",
+"start": 22.255,
+"end": 22.4
+},
+{
+"text": "mudou",
+"start": 22.473,
+"end": 22.836
+},
+{
+"text": "com",
+"start": 22.909,
+"end": 22.982
+},
+{
+"text": "a",
+"start": 23.018,
+"end": 23.055
+},
+{
+"text": "Reforma",
+"start": 23.127,
+"end": 23.418
+},
+{
+"text": "Sanitária.",
+"start": 23.491,
+"end": 24.291
+},
+{
+"text": "Em",
+"start": 24.364,
+"end": 24.436
+},
+{
+"text": "1986,",
+"start": 24.509,
+"end": 26.182
+},
+{
+"text": "a",
+"start": 26.218,
+"end": 26.255
+},
+{
+"text": "8ª",
+"start": 26.327,
+"end": 26.691
+},
+{
+"text": "Conferência",
+"start": 26.764,
+"end": 27.2
+},
+{
+"text": "Nacional",
+"start": 27.345,
+"end": 27.709
+},
+{
+"text": "de",
+"start": 27.782,
+"end": 27.855
+},
+{
+"text": "Saúde",
+"start": 27.927,
+"end": 28.436
+},
+{
+"text": "abriu",
+"start": 28.545,
+"end": 28.764
+},
+{
+"text": "o",
+"start": 28.8,
+"end": 28.836
+},
+{
+"text": "caminho.",
+"start": 28.873,
+"end": 29.527
+},
+{
+"text": "A",
+"start": 29.564,
+"end": 29.6
+},
+{
+"text": "Constituição",
+"start": 29.673,
+"end": 30.255
+},
+{
+"text": "de",
+"start": 30.327,
+"end": 30.4
+},
+{
+"text": "1988",
+"start": 30.473,
+"end": 31.127
+},
+{
+"text": "escreveu,",
+"start": 31.2,
+"end": 32.727
+},
+{
+"text": "no",
+"start": 32.764,
+"end": 32.8
+},
+{
+"text": "artigo",
+"start": 32.909,
+"end": 33.164
+},
+{
+"text": "196:",
+"start": 33.309,
+"end": 34.618
+},
+{
+"text": "a",
+"start": 34.655,
+"end": 34.691
+},
+{
+"text": "saúde",
+"start": 34.764,
+"end": 35.273
+},
+{
+"text": "é",
+"start": 35.345,
+"end": 35.418
+},
+{
+"text": "direito",
+"start": 35.527,
+"end": 35.782
+},
+{
+"text": "de",
+"start": 35.891,
+"end": 36.0
+},
+{
+"text": "todos",
+"start": 36.073,
+"end": 36.509
+},
+{
+"text": "e",
+"start": 36.582,
+"end": 36.655
+},
+{
+"text": "dever",
+"start": 36.727,
+"end": 37.091
+},
+{
+"text": "do",
+"start": 37.127,
+"end": 37.164
+},
+{
+"text": "Estado.",
+"start": 37.236,
+"end": 37.964
+},
+{
+"text": "E,",
+"start": 38.073,
+"end": 38.327
+},
+{
+"text": "em",
+"start": 38.4,
+"end": 38.473
+},
+{
+"text": "1990,",
+"start": 38.545,
+"end": 40.0
+},
+{
+"text": "a",
+"start": 40.025,
+"end": 40.048
+},
+{
+"text": "Lei",
+"start": 40.073,
+"end": 40.218
+},
+{
+"text": "8.080",
+"start": 40.291,
+"end": 41.236
+},
+{
+"text": "colocou",
+"start": 41.382,
+"end": 41.673
+},
+{
+"text": "o",
+"start": 41.709,
+"end": 41.745
+},
+{
+"text": "SUS",
+"start": 41.891,
+"end": 42.036
+},
+{
+"text": "em",
+"start": 42.109,
+"end": 42.182
+},
+{
+"text": "prática.",
+"start": 42.255,
+"end": 42.982
+},
+{
+"text": "Três",
+"start": 43.055,
+"end": 43.2
+},
+{
+"text": "princípios",
+"start": 43.273,
+"end": 43.855
+},
+{
+"text": "guiam",
+"start": 43.927,
+"end": 44.145
+},
+{
+"text": "o",
+"start": 44.182,
+"end": 44.218
+},
+{
+"text": "sistema:",
+"start": 44.255,
+"end": 45.018
+},
+{
+"text": "universalidade,",
+"start": 45.091,
+"end": 46.182
+},
+{
+"text": "atender",
+"start": 46.255,
+"end": 46.618
+},
+{
+"text": "todo",
+"start": 46.764,
+"end": 46.909
+},
+{
+"text": "mundo;",
+"start": 46.982,
+"end": 47.564
+},
+{
+"text": "integralidade,",
+"start": 47.636,
+"end": 48.618
+},
+{
+"text": "do",
+"start": 48.727,
+"end": 48.8
+},
+{
+"text": "posto",
+"start": 48.945,
+"end": 49.2
+},
+{
+"text": "de",
+"start": 49.236,
+"end": 49.309
+},
+{
+"text": "saúde",
+"start": 49.382,
+"end": 49.818
+},
+{
+"text": "ao",
+"start": 49.855,
+"end": 49.891
+},
+{
+"text": "transplante;",
+"start": 49.964,
+"end": 50.836
+},
+{
+"text": "e",
+"start": 50.909,
+"end": 50.982
+},
+{
+"text": "equidade,",
+"start": 51.091,
+"end": 51.927
+},
+{
+"text": "dar",
+"start": 52.0,
+"end": 52.073
+},
+{
+"text": "mais",
+"start": 52.218,
+"end": 52.509
+},
+{
+"text": "a",
+"start": 52.582,
+"end": 52.655
+},
+{
+"text": "quem",
+"start": 52.691,
+"end": 52.8
+},
+{
+"text": "precisa",
+"start": 52.873,
+"end": 53.164
+},
+{
+"text": "mais.",
+"start": 53.236,
+"end": 53.891
+},
+{
+"text": "Hoje,",
+"start": 53.964,
+"end": 54.4
+},
+{
+"text": "cerca",
+"start": 54.473,
+"end": 54.618
+},
+{
+"text": "de",
+"start": 54.691,
+"end": 54.909
+},
+{
+"text": "7",
+"start": 55.055,
+"end": 55.273
+},
+{
+"text": "em",
+"start": 55.345,
+"end": 55.418
+},
+{
+"text": "cada",
+"start": 55.491,
+"end": 55.782
+},
+{
+"text": "10",
+"start": 55.855,
+"end": 56.073
+},
+{
+"text": "brasileiros",
+"start": 56.182,
+"end": 56.727
+},
+{
+"text": "dependem",
+"start": 56.873,
+"end": 57.236
+},
+{
+"text": "só",
+"start": 57.309,
+"end": 57.382
+},
+{
+"text": "do",
+"start": 57.455,
+"end": 57.6
+},
+{
+"text": "SUS.",
+"start": 57.673,
+"end": 58.255
+},
+{
+"text": "E",
+"start": 58.291,
+"end": 58.327
+},
+{
+"text": "até",
+"start": 58.4,
+"end": 58.57
+},
+{
+"text": "quem",
+"start": 58.594,
+"end": 58.691
+},
+{
+"text": "tem",
+"start": 58.764,
+"end": 58.909
+},
+{
+"text": "plano",
+"start": 58.982,
+"end": 59.2
+},
+{
+"text": "usa:",
+"start": 59.273,
+"end": 59.782
+},
+{
+"text": "vacinas,",
+"start": 59.855,
+"end": 60.655
+},
+{
+"text": "SAMU,",
+"start": 60.8,
+"end": 61.236
+},
+{
+"text": "transplantes,",
+"start": 61.382,
+"end": 62.182
+},
+{
+"text": "vigilância",
+"start": 62.255,
+"end": 62.618
+},
+{
+"text": "sanitária.",
+"start": 62.691,
+"end": 63.491
+},
+{
+"text": "É",
+"start": 63.564,
+"end": 63.6
+},
+{
+"text": "a",
+"start": 63.636,
+"end": 63.673
+},
+{
+"text": "vacinação",
+"start": 63.709,
+"end": 64.145
+},
+{
+"text": "gratuita",
+"start": 64.291,
+"end": 64.873
+},
+{
+"text": "que",
+"start": 64.909,
+"end": 64.945
+},
+{
+"text": "mantém",
+"start": 65.018,
+"end": 65.236
+},
+{
+"text": "a",
+"start": 65.309,
+"end": 65.455
+},
+{
+"text": "pólio",
+"start": 65.503,
+"end": 65.818
+},
+{
+"text": "fora",
+"start": 65.891,
+"end": 66.036
+},
+{
+"text": "do",
+"start": 66.109,
+"end": 66.145
+},
+{
+"text": "Brasil",
+"start": 66.182,
+"end": 66.618
+},
+{
+"text": "desde",
+"start": 66.691,
+"end": 66.909
+},
+{
+"text": "1989.",
+"start": 67.127,
+"end": 68.873
+},
+{
+"text": "Mas",
+"start": 68.945,
+"end": 69.018
+},
+{
+"text": "o",
+"start": 69.091,
+"end": 69.164
+},
+{
+"text": "tema",
+"start": 69.236,
+"end": 69.527
+},
+{
+"text": "fala",
+"start": 69.6,
+"end": 69.745
+},
+{
+"text": "em",
+"start": 69.818,
+"end": 69.891
+},
+{
+"text": "valorização,",
+"start": 69.964,
+"end": 70.909
+},
+{
+"text": "e",
+"start": 70.982,
+"end": 71.055
+},
+{
+"text": "isso",
+"start": 71.127,
+"end": 71.418
+},
+{
+"text": "pressupõe",
+"start": 71.527,
+"end": 71.855
+},
+{
+"text": "um",
+"start": 71.927,
+"end": 72.0
+},
+{
+"text": "problema:",
+"start": 72.073,
+"end": 72.8
+},
+{
+"text": "filas",
+"start": 72.873,
+"end": 73.164
+},
+{
+"text": "longas,",
+"start": 73.236,
+"end": 73.891
+},
+{
+"text": "falta",
+"start": 73.964,
+"end": 74.182
+},
+{
+"text": "de",
+"start": 74.255,
+"end": 74.327
+},
+{
+"text": "médicos",
+"start": 74.4,
+"end": 74.764
+},
+{
+"text": "em",
+"start": 74.836,
+"end": 74.909
+},
+{
+"text": "regiões",
+"start": 74.982,
+"end": 75.273
+},
+{
+"text": "afastadas",
+"start": 75.345,
+"end": 76.073
+},
+{
+"text": "e",
+"start": 76.109,
+"end": 76.145
+},
+{
+"text": "financiamento",
+"start": 76.218,
+"end": 76.945
+},
+{
+"text": "insuficiente.",
+"start": 77.091,
+"end": 78.255
+},
+{
+"text": "Na",
+"start": 78.327,
+"end": 78.4
+},
+{
+"text": "redação,",
+"start": 78.473,
+"end": 79.055
+},
+{
+"text": "o",
+"start": 79.091,
+"end": 79.127
+},
+{
+"text": "caminho",
+"start": 79.2,
+"end": 79.491
+},
+{
+"text": "é",
+"start": 79.564,
+"end": 79.6
+},
+{
+"text": "este:",
+"start": 79.636,
+"end": 80.291
+},
+{
+"text": "reconhecer",
+"start": 80.364,
+"end": 80.873
+},
+{
+"text": "a",
+"start": 80.909,
+"end": 80.945
+},
+{
+"text": "conquista",
+"start": 81.018,
+"end": 81.527
+},
+{
+"text": "e",
+"start": 81.673,
+"end": 81.745
+},
+{
+"text": "propor",
+"start": 81.818,
+"end": 82.255
+},
+{
+"text": "como",
+"start": 82.327,
+"end": 82.473
+},
+{
+"text": "fortalecê-la.",
+"start": 82.582,
+"end": 83.564
+},
+{
+"text": "E",
+"start": 83.625,
+"end": 83.636
+},
+{
+"text": "você,",
+"start": 83.673,
+"end": 84.218
+},
+{
+"text": "fez",
+"start": 84.291,
+"end": 84.4
+},
+{
+"text": "a",
+"start": 84.436,
+"end": 84.473
+},
+{
+"text": "prova?",
+"start": 84.509,
+"end": 85.091
+},
+{
+"text": "Conta",
+"start": 85.164,
+"end": 85.382
+},
+{
+"text": "nos",
+"start": 85.455,
+"end": 85.527
+},
+{
+"text": "comentários",
+"start": 85.564,
+"end": 86.109
+},
+{
+"text": "como",
+"start": 86.182,
+"end": 86.4
+},
+{
+"text": "foi",
+"start": 86.545,
+"end": 86.655
+},
+{
+"text": "a",
+"start": 86.691,
+"end": 86.727
+},
+{
+"text": "sua",
+"start": 86.764,
+"end": 86.836
+},
+{
+"text": "redação.",
+"start": 86.909,
+"end": 87.636
+},
+{
+"text": "Domingo",
+"start": 87.673,
+"end": 88.073
+},
+{
+"text": "tem",
+"start": 88.145,
+"end": 88.218
+},
+{
+"text": "o",
+"start": 88.291,
+"end": 88.364
+},
+{
+"text": "segundo",
+"start": 88.473,
+"end": 88.8
+},
+{
+"text": "dia:",
+"start": 88.873,
+"end": 89.382
+},
+{
+"text": "segue",
+"start": 89.455,
+"end": 89.6
+},
+{
+"text": "o",
+"start": 89.636,
+"end": 89.673
+},
+{
+"text": "perfil",
+"start": 89.745,
+"end": 90.036
+},
+{
+"text": "pra",
+"start": 90.109,
+"end": 90.182
+},
+{
+"text": "não",
+"start": 90.255,
+"end": 90.4
+},
+{
+"text": "perder",
+"start": 90.473,
+"end": 90.691
+},
+{
+"text": "a",
+"start": 90.715,
+"end": 90.739
+},
+{
+"text": "revisão!",
+"start": 90.764,
+"end": 91.418
+}
+]
+}

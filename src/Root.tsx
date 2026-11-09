@@ -4,6 +4,7 @@ import { Logo } from "./HelloWorld/Logo";
 import { Title } from "./HelloWorld/Title";
 import { EleicoesEUA } from "./Eleicoes/EleicoesEUA";
 import { VIDEO_SECONDS } from "./Eleicoes/data";
+import { EnemSUS, ENEM_SUS_SECONDS } from "./EnemSUS/EnemSUS";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -21,6 +22,20 @@ export const RemotionRoot: React.FC = () => {
           narration: "narracao.mp3",
           music: "",
           musicVolume: 0.25,
+          showCaptions: true,
+        }}
+      />
+      <Composition
+        id="EnemSUS"
+        component={EnemSUS}
+        durationInFrames={ENEM_SUS_SECONDS * 30}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          narration: "narracao-sus.mp3",
+          music: "",
+          musicVolume: 0.2,
           showCaptions: true,
         }}
       />
