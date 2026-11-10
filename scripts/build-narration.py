@@ -36,7 +36,13 @@ NUMBERS = [
     (["quinhentos", "e", "trinta", "e", "oito"], "538"),
     (["cento", "e", "noventa", "e", "seis"], "196"),
     (["oito", "mil", "e", "oitenta"], "8.080"),
+    (["cento", "e", "cinquenta", "quilowattshora"], "150 kWh"),
     (["cento", "e", "noventa"], "190"),
+    (["cinco", "mil", "watts"], "5.000 W"),
+    (["dez", "por", "cento"], "10%"),
+    (["três", "pra", "um"], "3:1"),
+    (["cê", "ó", "ó", "agá"], "COOH"),
+    (["ó", "agá"], "OH"),
     (["sessenta", "e", "sete"], "67"),
     (["duzentos", "e", "setenta"], "270"),
     (["noventa", "segundos"], "90 segundos"),
@@ -60,7 +66,7 @@ while i < len(words):
     for seq, digit in NUMBERS:
         if [norm(w["text"]) for w in words[i:i + len(seq)]] == seq:
             last = words[i + len(seq) - 1]
-            tail = re.sub(r"[\wÀ-ú]", "", last["text"])
+            tail = re.search(r"[.,!?:;…]*$", last["text"]).group()
             out.append({"text": digit + tail, "start": words[i]["start"], "end": last["end"]})
             i += len(seq)
             merged = True

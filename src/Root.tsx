@@ -6,6 +6,7 @@ import { EleicoesEUA } from "./Eleicoes/EleicoesEUA";
 import { VIDEO_SECONDS } from "./Eleicoes/data";
 import { EnemSUS, ENEM_SUS_SECONDS } from "./EnemSUS/EnemSUS";
 import { F1Halo, F1_HALO_SECONDS } from "./F1Halo/F1Halo";
+import { EnemNatureza, ENEM_NATUREZA_SECONDS } from "./EnemNatureza/EnemNatureza";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -63,6 +64,20 @@ export const RemotionRoot: React.FC = () => {
         height={1920}
         defaultProps={{
           narration: "narracao-f1.mp3",
+          music: "",
+          musicVolume: 0.2,
+          showCaptions: true,
+        }}
+      />
+      <Composition
+        id="EnemNaturezaVertical"
+        component={EnemNatureza}
+        durationInFrames={ENEM_NATUREZA_SECONDS * 30}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          narration: "narracao-natureza.mp3",
           music: "",
           musicVolume: 0.2,
           showCaptions: true,

@@ -1,0 +1,845 @@
+{
+"tempo": 1.0,
+"words": [
+{
+"text": "Se",
+"start": 0.08,
+"end": 0.12
+},
+{
+"text": "você",
+"start": 0.16,
+"end": 0.4
+},
+{
+"text": "só",
+"start": 0.44,
+"end": 0.52
+},
+{
+"text": "tiver",
+"start": 0.56,
+"end": 0.96
+},
+{
+"text": "um",
+"start": 1.04,
+"end": 1.12
+},
+{
+"text": "minuto",
+"start": 1.2,
+"end": 1.6
+},
+{
+"text": "pra",
+"start": 1.68,
+"end": 1.76
+},
+{
+"text": "revisar",
+"start": 1.84,
+"end": 2.16
+},
+{
+"text": "Ciências",
+"start": 2.24,
+"end": 2.64
+},
+{
+"text": "da",
+"start": 2.72,
+"end": 2.76
+},
+{
+"text": "Natureza",
+"start": 2.8,
+"end": 3.2
+},
+{
+"text": "pro",
+"start": 3.28,
+"end": 3.36
+},
+{
+"text": "Enem",
+"start": 3.4,
+"end": 3.6
+},
+{
+"text": "de",
+"start": 3.64,
+"end": 3.68
+},
+{
+"text": "domingo,",
+"start": 3.8,
+"end": 4.32
+},
+{
+"text": "revisa",
+"start": 4.44,
+"end": 4.88
+},
+{
+"text": "isso.",
+"start": 5.0,
+"end": 5.68
+},
+{
+"text": "Um:",
+"start": 5.8,
+"end": 6.24
+},
+{
+"text": "ecologia.",
+"start": 6.32,
+"end": 7.36
+},
+{
+"text": "Em",
+"start": 7.44,
+"end": 7.52
+},
+{
+"text": "cada",
+"start": 7.6,
+"end": 7.76
+},
+{
+"text": "nível",
+"start": 7.92,
+"end": 8.16
+},
+{
+"text": "da",
+"start": 8.2,
+"end": 8.24
+},
+{
+"text": "cadeia",
+"start": 8.32,
+"end": 8.56
+},
+{
+"text": "alimentar,",
+"start": 8.6,
+"end": 9.36
+},
+{
+"text": "só",
+"start": 9.387,
+"end": 9.44
+},
+{
+"text": "cerca",
+"start": 9.52,
+"end": 9.76
+},
+{
+"text": "de",
+"start": 9.84,
+"end": 10.0
+},
+{
+"text": "10%",
+"start": 10.08,
+"end": 10.84
+},
+{
+"text": "da",
+"start": 10.88,
+"end": 10.96
+},
+{
+"text": "energia",
+"start": 11.12,
+"end": 11.44
+},
+{
+"text": "passa",
+"start": 11.52,
+"end": 11.76
+},
+{
+"text": "adiante.",
+"start": 11.84,
+"end": 12.56
+},
+{
+"text": "E",
+"start": 12.6,
+"end": 12.64
+},
+{
+"text": "substâncias",
+"start": 12.8,
+"end": 13.28
+},
+{
+"text": "tóxicas,",
+"start": 13.36,
+"end": 13.96
+},
+{
+"text": "como",
+"start": 14.0,
+"end": 14.08
+},
+{
+"text": "o",
+"start": 14.12,
+"end": 14.16
+},
+{
+"text": "mercúrio,",
+"start": 14.24,
+"end": 14.88
+},
+{
+"text": "se",
+"start": 14.96,
+"end": 15.04
+},
+{
+"text": "acumulam",
+"start": 15.12,
+"end": 15.6
+},
+{
+"text": "no",
+"start": 15.68,
+"end": 15.84
+},
+{
+"text": "topo",
+"start": 15.92,
+"end": 16.16
+},
+{
+"text": "da",
+"start": 16.2,
+"end": 16.24
+},
+{
+"text": "cadeia.",
+"start": 16.32,
+"end": 17.04
+},
+{
+"text": "Isso",
+"start": 17.12,
+"end": 17.52
+},
+{
+"text": "é",
+"start": 17.6,
+"end": 17.76
+},
+{
+"text": "biomagnificação.",
+"start": 17.84,
+"end": 19.44
+},
+{
+"text": "Dois:",
+"start": 19.52,
+"end": 20.24
+},
+{
+"text": "genética.",
+"start": 20.36,
+"end": 21.2
+},
+{
+"text": "Cruzou",
+"start": 21.24,
+"end": 21.6
+},
+{
+"text": "dois",
+"start": 21.76,
+"end": 21.92
+},
+{
+"text": "heterozigotos?",
+"start": 21.96,
+"end": 23.12
+},
+{
+"text": "Dá",
+"start": 23.2,
+"end": 23.36
+},
+{
+"text": "três",
+"start": 23.44,
+"end": 23.68
+},
+{
+"text": "com",
+"start": 23.76,
+"end": 23.84
+},
+{
+"text": "a",
+"start": 23.867,
+"end": 23.893
+},
+{
+"text": "característica",
+"start": 23.92,
+"end": 24.56
+},
+{
+"text": "dominante",
+"start": 24.64,
+"end": 25.2
+},
+{
+"text": "pra",
+"start": 25.28,
+"end": 25.36
+},
+{
+"text": "um",
+"start": 25.44,
+"end": 25.48
+},
+{
+"text": "recessivo.",
+"start": 25.52,
+"end": 26.4
+},
+{
+"text": "Proporção",
+"start": 26.48,
+"end": 26.96
+},
+{
+"text": "3:1.",
+"start": 27.2,
+"end": 28.32
+},
+{
+"text": "Três:",
+"start": 28.4,
+"end": 29.04
+},
+{
+"text": "química",
+"start": 29.08,
+"end": 29.36
+},
+{
+"text": "orgânica.",
+"start": 29.48,
+"end": 30.32
+},
+{
+"text": "Aprenda",
+"start": 30.44,
+"end": 30.8
+},
+{
+"text": "a",
+"start": 30.88,
+"end": 30.933
+},
+{
+"text": "reconhecer",
+"start": 30.987,
+"end": 31.44
+},
+{
+"text": "o",
+"start": 31.52,
+"end": 31.56
+},
+{
+"text": "grupo",
+"start": 31.6,
+"end": 31.84
+},
+{
+"text": "funcional.",
+"start": 31.92,
+"end": 32.64
+},
+{
+"text": "OH",
+"start": 32.8,
+"end": 33.36
+},
+{
+"text": "ligado",
+"start": 33.48,
+"end": 33.68
+},
+{
+"text": "a",
+"start": 33.76,
+"end": 33.8
+},
+{
+"text": "carbono:",
+"start": 33.84,
+"end": 34.64
+},
+{
+"text": "álcool.",
+"start": 34.72,
+"end": 35.44
+},
+{
+"text": "COOH:",
+"start": 35.52,
+"end": 36.8
+},
+{
+"text": "ácido",
+"start": 36.88,
+"end": 37.2
+},
+{
+"text": "carboxílico.",
+"start": 37.28,
+"end": 38.4
+},
+{
+"text": "Quatro:",
+"start": 38.44,
+"end": 39.12
+},
+{
+"text": "leis",
+"start": 39.2,
+"end": 39.44
+},
+{
+"text": "de",
+"start": 39.48,
+"end": 39.52
+},
+{
+"text": "Newton.",
+"start": 39.6,
+"end": 40.32
+},
+{
+"text": "Força",
+"start": 40.4,
+"end": 40.88
+},
+{
+"text": "é",
+"start": 41.04,
+"end": 41.12
+},
+{
+"text": "massa",
+"start": 41.2,
+"end": 41.6
+},
+{
+"text": "vezes",
+"start": 41.68,
+"end": 42.0
+},
+{
+"text": "aceleração.",
+"start": 42.08,
+"end": 42.96
+},
+{
+"text": "E",
+"start": 43.0,
+"end": 43.04
+},
+{
+"text": "toda",
+"start": 43.2,
+"end": 43.44
+},
+{
+"text": "ação",
+"start": 43.68,
+"end": 43.92
+},
+{
+"text": "tem",
+"start": 44.0,
+"end": 44.16
+},
+{
+"text": "uma",
+"start": 44.24,
+"end": 44.32
+},
+{
+"text": "reação,",
+"start": 44.44,
+"end": 45.04
+},
+{
+"text": "de",
+"start": 45.12,
+"end": 45.2
+},
+{
+"text": "mesma",
+"start": 45.28,
+"end": 45.52
+},
+{
+"text": "intensidade",
+"start": 45.6,
+"end": 46.24
+},
+{
+"text": "e",
+"start": 46.32,
+"end": 46.4
+},
+{
+"text": "sentido",
+"start": 46.52,
+"end": 46.8
+},
+{
+"text": "oposto.",
+"start": 46.88,
+"end": 47.52
+},
+{
+"text": "É",
+"start": 47.6,
+"end": 47.68
+},
+{
+"text": "por",
+"start": 47.76,
+"end": 47.84
+},
+{
+"text": "isso",
+"start": 47.92,
+"end": 48.08
+},
+{
+"text": "que",
+"start": 48.12,
+"end": 48.16
+},
+{
+"text": "o",
+"start": 48.2,
+"end": 48.24
+},
+{
+"text": "foguete",
+"start": 48.28,
+"end": 48.64
+},
+{
+"text": "sobe.",
+"start": 48.72,
+"end": 49.44
+},
+{
+"text": "Cinco:",
+"start": 49.52,
+"end": 50.16
+},
+{
+"text": "energia",
+"start": 50.32,
+"end": 50.64
+},
+{
+"text": "elétrica.",
+"start": 50.72,
+"end": 51.52
+},
+{
+"text": "Energia",
+"start": 51.56,
+"end": 52.16
+},
+{
+"text": "é",
+"start": 52.32,
+"end": 52.4
+},
+{
+"text": "potência",
+"start": 52.48,
+"end": 53.04
+},
+{
+"text": "vezes",
+"start": 53.12,
+"end": 53.44
+},
+{
+"text": "tempo.",
+"start": 53.52,
+"end": 54.16
+},
+{
+"text": "Um",
+"start": 54.2,
+"end": 54.24
+},
+{
+"text": "chuveiro",
+"start": 54.32,
+"end": 54.64
+},
+{
+"text": "de",
+"start": 54.72,
+"end": 54.88
+},
+{
+"text": "5.000 W,",
+"start": 54.96,
+"end": 55.84
+},
+{
+"text": "ligado",
+"start": 55.92,
+"end": 56.32
+},
+{
+"text": "uma",
+"start": 56.4,
+"end": 56.64
+},
+{
+"text": "hora",
+"start": 56.72,
+"end": 56.8
+},
+{
+"text": "por",
+"start": 56.88,
+"end": 57.04
+},
+{
+"text": "dia,",
+"start": 57.12,
+"end": 57.52
+},
+{
+"text": "gasta",
+"start": 57.6,
+"end": 57.92
+},
+{
+"text": "150 kWh",
+"start": 58.0,
+"end": 59.76
+},
+{
+"text": "por",
+"start": 59.92,
+"end": 60.0
+},
+{
+"text": "mês.",
+"start": 60.16,
+"end": 60.88
+},
+{
+"text": "E",
+"start": 60.92,
+"end": 60.96
+},
+{
+"text": "a",
+"start": 61.0,
+"end": 61.04
+},
+{
+"text": "dica",
+"start": 61.2,
+"end": 61.44
+},
+{
+"text": "de",
+"start": 61.52,
+"end": 61.6
+},
+{
+"text": "ouro:",
+"start": 61.68,
+"end": 62.24
+},
+{
+"text": "no",
+"start": 62.28,
+"end": 62.32
+},
+{
+"text": "Enem,",
+"start": 62.4,
+"end": 62.96
+},
+{
+"text": "a",
+"start": 62.987,
+"end": 63.013
+},
+{
+"text": "resposta",
+"start": 63.04,
+"end": 63.6
+},
+{
+"text": "quase",
+"start": 63.68,
+"end": 64.08
+},
+{
+"text": "sempre",
+"start": 64.24,
+"end": 64.56
+},
+{
+"text": "tá",
+"start": 64.64,
+"end": 64.72
+},
+{
+"text": "no",
+"start": 64.76,
+"end": 64.8
+},
+{
+"text": "enunciado.",
+"start": 64.84,
+"end": 65.76
+},
+{
+"text": "Leia",
+"start": 65.84,
+"end": 66.16
+},
+{
+"text": "com",
+"start": 66.24,
+"end": 66.32
+},
+{
+"text": "calma.",
+"start": 66.48,
+"end": 67.28
+},
+{
+"text": "Qual",
+"start": 67.36,
+"end": 67.44
+},
+{
+"text": "desses",
+"start": 67.52,
+"end": 67.84
+},
+{
+"text": "você",
+"start": 67.92,
+"end": 68.08
+},
+{
+"text": "mais",
+"start": 68.16,
+"end": 68.32
+},
+{
+"text": "erra?",
+"start": 68.4,
+"end": 68.96
+},
+{
+"text": "Comenta",
+"start": 69.04,
+"end": 69.36
+},
+{
+"text": "que",
+"start": 69.44,
+"end": 69.48
+},
+{
+"text": "eu",
+"start": 69.52,
+"end": 69.56
+},
+{
+"text": "explico",
+"start": 69.6,
+"end": 69.92
+},
+{
+"text": "em",
+"start": 70.0,
+"end": 70.08
+},
+{
+"text": "outro",
+"start": 70.16,
+"end": 70.32
+},
+{
+"text": "vídeo.",
+"start": 70.4,
+"end": 70.96
+},
+{
+"text": "E",
+"start": 71.0,
+"end": 71.04
+},
+{
+"text": "segue",
+"start": 71.2,
+"end": 71.52
+},
+{
+"text": "pra",
+"start": 71.6,
+"end": 71.68
+},
+{
+"text": "não",
+"start": 71.84,
+"end": 71.92
+},
+{
+"text": "perder",
+"start": 72.0,
+"end": 72.24
+},
+{
+"text": "a",
+"start": 72.267,
+"end": 72.293
+},
+{
+"text": "revisão",
+"start": 72.32,
+"end": 72.64
+},
+{
+"text": "de",
+"start": 72.72,
+"end": 72.76
+},
+{
+"text": "matemática!",
+"start": 72.8,
+"end": 73.68
+}
+]
+}
