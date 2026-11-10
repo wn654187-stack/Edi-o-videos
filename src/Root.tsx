@@ -10,6 +10,7 @@ import { EnemNatureza, ENEM_NATUREZA_SECONDS } from "./EnemNatureza/EnemNatureza
 import { EnemMatematica, ENEM_MATEMATICA_SECONDS } from "./EnemMatematica/EnemMatematica";
 import { BlackFriday, BLACK_FRIDAY_SECONDS } from "./BlackFriday/BlackFriday";
 import { VarPenalti, VAR_PENALTI_SECONDS } from "./VarPenalti/VarPenalti";
+import { ComoFuncionaGPS, GPS_SECONDS } from "./ComoFuncionaGPS/ComoFuncionaGPS";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -123,6 +124,20 @@ export const RemotionRoot: React.FC = () => {
         height={1920}
         defaultProps={{
           narration: "narracao-var.mp3",
+          music: "",
+          musicVolume: 0.2,
+          showCaptions: true,
+        }}
+      />
+      <Composition
+        id="ComoFuncionaGPSVertical"
+        component={ComoFuncionaGPS}
+        durationInFrames={GPS_SECONDS * 30}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          narration: "narracao-gps.mp3",
           music: "",
           musicVolume: 0.2,
           showCaptions: true,

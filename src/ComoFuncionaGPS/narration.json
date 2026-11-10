@@ -1,0 +1,585 @@
+{
+"tempo": 1.08,
+"words": [
+{
+"text": "Sem",
+"start": 0.074,
+"end": 0.222
+},
+{
+"text": "o",
+"start": 0.296,
+"end": 0.37
+},
+{
+"text": "Einstein,",
+"start": 0.444,
+"end": 1.037
+},
+{
+"text": "o",
+"start": 1.074,
+"end": 1.111
+},
+{
+"text": "GPS",
+"start": 1.185,
+"end": 1.704
+},
+{
+"text": "do",
+"start": 1.778,
+"end": 1.815
+},
+{
+"text": "seu",
+"start": 1.852,
+"end": 2.0
+},
+{
+"text": "celular",
+"start": 2.074,
+"end": 2.444
+},
+{
+"text": "erraria",
+"start": 2.519,
+"end": 2.815
+},
+{
+"text": "uns",
+"start": 2.926,
+"end": 3.037
+},
+{
+"text": "10 km",
+"start": 3.111,
+"end": 3.926
+},
+{
+"text": "por",
+"start": 4.0,
+"end": 4.074
+},
+{
+"text": "dia.",
+"start": 4.222,
+"end": 4.889
+},
+{
+"text": "Segue,",
+"start": 5.074,
+"end": 5.333
+},
+{
+"text": "que",
+"start": 5.37,
+"end": 5.407
+},
+{
+"text": "eu",
+"start": 5.444,
+"end": 5.481
+},
+{
+"text": "te",
+"start": 5.519,
+"end": 5.556
+},
+{
+"text": "explico",
+"start": 5.63,
+"end": 5.926
+},
+{
+"text": "como",
+"start": 6.0,
+"end": 6.148
+},
+{
+"text": "ele",
+"start": 6.222,
+"end": 6.296
+},
+{
+"text": "funciona!",
+"start": 6.407,
+"end": 7.111
+},
+{
+"text": "Lá",
+"start": 7.407,
+"end": 7.519
+},
+{
+"text": "em",
+"start": 7.556,
+"end": 7.704
+},
+{
+"text": "cima,",
+"start": 7.741,
+"end": 8.222
+},
+{
+"text": "a",
+"start": 8.259,
+"end": 8.296
+},
+{
+"text": "uns",
+"start": 8.37,
+"end": 8.519
+},
+{
+"text": "20.000 km",
+"start": 8.667,
+"end": 9.704
+},
+{
+"text": "de",
+"start": 9.741,
+"end": 9.778
+},
+{
+"text": "altura,",
+"start": 10.0,
+"end": 10.444
+},
+{
+"text": "dezenas",
+"start": 10.556,
+"end": 11.037
+},
+{
+"text": "de",
+"start": 11.111,
+"end": 11.148
+},
+{
+"text": "satélites",
+"start": 11.185,
+"end": 11.778
+},
+{
+"text": "mandam",
+"start": 11.852,
+"end": 12.074
+},
+{
+"text": "sinais",
+"start": 12.148,
+"end": 12.519
+},
+{
+"text": "com",
+"start": 12.593,
+"end": 12.667
+},
+{
+"text": "a",
+"start": 12.704,
+"end": 12.741
+},
+{
+"text": "hora",
+"start": 12.815,
+"end": 12.963
+},
+{
+"text": "exata.",
+"start": 13.111,
+"end": 13.926
+},
+{
+"text": "Seu",
+"start": 14.148,
+"end": 14.296
+},
+{
+"text": "celular",
+"start": 14.37,
+"end": 14.815
+},
+{
+"text": "mede",
+"start": 14.926,
+"end": 15.111
+},
+{
+"text": "quanto",
+"start": 15.185,
+"end": 15.481
+},
+{
+"text": "tempo",
+"start": 15.556,
+"end": 15.926
+},
+{
+"text": "cada",
+"start": 15.963,
+"end": 16.148
+},
+{
+"text": "sinal",
+"start": 16.222,
+"end": 16.519
+},
+{
+"text": "leva",
+"start": 16.593,
+"end": 16.741
+},
+{
+"text": "pra",
+"start": 16.815,
+"end": 16.889
+},
+{
+"text": "chegar",
+"start": 16.963,
+"end": 17.259
+},
+{
+"text": "e",
+"start": 17.481,
+"end": 17.556
+},
+{
+"text": "calcula",
+"start": 17.741,
+"end": 17.951
+},
+{
+"text": "a",
+"start": 17.975,
+"end": 18.0
+},
+{
+"text": "distância.",
+"start": 18.111,
+"end": 18.778
+},
+{
+"text": "Com",
+"start": 18.963,
+"end": 19.185
+},
+{
+"text": "4",
+"start": 19.259,
+"end": 19.481
+},
+{
+"text": "satélites,",
+"start": 19.556,
+"end": 20.296
+},
+{
+"text": "ele",
+"start": 20.37,
+"end": 20.444
+},
+{
+"text": "descobre",
+"start": 20.519,
+"end": 20.963
+},
+{
+"text": "onde",
+"start": 21.111,
+"end": 21.333
+},
+{
+"text": "você",
+"start": 21.407,
+"end": 21.63
+},
+{
+"text": "está.",
+"start": 21.741,
+"end": 22.0
+},
+{
+"text": "Isso",
+"start": 22.37,
+"end": 22.741
+},
+{
+"text": "é",
+"start": 22.815,
+"end": 22.889
+},
+{
+"text": "trilateração.",
+"start": 23.037,
+"end": 24.074
+},
+{
+"text": "Mas",
+"start": 24.296,
+"end": 24.444
+},
+{
+"text": "tem",
+"start": 24.519,
+"end": 24.593
+},
+{
+"text": "um",
+"start": 24.63,
+"end": 24.667
+},
+{
+"text": "detalhe:",
+"start": 24.778,
+"end": 25.481
+},
+{
+"text": "lá",
+"start": 25.556,
+"end": 25.704
+},
+{
+"text": "em",
+"start": 25.778,
+"end": 25.852
+},
+{
+"text": "cima,",
+"start": 25.926,
+"end": 26.37
+},
+{
+"text": "o",
+"start": 26.407,
+"end": 26.444
+},
+{
+"text": "tempo",
+"start": 26.593,
+"end": 26.889
+},
+{
+"text": "passa",
+"start": 27.0,
+"end": 27.185
+},
+{
+"text": "mais",
+"start": 27.259,
+"end": 27.481
+},
+{
+"text": "rápido.",
+"start": 27.556,
+"end": 28.111
+},
+{
+"text": "Uns",
+"start": 28.296,
+"end": 28.519
+},
+{
+"text": "38 µs",
+"start": 28.593,
+"end": 30.148
+},
+{
+"text": "por",
+"start": 30.222,
+"end": 30.296
+},
+{
+"text": "dia.",
+"start": 30.444,
+"end": 30.852
+},
+{
+"text": "Parece",
+"start": 31.037,
+"end": 31.407
+},
+{
+"text": "nada,",
+"start": 31.444,
+"end": 32.0
+},
+{
+"text": "mas",
+"start": 32.074,
+"end": 32.148
+},
+{
+"text": "na",
+"start": 32.222,
+"end": 32.296
+},
+{
+"text": "velocidade",
+"start": 32.37,
+"end": 32.889
+},
+{
+"text": "da",
+"start": 32.926,
+"end": 32.963
+},
+{
+"text": "luz,",
+"start": 33.111,
+"end": 33.481
+},
+{
+"text": "isso",
+"start": 33.556,
+"end": 33.704
+},
+{
+"text": "vira",
+"start": 33.778,
+"end": 33.926
+},
+{
+"text": "quilômetros",
+"start": 34.074,
+"end": 34.815
+},
+{
+"text": "de",
+"start": 34.852,
+"end": 34.889
+},
+{
+"text": "erro.",
+"start": 34.963,
+"end": 35.63
+},
+{
+"text": "Por",
+"start": 35.704,
+"end": 35.778
+},
+{
+"text": "isso",
+"start": 35.852,
+"end": 36.037
+},
+{
+"text": "os",
+"start": 36.074,
+"end": 36.148
+},
+{
+"text": "relógios",
+"start": 36.222,
+"end": 36.667
+},
+{
+"text": "dos",
+"start": 36.741,
+"end": 36.815
+},
+{
+"text": "satélites",
+"start": 36.926,
+"end": 37.407
+},
+{
+"text": "são",
+"start": 37.481,
+"end": 37.556
+},
+{
+"text": "ajustados",
+"start": 37.63,
+"end": 38.148
+},
+{
+"text": "com",
+"start": 38.222,
+"end": 38.296
+},
+{
+"text": "a",
+"start": 38.37,
+"end": 38.444
+},
+{
+"text": "relatividade",
+"start": 38.519,
+"end": 39.185
+},
+{
+"text": "de",
+"start": 39.222,
+"end": 39.259
+},
+{
+"text": "Einstein.",
+"start": 39.333,
+"end": 40.0
+},
+{
+"text": "Sabia",
+"start": 40.074,
+"end": 40.37
+},
+{
+"text": "disso?",
+"start": 40.481,
+"end": 41.037
+},
+{
+"text": "Manda",
+"start": 41.111,
+"end": 41.333
+},
+{
+"text": "pra",
+"start": 41.407,
+"end": 41.481
+},
+{
+"text": "quem",
+"start": 41.519,
+"end": 41.63
+},
+{
+"text": "acha",
+"start": 41.704,
+"end": 41.852
+},
+{
+"text": "que",
+"start": 41.963,
+"end": 42.074
+},
+{
+"text": "física",
+"start": 42.123,
+"end": 42.37
+},
+{
+"text": "não",
+"start": 42.419,
+"end": 42.519
+},
+{
+"text": "serve",
+"start": 42.63,
+"end": 42.741
+},
+{
+"text": "pra",
+"start": 42.815,
+"end": 42.889
+},
+{
+"text": "nada!",
+"start": 42.963,
+"end": 43.556
+}
+]
+}

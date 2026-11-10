@@ -90,6 +90,9 @@ NUMBERS = [
     (["cinquenta", "por", "cento"], "50%"),
     (["vinte", "e", "sete"], "27"),
     (["quarenta", "segundos"], "40 segundos"),
+    (["trinta", "e", "oito", "microssegundos"], "38 µs"),
+    (["vinte", "mil", "quilômetros"], "20.000 km"),
+    (["dez", "quilômetros"], "10 km"),
     (["dez", "por", "cento"], "10%"),
     (["três", "pra", "um"], "3:1"),
     (["cê", "ó", "ó", "agá"], "COOH"),
@@ -104,7 +107,7 @@ NUMBERS = [
 CONTEXT = {("trinta", "delegados"): "30", ("um", "voto"): "1",
            ("sete", "em"): "7", ("dez", "brasileiros"): "10",
            ("setenta", "quilos"): "70", ("cinco", "toneladas"): "5",
-           ("trinta", "segundos"): "30", ("doze", "dias"): "12", ("sete", "dias"): "7", ("quatro", "lances"): "4", ("três", "coisas"): "3",
+           ("trinta", "segundos"): "30", ("doze", "dias"): "12", ("sete", "dias"): "7", ("quatro", "lances"): "4", ("quatro", "satélites"): "4", ("três", "coisas"): "3",
            ("três", "pedreiros"): "3", ("seis", "pedreiros"): "6"}
 
 
