@@ -12,6 +12,7 @@ import { BlackFriday, BLACK_FRIDAY_SECONDS } from "./BlackFriday/BlackFriday";
 import { VarPenalti, VAR_PENALTI_SECONDS } from "./VarPenalti/VarPenalti";
 import { ComoFuncionaGPS, GPS_SECONDS } from "./ComoFuncionaGPS/ComoFuncionaGPS";
 import { EnemNaturezaQuiz, ENEM_NATUREZA_QUIZ_SECONDS } from "./EnemNaturezaQuiz/EnemNaturezaQuiz";
+import { EnemNaturezaAlt, ENEM_NATUREZA_ALT_SECONDS } from "./EnemNaturezaAlt/EnemNaturezaAlt";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -153,6 +154,20 @@ export const RemotionRoot: React.FC = () => {
         height={1920}
         defaultProps={{
           narration: "narracao-natureza-quiz.mp3",
+          music: "",
+          musicVolume: 0.2,
+          showCaptions: true,
+        }}
+      />
+      <Composition
+        id="EnemNaturezaAltVertical"
+        component={EnemNaturezaAlt}
+        durationInFrames={ENEM_NATUREZA_ALT_SECONDS * 30}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          narration: "narracao-natureza-alt.mp3",
           music: "",
           musicVolume: 0.2,
           showCaptions: true,

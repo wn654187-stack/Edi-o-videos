@@ -1,0 +1,380 @@
+{
+"tempo": 1.0,
+"words": [
+{
+"text": "Você",
+"start": 0.08,
+"end": 0.32
+},
+{
+"text": "acertaria",
+"start": 0.4,
+"end": 0.88
+},
+{
+"text": "essas",
+"start": 0.96,
+"end": 1.2
+},
+{
+"text": "três",
+"start": 1.28,
+"end": 1.52
+},
+{
+"text": "de",
+"start": 1.56,
+"end": 1.6
+},
+{
+"text": "Natureza",
+"start": 1.68,
+"end": 2.08
+},
+{
+"text": "do",
+"start": 2.16,
+"end": 2.2
+},
+{
+"text": "Enem?",
+"start": 2.24,
+"end": 2.76
+},
+{
+"text": "Segue,",
+"start": 3.04,
+"end": 3.48
+},
+{
+"text": "que",
+"start": 3.52,
+"end": 3.6
+},
+{
+"text": "domingo",
+"start": 3.68,
+"end": 4.08
+},
+{
+"text": "é",
+"start": 4.12,
+"end": 4.16
+},
+{
+"text": "a",
+"start": 4.213,
+"end": 4.267
+},
+{
+"text": "prova!",
+"start": 4.32,
+"end": 4.72
+},
+{
+"text": "Um:",
+"start": 5.28,
+"end": 5.92
+},
+{
+"text": "por",
+"start": 5.96,
+"end": 6.0
+},
+{
+"text": "que",
+"start": 6.08,
+"end": 6.16
+},
+{
+"text": "a",
+"start": 6.2,
+"end": 6.24
+},
+{
+"text": "gente",
+"start": 6.32,
+"end": 6.56
+},
+{
+"text": "vê",
+"start": 6.64,
+"end": 6.72
+},
+{
+"text": "o",
+"start": 6.8,
+"end": 6.88
+},
+{
+"text": "raio",
+"start": 6.96,
+"end": 7.44
+},
+{
+"text": "antes",
+"start": 7.52,
+"end": 7.84
+},
+{
+"text": "de",
+"start": 7.92,
+"end": 7.96
+},
+{
+"text": "ouvir",
+"start": 8.0,
+"end": 8.24
+},
+{
+"text": "o",
+"start": 8.267,
+"end": 8.293
+},
+{
+"text": "trovão?",
+"start": 8.32,
+"end": 9.12
+},
+{
+"text": "Porque",
+"start": 13.2,
+"end": 13.36
+},
+{
+"text": "a",
+"start": 13.4,
+"end": 13.44
+},
+{
+"text": "luz",
+"start": 13.52,
+"end": 13.76
+},
+{
+"text": "é",
+"start": 13.84,
+"end": 14.0
+},
+{
+"text": "muito",
+"start": 14.08,
+"end": 14.4
+},
+{
+"text": "mais",
+"start": 14.44,
+"end": 14.64
+},
+{
+"text": "rápida",
+"start": 14.72,
+"end": 14.96
+},
+{
+"text": "que",
+"start": 15.04,
+"end": 15.12
+},
+{
+"text": "o",
+"start": 15.2,
+"end": 15.28
+},
+{
+"text": "som!",
+"start": 15.4,
+"end": 16.08
+},
+{
+"text": "Dois:",
+"start": 16.16,
+"end": 16.96
+},
+{
+"text": "qual",
+"start": 17.04,
+"end": 17.12
+},
+{
+"text": "organela",
+"start": 17.2,
+"end": 17.76
+},
+{
+"text": "produz",
+"start": 17.92,
+"end": 18.24
+},
+{
+"text": "a",
+"start": 18.28,
+"end": 18.32
+},
+{
+"text": "energia",
+"start": 18.48,
+"end": 18.88
+},
+{
+"text": "da",
+"start": 18.92,
+"end": 18.96
+},
+{
+"text": "célula?",
+"start": 19.12,
+"end": 19.92
+},
+{
+"text": "A",
+"start": 23.96,
+"end": 24.0
+},
+{
+"text": "mitocôndria!",
+"start": 24.16,
+"end": 25.44
+},
+{
+"text": "Três:",
+"start": 25.52,
+"end": 26.24
+},
+{
+"text": "por",
+"start": 26.32,
+"end": 26.4
+},
+{
+"text": "que",
+"start": 26.44,
+"end": 26.48
+},
+{
+"text": "o",
+"start": 26.56,
+"end": 26.64
+},
+{
+"text": "gelo",
+"start": 26.72,
+"end": 27.04
+},
+{
+"text": "boia",
+"start": 27.12,
+"end": 27.36
+},
+{
+"text": "na",
+"start": 27.44,
+"end": 27.52
+},
+{
+"text": "água?",
+"start": 27.6,
+"end": 28.32
+},
+{
+"text": "Porque",
+"start": 32.4,
+"end": 32.533
+},
+{
+"text": "ele",
+"start": 32.587,
+"end": 32.64
+},
+{
+"text": "é",
+"start": 32.72,
+"end": 32.8
+},
+{
+"text": "menos",
+"start": 32.92,
+"end": 33.2
+},
+{
+"text": "denso",
+"start": 33.28,
+"end": 33.52
+},
+{
+"text": "que",
+"start": 33.56,
+"end": 33.6
+},
+{
+"text": "a",
+"start": 33.68,
+"end": 33.72
+},
+{
+"text": "água",
+"start": 33.76,
+"end": 33.96
+},
+{
+"text": "líquida!",
+"start": 34.0,
+"end": 34.8
+},
+{
+"text": "Quantas",
+"start": 34.933,
+"end": 35.04
+},
+{
+"text": "você",
+"start": 35.12,
+"end": 35.28
+},
+{
+"text": "acertou?",
+"start": 35.36,
+"end": 36.16
+},
+{
+"text": "Comenta",
+"start": 36.24,
+"end": 36.64
+},
+{
+"text": "e",
+"start": 36.72,
+"end": 36.8
+},
+{
+"text": "manda",
+"start": 36.92,
+"end": 37.04
+},
+{
+"text": "pro",
+"start": 37.12,
+"end": 37.2
+},
+{
+"text": "seu",
+"start": 37.24,
+"end": 37.36
+},
+{
+"text": "grupo",
+"start": 37.48,
+"end": 37.6
+},
+{
+"text": "de",
+"start": 37.64,
+"end": 37.68
+},
+{
+"text": "estudos!",
+"start": 37.76,
+"end": 38.56
+}
+]
+}
