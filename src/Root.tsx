@@ -9,6 +9,7 @@ import { F1Halo, F1_HALO_SECONDS } from "./F1Halo/F1Halo";
 import { EnemNatureza, ENEM_NATUREZA_SECONDS } from "./EnemNatureza/EnemNatureza";
 import { EnemMatematica, ENEM_MATEMATICA_SECONDS } from "./EnemMatematica/EnemMatematica";
 import { BlackFriday, BLACK_FRIDAY_SECONDS } from "./BlackFriday/BlackFriday";
+import { VarPenalti, VAR_PENALTI_SECONDS } from "./VarPenalti/VarPenalti";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -108,6 +109,20 @@ export const RemotionRoot: React.FC = () => {
         height={1920}
         defaultProps={{
           narration: "narracao-blackfriday.mp3",
+          music: "",
+          musicVolume: 0.2,
+          showCaptions: true,
+        }}
+      />
+      <Composition
+        id="VarPenaltiVertical"
+        component={VarPenalti}
+        durationInFrames={VAR_PENALTI_SECONDS * 30}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          narration: "narracao-var.mp3",
           music: "",
           musicVolume: 0.2,
           showCaptions: true,

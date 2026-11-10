@@ -1,0 +1,550 @@
+{
+"tempo": 1.0,
+"words": [
+{
+"text": "O",
+"start": 0.137,
+"end": 0.16
+},
+{
+"text": "VAR",
+"start": 0.24,
+"end": 0.48
+},
+{
+"text": "não",
+"start": 0.64,
+"end": 0.8
+},
+{
+"text": "marca",
+"start": 0.88,
+"end": 1.2
+},
+{
+"text": "pênalti.",
+"start": 1.36,
+"end": 2.0
+},
+{
+"text": "Quem",
+"start": 2.16,
+"end": 2.24
+},
+{
+"text": "decide",
+"start": 2.32,
+"end": 2.88
+},
+{
+"text": "é",
+"start": 2.96,
+"end": 3.2
+},
+{
+"text": "sempre",
+"start": 3.28,
+"end": 3.52
+},
+{
+"text": "o",
+"start": 3.56,
+"end": 3.6
+},
+{
+"text": "árbitro.",
+"start": 3.68,
+"end": 4.48
+},
+{
+"text": "Segue,",
+"start": 4.64,
+"end": 4.96
+},
+{
+"text": "que",
+"start": 4.987,
+"end": 5.013
+},
+{
+"text": "eu",
+"start": 5.04,
+"end": 5.08
+},
+{
+"text": "te",
+"start": 5.12,
+"end": 5.2
+},
+{
+"text": "explico",
+"start": 5.28,
+"end": 5.52
+},
+{
+"text": "em",
+"start": 5.6,
+"end": 5.68
+},
+{
+"text": "40 segundos!",
+"start": 5.72,
+"end": 7.0
+},
+{
+"text": "O",
+"start": 7.28,
+"end": 7.36
+},
+{
+"text": "VAR",
+"start": 7.44,
+"end": 7.68
+},
+{
+"text": "só",
+"start": 7.84,
+"end": 7.92
+},
+{
+"text": "pode",
+"start": 8.08,
+"end": 8.24
+},
+{
+"text": "entrar",
+"start": 8.32,
+"end": 8.56
+},
+{
+"text": "em",
+"start": 8.64,
+"end": 8.8
+},
+{
+"text": "4",
+"start": 8.88,
+"end": 9.12
+},
+{
+"text": "lances:",
+"start": 9.2,
+"end": 10.08
+},
+{
+"text": "gol,",
+"start": 10.12,
+"end": 10.72
+},
+{
+"text": "pênalti,",
+"start": 10.76,
+"end": 11.44
+},
+{
+"text": "cartão",
+"start": 11.56,
+"end": 11.84
+},
+{
+"text": "vermelho",
+"start": 11.92,
+"end": 12.24
+},
+{
+"text": "direto",
+"start": 12.32,
+"end": 12.72
+},
+{
+"text": "e",
+"start": 12.96,
+"end": 13.04
+},
+{
+"text": "cartão",
+"start": 13.2,
+"end": 13.44
+},
+{
+"text": "dado",
+"start": 13.52,
+"end": 13.84
+},
+{
+"text": "pro",
+"start": 13.88,
+"end": 13.92
+},
+{
+"text": "jogador",
+"start": 14.0,
+"end": 14.32
+},
+{
+"text": "errado.",
+"start": 14.44,
+"end": 15.04
+},
+{
+"text": "E",
+"start": 15.08,
+"end": 15.12
+},
+{
+"text": "não",
+"start": 15.2,
+"end": 15.36
+},
+{
+"text": "basta",
+"start": 15.44,
+"end": 15.76
+},
+{
+"text": "discordar:",
+"start": 15.96,
+"end": 16.64
+},
+{
+"text": "precisa",
+"start": 16.76,
+"end": 16.96
+},
+{
+"text": "ser",
+"start": 17.04,
+"end": 17.2
+},
+{
+"text": "um",
+"start": 17.24,
+"end": 17.28
+},
+{
+"text": "erro",
+"start": 17.36,
+"end": 17.68
+},
+{
+"text": "claro",
+"start": 17.88,
+"end": 18.24
+},
+{
+"text": "e",
+"start": 18.28,
+"end": 18.32
+},
+{
+"text": "óbvio.",
+"start": 18.48,
+"end": 19.28
+},
+{
+"text": "No",
+"start": 19.36,
+"end": 19.44
+},
+{
+"text": "pênalti,",
+"start": 19.52,
+"end": 20.08
+},
+{
+"text": "ele",
+"start": 20.16,
+"end": 20.24
+},
+{
+"text": "checa",
+"start": 20.32,
+"end": 20.72
+},
+{
+"text": "3",
+"start": 20.8,
+"end": 20.96
+},
+{
+"text": "coisas:",
+"start": 21.04,
+"end": 21.84
+},
+{
+"text": "se",
+"start": 21.92,
+"end": 22.0
+},
+{
+"text": "teve",
+"start": 22.08,
+"end": 22.32
+},
+{
+"text": "falta,",
+"start": 22.36,
+"end": 22.96
+},
+{
+"text": "se",
+"start": 23.04,
+"end": 23.12
+},
+{
+"text": "foi",
+"start": 23.2,
+"end": 23.44
+},
+{
+"text": "dentro",
+"start": 23.56,
+"end": 23.76
+},
+{
+"text": "da",
+"start": 23.84,
+"end": 23.92
+},
+{
+"text": "área,",
+"start": 24.0,
+"end": 24.48
+},
+{
+"text": "e",
+"start": 24.52,
+"end": 24.56
+},
+{
+"text": "se",
+"start": 24.64,
+"end": 24.72
+},
+{
+"text": "teve",
+"start": 24.76,
+"end": 24.88
+},
+{
+"text": "alguma",
+"start": 25.0,
+"end": 25.28
+},
+{
+"text": "infração",
+"start": 25.4,
+"end": 25.84
+},
+{
+"text": "antes,",
+"start": 26.08,
+"end": 26.4
+},
+{
+"text": "no",
+"start": 26.48,
+"end": 26.56
+},
+{
+"text": "começo",
+"start": 26.68,
+"end": 26.96
+},
+{
+"text": "da",
+"start": 27.0,
+"end": 27.04
+},
+{
+"text": "jogada.",
+"start": 27.12,
+"end": 27.92
+},
+{
+"text": "Se",
+"start": 27.96,
+"end": 28.0
+},
+{
+"text": "o",
+"start": 28.04,
+"end": 28.08
+},
+{
+"text": "lance",
+"start": 28.12,
+"end": 28.4
+},
+{
+"text": "é",
+"start": 28.44,
+"end": 28.48
+},
+{
+"text": "de",
+"start": 28.52,
+"end": 28.56
+},
+{
+"text": "interpretação,",
+"start": 28.8,
+"end": 29.68
+},
+{
+"text": "o",
+"start": 29.72,
+"end": 29.76
+},
+{
+"text": "árbitro",
+"start": 29.84,
+"end": 30.24
+},
+{
+"text": "vai",
+"start": 30.32,
+"end": 30.48
+},
+{
+"text": "ao",
+"start": 30.52,
+"end": 30.56
+},
+{
+"text": "monitor",
+"start": 30.64,
+"end": 31.12
+},
+{
+"text": "e",
+"start": 31.2,
+"end": 31.28
+},
+{
+"text": "revê.",
+"start": 31.44,
+"end": 32.0
+},
+{
+"text": "Se",
+"start": 32.08,
+"end": 32.16
+},
+{
+"text": "é",
+"start": 32.2,
+"end": 32.24
+},
+{
+"text": "um",
+"start": 32.32,
+"end": 32.4
+},
+{
+"text": "fato,",
+"start": 32.48,
+"end": 33.04
+},
+{
+"text": "como",
+"start": 33.12,
+"end": 33.2
+},
+{
+"text": "a",
+"start": 33.24,
+"end": 33.28
+},
+{
+"text": "linha",
+"start": 33.4,
+"end": 33.52
+},
+{
+"text": "da",
+"start": 33.56,
+"end": 33.6
+},
+{
+"text": "área,",
+"start": 33.68,
+"end": 34.16
+},
+{
+"text": "ele",
+"start": 34.28,
+"end": 34.4
+},
+{
+"text": "pode",
+"start": 34.453,
+"end": 34.56
+},
+{
+"text": "aceitar",
+"start": 34.64,
+"end": 34.96
+},
+{
+"text": "direto.",
+"start": 35.04,
+"end": 35.84
+},
+{
+"text": "E",
+"start": 35.92,
+"end": 35.96
+},
+{
+"text": "aí,",
+"start": 36.0,
+"end": 36.48
+},
+{
+"text": "o",
+"start": 36.52,
+"end": 36.56
+},
+{
+"text": "VAR",
+"start": 36.64,
+"end": 36.88
+},
+{
+"text": "ajudou",
+"start": 36.96,
+"end": 37.36
+},
+{
+"text": "ou",
+"start": 37.52,
+"end": 37.68
+},
+{
+"text": "piorou",
+"start": 37.76,
+"end": 38.16
+},
+{
+"text": "o",
+"start": 38.187,
+"end": 38.213
+},
+{
+"text": "futebol?",
+"start": 38.24,
+"end": 39.04
+},
+{
+"text": "Comenta",
+"start": 39.12,
+"end": 39.44
+},
+{
+"text": "aí!",
+"start": 39.48,
+"end": 39.92
+}
+]
+}
