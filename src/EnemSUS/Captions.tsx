@@ -4,14 +4,13 @@ import { KEYWORDS, WORDS, norm } from "./data";
 import { bodyFont, clamp, colors, textGlow } from "./theme";
 
 type Chunk = { start: number; end: number; words: string[] };
+type TimedWord = { text: string; start: number; end: number };
 
-
-
-/** Groups the narration's timed words into short caption chunks. */
-const buildChunks = (fps: number, MAX_WORDS: number): Chunk[] => {
-  const groups: (typeof WORDS)[] = [];
-  let current: typeof WORDS = [];
-  for (const w of WORDS) {
+/** Groups timed narration words into short caption chunks. */
+const buildChunks = (words: TimedWord[], fps: number, MAX_WORDS: number): Chunk[] => {
+  const groups: TimedWord[][] = [];
+  let current: TimedWord[] = [];
+  for (const w of words) {
     current.push(w);
     if (current.length >= MAX_WORDS || (current.length >= 3 && /[.,!?:;]$/.test(w.text))) {
       groups.push(current);
@@ -32,17 +31,20 @@ const buildChunks = (fps: number, MAX_WORDS: number): Chunk[] => {
   });
 };
 
-const colorOf = (word: string) => {
+const susColorOf = (word: string) => {
   const tone = KEYWORDS[norm(word)];
   return tone ? colors[tone as keyof typeof colors] : null;
 };
 
 /** Lower dynamic captions with keyword colouring (16:9 and 9:16). */
-export const Captions: React.FC = () => {
+export const CaptionsBase: React.FC<{
+  words: TimedWord[];
+  colorOf: (word: string) => string | null;
+}> = ({ words, colorOf }) => {
   const frame = useCurrentFrame();
   const { fps, width, height } = useVideoConfig();
   const v = height > width;
-  const chunks = useMemo(() => buildChunks(fps, v ? 4 : 6), [fps, v]);
+  const chunks = useMemo(() => buildChunks(words, fps, v ? 4 : 6), [words, fps, v]);
   const chunk = chunks.find((c) => frame >= c.start && frame < c.end);
   if (!chunk) return null;
 
@@ -90,3 +92,5 @@ export const Captions: React.FC = () => {
     </div>
   );
 };
+
+export const Captions: React.FC = () => <CaptionsBase words={WORDS} colorOf={susColorOf} />;

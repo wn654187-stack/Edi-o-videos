@@ -1,0 +1,1126 @@
+{
+"tempo": 1.0,
+"provisional": true,
+"words": [
+{
+"text": "Esse",
+"start": 0.0,
+"end": 0.312
+},
+{
+"text": "carro",
+"start": 0.357,
+"end": 0.695
+},
+{
+"text": "bateu",
+"start": 0.739,
+"end": 1.077
+},
+{
+"text": "a",
+"start": 1.122,
+"end": 1.356
+},
+{
+"text": "mais",
+"start": 1.401,
+"end": 1.713
+},
+{
+"text": "de",
+"start": 1.757,
+"end": 2.017
+},
+{
+"text": "190",
+"start": 2.062,
+"end": 2.348
+},
+{
+"text": "por",
+"start": 2.393,
+"end": 2.679
+},
+{
+"text": "hora,",
+"start": 2.723,
+"end": 3.061
+},
+{
+"text": "partiu",
+"start": 3.217,
+"end": 3.582
+},
+{
+"text": "ao",
+"start": 3.626,
+"end": 3.886
+},
+{
+"text": "meio,",
+"start": 3.931,
+"end": 4.269
+},
+{
+"text": "pegou",
+"start": 4.425,
+"end": 4.763
+},
+{
+"text": "fogo...",
+"start": 4.808,
+"end": 5.198
+},
+{
+"text": "e",
+"start": 5.502,
+"end": 5.736
+},
+{
+"text": "o",
+"start": 5.781,
+"end": 6.015
+},
+{
+"text": "piloto",
+"start": 6.06,
+"end": 6.424
+},
+{
+"text": "saiu",
+"start": 6.468,
+"end": 6.78
+},
+{
+"text": "andando.",
+"start": 6.825,
+"end": 7.241
+},
+{
+"text": "Como?",
+"start": 7.546,
+"end": 7.884
+},
+{
+"text": "A",
+"start": 8.188,
+"end": 8.422
+},
+{
+"text": "resposta",
+"start": 8.467,
+"end": 8.883
+},
+{
+"text": "é",
+"start": 8.928,
+"end": 9.162
+},
+{
+"text": "física.",
+"start": 9.206,
+"end": 9.597
+},
+{
+"text": "Bahrein,",
+"start": 9.901,
+"end": 10.317
+},
+{
+"text": "2020.",
+"start": 10.473,
+"end": 10.811
+},
+{
+"text": "Primeira",
+"start": 11.116,
+"end": 11.532
+},
+{
+"text": "volta.",
+"start": 11.577,
+"end": 11.941
+},
+{
+"text": "Romain",
+"start": 12.245,
+"end": 12.61
+},
+{
+"text": "Grosjean",
+"start": 12.654,
+"end": 13.07
+},
+{
+"text": "toca",
+"start": 13.115,
+"end": 13.427
+},
+{
+"text": "em",
+"start": 13.472,
+"end": 13.732
+},
+{
+"text": "outro",
+"start": 13.776,
+"end": 14.114
+},
+{
+"text": "carro",
+"start": 14.159,
+"end": 14.497
+},
+{
+"text": "e",
+"start": 14.542,
+"end": 14.776
+},
+{
+"text": "acerta",
+"start": 14.82,
+"end": 15.184
+},
+{
+"text": "em",
+"start": 15.229,
+"end": 15.489
+},
+{
+"text": "cheio",
+"start": 15.533,
+"end": 15.872
+},
+{
+"text": "a",
+"start": 15.916,
+"end": 16.15
+},
+{
+"text": "barreira",
+"start": 16.195,
+"end": 16.611
+},
+{
+"text": "de",
+"start": 16.656,
+"end": 16.916
+},
+{
+"text": "proteção.",
+"start": 16.96,
+"end": 17.402
+},
+{
+"text": "No",
+"start": 17.707,
+"end": 17.967
+},
+{
+"text": "impacto,",
+"start": 18.012,
+"end": 18.428
+},
+{
+"text": "ele",
+"start": 18.584,
+"end": 18.87
+},
+{
+"text": "sofreu",
+"start": 18.914,
+"end": 19.278
+},
+{
+"text": "67",
+"start": 19.323,
+"end": 19.583
+},
+{
+"text": "G.",
+"start": 19.628,
+"end": 19.888
+},
+{
+"text": "Ou",
+"start": 20.192,
+"end": 20.453
+},
+{
+"text": "seja:",
+"start": 20.497,
+"end": 20.835
+},
+{
+"text": "por",
+"start": 21.14,
+"end": 21.426
+},
+{
+"text": "um",
+"start": 21.47,
+"end": 21.731
+},
+{
+"text": "instante,",
+"start": 21.775,
+"end": 22.217
+},
+{
+"text": "o",
+"start": 22.373,
+"end": 22.607
+},
+{
+"text": "corpo",
+"start": 22.652,
+"end": 22.99
+},
+{
+"text": "dele",
+"start": 23.035,
+"end": 23.347
+},
+{
+"text": "ficou",
+"start": 23.391,
+"end": 23.729
+},
+{
+"text": "67",
+"start": 23.774,
+"end": 24.034
+},
+{
+"text": "vezes",
+"start": 24.079,
+"end": 24.417
+},
+{
+"text": "mais",
+"start": 24.461,
+"end": 24.773
+},
+{
+"text": "pesado.",
+"start": 24.818,
+"end": 25.208
+},
+{
+"text": "Pra",
+"start": 25.513,
+"end": 25.799
+},
+{
+"text": "um",
+"start": 25.843,
+"end": 26.103
+},
+{
+"text": "piloto",
+"start": 26.148,
+"end": 26.512
+},
+{
+"text": "de",
+"start": 26.557,
+"end": 26.817
+},
+{
+"text": "70",
+"start": 26.861,
+"end": 27.121
+},
+{
+"text": "quilos,",
+"start": 27.166,
+"end": 27.556
+},
+{
+"text": "é",
+"start": 27.712,
+"end": 27.946
+},
+{
+"text": "como",
+"start": 27.991,
+"end": 28.303
+},
+{
+"text": "ter",
+"start": 28.347,
+"end": 28.634
+},
+{
+"text": "quase",
+"start": 28.678,
+"end": 29.016
+},
+{
+"text": "5",
+"start": 29.061,
+"end": 29.295
+},
+{
+"text": "toneladas",
+"start": 29.339,
+"end": 29.782
+},
+{
+"text": "em",
+"start": 29.826,
+"end": 30.086
+},
+{
+"text": "cima.",
+"start": 30.131,
+"end": 30.469
+},
+{
+"text": "O",
+"start": 30.773,
+"end": 31.008
+},
+{
+"text": "carro",
+"start": 31.052,
+"end": 31.39
+},
+{
+"text": "atravessou",
+"start": 31.435,
+"end": 31.903
+},
+{
+"text": "a",
+"start": 31.948,
+"end": 32.182
+},
+{
+"text": "barreira",
+"start": 32.226,
+"end": 32.642
+},
+{
+"text": "de",
+"start": 32.687,
+"end": 32.947
+},
+{
+"text": "metal,",
+"start": 32.992,
+"end": 33.356
+},
+{
+"text": "partiu",
+"start": 33.512,
+"end": 33.876
+},
+{
+"text": "ao",
+"start": 33.92,
+"end": 34.18
+},
+{
+"text": "meio,",
+"start": 34.225,
+"end": 34.563
+},
+{
+"text": "e",
+"start": 34.719,
+"end": 34.953
+},
+{
+"text": "o",
+"start": 34.998,
+"end": 35.232
+},
+{
+"text": "combustível",
+"start": 35.276,
+"end": 35.771
+},
+{
+"text": "pegou",
+"start": 35.815,
+"end": 36.153
+},
+{
+"text": "fogo.",
+"start": 36.198,
+"end": 36.536
+},
+{
+"text": "Mas",
+"start": 36.841,
+"end": 37.127
+},
+{
+"text": "três",
+"start": 37.171,
+"end": 37.483
+},
+{
+"text": "coisas",
+"start": 37.528,
+"end": 37.892
+},
+{
+"text": "salvaram",
+"start": 37.937,
+"end": 38.353
+},
+{
+"text": "a",
+"start": 38.397,
+"end": 38.631
+},
+{
+"text": "vida",
+"start": 38.676,
+"end": 38.988
+},
+{
+"text": "dele.",
+"start": 39.033,
+"end": 39.371
+},
+{
+"text": "Primeiro:",
+"start": 39.675,
+"end": 40.117
+},
+{
+"text": "o",
+"start": 40.422,
+"end": 40.656
+},
+{
+"text": "halo,",
+"start": 40.701,
+"end": 41.039
+},
+{
+"text": "o",
+"start": 41.195,
+"end": 41.429
+},
+{
+"text": "arco",
+"start": 41.473,
+"end": 41.786
+},
+{
+"text": "de",
+"start": 41.83,
+"end": 42.09
+},
+{
+"text": "titânio",
+"start": 42.135,
+"end": 42.525
+},
+{
+"text": "sobre",
+"start": 42.569,
+"end": 42.908
+},
+{
+"text": "a",
+"start": 42.952,
+"end": 43.186
+},
+{
+"text": "cabeça",
+"start": 43.231,
+"end": 43.595
+},
+{
+"text": "do",
+"start": 43.639,
+"end": 43.9
+},
+{
+"text": "piloto,",
+"start": 43.944,
+"end": 44.334
+},
+{
+"text": "que",
+"start": 44.49,
+"end": 44.776
+},
+{
+"text": "aguenta",
+"start": 44.821,
+"end": 45.211
+},
+{
+"text": "o",
+"start": 45.256,
+"end": 45.49
+},
+{
+"text": "peso",
+"start": 45.534,
+"end": 45.846
+},
+{
+"text": "de",
+"start": 45.891,
+"end": 46.151
+},
+{
+"text": "um",
+"start": 46.196,
+"end": 46.456
+},
+{
+"text": "ônibus",
+"start": 46.5,
+"end": 46.864
+},
+{
+"text": "de",
+"start": 46.909,
+"end": 47.169
+},
+{
+"text": "dois",
+"start": 47.214,
+"end": 47.526
+},
+{
+"text": "andares.",
+"start": 47.57,
+"end": 47.986
+},
+{
+"text": "Foi",
+"start": 48.291,
+"end": 48.577
+},
+{
+"text": "ele",
+"start": 48.622,
+"end": 48.908
+},
+{
+"text": "que",
+"start": 48.952,
+"end": 49.238
+},
+{
+"text": "afastou",
+"start": 49.283,
+"end": 49.673
+},
+{
+"text": "a",
+"start": 49.718,
+"end": 49.952
+},
+{
+"text": "barreira",
+"start": 49.996,
+"end": 50.412
+},
+{
+"text": "e",
+"start": 50.457,
+"end": 50.691
+},
+{
+"text": "protegeu",
+"start": 50.736,
+"end": 51.152
+},
+{
+"text": "a",
+"start": 51.196,
+"end": 51.43
+},
+{
+"text": "cabeça",
+"start": 51.475,
+"end": 51.839
+},
+{
+"text": "de",
+"start": 51.884,
+"end": 52.144
+},
+{
+"text": "Grosjean.",
+"start": 52.188,
+"end": 52.63
+},
+{
+"text": "Segundo:",
+"start": 52.935,
+"end": 53.351
+},
+{
+"text": "a",
+"start": 53.656,
+"end": 53.89
+},
+{
+"text": "célula",
+"start": 53.934,
+"end": 54.299
+},
+{
+"text": "de",
+"start": 54.343,
+"end": 54.603
+},
+{
+"text": "sobrevivência,",
+"start": 54.648,
+"end": 55.22
+},
+{
+"text": "de",
+"start": 55.376,
+"end": 55.636
+},
+{
+"text": "fibra",
+"start": 55.681,
+"end": 56.019
+},
+{
+"text": "de",
+"start": 56.063,
+"end": 56.323
+},
+{
+"text": "carbono,",
+"start": 56.368,
+"end": 56.784
+},
+{
+"text": "que",
+"start": 56.94,
+"end": 57.226
+},
+{
+"text": "não",
+"start": 57.271,
+"end": 57.557
+},
+{
+"text": "se",
+"start": 57.601,
+"end": 57.861
+},
+{
+"text": "deformou.",
+"start": 57.906,
+"end": 58.348
+},
+{
+"text": "Terceiro:",
+"start": 58.653,
+"end": 59.095
+},
+{
+"text": "o",
+"start": 59.4,
+"end": 59.634
+},
+{
+"text": "macacão",
+"start": 59.678,
+"end": 60.068
+},
+{
+"text": "à",
+"start": 60.113,
+"end": 60.347
+},
+{
+"text": "prova",
+"start": 60.392,
+"end": 60.73
+},
+{
+"text": "de",
+"start": 60.774,
+"end": 61.034
+},
+{
+"text": "fogo.",
+"start": 61.079,
+"end": 61.417
+},
+{
+"text": "Ele",
+"start": 61.722,
+"end": 62.008
+},
+{
+"text": "ficou",
+"start": 62.052,
+"end": 62.39
+},
+{
+"text": "quase",
+"start": 62.435,
+"end": 62.773
+},
+{
+"text": "30",
+"start": 62.818,
+"end": 63.078
+},
+{
+"text": "segundos",
+"start": 63.122,
+"end": 63.538
+},
+{
+"text": "nas",
+"start": 63.583,
+"end": 63.869
+},
+{
+"text": "chamas",
+"start": 63.914,
+"end": 64.278
+},
+{
+"text": "e",
+"start": 64.322,
+"end": 64.556
+},
+{
+"text": "saiu",
+"start": 64.601,
+"end": 64.913
+},
+{
+"text": "com",
+"start": 64.958,
+"end": 65.244
+},
+{
+"text": "queimaduras",
+"start": 65.288,
+"end": 65.782
+},
+{
+"text": "nas",
+"start": 65.827,
+"end": 66.113
+},
+{
+"text": "mãos.",
+"start": 66.158,
+"end": 66.496
+},
+{
+"text": "E",
+"start": 66.8,
+"end": 67.034
+},
+{
+"text": "a",
+"start": 67.079,
+"end": 67.313
+},
+{
+"text": "ironia:",
+"start": 67.358,
+"end": 67.748
+},
+{
+"text": "anos",
+"start": 68.052,
+"end": 68.364
+},
+{
+"text": "antes,",
+"start": 68.409,
+"end": 68.773
+},
+{
+"text": "o",
+"start": 68.929,
+"end": 69.163
+},
+{
+"text": "próprio",
+"start": 69.208,
+"end": 69.598
+},
+{
+"text": "Grosjean",
+"start": 69.643,
+"end": 70.059
+},
+{
+"text": "tinha",
+"start": 70.103,
+"end": 70.441
+},
+{
+"text": "criticado",
+"start": 70.486,
+"end": 70.928
+},
+{
+"text": "o",
+"start": 70.973,
+"end": 71.207
+},
+{
+"text": "halo.",
+"start": 71.251,
+"end": 71.589
+},
+{
+"text": "A",
+"start": 71.894,
+"end": 72.128
+},
+{
+"text": "segunda",
+"start": 72.173,
+"end": 72.563
+},
+{
+"text": "lei",
+"start": 72.607,
+"end": 72.893
+},
+{
+"text": "de",
+"start": 72.938,
+"end": 73.198
+},
+{
+"text": "Newton",
+"start": 73.243,
+"end": 73.607
+},
+{
+"text": "explica:",
+"start": 73.651,
+"end": 74.067
+},
+{
+"text": "quanto",
+"start": 74.372,
+"end": 74.736
+},
+{
+"text": "mais",
+"start": 74.781,
+"end": 75.093
+},
+{
+"text": "tempo",
+"start": 75.137,
+"end": 75.475
+},
+{
+"text": "dura",
+"start": 75.52,
+"end": 75.832
+},
+{
+"text": "a",
+"start": 75.877,
+"end": 76.111
+},
+{
+"text": "desaceleração,",
+"start": 76.155,
+"end": 76.728
+},
+{
+"text": "menor",
+"start": 76.884,
+"end": 77.222
+},
+{
+"text": "a",
+"start": 77.266,
+"end": 77.5
+},
+{
+"text": "força",
+"start": 77.545,
+"end": 77.883
+},
+{
+"text": "no",
+"start": 77.928,
+"end": 78.188
+},
+{
+"text": "corpo.",
+"start": 78.232,
+"end": 78.596
+},
+{
+"text": "Por",
+"start": 78.901,
+"end": 79.187
+},
+{
+"text": "isso",
+"start": 79.232,
+"end": 79.544
+},
+{
+"text": "o",
+"start": 79.588,
+"end": 79.822
+},
+{
+"text": "carro",
+"start": 79.867,
+"end": 80.205
+},
+{
+"text": "é",
+"start": 80.25,
+"end": 80.484
+},
+{
+"text": "feito",
+"start": 80.528,
+"end": 80.866
+},
+{
+"text": "pra",
+"start": 80.911,
+"end": 81.197
+},
+{
+"text": "se",
+"start": 81.242,
+"end": 81.502
+},
+{
+"text": "desmanchar,",
+"start": 81.546,
+"end": 82.04
+},
+{
+"text": "e",
+"start": 82.196,
+"end": 82.43
+},
+{
+"text": "o",
+"start": 82.475,
+"end": 82.709
+},
+{
+"text": "piloto",
+"start": 82.754,
+"end": 83.118
+},
+{
+"text": "não.",
+"start": 83.162,
+"end": 83.474
+},
+{
+"text": "E",
+"start": 83.779,
+"end": 84.013
+},
+{
+"text": "você,",
+"start": 84.058,
+"end": 84.396
+},
+{
+"text": "voltaria",
+"start": 84.552,
+"end": 84.968
+},
+{
+"text": "a",
+"start": 85.013,
+"end": 85.247
+},
+{
+"text": "correr",
+"start": 85.291,
+"end": 85.655
+},
+{
+"text": "depois",
+"start": 85.7,
+"end": 86.064
+},
+{
+"text": "disso?",
+"start": 86.109,
+"end": 86.473
+},
+{
+"text": "Comenta",
+"start": 86.777,
+"end": 87.167
+},
+{
+"text": "aí",
+"start": 87.212,
+"end": 87.472
+},
+{
+"text": "e",
+"start": 87.517,
+"end": 87.751
+},
+{
+"text": "segue",
+"start": 87.795,
+"end": 88.133
+},
+{
+"text": "pra",
+"start": 88.178,
+"end": 88.464
+},
+{
+"text": "mais",
+"start": 88.509,
+"end": 88.821
+},
+{
+"text": "física",
+"start": 88.865,
+"end": 89.229
+},
+{
+"text": "do",
+"start": 89.274,
+"end": 89.534
+},
+{
+"text": "dia",
+"start": 89.579,
+"end": 89.865
+},
+{
+"text": "a",
+"start": 89.909,
+"end": 90.143
+},
+{
+"text": "dia!",
+"start": 90.188,
+"end": 90.5
+}
+]
+}
