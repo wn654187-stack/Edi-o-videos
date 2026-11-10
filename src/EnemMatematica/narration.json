@@ -1,306 +1,305 @@
 {
 "tempo": 1.0,
-"provisional": true,
 "words": [
 {
 "text": "Você",
-"start": 0.15,
-"end": 0.53
+"start": 0.08,
+"end": 0.24
 },
 {
 "text": "acertaria",
-"start": 0.58,
-"end": 1.16
+"start": 0.32,
+"end": 0.88
 },
 {
 "text": "essas",
-"start": 1.21,
-"end": 1.63
+"start": 0.96,
+"end": 1.2
 },
 {
 "text": "três",
-"start": 1.68,
-"end": 2.06
+"start": 1.24,
+"end": 1.44
 },
 {
 "text": "do",
-"start": 2.11,
-"end": 2.41
+"start": 1.48,
+"end": 1.52
 },
 {
 "text": "Enem?",
-"start": 2.46,
-"end": 2.88
+"start": 1.6,
+"end": 2.12
 },
 {
 "text": "Segue,",
-"start": 3.23,
-"end": 3.69
+"start": 2.4,
+"end": 2.88
 },
 {
 "text": "que",
-"start": 3.84,
-"end": 4.18
+"start": 2.96,
+"end": 3.0
 },
 {
 "text": "amanhã",
-"start": 4.23,
-"end": 4.69
+"start": 3.04,
+"end": 3.36
 },
 {
 "text": "tem",
-"start": 4.74,
-"end": 5.08
+"start": 3.44,
+"end": 3.52
 },
 {
 "text": "mais!",
-"start": 5.13,
-"end": 5.55
+"start": 3.6,
+"end": 4.32
 },
 {
 "text": "Um:",
-"start": 5.9,
-"end": 6.24
+"start": 4.64,
+"end": 5.36
 },
 {
-"text": "R$100",
-"start": 6.59,
-"end": 7.01
+"text": "R$ 100",
+"start": 5.44,
+"end": 6.08
 },
 {
 "text": "sobem",
-"start": 7.06,
-"end": 7.48
+"start": 6.32,
+"end": 6.64
 },
 {
 "text": "20%",
-"start": 7.53,
-"end": 7.87
+"start": 6.72,
+"end": 7.6
 },
 {
 "text": "e",
-"start": 7.92,
-"end": 8.18
+"start": 7.76,
+"end": 7.84
 },
 {
 "text": "depois",
-"start": 8.23,
-"end": 8.69
+"start": 7.92,
+"end": 8.24
 },
 {
 "text": "caem",
-"start": 8.74,
-"end": 9.12
+"start": 8.32,
+"end": 8.72
 },
 {
 "text": "20%.",
-"start": 9.17,
-"end": 9.55
+"start": 8.8,
+"end": 10.0
 },
 {
 "text": "Quanto",
-"start": 9.9,
-"end": 10.36
+"start": 10.04,
+"end": 10.24
 },
 {
 "text": "fica?",
-"start": 10.41,
-"end": 10.83
+"start": 10.32,
+"end": 11.04
 },
 {
-"text": "R$96!",
-"start": 13.18,
-"end": 13.6
+"text": "R$ 96!",
+"start": 13.36,
+"end": 15.08
 },
 {
 "text": "Dois:",
-"start": 13.95,
-"end": 14.37
+"start": 15.4,
+"end": 16.28
 },
 {
 "text": "duas",
-"start": 14.72,
-"end": 15.1
+"start": 16.36,
+"end": 16.52
 },
 {
 "text": "moedas.",
-"start": 15.15,
-"end": 15.65
+"start": 16.6,
+"end": 17.32
 },
 {
 "text": "Qual",
-"start": 16.0,
-"end": 16.38
+"start": 17.48,
+"end": 17.64
 },
 {
 "text": "a",
-"start": 16.43,
-"end": 16.69
+"start": 17.72,
+"end": 17.8
 },
 {
 "text": "chance",
-"start": 16.74,
-"end": 17.2
+"start": 17.88,
+"end": 18.12
 },
 {
 "text": "de",
-"start": 17.25,
-"end": 17.55
+"start": 18.2,
+"end": 18.28
 },
 {
 "text": "dar",
-"start": 17.6,
-"end": 17.94
+"start": 18.36,
+"end": 18.44
 },
 {
 "text": "cara",
-"start": 17.99,
-"end": 18.37
-},
-{
-"text": "nas",
-"start": 18.42,
+"start": 18.6,
 "end": 18.76
 },
 {
+"text": "nas",
+"start": 18.84,
+"end": 19.0
+},
+{
 "text": "duas?",
-"start": 18.81,
-"end": 19.23
+"start": 19.08,
+"end": 19.68
 },
 {
 "text": "1/4!",
-"start": 21.58,
-"end": 21.96
+"start": 22.08,
+"end": 23.12
 },
 {
 "text": "Três:",
-"start": 22.31,
-"end": 22.73
+"start": 23.44,
+"end": 24.32
 },
 {
 "text": "3",
-"start": 23.08,
-"end": 23.34
+"start": 24.36,
+"end": 24.48
 },
 {
 "text": "pedreiros",
-"start": 23.39,
-"end": 23.97
+"start": 24.64,
+"end": 25.2
 },
 {
 "text": "fazem",
-"start": 24.02,
-"end": 24.44
+"start": 25.28,
+"end": 25.6
 },
 {
 "text": "um",
-"start": 24.49,
-"end": 24.79
+"start": 25.64,
+"end": 25.68
 },
 {
 "text": "muro",
-"start": 24.84,
-"end": 25.22
+"start": 25.76,
+"end": 26.08
 },
 {
 "text": "em",
-"start": 25.27,
-"end": 25.57
+"start": 26.2,
+"end": 26.32
 },
 {
 "text": "12",
-"start": 25.62,
-"end": 25.92
+"start": 26.4,
+"end": 26.64
 },
 {
 "text": "dias.",
-"start": 25.97,
-"end": 26.39
+"start": 26.72,
+"end": 27.6
 },
 {
 "text": "6",
-"start": 26.74,
-"end": 27.0
+"start": 27.68,
+"end": 27.84
 },
 {
 "text": "pedreiros",
-"start": 27.05,
-"end": 27.63
+"start": 27.92,
+"end": 28.48
 },
 {
 "text": "levam",
-"start": 27.68,
-"end": 28.1
+"start": 28.56,
+"end": 28.8
 },
 {
 "text": "quantos",
-"start": 28.15,
-"end": 28.65
+"start": 28.88,
+"end": 29.28
 },
 {
 "text": "dias?",
-"start": 28.7,
-"end": 29.12
+"start": 29.32,
+"end": 30.16
 },
 {
 "text": "Seis!",
-"start": 31.47,
-"end": 31.89
+"start": 32.44,
+"end": 33.12
 },
 {
 "text": "Quantas",
-"start": 32.24,
-"end": 32.74
+"start": 33.448,
+"end": 33.56
 },
 {
 "text": "você",
-"start": 32.79,
-"end": 33.17
+"start": 33.64,
+"end": 33.8
 },
 {
 "text": "acertou?",
-"start": 33.22,
-"end": 33.76
+"start": 33.88,
+"end": 34.68
 },
 {
 "text": "Comenta",
-"start": 34.11,
-"end": 34.61
+"start": 34.76,
+"end": 35.24
 },
 {
 "text": "e",
-"start": 34.66,
-"end": 34.92
+"start": 35.36,
+"end": 35.48
 },
 {
 "text": "manda",
-"start": 34.97,
-"end": 35.39
+"start": 35.6,
+"end": 35.72
 },
 {
 "text": "pro",
-"start": 35.44,
-"end": 35.78
+"start": 35.8,
+"end": 35.88
 },
 {
 "text": "seu",
-"start": 35.83,
-"end": 36.17
+"start": 35.92,
+"end": 36.04
 },
 {
 "text": "grupo",
-"start": 36.22,
-"end": 36.64
+"start": 36.16,
+"end": 36.28
 },
 {
 "text": "de",
-"start": 36.69,
-"end": 36.99
+"start": 36.32,
+"end": 36.36
 },
 {
 "text": "estudos!",
-"start": 37.04,
-"end": 37.58
+"start": 36.44,
+"end": 37.16
 }
 ]
 }

@@ -12,7 +12,7 @@ const buildChunks = (words: TimedWord[], fps: number, MAX_WORDS: number): Chunk[
   let current: TimedWord[] = [];
   for (const w of words) {
     current.push(w);
-    if (current.length >= MAX_WORDS || /\?$/.test(w.text) || (current.length >= 3 && /[.,!:;]$/.test(w.text))) {
+    if (current.length >= MAX_WORDS || /[?!]$/.test(w.text) || (current.length >= 3 && /[.,!:;]$/.test(w.text))) {
       groups.push(current);
       current = [];
     }

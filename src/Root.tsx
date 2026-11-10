@@ -92,7 +92,7 @@ export const RemotionRoot: React.FC = () => {
         width={1080}
         height={1920}
         defaultProps={{
-          narration: "",
+          narration: "narracao-matematica.mp3",
           music: "",
           musicVolume: 0.2,
           showCaptions: true,
