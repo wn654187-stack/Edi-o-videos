@@ -1,0 +1,306 @@
+{
+"tempo": 1.0,
+"provisional": true,
+"words": [
+{
+"text": "Você",
+"start": 0.15,
+"end": 0.53
+},
+{
+"text": "acertaria",
+"start": 0.58,
+"end": 1.16
+},
+{
+"text": "essas",
+"start": 1.21,
+"end": 1.63
+},
+{
+"text": "três",
+"start": 1.68,
+"end": 2.06
+},
+{
+"text": "do",
+"start": 2.11,
+"end": 2.41
+},
+{
+"text": "Enem?",
+"start": 2.46,
+"end": 2.88
+},
+{
+"text": "Segue,",
+"start": 3.23,
+"end": 3.69
+},
+{
+"text": "que",
+"start": 3.84,
+"end": 4.18
+},
+{
+"text": "amanhã",
+"start": 4.23,
+"end": 4.69
+},
+{
+"text": "tem",
+"start": 4.74,
+"end": 5.08
+},
+{
+"text": "mais!",
+"start": 5.13,
+"end": 5.55
+},
+{
+"text": "Um:",
+"start": 5.9,
+"end": 6.24
+},
+{
+"text": "R$100",
+"start": 6.59,
+"end": 7.01
+},
+{
+"text": "sobem",
+"start": 7.06,
+"end": 7.48
+},
+{
+"text": "20%",
+"start": 7.53,
+"end": 7.87
+},
+{
+"text": "e",
+"start": 7.92,
+"end": 8.18
+},
+{
+"text": "depois",
+"start": 8.23,
+"end": 8.69
+},
+{
+"text": "caem",
+"start": 8.74,
+"end": 9.12
+},
+{
+"text": "20%.",
+"start": 9.17,
+"end": 9.55
+},
+{
+"text": "Quanto",
+"start": 9.9,
+"end": 10.36
+},
+{
+"text": "fica?",
+"start": 10.41,
+"end": 10.83
+},
+{
+"text": "R$96!",
+"start": 13.18,
+"end": 13.6
+},
+{
+"text": "Dois:",
+"start": 13.95,
+"end": 14.37
+},
+{
+"text": "duas",
+"start": 14.72,
+"end": 15.1
+},
+{
+"text": "moedas.",
+"start": 15.15,
+"end": 15.65
+},
+{
+"text": "Qual",
+"start": 16.0,
+"end": 16.38
+},
+{
+"text": "a",
+"start": 16.43,
+"end": 16.69
+},
+{
+"text": "chance",
+"start": 16.74,
+"end": 17.2
+},
+{
+"text": "de",
+"start": 17.25,
+"end": 17.55
+},
+{
+"text": "dar",
+"start": 17.6,
+"end": 17.94
+},
+{
+"text": "cara",
+"start": 17.99,
+"end": 18.37
+},
+{
+"text": "nas",
+"start": 18.42,
+"end": 18.76
+},
+{
+"text": "duas?",
+"start": 18.81,
+"end": 19.23
+},
+{
+"text": "1/4!",
+"start": 21.58,
+"end": 21.96
+},
+{
+"text": "Três:",
+"start": 22.31,
+"end": 22.73
+},
+{
+"text": "3",
+"start": 23.08,
+"end": 23.34
+},
+{
+"text": "pedreiros",
+"start": 23.39,
+"end": 23.97
+},
+{
+"text": "fazem",
+"start": 24.02,
+"end": 24.44
+},
+{
+"text": "um",
+"start": 24.49,
+"end": 24.79
+},
+{
+"text": "muro",
+"start": 24.84,
+"end": 25.22
+},
+{
+"text": "em",
+"start": 25.27,
+"end": 25.57
+},
+{
+"text": "12",
+"start": 25.62,
+"end": 25.92
+},
+{
+"text": "dias.",
+"start": 25.97,
+"end": 26.39
+},
+{
+"text": "6",
+"start": 26.74,
+"end": 27.0
+},
+{
+"text": "pedreiros",
+"start": 27.05,
+"end": 27.63
+},
+{
+"text": "levam",
+"start": 27.68,
+"end": 28.1
+},
+{
+"text": "quantos",
+"start": 28.15,
+"end": 28.65
+},
+{
+"text": "dias?",
+"start": 28.7,
+"end": 29.12
+},
+{
+"text": "Seis!",
+"start": 31.47,
+"end": 31.89
+},
+{
+"text": "Quantas",
+"start": 32.24,
+"end": 32.74
+},
+{
+"text": "você",
+"start": 32.79,
+"end": 33.17
+},
+{
+"text": "acertou?",
+"start": 33.22,
+"end": 33.76
+},
+{
+"text": "Comenta",
+"start": 34.11,
+"end": 34.61
+},
+{
+"text": "e",
+"start": 34.66,
+"end": 34.92
+},
+{
+"text": "manda",
+"start": 34.97,
+"end": 35.39
+},
+{
+"text": "pro",
+"start": 35.44,
+"end": 35.78
+},
+{
+"text": "seu",
+"start": 35.83,
+"end": 36.17
+},
+{
+"text": "grupo",
+"start": 36.22,
+"end": 36.64
+},
+{
+"text": "de",
+"start": 36.69,
+"end": 36.99
+},
+{
+"text": "estudos!",
+"start": 37.04,
+"end": 37.58
+}
+]
+}

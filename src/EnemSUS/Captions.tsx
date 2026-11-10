@@ -12,7 +12,7 @@ const buildChunks = (words: TimedWord[], fps: number, MAX_WORDS: number): Chunk[
   let current: TimedWord[] = [];
   for (const w of words) {
     current.push(w);
-    if (current.length >= MAX_WORDS || (current.length >= 3 && /[.,!?:;]$/.test(w.text))) {
+    if (current.length >= MAX_WORDS || /\?$/.test(w.text) || (current.length >= 3 && /[.,!:;]$/.test(w.text))) {
       groups.push(current);
       current = [];
     }
@@ -24,7 +24,8 @@ const buildChunks = (words: TimedWord[], fps: number, MAX_WORDS: number): Chunk[
     const last = g[g.length - 1];
     const endSec = next ? Math.min(next[0].start, last.end + 0.8) : last.end + 1;
     return {
-      start: Math.round(g[0].start * fps) - 1,
+      // The first caption is on screen from frame 0, so the hook never opens on an empty frame.
+      start: i === 0 ? 0 : Math.round(g[0].start * fps) - 1,
       end: Math.round(endSec * fps),
       words: g.map((w) => w.text),
     };
@@ -49,7 +50,7 @@ export const CaptionsBase: React.FC<{
   if (!chunk) return null;
 
   const local = frame - chunk.start;
-  const pop = spring({ frame: local, fps, config: { damping: 14, stiffness: 260 } });
+  const pop = chunk.start === 0 ? 1 : spring({ frame: local, fps, config: { damping: 14, stiffness: 260 } });
 
   return (
     <div
@@ -71,7 +72,7 @@ export const CaptionsBase: React.FC<{
         lineHeight: 1.1,
         textAlign: "center",
         scale: interpolate(pop, [0, 1], [0.86, 1]),
-        opacity: interpolate(local, [0, 2], [0, 1], clamp),
+        opacity: chunk.start === 0 ? 1 : interpolate(local, [0, 2], [0, 1], clamp),
       }}
     >
       {chunk.words.map((w, i) => {
