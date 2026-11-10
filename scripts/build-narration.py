@@ -87,6 +87,8 @@ NUMBERS = [
     (["cento", "e", "cinquenta", "quilowattshora"], "150 kWh"),
     (["cento", "e", "noventa"], "190"),
     (["cinco", "mil", "watts"], "5.000 W"),
+    (["cinquenta", "por", "cento"], "50%"),
+    (["vinte", "e", "sete"], "27"),
     (["dez", "por", "cento"], "10%"),
     (["três", "pra", "um"], "3:1"),
     (["cê", "ó", "ó", "agá"], "COOH"),
@@ -101,7 +103,7 @@ NUMBERS = [
 CONTEXT = {("trinta", "delegados"): "30", ("um", "voto"): "1",
            ("sete", "em"): "7", ("dez", "brasileiros"): "10",
            ("setenta", "quilos"): "70", ("cinco", "toneladas"): "5",
-           ("trinta", "segundos"): "30", ("doze", "dias"): "12",
+           ("trinta", "segundos"): "30", ("doze", "dias"): "12", ("sete", "dias"): "7",
            ("três", "pedreiros"): "3", ("seis", "pedreiros"): "6"}
 
 
