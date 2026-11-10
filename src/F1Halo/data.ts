@@ -25,7 +25,7 @@ export const useCue = (from: number) => {
   return (word: string, after?: number) => Math.round((at(word, after ?? from) - from) * fps);
 };
 
-export const VIDEO_SECONDS = Math.ceil(WORDS[WORDS.length - 1].end + 1.6);
+export const VIDEO_SECONDS = Math.ceil(WORDS[WORDS.length - 1].end + 2.4);
 
 const s2 = at("Bahrein");
 const s3 = at("impacto", s2) - 0.3;

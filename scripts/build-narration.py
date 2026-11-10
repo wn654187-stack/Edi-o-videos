@@ -36,6 +36,8 @@ NUMBERS = [
     (["quinhentos", "e", "trinta", "e", "oito"], "538"),
     (["cento", "e", "noventa", "e", "seis"], "196"),
     (["oito", "mil", "e", "oitenta"], "8.080"),
+    (["cento", "e", "noventa"], "190"),
+    (["sessenta", "e", "sete"], "67"),
     (["duzentos", "e", "setenta"], "270"),
     (["noventa", "segundos"], "90 segundos"),
     (["oitava"], "8ª"),
@@ -43,7 +45,9 @@ NUMBERS = [
 ]
 # Single words turned into digits only when followed by a given word.
 CONTEXT = {("trinta", "delegados"): "30", ("um", "voto"): "1",
-           ("sete", "em"): "7", ("dez", "brasileiros"): "10"}
+           ("sete", "em"): "7", ("dez", "brasileiros"): "10",
+           ("setenta", "quilos"): "70", ("cinco", "toneladas"): "5",
+           ("trinta", "segundos"): "30"}
 
 
 def norm(t):
