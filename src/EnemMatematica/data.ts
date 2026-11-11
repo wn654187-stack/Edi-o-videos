@@ -14,7 +14,7 @@ export const norm = (t: string) =>
 /** Start time (s) of the first spoken word equal to `word` at or after `after` seconds. */
 export const at = (word: string, after = 0): number => {
   const n = norm(word);
-  const w = WORDS.find((x) => x.start >= after - 0.01 && norm(x.text) === n);
+  const w = WORDS.find((x) => x.start >= after - 0.05 && norm(x.text) === n);
   if (!w) throw new Error(`Narration cue not found: "${word}" after ${after}s`);
   return w.start;
 };
@@ -30,12 +30,11 @@ export const VIDEO_SECONDS = Math.ceil(WORDS[WORDS.length - 1].end + 2.4);
 
 
 
-const s2 = at("Um");
-const s3 = at("Dois", s2);
-const s4 = at("Três", s3);
-const s5 = at("Quantas", s4);
+const s2 = at("Dois");
+const s3 = at("Três", s2);
+const s4 = at("Quantas", s3);
 
-export const SCENE_STARTS = [0, s2, s3, s4, s5, VIDEO_SECONDS];
+export const SCENE_STARTS = [0, s2, s3, s4, VIDEO_SECONDS];
 
 /** Words drawn in colour in the captions. */
 export const KEYWORDS: Record<string, string> = {

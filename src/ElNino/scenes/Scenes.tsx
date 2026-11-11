@@ -3,6 +3,7 @@ import { AbsoluteFill, Easing, interpolate, useCurrentFrame } from "remotion";
 import { Chip, Pop, SceneIn } from "../../EnemSUS/ui";
 import { bodyFont, clamp, colors, glow, headlineFont } from "../../EnemSUS/theme";
 import { at, useCue } from "../data";
+import { PromptPill } from "../../shared/PromptPill";
 import { BRAZIL_PATH } from "../brazilPath";
 
 const WARM = "#ff6a3d";
@@ -26,17 +27,17 @@ export const OceanBackground: React.FC = () => {
 };
 
 /** Hook: fully visible on frame 0. */
-export const Scene1Hook: React.FC<{ from: number }> = ({ from }) => {
+export const Scene1Hook: React.FC<{ from: number }> = () => {
   const frame = useCurrentFrame();
-  const cue = useCue(from);
   const heat = 0.6 + 0.4 * Math.sin(frame / 6);
+  const slam = interpolate(frame, [0, 8], [1.25, 1], clamp);
   return (
     <>
       <div style={{ position: "absolute", left: 0, right: 0, top: 240, textAlign: "center" }}>
         <Chip color={WARM} size={36}>Clima · acontecendo agora</Chip>
       </div>
       <div style={{ position: "absolute", left: 0, right: 0, top: 360, textAlign: "center" }}>
-        <div style={{ fontFamily: headlineFont, fontSize: 230, lineHeight: 0.95, color: WARM, textShadow: `0 0 ${40 * heat}px ${WARM}` }}>EL NIÑO</div>
+        <div style={{ fontFamily: headlineFont, fontSize: 230, lineHeight: 0.95, color: WARM, scale: slam, textShadow: `0 0 ${40 * heat}px ${WARM}` }}>EL NIÑO</div>
         <div style={{ fontFamily: headlineFont, fontSize: 120, color: colors.white }}>2026</div>
       </div>
       <div style={{ position: "absolute", left: 60, right: 60, top: 760, textAlign: "center", fontFamily: headlineFont, fontSize: 76, lineHeight: 1.1, color: colors.white }}>
@@ -44,11 +45,6 @@ export const Scene1Hook: React.FC<{ from: number }> = ({ from }) => {
         <br />
         DESDE <span style={{ display: "inline-block", color: colors.bg, background: colors.gold, padding: "0 16px", borderRadius: 14 }}>1950</span>
       </div>
-      <Pop at={cue("Segue")} from="scale" style={{ left: 0, right: 0, top: 1060, textAlign: "center" }}>
-        <div style={{ display: "inline-block", padding: "14px 40px", borderRadius: 999, background: colors.red, boxShadow: glow(colors.red, 0.8), fontFamily: bodyFont, fontWeight: 900, fontSize: 38, color: colors.white }}>
-          + SEGUE pra entender
-        </div>
-      </Pop>
     </>
   );
 };
@@ -71,6 +67,7 @@ export const Scene2Mecanismo: React.FC<{ from: number }> = ({ from }) => {
         <div style={{ fontFamily: headlineFont, fontSize: 92, color: elnino ? WARM : COLD, lineHeight: 1 }}>{elnino ? "COM EL NIÑO" : "NORMALMENTE"}</div>
         <div style={{ fontFamily: bodyFont, fontWeight: 900, fontSize: 34, color: colors.muted }}>Oceano Pacífico</div>
       </Pop>
+      <PromptPill at={6}>+ SEGUE: vídeo novo todo dia</PromptPill>
       <div style={{ position: "absolute", left: 60, top: 400, width: W, height: 620 }}>
         {/* wind arrows */}
         {[0, 1, 2].map((r) => (
@@ -157,6 +154,7 @@ export const Scene4Nome: React.FC<{ from: number }> = ({ from }) => {
       <Pop at={1} style={{ left: 0, right: 0, top: 230, textAlign: "center" }}>
         <div style={{ fontFamily: headlineFont, fontSize: 88, color: colors.white }}>E O NOME?</div>
       </Pop>
+      <PromptPill at={4} color={colors.gold} textColor={colors.bg}>COMENTA SUA CIDADE: + CALOR OU + CHUVA?</PromptPill>
       <Pop at={cue("Pescadores")} style={{ left: 290, top: 420 }}>
         <svg width={500} height={260} viewBox="0 0 500 260" style={{ translate: `0px ${bob}px` }}>
           <path d="M60 150 H440 L390 210 H110 Z" fill="#c9773c" stroke="#7a3f14" strokeWidth={6} />

@@ -62,514 +62,479 @@
 "end": 5.68
 },
 {
-"text": "Segue,",
-"start": 5.76,
-"end": 6.12
-},
-{
-"text": "que",
-"start": 6.16,
-"end": 6.24
-},
-{
-"text": "eu",
-"start": 6.28,
-"end": 6.32
-},
-{
-"text": "te",
-"start": 6.36,
-"end": 6.4
-},
-{
-"text": "explico",
-"start": 6.48,
-"end": 6.72
-},
-{
-"text": "em",
-"start": 6.8,
-"end": 6.88
-},
-{
-"text": "40 segundos!",
-"start": 6.92,
-"end": 8.44
-},
-{
 "text": "Normalmente,",
-"start": 8.48,
-"end": 9.333
+"start": 5.82,
+"end": 6.673
 },
 {
 "text": "os",
-"start": 9.387,
-"end": 9.44
+"start": 6.727,
+"end": 6.78
 },
 {
 "text": "ventos",
-"start": 9.56,
-"end": 9.76
+"start": 6.9,
+"end": 7.1
 },
 {
 "text": "alísios",
-"start": 9.84,
-"end": 10.32
+"start": 7.18,
+"end": 7.66
 },
 {
 "text": "empurram",
-"start": 10.48,
-"end": 10.88
+"start": 7.82,
+"end": 8.22
 },
 {
 "text": "a",
-"start": 10.92,
-"end": 10.96
+"start": 8.26,
+"end": 8.3
 },
 {
 "text": "água",
-"start": 11.04,
-"end": 11.28
+"start": 8.38,
+"end": 8.62
 },
 {
 "text": "quente",
-"start": 11.36,
-"end": 11.52
+"start": 8.7,
+"end": 8.86
 },
 {
 "text": "do",
-"start": 11.6,
-"end": 11.68
+"start": 8.94,
+"end": 9.02
 },
 {
 "text": "Pacífico",
-"start": 11.72,
-"end": 12.4
+"start": 9.06,
+"end": 9.74
 },
 {
 "text": "pra",
-"start": 12.52,
-"end": 12.64
+"start": 9.86,
+"end": 9.98
 },
 {
 "text": "perto",
-"start": 12.68,
-"end": 12.96
+"start": 10.02,
+"end": 10.3
 },
 {
 "text": "da",
-"start": 13.0,
-"end": 13.04
+"start": 10.34,
+"end": 10.38
 },
 {
 "text": "Ásia.",
-"start": 13.2,
-"end": 13.88
+"start": 10.54,
+"end": 11.22
 },
 {
 "text": "No",
-"start": 13.92,
-"end": 14.0
+"start": 11.26,
+"end": 11.34
 },
 {
 "text": "El",
-"start": 14.08,
-"end": 14.16
+"start": 11.42,
+"end": 11.5
 },
 {
 "text": "Niño,",
-"start": 14.24,
-"end": 14.8
+"start": 11.58,
+"end": 12.14
 },
 {
 "text": "esses",
-"start": 14.88,
-"end": 14.96
+"start": 12.22,
+"end": 12.3
 },
 {
 "text": "ventos",
-"start": 15.04,
-"end": 15.28
+"start": 12.38,
+"end": 12.62
 },
 {
 "text": "enfraquecem,",
-"start": 15.36,
-"end": 16.427
+"start": 12.7,
+"end": 13.767
 },
 {
 "text": "e",
-"start": 16.453,
-"end": 16.48
+"start": 13.793,
+"end": 13.82
 },
 {
 "text": "a",
-"start": 16.52,
-"end": 16.56
+"start": 13.86,
+"end": 13.9
 },
 {
 "text": "água",
-"start": 16.64,
-"end": 16.88
+"start": 13.98,
+"end": 14.22
 },
 {
 "text": "quente",
-"start": 16.92,
-"end": 17.2
+"start": 14.26,
+"end": 14.54
 },
 {
 "text": "se",
-"start": 17.28,
-"end": 17.32
+"start": 14.62,
+"end": 14.66
 },
 {
 "text": "espalha",
-"start": 17.36,
-"end": 17.84
+"start": 14.7,
+"end": 15.18
 },
 {
 "text": "até",
-"start": 18.08,
-"end": 18.2
+"start": 15.42,
+"end": 15.54
 },
 {
 "text": "a",
-"start": 18.24,
-"end": 18.4
+"start": 15.58,
+"end": 15.74
 },
 {
 "text": "costa",
-"start": 18.52,
-"end": 18.72
+"start": 15.86,
+"end": 16.06
 },
 {
 "text": "da",
-"start": 18.76,
-"end": 18.8
+"start": 16.1,
+"end": 16.14
 },
 {
 "text": "América",
-"start": 18.88,
-"end": 19.2
+"start": 16.22,
+"end": 16.54
 },
 {
 "text": "do",
-"start": 19.28,
-"end": 19.36
+"start": 16.62,
+"end": 16.7
 },
 {
 "text": "Sul.",
-"start": 19.4,
-"end": 19.96
+"start": 16.74,
+"end": 17.3
 },
 {
 "text": "Isso",
-"start": 20.0,
-"end": 20.24
+"start": 17.34,
+"end": 17.58
 },
 {
 "text": "bagunça",
-"start": 20.4,
-"end": 20.8
+"start": 17.74,
+"end": 18.14
 },
 {
 "text": "as",
-"start": 20.88,
-"end": 20.96
+"start": 18.22,
+"end": 18.3
 },
 {
 "text": "chuvas",
-"start": 21.04,
-"end": 21.36
+"start": 18.38,
+"end": 18.7
 },
 {
 "text": "no",
-"start": 21.48,
-"end": 21.6
+"start": 18.82,
+"end": 18.94
 },
 {
 "text": "mundo",
-"start": 21.64,
-"end": 22.0
+"start": 18.98,
+"end": 19.34
 },
 {
 "text": "todo.",
-"start": 22.36,
-"end": 22.76
+"start": 19.7,
+"end": 20.1
 },
 {
 "text": "No",
-"start": 22.8,
-"end": 22.88
+"start": 20.14,
+"end": 20.22
 },
 {
 "text": "Brasil,",
-"start": 22.96,
-"end": 23.653
+"start": 20.3,
+"end": 20.993
 },
 {
 "text": "o",
-"start": 23.707,
-"end": 23.76
+"start": 21.047,
+"end": 21.1
 },
 {
 "text": "Norte",
-"start": 23.84,
-"end": 24.08
+"start": 21.18,
+"end": 21.42
 },
 {
 "text": "e",
-"start": 24.107,
-"end": 24.133
+"start": 21.447,
+"end": 21.473
 },
 {
 "text": "o",
-"start": 24.16,
-"end": 24.2
+"start": 21.5,
+"end": 21.54
 },
 {
 "text": "Nordeste",
-"start": 24.24,
-"end": 24.8
+"start": 21.58,
+"end": 22.14
 },
 {
 "text": "ficam",
-"start": 24.88,
-"end": 25.12
+"start": 22.22,
+"end": 22.46
 },
 {
 "text": "mais",
-"start": 25.16,
-"end": 25.44
+"start": 22.5,
+"end": 22.78
 },
 {
 "text": "secos,",
-"start": 25.6,
-"end": 26.2
+"start": 22.94,
+"end": 23.54
 },
 {
 "text": "o",
-"start": 26.24,
-"end": 26.4
+"start": 23.58,
+"end": 23.74
 },
 {
 "text": "Sul",
-"start": 26.48,
-"end": 26.64
+"start": 23.82,
+"end": 23.98
 },
 {
 "text": "recebe",
-"start": 26.72,
-"end": 27.12
+"start": 24.06,
+"end": 24.46
 },
 {
 "text": "chuva",
-"start": 27.2,
-"end": 27.36
+"start": 24.54,
+"end": 24.7
 },
 {
 "text": "demais,",
-"start": 27.44,
-"end": 28.32
+"start": 24.78,
+"end": 25.66
 },
 {
 "text": "e",
-"start": 28.4,
-"end": 28.48
+"start": 25.74,
+"end": 25.82
 },
 {
 "text": "quase",
-"start": 28.52,
-"end": 28.96
+"start": 25.86,
+"end": 26.3
 },
 {
 "text": "todo",
-"start": 29.08,
-"end": 29.2
+"start": 26.42,
+"end": 26.54
 },
 {
 "text": "o",
-"start": 29.24,
-"end": 29.28
+"start": 26.58,
+"end": 26.62
 },
 {
 "text": "país",
-"start": 29.36,
-"end": 29.52
+"start": 26.7,
+"end": 26.86
 },
 {
 "text": "esquenta.",
-"start": 29.6,
-"end": 30.52
+"start": 26.94,
+"end": 27.86
 },
 {
 "text": "E",
-"start": 30.56,
-"end": 30.6
+"start": 27.9,
+"end": 27.94
 },
 {
 "text": "o",
-"start": 30.64,
-"end": 30.72
+"start": 27.98,
+"end": 28.06
 },
 {
 "text": "nome?",
-"start": 31.08,
-"end": 31.467
+"start": 28.42,
+"end": 28.807
 },
 {
 "text": "Pescadores",
-"start": 31.493,
-"end": 32.0
+"start": 28.833,
+"end": 29.34
 },
 {
 "text": "do",
-"start": 32.04,
-"end": 32.08
+"start": 29.38,
+"end": 29.42
 },
 {
 "text": "Peru",
-"start": 32.16,
-"end": 32.48
+"start": 29.5,
+"end": 29.82
 },
 {
 "text": "notavam",
-"start": 32.64,
-"end": 33.04
+"start": 29.98,
+"end": 30.38
 },
 {
 "text": "a",
-"start": 33.08,
-"end": 33.12
+"start": 30.42,
+"end": 30.46
 },
 {
 "text": "água",
-"start": 33.2,
-"end": 33.44
+"start": 30.54,
+"end": 30.78
 },
 {
 "text": "quente",
-"start": 33.48,
-"end": 33.84
+"start": 30.82,
+"end": 31.18
 },
 {
 "text": "perto",
-"start": 33.88,
-"end": 34.16
+"start": 31.22,
+"end": 31.5
 },
 {
 "text": "do",
-"start": 34.2,
-"end": 34.24
+"start": 31.54,
+"end": 31.58
 },
 {
 "text": "Natal",
-"start": 34.28,
-"end": 34.88
+"start": 31.62,
+"end": 32.22
 },
 {
 "text": "e",
-"start": 34.92,
-"end": 34.96
+"start": 32.26,
+"end": 32.3
 },
 {
 "text": "chamaram",
-"start": 35.04,
-"end": 35.44
+"start": 32.38,
+"end": 32.78
 },
 {
 "text": "o",
-"start": 35.48,
-"end": 35.52
+"start": 32.82,
+"end": 32.86
 },
 {
 "text": "fenômeno",
-"start": 35.6,
-"end": 36.16
+"start": 32.94,
+"end": 33.5
 },
 {
 "text": "de",
-"start": 36.28,
-"end": 36.4
+"start": 33.62,
+"end": 33.74
 },
 {
 "text": "El",
-"start": 36.48,
-"end": 36.64
+"start": 33.82,
+"end": 33.98
 },
 {
 "text": "Niño:",
-"start": 36.72,
-"end": 37.387
+"start": 34.06,
+"end": 34.727
 },
 {
 "text": "o",
-"start": 37.413,
-"end": 37.44
+"start": 34.753,
+"end": 34.78
 },
 {
 "text": "Menino",
-"start": 37.52,
-"end": 37.84
+"start": 34.86,
+"end": 35.18
 },
 {
 "text": "Jesus.",
-"start": 38.28,
-"end": 38.733
+"start": 35.62,
+"end": 36.073
 },
 {
 "text": "Na",
-"start": 38.8,
-"end": 38.88
+"start": 36.14,
+"end": 36.22
 },
 {
 "text": "sua",
-"start": 38.92,
-"end": 39.04
+"start": 36.26,
+"end": 36.38
 },
 {
 "text": "cidade",
-"start": 39.28,
-"end": 39.52
+"start": 36.62,
+"end": 36.86
 },
 {
 "text": "tá",
-"start": 39.56,
-"end": 39.6
+"start": 36.9,
+"end": 36.94
 },
 {
 "text": "mais",
-"start": 39.68,
-"end": 39.92
+"start": 37.02,
+"end": 37.26
 },
 {
 "text": "quente",
-"start": 40.0,
-"end": 40.48
+"start": 37.34,
+"end": 37.82
 },
 {
 "text": "ou",
-"start": 40.56,
-"end": 40.72
+"start": 37.9,
+"end": 38.06
 },
 {
 "text": "chovendo",
-"start": 40.8,
-"end": 41.2
+"start": 38.14,
+"end": 38.54
 },
 {
 "text": "mais?",
-"start": 41.28,
-"end": 41.893
+"start": 38.62,
+"end": 39.233
 },
 {
 "text": "Comenta",
-"start": 41.947,
-"end": 42.16
+"start": 39.287,
+"end": 39.5
 },
 {
 "text": "aí!",
-"start": 42.2,
-"end": 42.56
+"start": 39.54,
+"end": 39.867
 }
 ]
 }

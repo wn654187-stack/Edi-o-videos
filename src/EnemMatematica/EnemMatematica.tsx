@@ -4,7 +4,7 @@ import { Background, Chip } from "../EnemSUS/ui";
 import { CaptionsBase } from "../EnemSUS/Captions";
 import { colors } from "../EnemSUS/theme";
 import { KEYWORDS, SCENE_STARTS, VIDEO_SECONDS, WORDS, norm } from "./data";
-import { Scene1Hook, Scene2Q1, Scene3Q2, Scene4Q3, Scene5Final } from "./scenes/Scenes";
+import { SceneQ1, SceneQ2, SceneQ3, Scene5Final } from "./scenes/ScenesAlt";
 
 export type EnemMatematicaProps = {
   /** File in public/ with the voice-over. Empty = no narration. */
@@ -15,7 +15,7 @@ export type EnemMatematicaProps = {
   showCaptions: boolean;
 };
 
-const SCENES = [Scene1Hook, Scene2Q1, Scene3Q2, Scene4Q3, Scene5Final];
+const SCENES = [SceneQ1, SceneQ2, SceneQ3, Scene5Final];
 
 const colorOf = (word: string) => {
   const tone = KEYWORDS[norm(word)];

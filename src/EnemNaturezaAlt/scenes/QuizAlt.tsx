@@ -1,5 +1,5 @@
 import React from "react";
-import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import { Chip, Pop, SceneIn } from "../../EnemSUS/ui";
 import { bodyFont, clamp, colors, glow, headlineFont } from "../../EnemSUS/theme";
 
@@ -15,7 +15,13 @@ export const QuizAlt: React.FC<{
   thinkFrom: number;
   revealAt: number;
   explanation: React.ReactNode;
-}> = ({ n, question, options, correct, optionsAt, thinkFrom, revealAt, explanation }) => {
+  /** Header chip text; defaults to "Questão n/3 · Estilo Enem". */
+  title?: string;
+  /** Text next to the countdown; defaults to "QUAL LETRA?". */
+  countdownLabel?: string;
+  /** Show the header and question fully on the first frame (no fade-in). Use for the opening question. */
+  instant?: boolean;
+}> = ({ n, question, options, correct, optionsAt, thinkFrom, revealAt, explanation, title, countdownLabel = "QUAL LETRA?", instant = false }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const revealed = frame >= revealAt;
@@ -24,16 +30,19 @@ export const QuizAlt: React.FC<{
   const secs = Math.max(1, Math.ceil(left * ((revealAt - thinkFrom) / fps)));
   const pop = spring({ frame: frame - revealAt, fps, config: { damping: 10, stiffness: 200 } });
 
+  const Wrap = instant ? AbsoluteFill : SceneIn;
+  const Appear: React.FC<{ at: number; style: React.CSSProperties; children: React.ReactNode }> = ({ at: a, style, children }) =>
+    instant ? <div style={{ position: "absolute", ...style }}>{children}</div> : <Pop at={a} style={style}>{children}</Pop>;
   return (
-    <SceneIn>
-      <Pop at={0} style={{ left: 0, right: 0, top: 215, textAlign: "center" }}>
-        <Chip color={colors.gold} size={34}>Questão {n}/3 · Estilo Enem</Chip>
-      </Pop>
-      <Pop at={2} style={{ left: 50, top: 305, width: 980 }}>
+    <Wrap>
+      <Appear at={0} style={{ left: 0, right: 0, top: 215, textAlign: "center" }}>
+        <Chip color={colors.gold} size={title ? 42 : 34}>{title ?? `Questão ${n}/3 · Estilo Enem`}</Chip>
+      </Appear>
+      <Appear at={2} style={{ left: 50, top: 305, width: 980 }}>
         <div style={{ borderRadius: 22, background: "#f4f6ff", color: "#121a33", padding: "22px 30px", fontFamily: bodyFont, fontWeight: 800, fontSize: 42, lineHeight: 1.22, boxShadow: "0 18px 50px rgba(0,0,0,0.5)" }}>
           {question}
         </div>
-      </Pop>
+      </Appear>
       {options.map((o, i) => {
         const isRight = i === correct;
         const dim = revealed && !isRight;
@@ -82,7 +91,7 @@ export const QuizAlt: React.FC<{
           <div style={{ width: 120, height: 120, borderRadius: "50%", background: `conic-gradient(${colors.gold} ${left * 360}deg, #ffffff18 0deg)`, display: "flex", alignItems: "center", justifyContent: "center" }}>
             <div style={{ width: 94, height: 94, borderRadius: "50%", background: colors.bg, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: headlineFont, fontSize: 62, color: colors.white }}>{secs}</div>
           </div>
-          <div style={{ fontFamily: headlineFont, fontSize: 64, color: colors.gold }}>QUAL LETRA?</div>
+          <div style={{ fontFamily: headlineFont, fontSize: 64, color: colors.gold }}>{countdownLabel}</div>
         </div>
       ) : null}
       {revealed ? (
@@ -92,6 +101,6 @@ export const QuizAlt: React.FC<{
           {explanation}
         </div>
       ) : null}
-    </SceneIn>
+    </Wrap>
   );
 };

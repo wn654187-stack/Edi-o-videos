@@ -3,6 +3,7 @@ import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import { Card, Chip, Pop, SceneIn } from "../../EnemSUS/ui";
 import { bodyFont, clamp, colors, glow, headlineFont } from "../../EnemSUS/theme";
 import { at, useCue } from "../data";
+import { PromptPill } from "../../shared/PromptPill";
 
 const Student: React.FC<{ name: string; color: string; score: string; reveal: boolean }> = ({ name, color, score, reveal }) => (
   <Card color={color} style={{ width: 430, padding: "26px 0", textAlign: "center" }}>
@@ -33,11 +34,6 @@ export const Scene1Hook: React.FC<{ from: number }> = ({ from }) => {
         <Student name="CANDIDATO B" color={colors.redNeon} score="menor" reveal={reveal} />
       </div>
       <div style={{ position: "absolute", left: 0, right: 0, top: 1010, textAlign: "center", fontFamily: bodyFont, fontWeight: 700, fontSize: 24, color: colors.muted }}>exemplo ilustrativo</div>
-      <Pop at={cue("Segue")} from="scale" style={{ left: 0, right: 0, top: 1070, textAlign: "center" }}>
-        <div style={{ display: "inline-block", padding: "14px 40px", borderRadius: 999, background: colors.red, boxShadow: glow(colors.red, 0.8), fontFamily: bodyFont, fontWeight: 900, fontSize: 38, color: colors.white }}>
-          + SEGUE pra entender
-        </div>
-      </Pop>
     </>
   );
 };
@@ -52,6 +48,7 @@ export const Scene2TRI: React.FC<{ from: number }> = ({ from }) => {
       <Pop at={1} from="scale" style={{ left: 0, right: 0, top: 260, textAlign: "center" }}>
         <div style={{ fontFamily: headlineFont, fontSize: 260, lineHeight: 1, color: colors.gold, textShadow: glow(colors.gold, 0.6) }}>TRI</div>
       </Pop>
+      <PromptPill at={6}>+ SEGUE: dica do Enem todo dia</PromptPill>
       <Pop at={cue("Teoria")} style={{ left: 0, right: 0, top: 540, textAlign: "center" }}>
         <div style={{ fontFamily: bodyFont, fontWeight: 900, fontSize: 46, color: colors.white }}>Teoria de Resposta ao Item</div>
       </Pop>
@@ -150,6 +147,7 @@ export const Scene4Dicas: React.FC<{ from: number }> = ({ from }) => {
           NO <span style={{ color: colors.gold }}>DOMINGO</span>:
         </div>
       </Pop>
+      <PromptPill at={4} color={colors.gold} textColor={colors.bg}>COMENTA: quantas acertou no 1º dia?</PromptPill>
       <Tip at={cue("capricha")} top={420} color={colors.green} text={<>Capricha nas <span style={{ color: colors.green }}>fáceis</span></>} />
       <Tip at={cue("branco")} top={610} color={colors.gold} text={<>Não deixa <span style={{ color: colors.gold }}>nenhuma em branco</span></>} />
       <Tip at={cue("Errar")} top={800} color={colors.susNeon} text={<>Errar <span style={{ color: colors.susNeon }}>não tira ponto</span></>} />

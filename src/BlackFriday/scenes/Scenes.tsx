@@ -3,6 +3,7 @@ import { AbsoluteFill, Easing, interpolate, spring, useCurrentFrame, useVideoCon
 import { Card, Chip, Pop, SceneIn } from "../../EnemSUS/ui";
 import { bodyFont, clamp, colors, glow, headlineFont } from "../../EnemSUS/theme";
 import { at, useCue } from "../data";
+import { PromptPill } from "../../shared/PromptPill";
 
 const BF = { black: "#0b0b0d", yellow: "#ffd23c", orange: "#ff8a00" };
 
@@ -27,8 +28,8 @@ export const BFBackground: React.FC = () => {
 export const Scene1Hook: React.FC<{ from: number }> = ({ from }) => {
   const frame = useCurrentFrame();
   const cue = useCue(from);
-  const stamp = interpolate(frame, [cue("falso") - 2, cue("falso") + 6], [1.8, 1], { ...clamp, easing: Easing.out(Easing.back(2)) });
-  const stampOn = frame >= cue("falso") - 2;
+  const stamp = 1 + 0.06 * Math.sin(frame / 3) + interpolate(frame, [cue("falso") - 2, cue("falso") + 6], [0, 0.25], { ...clamp, easing: Easing.out(Easing.back(2)) }) * (frame < cue("falso") + 6 ? 1 : 0);
+  const stampOn = true;
   return (
     <>
       <div style={{ position: "absolute", left: 0, right: 0, top: 240, textAlign: "center" }}>
@@ -57,11 +58,6 @@ export const Scene1Hook: React.FC<{ from: number }> = ({ from }) => {
           FALSO?
         </span>
       </div>
-      <Pop at={cue("Segue")} from="scale" style={{ left: 0, right: 0, top: 1100, textAlign: "center" }}>
-        <div style={{ display: "inline-block", padding: "14px 40px", borderRadius: 999, background: colors.red, boxShadow: glow(colors.red, 0.8), fontFamily: bodyFont, fontWeight: 900, fontSize: 38, color: colors.white }}>
-          + SEGUE pra não cair
-        </div>
-      </Pop>
     </>
   );
 };
@@ -95,6 +91,7 @@ export const Scene2Dobro: React.FC<{ from: number }> = ({ from }) => {
   return (
     <SceneIn>
       <Header n="1" title="A METADE DO DOBRO" />
+      <PromptPill at={6}>+ SEGUE pra não cair em golpe</PromptPill>
       <div style={{ position: "absolute", left: 90, top: 520, width: W, height: H }}>
         <svg width={W} height={H + 60} style={{ overflow: "visible" }}>
           <line x1={0} y1={y(500)} x2={W} y2={y(500)} stroke="#ffffff22" strokeDasharray="10 10" strokeWidth={3} />
@@ -135,6 +132,7 @@ export const Scene3Site: React.FC<{ from: number }> = ({ from }) => {
   return (
     <SceneIn>
       <Header n="2" title="SITE FALSO" />
+      <PromptPill at={6} color={colors.gold} textColor="#0b0b0d">COMENTA: já caiu num desses?</PromptPill>
       <Flag at={cue("bom")} text="Preço bom demais" top={520} />
       <Flag at={cue("Pix")} text="Só aceita Pix" top={640} />
       <Flag at={cue("CNPJ")} text="Sem CNPJ no site" top={760} />
