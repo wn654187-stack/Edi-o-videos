@@ -8,3 +8,4 @@ out
 
 # Rendered deliverables copied for download (large binaries)
 entregas/
+__pycache__/
