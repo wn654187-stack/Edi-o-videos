@@ -107,7 +107,7 @@ NUMBERS = [
 CONTEXT = {("trinta", "delegados"): "30", ("um", "voto"): "1",
            ("sete", "em"): "7", ("dez", "brasileiros"): "10",
            ("setenta", "quilos"): "70", ("cinco", "toneladas"): "5",
-           ("trinta", "segundos"): "30", ("doze", "dias"): "12", ("sete", "dias"): "7", ("quatro", "lances"): "4", ("quatro", "satélites"): "4", ("três", "coisas"): "3",
+           ("trinta", "segundos"): "30", ("doze", "dias"): "12", ("sete", "dias"): "7", ("quatro", "lances"): "4", ("quatro", "satélites"): "4", ("trinta", "questões"): "30", ("três", "coisas"): "3",
            ("três", "pedreiros"): "3", ("seis", "pedreiros"): "6"}
 
 

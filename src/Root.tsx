@@ -14,6 +14,7 @@ import { ComoFuncionaGPS, GPS_SECONDS } from "./ComoFuncionaGPS/ComoFuncionaGPS"
 import { EnemNaturezaQuiz, ENEM_NATUREZA_QUIZ_SECONDS } from "./EnemNaturezaQuiz/EnemNaturezaQuiz";
 import { EnemNaturezaAlt, ENEM_NATUREZA_ALT_SECONDS } from "./EnemNaturezaAlt/EnemNaturezaAlt";
 import { ElNino, EL_NINO_SECONDS } from "./ElNino/ElNino";
+import { EnemTRI, ENEM_TRI_SECONDS } from "./EnemTRI/EnemTRI";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -183,6 +184,20 @@ export const RemotionRoot: React.FC = () => {
         height={1920}
         defaultProps={{
           narration: "narracao-elnino.mp3",
+          music: "",
+          musicVolume: 0.2,
+          showCaptions: true,
+        }}
+      />
+      <Composition
+        id="EnemTRIVertical"
+        component={EnemTRI}
+        durationInFrames={ENEM_TRI_SECONDS * 30}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          narration: "narracao-tri.mp3",
           music: "",
           musicVolume: 0.2,
           showCaptions: true,
