@@ -127,6 +127,13 @@ words = [{"text": w["text"], "start": w["start"] / tempo, "end": w["end"] / temp
 
 # Spelled-out numbers merged into digits (caption display only). Longest first.
 NUMBERS = [
+    (["dia", "trinta", "de", "novembro"], "dia 30/11"),
+    (["vinte", "de", "dezembro"], "20/12"),
+    (["três", "mil", "reais"], "R$ 3.000"),
+    (["mil", "e", "quinhentos"], "R$ 1.500"),
+    (["um", "doze", "avos"], "1/12"),
+    (["décimo", "terceiro"], "13º"),
+    (["dia", "trinta"], "dia 30"),
     (["quinhentos", "e", "trinta", "e", "oito"], "538"),
     (["cento", "e", "noventa", "e", "seis"], "196"),
     (["noventa", "e", "seis", "reais"], "R$ 96"),
@@ -157,7 +164,7 @@ NUMBERS = [
 CONTEXT = {("trinta", "delegados"): "30", ("um", "voto"): "1",
            ("sete", "em"): "7", ("dez", "brasileiros"): "10",
            ("setenta", "quilos"): "70", ("cinco", "toneladas"): "5",
-           ("trinta", "segundos"): "30", ("doze", "dias"): "12", ("sete", "dias"): "7", ("quatro", "lances"): "4", ("quatro", "satélites"): "4", ("trinta", "questões"): "30", ("três", "coisas"): "3",
+           ("trinta", "segundos"): "30", ("doze", "dias"): "12", ("sete", "dias"): "7", ("quatro", "lances"): "4", ("quatro", "satélites"): "4", ("trinta", "questões"): "30", ("três", "coisas"): "3", ("quinze", "dias"): "15", ("seis", "meses"): "6",
            ("três", "pedreiros"): "3", ("seis", "pedreiros"): "6"}
 
 

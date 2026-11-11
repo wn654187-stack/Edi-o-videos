@@ -1,0 +1,560 @@
+{
+"tempo": 1.1,
+"words": [
+{
+"text": "Seu",
+"start": 0.131,
+"end": 0.291
+},
+{
+"text": "13º",
+"start": 0.327,
+"end": 1.164
+},
+{
+"text": "tem",
+"start": 1.236,
+"end": 1.382
+},
+{
+"text": "que",
+"start": 1.455,
+"end": 1.527
+},
+{
+"text": "cair",
+"start": 1.6,
+"end": 1.745
+},
+{
+"text": "até",
+"start": 1.818,
+"end": 1.927
+},
+{
+"text": "o",
+"start": 1.964,
+"end": 2.036
+},
+{
+"text": "dia 30/11.",
+"start": 2.182,
+"end": 3.515
+},
+{
+"text": "Sabe",
+"start": 3.539,
+"end": 3.709
+},
+{
+"text": "quanto",
+"start": 3.782,
+"end": 3.927
+},
+{
+"text": "vai",
+"start": 3.975,
+"end": 4.073
+},
+{
+"text": "vir?",
+"start": 4.327,
+"end": 4.63
+},
+{
+"text": "A",
+"start": 4.679,
+"end": 4.727
+},
+{
+"text": "primeira",
+"start": 4.836,
+"end": 5.018
+},
+{
+"text": "parcela",
+"start": 5.091,
+"end": 5.6
+},
+{
+"text": "é",
+"start": 5.673,
+"end": 5.745
+},
+{
+"text": "metade",
+"start": 5.891,
+"end": 6.182
+},
+{
+"text": "do",
+"start": 6.255,
+"end": 6.327
+},
+{
+"text": "salário,",
+"start": 6.436,
+"end": 6.8
+},
+{
+"text": "sem",
+"start": 6.836,
+"end": 6.982
+},
+{
+"text": "nenhum",
+"start": 7.055,
+"end": 7.273
+},
+{
+"text": "desconto.",
+"start": 7.382,
+"end": 8.109
+},
+{
+"text": "Ganha",
+"start": 8.145,
+"end": 8.364
+},
+{
+"text": "R$ 3.000?",
+"start": 8.4,
+"end": 9.357
+},
+{
+"text": "Recebe",
+"start": 9.406,
+"end": 9.745
+},
+{
+"text": "R$ 1.500",
+"start": 9.818,
+"end": 10.473
+},
+{
+"text": "até",
+"start": 10.618,
+"end": 10.764
+},
+{
+"text": "o",
+"start": 10.8,
+"end": 10.836
+},
+{
+"text": "dia 30.",
+"start": 10.945,
+"end": 11.757
+},
+{
+"text": "A",
+"start": 11.806,
+"end": 11.855
+},
+{
+"text": "segunda",
+"start": 11.927,
+"end": 12.218
+},
+{
+"text": "parcela",
+"start": 12.436,
+"end": 12.727
+},
+{
+"text": "sai",
+"start": 12.764,
+"end": 12.873
+},
+{
+"text": "até",
+"start": 12.945,
+"end": 13.2
+},
+{
+"text": "20/12,",
+"start": 13.236,
+"end": 14.291
+},
+{
+"text": "e",
+"start": 14.327,
+"end": 14.364
+},
+{
+"text": "é",
+"start": 14.4,
+"end": 14.473
+},
+{
+"text": "nela",
+"start": 14.545,
+"end": 14.8
+},
+{
+"text": "que",
+"start": 14.836,
+"end": 14.909
+},
+{
+"text": "descontam",
+"start": 14.982,
+"end": 15.491
+},
+{
+"text": "INSS",
+"start": 15.564,
+"end": 16.509
+},
+{
+"text": "e",
+"start": 16.545,
+"end": 16.582
+},
+{
+"text": "Imposto",
+"start": 16.691,
+"end": 16.945
+},
+{
+"text": "de",
+"start": 17.018,
+"end": 17.091
+},
+{
+"text": "Renda.",
+"start": 17.164,
+"end": 17.721
+},
+{
+"text": "Por",
+"start": 17.77,
+"end": 17.818
+},
+{
+"text": "isso",
+"start": 17.891,
+"end": 18.0
+},
+{
+"text": "ela",
+"start": 18.036,
+"end": 18.182
+},
+{
+"text": "vem",
+"start": 18.206,
+"end": 18.255
+},
+{
+"text": "menor.",
+"start": 18.327,
+"end": 19.03
+},
+{
+"text": "Não",
+"start": 19.079,
+"end": 19.127
+},
+{
+"text": "trabalhou",
+"start": 19.2,
+"end": 19.564
+},
+{
+"text": "o",
+"start": 19.6,
+"end": 19.636
+},
+{
+"text": "ano",
+"start": 19.709,
+"end": 19.927
+},
+{
+"text": "todo?",
+"start": 20.255,
+"end": 20.655
+},
+{
+"text": "Você",
+"start": 20.727,
+"end": 20.8
+},
+{
+"text": "recebe",
+"start": 20.945,
+"end": 21.309
+},
+{
+"text": "1/12",
+"start": 21.382,
+"end": 22.109
+},
+{
+"text": "por",
+"start": 22.218,
+"end": 22.327
+},
+{
+"text": "mês",
+"start": 22.364,
+"end": 22.545
+},
+{
+"text": "trabalhado.",
+"start": 22.582,
+"end": 23.37
+},
+{
+"text": "15",
+"start": 23.394,
+"end": 23.564
+},
+{
+"text": "dias",
+"start": 23.709,
+"end": 23.855
+},
+{
+"text": "ou",
+"start": 23.927,
+"end": 24.0
+},
+{
+"text": "mais",
+"start": 24.073,
+"end": 24.436
+},
+{
+"text": "já",
+"start": 24.509,
+"end": 24.655
+},
+{
+"text": "contam",
+"start": 24.764,
+"end": 24.945
+},
+{
+"text": "como",
+"start": 25.018,
+"end": 25.164
+},
+{
+"text": "um",
+"start": 25.2,
+"end": 25.236
+},
+{
+"text": "mês.",
+"start": 25.309,
+"end": 25.927
+},
+{
+"text": "6",
+"start": 25.964,
+"end": 26.109
+},
+{
+"text": "meses?",
+"start": 26.182,
+"end": 26.934
+},
+{
+"text": "Metade",
+"start": 27.03,
+"end": 27.345
+},
+{
+"text": "do",
+"start": 27.382,
+"end": 27.418
+},
+{
+"text": "13º.",
+"start": 27.491,
+"end": 28.545
+},
+{
+"text": "Foi",
+"start": 28.582,
+"end": 28.655
+},
+{
+"text": "demitido",
+"start": 28.727,
+"end": 29.236
+},
+{
+"text": "sem",
+"start": 29.345,
+"end": 29.455
+},
+{
+"text": "justa",
+"start": 29.527,
+"end": 29.745
+},
+{
+"text": "causa?",
+"start": 29.818,
+"end": 30.352
+},
+{
+"text": "Também",
+"start": 30.375,
+"end": 30.691
+},
+{
+"text": "recebe",
+"start": 30.764,
+"end": 31.055
+},
+{
+"text": "o",
+"start": 31.091,
+"end": 31.127
+},
+{
+"text": "proporcional.",
+"start": 31.2,
+"end": 32.036
+},
+{
+"text": "A",
+"start": 32.073,
+"end": 32.109
+},
+{
+"text": "empresa",
+"start": 32.145,
+"end": 32.509
+},
+{
+"text": "não",
+"start": 32.582,
+"end": 32.727
+},
+{
+"text": "pagou",
+"start": 32.8,
+"end": 33.018
+},
+{
+"text": "até",
+"start": 33.091,
+"end": 33.261
+},
+{
+"text": "o",
+"start": 33.285,
+"end": 33.309
+},
+{
+"text": "dia 30?",
+"start": 33.418,
+"end": 34.206
+},
+{
+"text": "Ela",
+"start": 34.23,
+"end": 34.4
+},
+{
+"text": "pode",
+"start": 34.436,
+"end": 34.618
+},
+{
+"text": "ser",
+"start": 34.691,
+"end": 34.764
+},
+{
+"text": "multada.",
+"start": 34.836,
+"end": 35.709
+},
+{
+"text": "Denuncia",
+"start": 35.782,
+"end": 36.145
+},
+{
+"text": "no",
+"start": 36.218,
+"end": 36.291
+},
+{
+"text": "Ministério",
+"start": 36.327,
+"end": 36.727
+},
+{
+"text": "do",
+"start": 36.764,
+"end": 36.8
+},
+{
+"text": "Trabalho.",
+"start": 36.873,
+"end": 37.648
+},
+{
+"text": "Comenta",
+"start": 37.697,
+"end": 37.891
+},
+{
+"text": "aí:",
+"start": 37.964,
+"end": 38.448
+},
+{
+"text": "o",
+"start": 38.497,
+"end": 38.545
+},
+{
+"text": "que",
+"start": 38.582,
+"end": 38.618
+},
+{
+"text": "você",
+"start": 38.691,
+"end": 38.909
+},
+{
+"text": "vai",
+"start": 38.957,
+"end": 39.055
+},
+{
+"text": "fazer",
+"start": 39.091,
+"end": 39.418
+},
+{
+"text": "com",
+"start": 39.455,
+"end": 39.491
+},
+{
+"text": "o",
+"start": 39.527,
+"end": 39.564
+},
+{
+"text": "seu",
+"start": 39.6,
+"end": 39.709
+},
+{
+"text": "13º?",
+"start": 39.745,
+"end": 40.609
+}
+]
+}
