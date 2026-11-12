@@ -19,6 +19,7 @@ import { DecimoTerceiro, DECIMO_TERCEIRO_SECONDS } from "./DecimoTerceiro/Decimo
 import { ElNinoYT, ELNINO_YT_SECONDS } from "./ElNinoYT/ElNinoYT";
 import { ElNinoThumb } from "./ElNinoYT/Thumb";
 import { ElNinoShort, ELNINO_SHORT_SECONDS } from "./ElNinoShort/ElNinoShort";
+import { ElNinoCover } from "./ElNinoShort/Cover";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -251,6 +252,7 @@ export const RemotionRoot: React.FC = () => {
           showCaptions: true,
         }}
       />
+      <Still id="ElNinoCoverVertical" component={ElNinoCover} width={1080} height={1920} />
       <Folder name="Elements">
         <Composition
           id="Logo"
