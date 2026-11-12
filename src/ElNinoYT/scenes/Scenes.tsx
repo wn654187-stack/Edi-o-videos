@@ -293,7 +293,7 @@ export const S5Medem: React.FC<{ from: number }> = ({ from }) => {
       </WorldMap>
       <WideLabel label="Capítulo 4" icon="chart" accent="orange" title="Como os cientistas medem" />
       <Reveal at={tBr} from="scale" style={{ left: 1240, top: 230 }}>
-        <Pill accent="lime" solid size={34}>+6 milhões de km² · quase um Brasil</Pill>
+        <Pill accent="lime" solid size={34}>+6 milhões de km² · ~70% do Brasil</Pill>
       </Reveal>
       <Reveal at={tMeio} from="left" style={{ left: 1500, top: 330 }}>
         <div style={{ display: "flex", alignItems: "center", gap: 30 }}>
