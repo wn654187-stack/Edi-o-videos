@@ -13,7 +13,7 @@ const PACIFIC: Camera = { lon: -165, lat: 0, zoom: 1.75 };
 const WORLD: Camera = { lon: -160, lat: 5, zoom: 1.05 };
 
 /** Camera that moves through keyframes [frame, camera]. */
-const useCamera = (keys: [number, Camera][]): Camera => {
+export const useCamera = (keys: [number, Camera][]): Camera => {
   const frame = useCurrentFrame();
   if (frame <= keys[0][0]) return keys[0][1];
   for (let i = 0; i < keys.length - 1; i++) {
@@ -25,7 +25,7 @@ const useCamera = (keys: [number, Camera][]): Camera => {
 };
 
 /** Niño 3.4 box (5°N–5°S, 170°W–120°W). */
-const Nino34: React.FC<{ k?: number; label?: boolean }> = ({ k = 1, label = true }) => {
+export const Nino34: React.FC<{ k?: number; label?: boolean }> = ({ k = 1, label = true }) => {
   const P = useP();
   const frame = useCurrentFrame();
   const [x1, y1] = P(-170, 5);
@@ -44,7 +44,7 @@ const Nino34: React.FC<{ k?: number; label?: boolean }> = ({ k = 1, label = true
 };
 
 /** Trade winds: moving dashed arrows along the equator (direction -1 = to the west). */
-const Winds: React.FC<{ k: number; dir?: 1 | -1; color?: string }> = ({ k, dir = -1, color = brand.lime }) => {
+export const Winds: React.FC<{ k: number; dir?: 1 | -1; color?: string }> = ({ k, dir = -1, color = brand.lime }) => {
   const frame = useCurrentFrame();
   const P = useP();
   return (
@@ -466,7 +466,7 @@ export const S6Mundo: React.FC<{ from: number }> = ({ from }) => {
 };
 
 /* ---------------- 7. O Brasil ---------------- */
-const BrazilRegions: React.FC<{ tNorte: number; tSul: number; tSE: number }> = ({ tNorte, tSul, tSE }) => {
+export const BrazilRegions: React.FC<{ tNorte: number; tSul: number; tSE: number }> = ({ tNorte, tSul, tSE }) => {
   const frame = useCurrentFrame();
   const P = useP();
   const [, yN] = P(-50, -11);

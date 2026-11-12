@@ -18,6 +18,7 @@ import { EnemTRI, ENEM_TRI_SECONDS } from "./EnemTRI/EnemTRI";
 import { DecimoTerceiro, DECIMO_TERCEIRO_SECONDS } from "./DecimoTerceiro/DecimoTerceiro";
 import { ElNinoYT, ELNINO_YT_SECONDS } from "./ElNinoYT/ElNinoYT";
 import { ElNinoThumb } from "./ElNinoYT/Thumb";
+import { ElNinoShort, ELNINO_SHORT_SECONDS } from "./ElNinoShort/ElNinoShort";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -236,6 +237,20 @@ export const RemotionRoot: React.FC = () => {
       />
       <Still id="ElNinoThumbA" component={ElNinoThumb} width={1920} height={1080} defaultProps={{ variant: "a" as const }} />
       <Still id="ElNinoThumbB" component={ElNinoThumb} width={1920} height={1080} defaultProps={{ variant: "b" as const }} />
+      <Composition
+        id="ElNinoShortVertical"
+        component={ElNinoShort}
+        durationInFrames={ELNINO_SHORT_SECONDS * 30}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          narration: "narracao-elnino-short.mp3",
+          music: "",
+          musicVolume: 0.2,
+          showCaptions: true,
+        }}
+      />
       <Folder name="Elements">
         <Composition
           id="Logo"

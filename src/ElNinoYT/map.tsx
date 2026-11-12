@@ -16,12 +16,12 @@ export const H = 1080;
 /** Camera: centre longitude/latitude and zoom (1 = whole world fits the frame). */
 export type Camera = { lon: number; lat: number; zoom: number };
 
-export const makeProjection = ({ lon, lat, zoom }: Camera): GeoProjection =>
+export const makeProjection = ({ lon, lat, zoom }: Camera, w = W, h = H): GeoProjection =>
   geoNaturalEarth1()
     .rotate([-lon, 0])
     .center([0, lat])
     .scale(330 * zoom)
-    .translate([W / 2, H / 2]);
+    .translate([w / 2, h / 2]);
 
 const ProjCtx = createContext<GeoProjection>(makeProjection({ lon: -160, lat: 0, zoom: 1 }));
 export const useProjection = () => useContext(ProjCtx);
@@ -41,9 +41,12 @@ export const WorldMap: React.FC<{
   highlights?: Highlight[];
   children?: React.ReactNode;
   dim?: number;
-}> = ({ camera, highlights = [], children, dim = 1 }) => {
-  const key = `${camera.lon.toFixed(2)}|${camera.lat.toFixed(2)}|${camera.zoom.toFixed(3)}`;
-  const projection = useMemo(() => makeProjection(camera), [key]); // eslint-disable-line react-hooks/exhaustive-deps
+  /** Map viewport size (defaults to the full 16:9 frame). */
+  w?: number;
+  h?: number;
+}> = ({ camera, highlights = [], children, dim = 1, w = W, h = H }) => {
+  const key = `${camera.lon.toFixed(2)}|${camera.lat.toFixed(2)}|${camera.zoom.toFixed(3)}|${w}|${h}`;
+  const projection = useMemo(() => makeProjection(camera, w, h), [key]); // eslint-disable-line react-hooks/exhaustive-deps
   const path = useMemo(() => geoPath(projection), [projection]);
   const land = useMemo(() => countries.map((c) => ({ id: String(c.id), d: path(c) ?? "" })), [path]);
   const grid = useMemo(() => path(geoGraticule10()) ?? "", [path]);
@@ -54,7 +57,7 @@ export const WorldMap: React.FC<{
   };
   return (
     <ProjCtx.Provider value={projection}>
-      <svg width={W} height={H} style={{ position: "absolute", inset: 0, opacity: dim }}>
+      <svg width={w} height={h} style={{ position: "absolute", left: 0, top: 0, opacity: dim }}>
         <defs>
           <radialGradient id="ocean" cx="50%" cy="45%" r="70%">
             <stop offset="0" stopColor="#14142a" />
