@@ -1,0 +1,7771 @@
+{
+"words": [
+{
+"text": "Existe",
+"start": 0.206,
+"end": 0.4
+},
+{
+"text": "um",
+"start": 0.44,
+"end": 0.48
+},
+{
+"text": "pedaço",
+"start": 0.64,
+"end": 0.96
+},
+{
+"text": "do",
+"start": 1.04,
+"end": 1.12
+},
+{
+"text": "oceano",
+"start": 1.2,
+"end": 1.44
+},
+{
+"text": "Pacífico,",
+"start": 1.547,
+"end": 2.32
+},
+{
+"text": "bem",
+"start": 2.36,
+"end": 2.48
+},
+{
+"text": "no",
+"start": 2.56,
+"end": 2.64
+},
+{
+"text": "meio",
+"start": 2.68,
+"end": 2.88
+},
+{
+"text": "do",
+"start": 2.92,
+"end": 2.96
+},
+{
+"text": "mundo,",
+"start": 3.04,
+"end": 3.52
+},
+{
+"text": "que",
+"start": 3.6,
+"end": 3.68
+},
+{
+"text": "controla",
+"start": 3.88,
+"end": 4.133
+},
+{
+"text": "o",
+"start": 4.187,
+"end": 4.24
+},
+{
+"text": "clima",
+"start": 4.28,
+"end": 4.56
+},
+{
+"text": "de",
+"start": 4.68,
+"end": 4.8
+},
+{
+"text": "bilhões",
+"start": 4.92,
+"end": 5.36
+},
+{
+"text": "de",
+"start": 5.44,
+"end": 5.52
+},
+{
+"text": "pessoas.",
+"start": 5.653,
+"end": 6.56
+},
+{
+"text": "Quando",
+"start": 6.6,
+"end": 6.72
+},
+{
+"text": "ele",
+"start": 6.8,
+"end": 6.88
+},
+{
+"text": "esquenta",
+"start": 6.96,
+"end": 7.36
+},
+{
+"text": "só",
+"start": 7.467,
+"end": 7.68
+},
+{
+"text": "dois",
+"start": 7.76,
+"end": 8.0
+},
+{
+"text": "graus,",
+"start": 8.08,
+"end": 8.64
+},
+{
+"text": "a",
+"start": 8.68,
+"end": 8.72
+},
+{
+"text": "Amazônia",
+"start": 8.8,
+"end": 9.2
+},
+{
+"text": "seca,",
+"start": 9.44,
+"end": 10.08
+},
+{
+"text": "o",
+"start": 10.16,
+"end": 10.24
+},
+{
+"text": "Sul",
+"start": 10.32,
+"end": 10.48
+},
+{
+"text": "do",
+"start": 10.52,
+"end": 10.56
+},
+{
+"text": "Brasil",
+"start": 10.64,
+"end": 10.96
+},
+{
+"text": "alaga,",
+"start": 11.04,
+"end": 11.68
+},
+{
+"text": "a",
+"start": 11.72,
+"end": 11.76
+},
+{
+"text": "Austrália",
+"start": 11.8,
+"end": 12.32
+},
+{
+"text": "pega",
+"start": 12.48,
+"end": 12.8
+},
+{
+"text": "fogo",
+"start": 12.88,
+"end": 13.2
+},
+{
+"text": "e",
+"start": 13.44,
+"end": 13.48
+},
+{
+"text": "até",
+"start": 13.52,
+"end": 13.72
+},
+{
+"text": "o",
+"start": 13.76,
+"end": 13.92
+},
+{
+"text": "preço",
+"start": 14.0,
+"end": 14.24
+},
+{
+"text": "do",
+"start": 14.28,
+"end": 14.32
+},
+{
+"text": "café",
+"start": 14.44,
+"end": 14.64
+},
+{
+"text": "no",
+"start": 14.72,
+"end": 14.8
+},
+{
+"text": "seu",
+"start": 14.84,
+"end": 14.92
+},
+{
+"text": "mercado",
+"start": 14.96,
+"end": 15.36
+},
+{
+"text": "sobe.",
+"start": 15.44,
+"end": 16.24
+},
+{
+"text": "Isso",
+"start": 16.32,
+"end": 16.48
+},
+{
+"text": "tem",
+"start": 16.56,
+"end": 16.64
+},
+{
+"text": "nome:",
+"start": 16.72,
+"end": 17.36
+},
+{
+"text": "El",
+"start": 17.44,
+"end": 17.6
+},
+{
+"text": "Niño.",
+"start": 17.76,
+"end": 18.56
+},
+{
+"text": "E",
+"start": 18.6,
+"end": 18.64
+},
+{
+"text": "em",
+"start": 18.72,
+"end": 18.8
+},
+{
+"text": "2026",
+"start": 18.84,
+"end": 19.92
+},
+{
+"text": "os",
+"start": 20.08,
+"end": 20.16
+},
+{
+"text": "cientistas",
+"start": 20.24,
+"end": 20.8
+},
+{
+"text": "estão",
+"start": 20.88,
+"end": 21.12
+},
+{
+"text": "de",
+"start": 21.2,
+"end": 21.28
+},
+{
+"text": "olho",
+"start": 21.36,
+"end": 21.6
+},
+{
+"text": "nele",
+"start": 21.68,
+"end": 21.84
+},
+{
+"text": "de",
+"start": 21.92,
+"end": 22.0
+},
+{
+"text": "novo,",
+"start": 22.08,
+"end": 22.64
+},
+{
+"text": "porque",
+"start": 22.72,
+"end": 22.853
+},
+{
+"text": "as",
+"start": 22.907,
+"end": 22.96
+},
+{
+"text": "previsões",
+"start": 23.04,
+"end": 23.52
+},
+{
+"text": "indicam",
+"start": 23.6,
+"end": 24.0
+},
+{
+"text": "que",
+"start": 24.08,
+"end": 24.16
+},
+{
+"text": "ele",
+"start": 24.24,
+"end": 24.32
+},
+{
+"text": "pode",
+"start": 24.4,
+"end": 24.56
+},
+{
+"text": "ser",
+"start": 24.64,
+"end": 24.88
+},
+{
+"text": "forte.",
+"start": 24.96,
+"end": 25.84
+},
+{
+"text": "Neste",
+"start": 25.92,
+"end": 26.16
+},
+{
+"text": "vídeo",
+"start": 26.24,
+"end": 26.64
+},
+{
+"text": "eu",
+"start": 26.72,
+"end": 26.8
+},
+{
+"text": "vou",
+"start": 26.827,
+"end": 26.88
+},
+{
+"text": "te",
+"start": 26.96,
+"end": 27.04
+},
+{
+"text": "mostrar,",
+"start": 27.08,
+"end": 27.68
+},
+{
+"text": "com",
+"start": 27.76,
+"end": 27.84
+},
+{
+"text": "mapas,",
+"start": 27.92,
+"end": 28.64
+},
+{
+"text": "como",
+"start": 28.76,
+"end": 28.88
+},
+{
+"text": "esse",
+"start": 28.96,
+"end": 29.04
+},
+{
+"text": "fenômeno",
+"start": 29.12,
+"end": 29.52
+},
+{
+"text": "funciona,",
+"start": 29.64,
+"end": 30.4
+},
+{
+"text": "por",
+"start": 30.52,
+"end": 30.64
+},
+{
+"text": "que",
+"start": 30.72,
+"end": 30.8
+},
+{
+"text": "ele",
+"start": 30.88,
+"end": 30.96
+},
+{
+"text": "bagunça",
+"start": 31.04,
+"end": 31.44
+},
+{
+"text": "o",
+"start": 31.48,
+"end": 31.52
+},
+{
+"text": "planeta",
+"start": 31.6,
+"end": 31.92
+},
+{
+"text": "inteiro,",
+"start": 32.12,
+"end": 32.8
+},
+{
+"text": "o",
+"start": 32.84,
+"end": 32.88
+},
+{
+"text": "que",
+"start": 32.96,
+"end": 33.04
+},
+{
+"text": "muda",
+"start": 33.2,
+"end": 33.44
+},
+{
+"text": "na",
+"start": 33.52,
+"end": 33.6
+},
+{
+"text": "sua",
+"start": 33.653,
+"end": 33.76
+},
+{
+"text": "cidade",
+"start": 34.0,
+"end": 34.24
+},
+{
+"text": "e,",
+"start": 34.56,
+"end": 34.693
+},
+{
+"text": "no",
+"start": 34.747,
+"end": 34.8
+},
+{
+"text": "final,",
+"start": 34.96,
+"end": 35.44
+},
+{
+"text": "por",
+"start": 35.56,
+"end": 35.68
+},
+{
+"text": "que",
+"start": 35.72,
+"end": 35.76
+},
+{
+"text": "os",
+"start": 35.84,
+"end": 35.92
+},
+{
+"text": "pesquisadores",
+"start": 36.0,
+"end": 36.64
+},
+{
+"text": "estão",
+"start": 36.72,
+"end": 37.04
+},
+{
+"text": "preocupados",
+"start": 37.08,
+"end": 37.76
+},
+{
+"text": "com",
+"start": 37.8,
+"end": 37.84
+},
+{
+"text": "os",
+"start": 37.92,
+"end": 38.0
+},
+{
+"text": "próximos",
+"start": 38.08,
+"end": 38.48
+},
+{
+"text": "anos.",
+"start": 38.56,
+"end": 39.2
+},
+{
+"text": "Pra",
+"start": 40.078,
+"end": 40.118
+},
+{
+"text": "entender",
+"start": 40.198,
+"end": 40.598
+},
+{
+"text": "o",
+"start": 40.638,
+"end": 40.678
+},
+{
+"text": "El",
+"start": 40.718,
+"end": 40.758
+},
+{
+"text": "Niño,",
+"start": 40.918,
+"end": 41.478
+},
+{
+"text": "primeiro",
+"start": 41.638,
+"end": 41.958
+},
+{
+"text": "você",
+"start": 41.998,
+"end": 42.278
+},
+{
+"text": "precisa",
+"start": 42.358,
+"end": 42.598
+},
+{
+"text": "ver",
+"start": 42.678,
+"end": 42.838
+},
+{
+"text": "como",
+"start": 42.918,
+"end": 43.078
+},
+{
+"text": "o",
+"start": 43.118,
+"end": 43.158
+},
+{
+"text": "Pacífico",
+"start": 43.238,
+"end": 43.798
+},
+{
+"text": "funciona",
+"start": 43.918,
+"end": 44.278
+},
+{
+"text": "num",
+"start": 44.358,
+"end": 44.518
+},
+{
+"text": "ano",
+"start": 44.598,
+"end": 44.678
+},
+{
+"text": "normal.",
+"start": 44.758,
+"end": 45.718
+},
+{
+"text": "Perto",
+"start": 45.798,
+"end": 45.958
+},
+{
+"text": "da",
+"start": 46.038,
+"end": 46.118
+},
+{
+"text": "linha",
+"start": 46.198,
+"end": 46.278
+},
+{
+"text": "do",
+"start": 46.358,
+"end": 46.398
+},
+{
+"text": "Equador,",
+"start": 46.438,
+"end": 47.078
+},
+{
+"text": "os",
+"start": 47.158,
+"end": 47.238
+},
+{
+"text": "ventos",
+"start": 47.318,
+"end": 47.558
+},
+{
+"text": "alísios",
+"start": 47.638,
+"end": 48.198
+},
+{
+"text": "sopram",
+"start": 48.278,
+"end": 48.598
+},
+{
+"text": "do",
+"start": 48.678,
+"end": 48.758
+},
+{
+"text": "leste",
+"start": 48.838,
+"end": 49.158
+},
+{
+"text": "pro",
+"start": 49.318,
+"end": 49.398
+},
+{
+"text": "oeste,",
+"start": 49.478,
+"end": 50.198
+},
+{
+"text": "da",
+"start": 50.238,
+"end": 50.278
+},
+{
+"text": "América",
+"start": 50.358,
+"end": 50.678
+},
+{
+"text": "do",
+"start": 50.758,
+"end": 50.838
+},
+{
+"text": "Sul",
+"start": 50.918,
+"end": 51.318
+},
+{
+"text": "em",
+"start": 51.358,
+"end": 51.398
+},
+{
+"text": "direção",
+"start": 51.478,
+"end": 51.878
+},
+{
+"text": "à",
+"start": 51.918,
+"end": 51.958
+},
+{
+"text": "Ásia.",
+"start": 52.038,
+"end": 52.758
+},
+{
+"text": "Esses",
+"start": 52.838,
+"end": 53.078
+},
+{
+"text": "ventos",
+"start": 53.158,
+"end": 53.478
+},
+{
+"text": "empurram",
+"start": 53.558,
+"end": 54.118
+},
+{
+"text": "a",
+"start": 54.198,
+"end": 54.238
+},
+{
+"text": "água",
+"start": 54.278,
+"end": 54.518
+},
+{
+"text": "quente",
+"start": 54.598,
+"end": 54.918
+},
+{
+"text": "da",
+"start": 54.958,
+"end": 54.998
+},
+{
+"text": "superfície",
+"start": 55.078,
+"end": 55.798
+},
+{
+"text": "pro",
+"start": 55.878,
+"end": 55.958
+},
+{
+"text": "lado",
+"start": 56.038,
+"end": 56.198
+},
+{
+"text": "da",
+"start": 56.238,
+"end": 56.278
+},
+{
+"text": "Indonésia",
+"start": 56.398,
+"end": 57.078
+},
+{
+"text": "e",
+"start": 57.118,
+"end": 57.158
+},
+{
+"text": "da",
+"start": 57.198,
+"end": 57.238
+},
+{
+"text": "Austrália.",
+"start": 57.278,
+"end": 58.278
+},
+{
+"text": "É",
+"start": 58.358,
+"end": 58.438
+},
+{
+"text": "tanta",
+"start": 58.478,
+"end": 58.838
+},
+{
+"text": "água",
+"start": 58.918,
+"end": 59.118
+},
+{
+"text": "acumulada",
+"start": 59.158,
+"end": 59.718
+},
+{
+"text": "que",
+"start": 59.878,
+"end": 59.958
+},
+{
+"text": "o",
+"start": 59.998,
+"end": 60.038
+},
+{
+"text": "nível",
+"start": 60.078,
+"end": 60.278
+},
+{
+"text": "do",
+"start": 60.358,
+"end": 60.398
+},
+{
+"text": "mar",
+"start": 60.438,
+"end": 60.598
+},
+{
+"text": "lá",
+"start": 60.678,
+"end": 60.998
+},
+{
+"text": "fica",
+"start": 61.078,
+"end": 61.318
+},
+{
+"text": "cerca",
+"start": 61.398,
+"end": 61.558
+},
+{
+"text": "de",
+"start": 61.638,
+"end": 61.718
+},
+{
+"text": "meio",
+"start": 61.878,
+"end": 62.118
+},
+{
+"text": "metro",
+"start": 62.278,
+"end": 62.598
+},
+{
+"text": "mais",
+"start": 62.678,
+"end": 62.998
+},
+{
+"text": "alto",
+"start": 63.078,
+"end": 63.318
+},
+{
+"text": "do",
+"start": 63.358,
+"end": 63.398
+},
+{
+"text": "que",
+"start": 63.478,
+"end": 63.518
+},
+{
+"text": "na",
+"start": 63.558,
+"end": 63.718
+},
+{
+"text": "costa",
+"start": 63.838,
+"end": 64.038
+},
+{
+"text": "do",
+"start": 64.078,
+"end": 64.118
+},
+{
+"text": "Peru.",
+"start": 64.198,
+"end": 64.998
+},
+{
+"text": "Do",
+"start": 65.038,
+"end": 65.078
+},
+{
+"text": "outro",
+"start": 65.158,
+"end": 65.398
+},
+{
+"text": "lado,",
+"start": 65.438,
+"end": 65.958
+},
+{
+"text": "perto",
+"start": 65.998,
+"end": 66.198
+},
+{
+"text": "da",
+"start": 66.278,
+"end": 66.358
+},
+{
+"text": "América",
+"start": 66.438,
+"end": 66.678
+},
+{
+"text": "do",
+"start": 66.758,
+"end": 66.838
+},
+{
+"text": "Sul,",
+"start": 66.918,
+"end": 67.318
+},
+{
+"text": "acontece",
+"start": 67.398,
+"end": 67.798
+},
+{
+"text": "o",
+"start": 67.838,
+"end": 67.878
+},
+{
+"text": "contrário:",
+"start": 67.958,
+"end": 68.758
+},
+{
+"text": "como",
+"start": 68.838,
+"end": 68.918
+},
+{
+"text": "a",
+"start": 68.958,
+"end": 68.998
+},
+{
+"text": "água",
+"start": 69.078,
+"end": 69.238
+},
+{
+"text": "quente",
+"start": 69.318,
+"end": 69.638
+},
+{
+"text": "foi",
+"start": 69.678,
+"end": 69.758
+},
+{
+"text": "embora,",
+"start": 69.798,
+"end": 70.438
+},
+{
+"text": "sobe",
+"start": 70.518,
+"end": 70.838
+},
+{
+"text": "água",
+"start": 70.878,
+"end": 71.078
+},
+{
+"text": "fria",
+"start": 71.238,
+"end": 71.558
+},
+{
+"text": "e",
+"start": 71.638,
+"end": 71.878
+},
+{
+"text": "cheia",
+"start": 71.958,
+"end": 72.198
+},
+{
+"text": "de",
+"start": 72.278,
+"end": 72.318
+},
+{
+"text": "nutrientes",
+"start": 72.358,
+"end": 72.918
+},
+{
+"text": "do",
+"start": 72.998,
+"end": 73.158
+},
+{
+"text": "fundo",
+"start": 73.238,
+"end": 73.478
+},
+{
+"text": "do",
+"start": 73.518,
+"end": 73.558
+},
+{
+"text": "oceano.",
+"start": 73.718,
+"end": 74.438
+},
+{
+"text": "Isso",
+"start": 74.518,
+"end": 74.678
+},
+{
+"text": "se",
+"start": 74.758,
+"end": 74.918
+},
+{
+"text": "chama",
+"start": 74.958,
+"end": 75.158
+},
+{
+"text": "ressurgência.",
+"start": 75.318,
+"end": 76.438
+},
+{
+"text": "E",
+"start": 76.465,
+"end": 76.491
+},
+{
+"text": "é",
+"start": 76.518,
+"end": 76.598
+},
+{
+"text": "por",
+"start": 76.678,
+"end": 76.758
+},
+{
+"text": "causa",
+"start": 76.798,
+"end": 76.998
+},
+{
+"text": "dela",
+"start": 77.158,
+"end": 77.478
+},
+{
+"text": "que",
+"start": 77.558,
+"end": 77.638
+},
+{
+"text": "o",
+"start": 77.658,
+"end": 77.678
+},
+{
+"text": "litoral",
+"start": 77.698,
+"end": 78.038
+},
+{
+"text": "do",
+"start": 78.118,
+"end": 78.198
+},
+{
+"text": "Peru",
+"start": 78.278,
+"end": 78.598
+},
+{
+"text": "tem",
+"start": 78.678,
+"end": 78.758
+},
+{
+"text": "uma",
+"start": 78.838,
+"end": 78.918
+},
+{
+"text": "das",
+"start": 78.998,
+"end": 79.078
+},
+{
+"text": "maiores",
+"start": 79.158,
+"end": 79.798
+},
+{
+"text": "pescarias",
+"start": 79.838,
+"end": 80.358
+},
+{
+"text": "do",
+"start": 80.398,
+"end": 80.438
+},
+{
+"text": "planeta.",
+"start": 80.518,
+"end": 81.478
+},
+{
+"text": "Resultado:",
+"start": 81.798,
+"end": 82.438
+},
+{
+"text": "no",
+"start": 82.478,
+"end": 82.518
+},
+{
+"text": "oeste,",
+"start": 82.598,
+"end": 83.318
+},
+{
+"text": "água",
+"start": 83.398,
+"end": 83.558
+},
+{
+"text": "quente,",
+"start": 83.638,
+"end": 84.278
+},
+{
+"text": "ar",
+"start": 84.358,
+"end": 84.518
+},
+{
+"text": "subindo,",
+"start": 84.638,
+"end": 85.318
+},
+{
+"text": "nuvens",
+"start": 85.398,
+"end": 85.958
+},
+{
+"text": "e",
+"start": 85.998,
+"end": 86.038
+},
+{
+"text": "muita",
+"start": 86.278,
+"end": 86.598
+},
+{
+"text": "chuva.",
+"start": 86.758,
+"end": 87.478
+},
+{
+"text": "No",
+"start": 87.518,
+"end": 87.558
+},
+{
+"text": "leste,",
+"start": 87.638,
+"end": 88.278
+},
+{
+"text": "água",
+"start": 88.358,
+"end": 88.518
+},
+{
+"text": "fria,",
+"start": 88.678,
+"end": 89.238
+},
+{
+"text": "ar",
+"start": 89.318,
+"end": 89.398
+},
+{
+"text": "descendo",
+"start": 89.478,
+"end": 90.038
+},
+{
+"text": "e",
+"start": 90.198,
+"end": 90.238
+},
+{
+"text": "um",
+"start": 90.278,
+"end": 90.318
+},
+{
+"text": "litoral",
+"start": 90.358,
+"end": 90.758
+},
+{
+"text": "seco,",
+"start": 90.918,
+"end": 91.558
+},
+{
+"text": "quase",
+"start": 91.598,
+"end": 91.798
+},
+{
+"text": "um",
+"start": 91.878,
+"end": 91.918
+},
+{
+"text": "deserto.",
+"start": 91.958,
+"end": 92.918
+},
+{
+"text": "Guarda",
+"start": 93.038,
+"end": 93.198
+},
+{
+"text": "essa",
+"start": 93.238,
+"end": 93.318
+},
+{
+"text": "imagem,",
+"start": 93.398,
+"end": 93.958
+},
+{
+"text": "porque",
+"start": 94.038,
+"end": 94.198
+},
+{
+"text": "o",
+"start": 94.238,
+"end": 94.278
+},
+{
+"text": "El",
+"start": 94.358,
+"end": 94.438
+},
+{
+"text": "Niño",
+"start": 94.518,
+"end": 94.758
+},
+{
+"text": "vira",
+"start": 94.838,
+"end": 94.998
+},
+{
+"text": "tudo",
+"start": 95.238,
+"end": 95.558
+},
+{
+"text": "isso",
+"start": 95.638,
+"end": 95.798
+},
+{
+"text": "de",
+"start": 95.838,
+"end": 95.878
+},
+{
+"text": "cabeça",
+"start": 95.958,
+"end": 96.438
+},
+{
+"text": "pra",
+"start": 96.518,
+"end": 96.678
+},
+{
+"text": "baixo.",
+"start": 96.758,
+"end": 97.398
+},
+{
+"text": "De",
+"start": 98.229,
+"end": 98.309
+},
+{
+"text": "tempos",
+"start": 98.389,
+"end": 98.709
+},
+{
+"text": "em",
+"start": 98.789,
+"end": 98.869
+},
+{
+"text": "tempos,",
+"start": 98.989,
+"end": 99.389
+},
+{
+"text": "os",
+"start": 99.429,
+"end": 99.589
+},
+{
+"text": "ventos",
+"start": 99.709,
+"end": 99.909
+},
+{
+"text": "alísios",
+"start": 99.989,
+"end": 100.309
+},
+{
+"text": "enfraquecem.",
+"start": 100.389,
+"end": 101.589
+},
+{
+"text": "Às",
+"start": 101.669,
+"end": 101.789
+},
+{
+"text": "vezes",
+"start": 101.829,
+"end": 102.229
+},
+{
+"text": "chegam",
+"start": 102.269,
+"end": 102.469
+},
+{
+"text": "até",
+"start": 102.589,
+"end": 102.749
+},
+{
+"text": "a",
+"start": 102.789,
+"end": 102.842
+},
+{
+"text": "inverter.",
+"start": 102.896,
+"end": 103.909
+},
+{
+"text": "Sem",
+"start": 103.989,
+"end": 104.069
+},
+{
+"text": "o",
+"start": 104.109,
+"end": 104.149
+},
+{
+"text": "vento",
+"start": 104.229,
+"end": 104.469
+},
+{
+"text": "segurando,",
+"start": 104.549,
+"end": 105.269
+},
+{
+"text": "aquela",
+"start": 105.389,
+"end": 105.589
+},
+{
+"text": "água",
+"start": 105.669,
+"end": 105.829
+},
+{
+"text": "quente",
+"start": 105.989,
+"end": 106.309
+},
+{
+"text": "acumulada",
+"start": 106.389,
+"end": 106.869
+},
+{
+"text": "no",
+"start": 106.909,
+"end": 106.949
+},
+{
+"text": "oeste",
+"start": 107.029,
+"end": 107.429
+},
+{
+"text": "começa",
+"start": 107.509,
+"end": 107.829
+},
+{
+"text": "a",
+"start": 107.869,
+"end": 107.909
+},
+{
+"text": "voltar",
+"start": 107.989,
+"end": 108.469
+},
+{
+"text": "pro",
+"start": 108.549,
+"end": 108.709
+},
+{
+"text": "leste,",
+"start": 108.789,
+"end": 109.429
+},
+{
+"text": "como",
+"start": 109.509,
+"end": 109.589
+},
+{
+"text": "a",
+"start": 109.669,
+"end": 109.749
+},
+{
+"text": "água",
+"start": 109.829,
+"end": 109.989
+},
+{
+"text": "de",
+"start": 110.029,
+"end": 110.069
+},
+{
+"text": "uma",
+"start": 110.149,
+"end": 110.229
+},
+{
+"text": "banheira",
+"start": 110.309,
+"end": 110.629
+},
+{
+"text": "que",
+"start": 110.669,
+"end": 110.709
+},
+{
+"text": "balança.",
+"start": 110.789,
+"end": 111.669
+},
+{
+"text": "Ela",
+"start": 111.709,
+"end": 111.829
+},
+{
+"text": "atravessa",
+"start": 111.949,
+"end": 112.469
+},
+{
+"text": "o",
+"start": 112.509,
+"end": 112.549
+},
+{
+"text": "Pacífico",
+"start": 112.656,
+"end": 113.109
+},
+{
+"text": "em",
+"start": 113.189,
+"end": 113.269
+},
+{
+"text": "ondas",
+"start": 113.349,
+"end": 113.589
+},
+{
+"text": "gigantes",
+"start": 113.669,
+"end": 114.389
+},
+{
+"text": "e",
+"start": 114.429,
+"end": 114.469
+},
+{
+"text": "lentas,",
+"start": 114.549,
+"end": 115.269
+},
+{
+"text": "que",
+"start": 115.309,
+"end": 115.349
+},
+{
+"text": "levam",
+"start": 115.429,
+"end": 115.669
+},
+{
+"text": "uns",
+"start": 115.789,
+"end": 115.909
+},
+{
+"text": "dois",
+"start": 115.989,
+"end": 116.229
+},
+{
+"text": "meses",
+"start": 116.309,
+"end": 116.629
+},
+{
+"text": "pra",
+"start": 116.709,
+"end": 116.789
+},
+{
+"text": "cruzar",
+"start": 116.869,
+"end": 117.189
+},
+{
+"text": "o",
+"start": 117.229,
+"end": 117.269
+},
+{
+"text": "oceano.",
+"start": 117.389,
+"end": 118.229
+},
+{
+"text": "Quando",
+"start": 118.269,
+"end": 118.469
+},
+{
+"text": "essa",
+"start": 118.549,
+"end": 118.629
+},
+{
+"text": "água",
+"start": 118.709,
+"end": 118.869
+},
+{
+"text": "quente",
+"start": 118.949,
+"end": 119.269
+},
+{
+"text": "chega",
+"start": 119.349,
+"end": 119.669
+},
+{
+"text": "perto",
+"start": 119.709,
+"end": 119.989
+},
+{
+"text": "da",
+"start": 120.029,
+"end": 120.069
+},
+{
+"text": "América",
+"start": 120.109,
+"end": 120.389
+},
+{
+"text": "do",
+"start": 120.469,
+"end": 120.549
+},
+{
+"text": "Sul,",
+"start": 120.629,
+"end": 121.109
+},
+{
+"text": "ela",
+"start": 121.229,
+"end": 121.349
+},
+{
+"text": "tampa",
+"start": 121.589,
+"end": 121.829
+},
+{
+"text": "a",
+"start": 121.869,
+"end": 121.909
+},
+{
+"text": "ressurgência.",
+"start": 122.029,
+"end": 123.029
+},
+{
+"text": "A",
+"start": 123.109,
+"end": 123.149
+},
+{
+"text": "água",
+"start": 123.189,
+"end": 123.429
+},
+{
+"text": "fria",
+"start": 123.589,
+"end": 123.909
+},
+{
+"text": "para",
+"start": 124.149,
+"end": 124.389
+},
+{
+"text": "de",
+"start": 124.469,
+"end": 124.549
+},
+{
+"text": "subir.",
+"start": 124.629,
+"end": 125.189
+},
+{
+"text": "E",
+"start": 125.429,
+"end": 125.509
+},
+{
+"text": "aí",
+"start": 125.589,
+"end": 125.829
+},
+{
+"text": "vem",
+"start": 125.909,
+"end": 125.989
+},
+{
+"text": "a",
+"start": 126.069,
+"end": 126.149
+},
+{
+"text": "parte",
+"start": 126.269,
+"end": 126.629
+},
+{
+"text": "mais",
+"start": 126.709,
+"end": 126.869
+},
+{
+"text": "interessante:",
+"start": 126.949,
+"end": 128.069
+},
+{
+"text": "o",
+"start": 128.109,
+"end": 128.149
+},
+{
+"text": "oceano",
+"start": 128.229,
+"end": 128.629
+},
+{
+"text": "mais",
+"start": 128.709,
+"end": 129.029
+},
+{
+"text": "quente",
+"start": 129.109,
+"end": 129.429
+},
+{
+"text": "no",
+"start": 129.469,
+"end": 129.509
+},
+{
+"text": "leste",
+"start": 129.589,
+"end": 129.989
+},
+{
+"text": "enfraquece",
+"start": 130.069,
+"end": 130.709
+},
+{
+"text": "ainda",
+"start": 130.869,
+"end": 131.189
+},
+{
+"text": "mais",
+"start": 131.269,
+"end": 131.509
+},
+{
+"text": "os",
+"start": 131.589,
+"end": 131.669
+},
+{
+"text": "ventos,",
+"start": 131.749,
+"end": 132.469
+},
+{
+"text": "e",
+"start": 132.509,
+"end": 132.549
+},
+{
+"text": "ventos",
+"start": 132.709,
+"end": 133.029
+},
+{
+"text": "mais",
+"start": 133.069,
+"end": 133.269
+},
+{
+"text": "fracos",
+"start": 133.349,
+"end": 133.829
+},
+{
+"text": "deixam",
+"start": 133.989,
+"end": 134.389
+},
+{
+"text": "o",
+"start": 134.429,
+"end": 134.469
+},
+{
+"text": "oceano",
+"start": 134.589,
+"end": 135.029
+},
+{
+"text": "ainda",
+"start": 135.229,
+"end": 135.589
+},
+{
+"text": "mais",
+"start": 135.629,
+"end": 135.909
+},
+{
+"text": "quente.",
+"start": 135.989,
+"end": 136.869
+},
+{
+"text": "É",
+"start": 136.909,
+"end": 136.949
+},
+{
+"text": "um",
+"start": 137.069,
+"end": 137.189
+},
+{
+"text": "ciclo",
+"start": 137.229,
+"end": 137.589
+},
+{
+"text": "que",
+"start": 137.629,
+"end": 137.669
+},
+{
+"text": "se",
+"start": 137.709,
+"end": 137.749
+},
+{
+"text": "alimenta",
+"start": 137.789,
+"end": 138.229
+},
+{
+"text": "sozinho.",
+"start": 138.349,
+"end": 139.269
+},
+{
+"text": "Quem",
+"start": 139.309,
+"end": 139.429
+},
+{
+"text": "descobriu",
+"start": 139.509,
+"end": 139.909
+},
+{
+"text": "isso",
+"start": 139.989,
+"end": 140.229
+},
+{
+"text": "foi",
+"start": 140.389,
+"end": 140.509
+},
+{
+"text": "o",
+"start": 140.549,
+"end": 140.629
+},
+{
+"text": "meteorologista",
+"start": 140.829,
+"end": 141.589
+},
+{
+"text": "Jacob",
+"start": 141.829,
+"end": 142.149
+},
+{
+"text": "Bjerknes,",
+"start": 142.229,
+"end": 142.949
+},
+{
+"text": "em",
+"start": 143.069,
+"end": 143.189
+},
+{
+"text": "1969.",
+"start": 143.269,
+"end": 145.589
+},
+{
+"text": "Junto",
+"start": 145.629,
+"end": 145.829
+},
+{
+"text": "com",
+"start": 145.909,
+"end": 145.989
+},
+{
+"text": "a",
+"start": 146.069,
+"end": 146.109
+},
+{
+"text": "água",
+"start": 146.149,
+"end": 146.389
+},
+{
+"text": "quente,",
+"start": 146.469,
+"end": 147.029
+},
+{
+"text": "a",
+"start": 147.069,
+"end": 147.109
+},
+{
+"text": "chuva",
+"start": 147.349,
+"end": 147.669
+},
+{
+"text": "também",
+"start": 147.749,
+"end": 148.149
+},
+{
+"text": "muda",
+"start": 148.189,
+"end": 148.389
+},
+{
+"text": "de",
+"start": 148.469,
+"end": 148.549
+},
+{
+"text": "lugar.",
+"start": 148.682,
+"end": 149.349
+},
+{
+"text": "As",
+"start": 149.429,
+"end": 149.509
+},
+{
+"text": "nuvens",
+"start": 149.589,
+"end": 149.909
+},
+{
+"text": "que",
+"start": 149.989,
+"end": 150.069
+},
+{
+"text": "ficavam",
+"start": 150.149,
+"end": 150.549
+},
+{
+"text": "sobre",
+"start": 150.602,
+"end": 150.709
+},
+{
+"text": "a",
+"start": 150.749,
+"end": 150.789
+},
+{
+"text": "Indonésia",
+"start": 150.869,
+"end": 151.509
+},
+{
+"text": "se",
+"start": 151.589,
+"end": 151.669
+},
+{
+"text": "mudam",
+"start": 151.829,
+"end": 152.149
+},
+{
+"text": "pro",
+"start": 152.269,
+"end": 152.389
+},
+{
+"text": "meio",
+"start": 152.469,
+"end": 152.629
+},
+{
+"text": "do",
+"start": 152.709,
+"end": 152.789
+},
+{
+"text": "Pacífico.",
+"start": 152.829,
+"end": 153.829
+},
+{
+"text": "E",
+"start": 153.869,
+"end": 153.909
+},
+{
+"text": "quando",
+"start": 153.989,
+"end": 154.149
+},
+{
+"text": "a",
+"start": 154.189,
+"end": 154.229
+},
+{
+"text": "chuva",
+"start": 154.309,
+"end": 154.549
+},
+{
+"text": "troca",
+"start": 154.709,
+"end": 154.949
+},
+{
+"text": "de",
+"start": 155.029,
+"end": 155.109
+},
+{
+"text": "endereço,",
+"start": 155.189,
+"end": 155.909
+},
+{
+"text": "o",
+"start": 155.989,
+"end": 156.069
+},
+{
+"text": "clima",
+"start": 156.149,
+"end": 156.389
+},
+{
+"text": "do",
+"start": 156.429,
+"end": 156.469
+},
+{
+"text": "planeta",
+"start": 156.549,
+"end": 157.109
+},
+{
+"text": "inteiro",
+"start": 157.189,
+"end": 157.829
+},
+{
+"text": "sente.",
+"start": 157.909,
+"end": 158.869
+},
+{
+"text": "E",
+"start": 159.789,
+"end": 159.909
+},
+{
+"text": "de",
+"start": 159.989,
+"end": 160.149
+},
+{
+"text": "onde",
+"start": 160.269,
+"end": 160.389
+},
+{
+"text": "vem",
+"start": 160.549,
+"end": 160.709
+},
+{
+"text": "esse",
+"start": 160.829,
+"end": 160.949
+},
+{
+"text": "nome?",
+"start": 161.109,
+"end": 161.749
+},
+{
+"text": "No",
+"start": 161.829,
+"end": 161.909
+},
+{
+"text": "século",
+"start": 161.989,
+"end": 162.229
+},
+{
+"text": "dezenove,",
+"start": 162.309,
+"end": 163.109
+},
+{
+"text": "pescadores",
+"start": 163.149,
+"end": 163.669
+},
+{
+"text": "do",
+"start": 163.749,
+"end": 163.829
+},
+{
+"text": "Peru",
+"start": 163.909,
+"end": 164.149
+},
+{
+"text": "perceberam",
+"start": 164.229,
+"end": 164.869
+},
+{
+"text": "que,",
+"start": 164.949,
+"end": 165.269
+},
+{
+"text": "em",
+"start": 165.309,
+"end": 165.349
+},
+{
+"text": "alguns",
+"start": 165.429,
+"end": 165.829
+},
+{
+"text": "anos,",
+"start": 165.989,
+"end": 166.469
+},
+{
+"text": "a",
+"start": 166.509,
+"end": 166.549
+},
+{
+"text": "água",
+"start": 166.629,
+"end": 166.789
+},
+{
+"text": "do",
+"start": 166.869,
+"end": 166.909
+},
+{
+"text": "mar",
+"start": 166.949,
+"end": 167.109
+},
+{
+"text": "ficava",
+"start": 167.189,
+"end": 167.509
+},
+{
+"text": "quente",
+"start": 167.669,
+"end": 168.069
+},
+{
+"text": "perto",
+"start": 168.149,
+"end": 168.389
+},
+{
+"text": "do",
+"start": 168.429,
+"end": 168.469
+},
+{
+"text": "Natal.",
+"start": 168.549,
+"end": 169.349
+},
+{
+"text": "E",
+"start": 169.429,
+"end": 169.509
+},
+{
+"text": "com",
+"start": 169.589,
+"end": 169.669
+},
+{
+"text": "a",
+"start": 169.709,
+"end": 169.749
+},
+{
+"text": "água",
+"start": 169.829,
+"end": 170.069
+},
+{
+"text": "quente,",
+"start": 170.109,
+"end": 170.709
+},
+{
+"text": "os",
+"start": 170.789,
+"end": 170.869
+},
+{
+"text": "peixes",
+"start": 170.949,
+"end": 171.269
+},
+{
+"text": "sumiam.",
+"start": 171.349,
+"end": 172.229
+},
+{
+"text": "Eles",
+"start": 172.269,
+"end": 172.469
+},
+{
+"text": "batizaram",
+"start": 172.549,
+"end": 173.109
+},
+{
+"text": "o",
+"start": 173.149,
+"end": 173.189
+},
+{
+"text": "fenômeno",
+"start": 173.269,
+"end": 173.829
+},
+{
+"text": "de",
+"start": 173.869,
+"end": 173.909
+},
+{
+"text": "El",
+"start": 174.149,
+"end": 174.309
+},
+{
+"text": "Niño,",
+"start": 174.469,
+"end": 175.109
+},
+{
+"text": "que",
+"start": 175.149,
+"end": 175.189
+},
+{
+"text": "em",
+"start": 175.269,
+"end": 175.309
+},
+{
+"text": "espanhol",
+"start": 175.349,
+"end": 175.909
+},
+{
+"text": "quer",
+"start": 175.989,
+"end": 176.069
+},
+{
+"text": "dizer",
+"start": 176.149,
+"end": 176.469
+},
+{
+"text": "\"o",
+"start": 176.629,
+"end": 176.709
+},
+{
+"text": "menino\",",
+"start": 176.789,
+"end": 177.509
+},
+{
+"text": "uma",
+"start": 177.589,
+"end": 177.669
+},
+{
+"text": "referência",
+"start": 177.749,
+"end": 178.229
+},
+{
+"text": "ao",
+"start": 178.269,
+"end": 178.309
+},
+{
+"text": "Menino",
+"start": 178.389,
+"end": 178.629
+},
+{
+"text": "Jesus.",
+"start": 178.709,
+"end": 179.389
+},
+{
+"text": "Pra",
+"start": 179.589,
+"end": 179.749
+},
+{
+"text": "eles,",
+"start": 179.829,
+"end": 180.309
+},
+{
+"text": "isso",
+"start": 180.389,
+"end": 180.549
+},
+{
+"text": "era",
+"start": 180.669,
+"end": 180.789
+},
+{
+"text": "bem",
+"start": 180.869,
+"end": 181.109
+},
+{
+"text": "sério.",
+"start": 181.189,
+"end": 181.989
+},
+{
+"text": "Em",
+"start": 182.069,
+"end": 182.149
+},
+{
+"text": "1972,",
+"start": 182.229,
+"end": 184.229
+},
+{
+"text": "um",
+"start": 184.269,
+"end": 184.309
+},
+{
+"text": "El",
+"start": 184.389,
+"end": 184.469
+},
+{
+"text": "Niño",
+"start": 184.549,
+"end": 184.789
+},
+{
+"text": "forte",
+"start": 185.029,
+"end": 185.509
+},
+{
+"text": "ajudou",
+"start": 185.589,
+"end": 185.909
+},
+{
+"text": "a",
+"start": 185.989,
+"end": 186.029
+},
+{
+"text": "derrubar",
+"start": 186.069,
+"end": 186.549
+},
+{
+"text": "a",
+"start": 186.589,
+"end": 186.629
+},
+{
+"text": "pesca",
+"start": 186.789,
+"end": 187.029
+},
+{
+"text": "da",
+"start": 187.109,
+"end": 187.149
+},
+{
+"text": "anchoveta",
+"start": 187.189,
+"end": 187.749
+},
+{
+"text": "no",
+"start": 187.789,
+"end": 187.829
+},
+{
+"text": "Peru,",
+"start": 187.909,
+"end": 188.469
+},
+{
+"text": "que",
+"start": 188.549,
+"end": 188.629
+},
+{
+"text": "na",
+"start": 188.669,
+"end": 188.709
+},
+{
+"text": "época",
+"start": 188.789,
+"end": 189.269
+},
+{
+"text": "era",
+"start": 189.349,
+"end": 189.429
+},
+{
+"text": "a",
+"start": 189.482,
+"end": 189.536
+},
+{
+"text": "maior",
+"start": 189.589,
+"end": 189.989
+},
+{
+"text": "pescaria",
+"start": 190.069,
+"end": 190.549
+},
+{
+"text": "do",
+"start": 190.629,
+"end": 190.709
+},
+{
+"text": "mundo.",
+"start": 190.869,
+"end": 191.549
+},
+{
+"text": "O",
+"start": 191.829,
+"end": 191.869
+},
+{
+"text": "oposto",
+"start": 191.909,
+"end": 192.469
+},
+{
+"text": "do",
+"start": 192.509,
+"end": 192.549
+},
+{
+"text": "El",
+"start": 192.589,
+"end": 192.629
+},
+{
+"text": "Niño",
+"start": 192.709,
+"end": 193.109
+},
+{
+"text": "também",
+"start": 193.149,
+"end": 193.509
+},
+{
+"text": "ganhou",
+"start": 193.589,
+"end": 193.749
+},
+{
+"text": "nome:",
+"start": 193.829,
+"end": 194.469
+},
+{
+"text": "La",
+"start": 194.549,
+"end": 194.709
+},
+{
+"text": "Niña,",
+"start": 194.789,
+"end": 195.429
+},
+{
+"text": "\"a",
+"start": 195.469,
+"end": 195.509
+},
+{
+"text": "menina\".",
+"start": 195.589,
+"end": 196.469
+},
+{
+"text": "Ela",
+"start": 196.549,
+"end": 196.629
+},
+{
+"text": "acontece",
+"start": 196.709,
+"end": 197.269
+},
+{
+"text": "quando",
+"start": 197.309,
+"end": 197.509
+},
+{
+"text": "os",
+"start": 197.549,
+"end": 197.589
+},
+{
+"text": "ventos",
+"start": 197.669,
+"end": 197.989
+},
+{
+"text": "ficam",
+"start": 198.069,
+"end": 198.309
+},
+{
+"text": "mais",
+"start": 198.389,
+"end": 198.629
+},
+{
+"text": "fortes",
+"start": 198.709,
+"end": 199.109
+},
+{
+"text": "que",
+"start": 199.149,
+"end": 199.189
+},
+{
+"text": "o",
+"start": 199.216,
+"end": 199.242
+},
+{
+"text": "normal",
+"start": 199.269,
+"end": 199.669
+},
+{
+"text": "e",
+"start": 199.909,
+"end": 199.949
+},
+{
+"text": "o",
+"start": 199.989,
+"end": 200.029
+},
+{
+"text": "Pacífico",
+"start": 200.069,
+"end": 200.549
+},
+{
+"text": "leste",
+"start": 200.629,
+"end": 201.029
+},
+{
+"text": "fica",
+"start": 201.109,
+"end": 201.429
+},
+{
+"text": "ainda",
+"start": 201.629,
+"end": 201.989
+},
+{
+"text": "mais",
+"start": 202.069,
+"end": 202.309
+},
+{
+"text": "frio.",
+"start": 202.389,
+"end": 203.189
+},
+{
+"text": "E",
+"start": 204.109,
+"end": 204.229
+},
+{
+"text": "como",
+"start": 204.309,
+"end": 204.469
+},
+{
+"text": "os",
+"start": 204.509,
+"end": 204.549
+},
+{
+"text": "cientistas",
+"start": 204.629,
+"end": 205.269
+},
+{
+"text": "sabem",
+"start": 205.309,
+"end": 205.669
+},
+{
+"text": "que",
+"start": 205.749,
+"end": 205.789
+},
+{
+"text": "um",
+"start": 205.829,
+"end": 205.909
+},
+{
+"text": "El",
+"start": 205.949,
+"end": 205.989
+},
+{
+"text": "Niño",
+"start": 206.149,
+"end": 206.309
+},
+{
+"text": "começou?",
+"start": 206.389,
+"end": 207.269
+},
+{
+"text": "Eles",
+"start": 207.309,
+"end": 207.589
+},
+{
+"text": "olham",
+"start": 207.669,
+"end": 207.909
+},
+{
+"text": "pra",
+"start": 207.989,
+"end": 208.069
+},
+{
+"text": "uma",
+"start": 208.149,
+"end": 208.229
+},
+{
+"text": "área",
+"start": 208.269,
+"end": 208.389
+},
+{
+"text": "específica,",
+"start": 208.469,
+"end": 209.349
+},
+{
+"text": "chamada",
+"start": 209.429,
+"end": 209.829
+},
+{
+"text": "região",
+"start": 209.909,
+"end": 210.389
+},
+{
+"text": "Niño",
+"start": 210.549,
+"end": 210.869
+},
+{
+"text": "3.4.",
+"start": 210.949,
+"end": 212.309
+},
+{
+"text": "Ela",
+"start": 212.389,
+"end": 212.549
+},
+{
+"text": "fica",
+"start": 212.589,
+"end": 212.949
+},
+{
+"text": "bem",
+"start": 212.989,
+"end": 213.109
+},
+{
+"text": "no",
+"start": 213.189,
+"end": 213.349
+},
+{
+"text": "meio",
+"start": 213.389,
+"end": 213.589
+},
+{
+"text": "do",
+"start": 213.629,
+"end": 213.669
+},
+{
+"text": "Pacífico,",
+"start": 213.709,
+"end": 214.469
+},
+{
+"text": "na",
+"start": 214.509,
+"end": 214.549
+},
+{
+"text": "linha",
+"start": 214.629,
+"end": 214.789
+},
+{
+"text": "do",
+"start": 214.869,
+"end": 214.909
+},
+{
+"text": "Equador,",
+"start": 214.949,
+"end": 215.776
+},
+{
+"text": "e",
+"start": 215.802,
+"end": 215.829
+},
+{
+"text": "tem",
+"start": 215.909,
+"end": 215.989
+},
+{
+"text": "mais",
+"start": 216.069,
+"end": 216.229
+},
+{
+"text": "de",
+"start": 216.309,
+"end": 216.549
+},
+{
+"text": "seis",
+"start": 216.629,
+"end": 216.789
+},
+{
+"text": "milhões",
+"start": 216.949,
+"end": 217.509
+},
+{
+"text": "de",
+"start": 217.549,
+"end": 217.589
+},
+{
+"text": "quilômetros",
+"start": 217.669,
+"end": 218.149
+},
+{
+"text": "quadrados,",
+"start": 218.189,
+"end": 219.029
+},
+{
+"text": "uns",
+"start": 219.149,
+"end": 219.269
+},
+{
+"text": "setenta",
+"start": 219.349,
+"end": 219.829
+},
+{
+"text": "por",
+"start": 219.949,
+"end": 220.069
+},
+{
+"text": "cento",
+"start": 220.189,
+"end": 220.349
+},
+{
+"text": "do",
+"start": 220.389,
+"end": 220.469
+},
+{
+"text": "tamanho",
+"start": 220.509,
+"end": 220.789
+},
+{
+"text": "do",
+"start": 220.829,
+"end": 220.869
+},
+{
+"text": "Brasil.",
+"start": 220.949,
+"end": 221.829
+},
+{
+"text": "Boias",
+"start": 221.909,
+"end": 222.229
+},
+{
+"text": "espalhadas",
+"start": 222.309,
+"end": 222.789
+},
+{
+"text": "pelo",
+"start": 222.869,
+"end": 223.029
+},
+{
+"text": "oceano",
+"start": 223.149,
+"end": 223.669
+},
+{
+"text": "e",
+"start": 223.709,
+"end": 223.749
+},
+{
+"text": "satélites",
+"start": 223.909,
+"end": 224.549
+},
+{
+"text": "medem",
+"start": 224.629,
+"end": 224.949
+},
+{
+"text": "a",
+"start": 224.989,
+"end": 225.029
+},
+{
+"text": "temperatura",
+"start": 225.109,
+"end": 225.589
+},
+{
+"text": "da",
+"start": 225.669,
+"end": 225.749
+},
+{
+"text": "água",
+"start": 225.829,
+"end": 226.149
+},
+{
+"text": "o",
+"start": 226.269,
+"end": 226.389
+},
+{
+"text": "tempo",
+"start": 226.509,
+"end": 226.789
+},
+{
+"text": "todo.",
+"start": 226.949,
+"end": 227.589
+},
+{
+"text": "Se",
+"start": 227.629,
+"end": 227.669
+},
+{
+"text": "ela",
+"start": 227.749,
+"end": 227.909
+},
+{
+"text": "ficar",
+"start": 227.989,
+"end": 228.389
+},
+{
+"text": "meio",
+"start": 228.469,
+"end": 228.709
+},
+{
+"text": "grau",
+"start": 228.789,
+"end": 228.949
+},
+{
+"text": "acima",
+"start": 229.029,
+"end": 229.429
+},
+{
+"text": "da",
+"start": 229.509,
+"end": 229.589
+},
+{
+"text": "média",
+"start": 229.749,
+"end": 229.909
+},
+{
+"text": "por",
+"start": 229.989,
+"end": 230.229
+},
+{
+"text": "vários",
+"start": 230.269,
+"end": 230.629
+},
+{
+"text": "meses",
+"start": 230.709,
+"end": 230.949
+},
+{
+"text": "seguidos,",
+"start": 231.029,
+"end": 231.749
+},
+{
+"text": "é",
+"start": 231.829,
+"end": 231.909
+},
+{
+"text": "El",
+"start": 231.989,
+"end": 232.069
+},
+{
+"text": "Niño.",
+"start": 232.149,
+"end": 232.789
+},
+{
+"text": "Acima",
+"start": 232.869,
+"end": 233.269
+},
+{
+"text": "de",
+"start": 233.349,
+"end": 233.509
+},
+{
+"text": "um",
+"start": 233.589,
+"end": 233.669
+},
+{
+"text": "grau",
+"start": 233.749,
+"end": 233.989
+},
+{
+"text": "e",
+"start": 234.069,
+"end": 234.149
+},
+{
+"text": "meio,",
+"start": 234.229,
+"end": 234.709
+},
+{
+"text": "é",
+"start": 234.749,
+"end": 234.789
+},
+{
+"text": "um",
+"start": 234.829,
+"end": 234.869
+},
+{
+"text": "El",
+"start": 234.949,
+"end": 235.029
+},
+{
+"text": "Niño",
+"start": 235.109,
+"end": 235.349
+},
+{
+"text": "forte.",
+"start": 235.509,
+"end": 236.389
+},
+{
+"text": "E",
+"start": 236.429,
+"end": 236.469
+},
+{
+"text": "acima",
+"start": 236.589,
+"end": 236.869
+},
+{
+"text": "de",
+"start": 236.949,
+"end": 237.109
+},
+{
+"text": "dois",
+"start": 237.189,
+"end": 237.429
+},
+{
+"text": "graus,",
+"start": 237.509,
+"end": 238.069
+},
+{
+"text": "os",
+"start": 238.109,
+"end": 238.149
+},
+{
+"text": "cientistas",
+"start": 238.229,
+"end": 238.789
+},
+{
+"text": "chamam",
+"start": 238.869,
+"end": 239.189
+},
+{
+"text": "de",
+"start": 239.269,
+"end": 239.349
+},
+{
+"text": "muito",
+"start": 239.509,
+"end": 239.829
+},
+{
+"text": "forte,",
+"start": 239.909,
+"end": 240.629
+},
+{
+"text": "ou,",
+"start": 240.709,
+"end": 241.029
+},
+{
+"text": "como",
+"start": 241.109,
+"end": 241.189
+},
+{
+"text": "alguns",
+"start": 241.269,
+"end": 241.509
+},
+{
+"text": "apelidaram,",
+"start": 241.629,
+"end": 242.389
+},
+{
+"text": "um",
+"start": 242.469,
+"end": 242.549
+},
+{
+"text": "super",
+"start": 242.789,
+"end": 243.189
+},
+{
+"text": "El",
+"start": 243.229,
+"end": 243.269
+},
+{
+"text": "Niño.",
+"start": 243.349,
+"end": 243.909
+},
+{
+"text": "Parece",
+"start": 244.149,
+"end": 244.549
+},
+{
+"text": "pouco,",
+"start": 244.589,
+"end": 245.189
+},
+{
+"text": "mas",
+"start": 245.349,
+"end": 245.509
+},
+{
+"text": "meio",
+"start": 245.589,
+"end": 245.909
+},
+{
+"text": "grau",
+"start": 245.949,
+"end": 246.149
+},
+{
+"text": "numa",
+"start": 246.229,
+"end": 246.429
+},
+{
+"text": "área",
+"start": 246.469,
+"end": 246.629
+},
+{
+"text": "desse",
+"start": 246.789,
+"end": 247.109
+},
+{
+"text": "tamanho",
+"start": 247.189,
+"end": 247.669
+},
+{
+"text": "é",
+"start": 247.749,
+"end": 247.789
+},
+{
+"text": "uma",
+"start": 247.829,
+"end": 247.909
+},
+{
+"text": "quantidade",
+"start": 247.989,
+"end": 248.549
+},
+{
+"text": "absurda",
+"start": 248.709,
+"end": 249.509
+},
+{
+"text": "de",
+"start": 249.549,
+"end": 249.589
+},
+{
+"text": "energia.",
+"start": 249.669,
+"end": 250.469
+},
+{
+"text": "O",
+"start": 251.303,
+"end": 251.356
+},
+{
+"text": "El",
+"start": 251.41,
+"end": 251.463
+},
+{
+"text": "Niño",
+"start": 251.543,
+"end": 251.863
+},
+{
+"text": "não",
+"start": 251.943,
+"end": 252.103
+},
+{
+"text": "é",
+"start": 252.183,
+"end": 252.263
+},
+{
+"text": "um",
+"start": 252.303,
+"end": 252.343
+},
+{
+"text": "evento",
+"start": 252.503,
+"end": 252.663
+},
+{
+"text": "isolado.",
+"start": 252.823,
+"end": 253.516
+},
+{
+"text": "Ele",
+"start": 253.57,
+"end": 253.623
+},
+{
+"text": "faz",
+"start": 253.663,
+"end": 253.863
+},
+{
+"text": "parte",
+"start": 253.983,
+"end": 254.143
+},
+{
+"text": "de",
+"start": 254.183,
+"end": 254.223
+},
+{
+"text": "um",
+"start": 254.263,
+"end": 254.423
+},
+{
+"text": "ciclo",
+"start": 254.503,
+"end": 254.903
+},
+{
+"text": "que",
+"start": 254.943,
+"end": 254.983
+},
+{
+"text": "os",
+"start": 255.023,
+"end": 255.063
+},
+{
+"text": "cientistas",
+"start": 255.223,
+"end": 255.623
+},
+{
+"text": "chamam",
+"start": 255.703,
+"end": 256.023
+},
+{
+"text": "de",
+"start": 256.143,
+"end": 256.263
+},
+{
+"text": "ENOS,",
+"start": 256.343,
+"end": 257.063
+},
+{
+"text": "El",
+"start": 257.143,
+"end": 257.223
+},
+{
+"text": "Niño",
+"start": 257.383,
+"end": 257.703
+},
+{
+"text": "Oscilação",
+"start": 257.783,
+"end": 258.423
+},
+{
+"text": "Sul.",
+"start": 258.583,
+"end": 259.276
+},
+{
+"text": "É",
+"start": 259.33,
+"end": 259.383
+},
+{
+"text": "como",
+"start": 259.463,
+"end": 259.543
+},
+{
+"text": "uma",
+"start": 259.623,
+"end": 259.703
+},
+{
+"text": "gangorra.",
+"start": 259.783,
+"end": 260.663
+},
+{
+"text": "De",
+"start": 260.703,
+"end": 260.743
+},
+{
+"text": "um",
+"start": 260.783,
+"end": 260.823
+},
+{
+"text": "lado,",
+"start": 260.903,
+"end": 261.41
+},
+{
+"text": "o",
+"start": 261.436,
+"end": 261.463
+},
+{
+"text": "El",
+"start": 261.543,
+"end": 261.623
+},
+{
+"text": "Niño,",
+"start": 261.703,
+"end": 262.21
+},
+{
+"text": "com",
+"start": 262.236,
+"end": 262.263
+},
+{
+"text": "o",
+"start": 262.303,
+"end": 262.343
+},
+{
+"text": "Pacífico",
+"start": 262.423,
+"end": 262.903
+},
+{
+"text": "leste",
+"start": 262.983,
+"end": 263.303
+},
+{
+"text": "quente.",
+"start": 263.383,
+"end": 264.143
+},
+{
+"text": "Do",
+"start": 264.183,
+"end": 264.263
+},
+{
+"text": "outro,",
+"start": 264.423,
+"end": 264.863
+},
+{
+"text": "a",
+"start": 264.903,
+"end": 264.943
+},
+{
+"text": "La",
+"start": 264.983,
+"end": 265.063
+},
+{
+"text": "Niña,",
+"start": 265.143,
+"end": 265.73
+},
+{
+"text": "com",
+"start": 265.756,
+"end": 265.783
+},
+{
+"text": "o",
+"start": 265.823,
+"end": 265.863
+},
+{
+"text": "Pacífico",
+"start": 265.943,
+"end": 266.423
+},
+{
+"text": "leste",
+"start": 266.503,
+"end": 266.823
+},
+{
+"text": "frio.",
+"start": 266.903,
+"end": 267.57
+},
+{
+"text": "E",
+"start": 267.596,
+"end": 267.623
+},
+{
+"text": "no",
+"start": 267.703,
+"end": 267.783
+},
+{
+"text": "meio,",
+"start": 267.863,
+"end": 268.396
+},
+{
+"text": "os",
+"start": 268.45,
+"end": 268.503
+},
+{
+"text": "anos",
+"start": 268.583,
+"end": 268.823
+},
+{
+"text": "neutros.",
+"start": 268.903,
+"end": 269.783
+},
+{
+"text": "Um",
+"start": 269.863,
+"end": 269.943
+},
+{
+"text": "El",
+"start": 270.023,
+"end": 270.103
+},
+{
+"text": "Niño",
+"start": 270.183,
+"end": 270.503
+},
+{
+"text": "aparece",
+"start": 270.583,
+"end": 271.063
+},
+{
+"text": "mais",
+"start": 271.143,
+"end": 271.383
+},
+{
+"text": "ou",
+"start": 271.463,
+"end": 271.543
+},
+{
+"text": "menos",
+"start": 271.663,
+"end": 271.863
+},
+{
+"text": "a",
+"start": 271.943,
+"end": 272.023
+},
+{
+"text": "cada",
+"start": 272.063,
+"end": 272.343
+},
+{
+"text": "dois",
+"start": 272.423,
+"end": 272.663
+},
+{
+"text": "a",
+"start": 272.743,
+"end": 272.823
+},
+{
+"text": "sete",
+"start": 272.903,
+"end": 273.223
+},
+{
+"text": "anos",
+"start": 273.303,
+"end": 273.783
+},
+{
+"text": "e",
+"start": 273.863,
+"end": 273.903
+},
+{
+"text": "costuma",
+"start": 273.943,
+"end": 274.263
+},
+{
+"text": "durar",
+"start": 274.383,
+"end": 274.583
+},
+{
+"text": "de",
+"start": 274.663,
+"end": 274.823
+},
+{
+"text": "nove",
+"start": 274.903,
+"end": 275.063
+},
+{
+"text": "meses",
+"start": 275.223,
+"end": 275.703
+},
+{
+"text": "a",
+"start": 275.783,
+"end": 275.863
+},
+{
+"text": "um",
+"start": 275.943,
+"end": 276.023
+},
+{
+"text": "ano.",
+"start": 276.103,
+"end": 276.743
+},
+{
+"text": "Normalmente",
+"start": 276.903,
+"end": 277.303
+},
+{
+"text": "ele",
+"start": 277.343,
+"end": 277.383
+},
+{
+"text": "atinge",
+"start": 277.463,
+"end": 277.783
+},
+{
+"text": "o",
+"start": 277.863,
+"end": 277.943
+},
+{
+"text": "pico",
+"start": 277.983,
+"end": 278.183
+},
+{
+"text": "entre",
+"start": 278.343,
+"end": 278.503
+},
+{
+"text": "novembro",
+"start": 278.623,
+"end": 279.063
+},
+{
+"text": "e",
+"start": 279.116,
+"end": 279.17
+},
+{
+"text": "janeiro,",
+"start": 279.223,
+"end": 280.023
+},
+{
+"text": "justamente",
+"start": 280.183,
+"end": 280.743
+},
+{
+"text": "na",
+"start": 280.783,
+"end": 280.823
+},
+{
+"text": "época",
+"start": 280.903,
+"end": 281.143
+},
+{
+"text": "do",
+"start": 281.183,
+"end": 281.223
+},
+{
+"text": "Natal,",
+"start": 281.263,
+"end": 281.903
+},
+{
+"text": "como",
+"start": 281.943,
+"end": 282.023
+},
+{
+"text": "os",
+"start": 282.103,
+"end": 282.183
+},
+{
+"text": "pescadores",
+"start": 282.236,
+"end": 282.743
+},
+{
+"text": "perceberam.",
+"start": 282.823,
+"end": 283.676
+},
+{
+"text": "E",
+"start": 283.73,
+"end": 283.783
+},
+{
+"text": "não",
+"start": 283.81,
+"end": 283.863
+},
+{
+"text": "é",
+"start": 283.943,
+"end": 284.023
+},
+{
+"text": "raro",
+"start": 284.103,
+"end": 284.423
+},
+{
+"text": "que,",
+"start": 284.503,
+"end": 284.93
+},
+{
+"text": "logo",
+"start": 285.036,
+"end": 285.143
+},
+{
+"text": "depois",
+"start": 285.223,
+"end": 285.543
+},
+{
+"text": "de",
+"start": 285.583,
+"end": 285.623
+},
+{
+"text": "um",
+"start": 285.663,
+"end": 285.703
+},
+{
+"text": "El",
+"start": 285.783,
+"end": 285.863
+},
+{
+"text": "Niño",
+"start": 285.903,
+"end": 286.183
+},
+{
+"text": "forte,",
+"start": 286.263,
+"end": 286.943
+},
+{
+"text": "venha",
+"start": 286.983,
+"end": 287.223
+},
+{
+"text": "uma",
+"start": 287.303,
+"end": 287.383
+},
+{
+"text": "La",
+"start": 287.463,
+"end": 287.543
+},
+{
+"text": "Niña,",
+"start": 287.703,
+"end": 288.236
+},
+{
+"text": "com",
+"start": 288.29,
+"end": 288.343
+},
+{
+"text": "efeitos",
+"start": 288.463,
+"end": 288.983
+},
+{
+"text": "quase",
+"start": 289.063,
+"end": 289.303
+},
+{
+"text": "opostos.",
+"start": 289.463,
+"end": 290.463
+},
+{
+"text": "Aqui",
+"start": 290.503,
+"end": 290.663
+},
+{
+"text": "no",
+"start": 290.703,
+"end": 290.743
+},
+{
+"text": "Brasil,",
+"start": 290.823,
+"end": 291.25
+},
+{
+"text": "por",
+"start": 291.276,
+"end": 291.303
+},
+{
+"text": "exemplo,",
+"start": 291.383,
+"end": 292.05
+},
+{
+"text": "a",
+"start": 292.076,
+"end": 292.103
+},
+{
+"text": "La",
+"start": 292.183,
+"end": 292.263
+},
+{
+"text": "Niña",
+"start": 292.343,
+"end": 292.583
+},
+{
+"text": "costuma",
+"start": 292.663,
+"end": 292.903
+},
+{
+"text": "trazer",
+"start": 292.983,
+"end": 293.383
+},
+{
+"text": "seca",
+"start": 293.463,
+"end": 293.703
+},
+{
+"text": "pro",
+"start": 293.783,
+"end": 293.943
+},
+{
+"text": "Sul",
+"start": 294.023,
+"end": 294.343
+},
+{
+"text": "e",
+"start": 294.423,
+"end": 294.583
+},
+{
+"text": "mais",
+"start": 294.663,
+"end": 294.903
+},
+{
+"text": "chuva",
+"start": 294.983,
+"end": 295.303
+},
+{
+"text": "pro",
+"start": 295.383,
+"end": 295.463
+},
+{
+"text": "Norte",
+"start": 295.503,
+"end": 295.783
+},
+{
+"text": "e",
+"start": 295.81,
+"end": 295.836
+},
+{
+"text": "Nordeste.",
+"start": 295.863,
+"end": 296.863
+},
+{
+"text": "E",
+"start": 297.703,
+"end": 297.943
+},
+{
+"text": "dá",
+"start": 297.983,
+"end": 298.103
+},
+{
+"text": "pra",
+"start": 298.183,
+"end": 298.263
+},
+{
+"text": "prever?",
+"start": 298.343,
+"end": 299.143
+},
+{
+"text": "Dá,",
+"start": 299.183,
+"end": 299.663
+},
+{
+"text": "e",
+"start": 299.703,
+"end": 299.783
+},
+{
+"text": "essa",
+"start": 299.863,
+"end": 300.183
+},
+{
+"text": "é",
+"start": 300.263,
+"end": 300.303
+},
+{
+"text": "uma",
+"start": 300.343,
+"end": 300.423
+},
+{
+"text": "das",
+"start": 300.503,
+"end": 300.743
+},
+{
+"text": "grandes",
+"start": 300.823,
+"end": 301.223
+},
+{
+"text": "conquistas",
+"start": 301.303,
+"end": 301.783
+},
+{
+"text": "da",
+"start": 301.863,
+"end": 301.943
+},
+{
+"text": "ciência",
+"start": 302.023,
+"end": 302.343
+},
+{
+"text": "do",
+"start": 302.423,
+"end": 302.503
+},
+{
+"text": "clima.",
+"start": 302.583,
+"end": 303.263
+},
+{
+"text": "Depois",
+"start": 303.303,
+"end": 303.623
+},
+{
+"text": "do",
+"start": 303.663,
+"end": 303.703
+},
+{
+"text": "El",
+"start": 303.783,
+"end": 303.863
+},
+{
+"text": "Niño",
+"start": 303.903,
+"end": 304.103
+},
+{
+"text": "de",
+"start": 304.183,
+"end": 304.343
+},
+{
+"text": "1982,",
+"start": 304.383,
+"end": 306.103
+},
+{
+"text": "que",
+"start": 306.143,
+"end": 306.183
+},
+{
+"text": "ninguém",
+"start": 306.263,
+"end": 306.743
+},
+{
+"text": "viu",
+"start": 306.783,
+"end": 306.903
+},
+{
+"text": "chegar,",
+"start": 306.943,
+"end": 307.57
+},
+{
+"text": "os",
+"start": 307.596,
+"end": 307.623
+},
+{
+"text": "Estados",
+"start": 307.703,
+"end": 308.023
+},
+{
+"text": "Unidos",
+"start": 308.143,
+"end": 308.503
+},
+{
+"text": "e",
+"start": 308.543,
+"end": 308.583
+},
+{
+"text": "outros",
+"start": 308.663,
+"end": 308.983
+},
+{
+"text": "países",
+"start": 309.063,
+"end": 309.623
+},
+{
+"text": "instalaram",
+"start": 309.743,
+"end": 310.103
+},
+{
+"text": "uma",
+"start": 310.183,
+"end": 310.343
+},
+{
+"text": "rede",
+"start": 310.423,
+"end": 310.663
+},
+{
+"text": "de",
+"start": 310.743,
+"end": 310.823
+},
+{
+"text": "dezenas",
+"start": 310.983,
+"end": 311.463
+},
+{
+"text": "de",
+"start": 311.543,
+"end": 311.703
+},
+{
+"text": "boias",
+"start": 311.783,
+"end": 312.023
+},
+{
+"text": "ancoradas",
+"start": 312.103,
+"end": 312.663
+},
+{
+"text": "no",
+"start": 312.703,
+"end": 312.743
+},
+{
+"text": "Pacífico",
+"start": 312.783,
+"end": 313.303
+},
+{
+"text": "tropical.",
+"start": 313.343,
+"end": 314.223
+},
+{
+"text": "Elas",
+"start": 314.263,
+"end": 314.503
+},
+{
+"text": "medem",
+"start": 314.583,
+"end": 314.823
+},
+{
+"text": "a",
+"start": 314.903,
+"end": 314.943
+},
+{
+"text": "temperatura",
+"start": 314.983,
+"end": 315.543
+},
+{
+"text": "da",
+"start": 315.623,
+"end": 315.703
+},
+{
+"text": "água",
+"start": 315.863,
+"end": 316.183
+},
+{
+"text": "e",
+"start": 316.223,
+"end": 316.263
+},
+{
+"text": "o",
+"start": 316.343,
+"end": 316.423
+},
+{
+"text": "vento",
+"start": 316.623,
+"end": 316.903
+},
+{
+"text": "o",
+"start": 316.983,
+"end": 317.063
+},
+{
+"text": "tempo",
+"start": 317.143,
+"end": 317.543
+},
+{
+"text": "todo.",
+"start": 317.903,
+"end": 318.303
+},
+{
+"text": "Hoje,",
+"start": 318.343,
+"end": 318.85
+},
+{
+"text": "com",
+"start": 318.876,
+"end": 318.903
+},
+{
+"text": "essas",
+"start": 318.983,
+"end": 319.303
+},
+{
+"text": "boias,",
+"start": 319.423,
+"end": 319.903
+},
+{
+"text": "satélites",
+"start": 319.943,
+"end": 320.663
+},
+{
+"text": "e",
+"start": 320.743,
+"end": 320.823
+},
+{
+"text": "supercomputadores,",
+"start": 320.983,
+"end": 322.13
+},
+{
+"text": "os",
+"start": 322.156,
+"end": 322.183
+},
+{
+"text": "modelos",
+"start": 322.263,
+"end": 322.663
+},
+{
+"text": "conseguem",
+"start": 322.783,
+"end": 323.143
+},
+{
+"text": "indicar",
+"start": 323.303,
+"end": 323.543
+},
+{
+"text": "um",
+"start": 323.623,
+"end": 323.663
+},
+{
+"text": "El",
+"start": 323.703,
+"end": 323.863
+},
+{
+"text": "Niño",
+"start": 323.943,
+"end": 324.183
+},
+{
+"text": "com",
+"start": 324.343,
+"end": 324.503
+},
+{
+"text": "vários",
+"start": 324.583,
+"end": 324.983
+},
+{
+"text": "meses",
+"start": 325.103,
+"end": 325.303
+},
+{
+"text": "de",
+"start": 325.383,
+"end": 325.436
+},
+{
+"text": "antecedência.",
+"start": 325.49,
+"end": 326.623
+},
+{
+"text": "Mas",
+"start": 326.663,
+"end": 326.983
+},
+{
+"text": "existe",
+"start": 327.103,
+"end": 327.383
+},
+{
+"text": "uma",
+"start": 327.463,
+"end": 327.623
+},
+{
+"text": "pegadinha:",
+"start": 327.743,
+"end": 328.623
+},
+{
+"text": "as",
+"start": 328.663,
+"end": 328.823
+},
+{
+"text": "previsões",
+"start": 328.863,
+"end": 329.383
+},
+{
+"text": "feitas",
+"start": 329.463,
+"end": 329.943
+},
+{
+"text": "antes",
+"start": 330.023,
+"end": 330.343
+},
+{
+"text": "de",
+"start": 330.423,
+"end": 330.503
+},
+{
+"text": "maio",
+"start": 330.623,
+"end": 330.983
+},
+{
+"text": "costumam",
+"start": 331.063,
+"end": 331.463
+},
+{
+"text": "errar",
+"start": 331.663,
+"end": 331.863
+},
+{
+"text": "mais.",
+"start": 331.943,
+"end": 332.69
+},
+{
+"text": "Os",
+"start": 332.716,
+"end": 332.743
+},
+{
+"text": "cientistas",
+"start": 332.903,
+"end": 333.463
+},
+{
+"text": "chamam",
+"start": 333.503,
+"end": 333.703
+},
+{
+"text": "isso",
+"start": 333.783,
+"end": 334.023
+},
+{
+"text": "de",
+"start": 334.143,
+"end": 334.263
+},
+{
+"text": "barreira",
+"start": 334.383,
+"end": 334.743
+},
+{
+"text": "da",
+"start": 334.823,
+"end": 334.903
+},
+{
+"text": "primavera,",
+"start": 334.983,
+"end": 335.89
+},
+{
+"text": "porque",
+"start": 335.916,
+"end": 336.023
+},
+{
+"text": "é",
+"start": 336.183,
+"end": 336.263
+},
+{
+"text": "nessa",
+"start": 336.343,
+"end": 336.503
+},
+{
+"text": "época",
+"start": 336.583,
+"end": 336.823
+},
+{
+"text": "do",
+"start": 336.863,
+"end": 336.903
+},
+{
+"text": "ano,",
+"start": 337.063,
+"end": 337.49
+},
+{
+"text": "a",
+"start": 337.516,
+"end": 337.543
+},
+{
+"text": "primavera",
+"start": 337.663,
+"end": 338.103
+},
+{
+"text": "do",
+"start": 338.183,
+"end": 338.236
+},
+{
+"text": "hemisfério",
+"start": 338.29,
+"end": 338.663
+},
+{
+"text": "norte,",
+"start": 338.743,
+"end": 339.323
+},
+{
+"text": "que",
+"start": 339.343,
+"end": 339.363
+},
+{
+"text": "o",
+"start": 339.383,
+"end": 339.463
+},
+{
+"text": "Pacífico",
+"start": 339.543,
+"end": 340.023
+},
+{
+"text": "fica",
+"start": 340.063,
+"end": 340.343
+},
+{
+"text": "mais",
+"start": 340.423,
+"end": 340.583
+},
+{
+"text": "instável.",
+"start": 340.663,
+"end": 341.756
+},
+{
+"text": "Por",
+"start": 341.81,
+"end": 341.863
+},
+{
+"text": "isso,",
+"start": 341.943,
+"end": 342.303
+},
+{
+"text": "as",
+"start": 342.343,
+"end": 342.423
+},
+{
+"text": "previsões",
+"start": 342.503,
+"end": 342.983
+},
+{
+"text": "vão",
+"start": 343.036,
+"end": 343.143
+},
+{
+"text": "ficando",
+"start": 343.263,
+"end": 343.623
+},
+{
+"text": "mais",
+"start": 343.703,
+"end": 343.863
+},
+{
+"text": "confiáveis",
+"start": 343.943,
+"end": 344.663
+},
+{
+"text": "conforme",
+"start": 344.783,
+"end": 345.143
+},
+{
+"text": "o",
+"start": 345.223,
+"end": 345.263
+},
+{
+"text": "ano",
+"start": 345.303,
+"end": 345.463
+},
+{
+"text": "avança.",
+"start": 345.623,
+"end": 346.383
+},
+{
+"text": "Agora,",
+"start": 347.223,
+"end": 347.823
+},
+{
+"text": "olha",
+"start": 347.863,
+"end": 347.983
+},
+{
+"text": "o",
+"start": 348.023,
+"end": 348.05
+},
+{
+"text": "que",
+"start": 348.076,
+"end": 348.103
+},
+{
+"text": "acontece",
+"start": 348.263,
+"end": 348.663
+},
+{
+"text": "no",
+"start": 348.743,
+"end": 348.823
+},
+{
+"text": "mapa",
+"start": 348.903,
+"end": 349.143
+},
+{
+"text": "do",
+"start": 349.223,
+"end": 349.303
+},
+{
+"text": "mundo.",
+"start": 349.343,
+"end": 350.063
+},
+{
+"text": "Na",
+"start": 350.103,
+"end": 350.183
+},
+{
+"text": "Indonésia",
+"start": 350.263,
+"end": 350.823
+},
+{
+"text": "e",
+"start": 350.85,
+"end": 350.876
+},
+{
+"text": "na",
+"start": 350.903,
+"end": 350.983
+},
+{
+"text": "Austrália,",
+"start": 351.116,
+"end": 351.836
+},
+{
+"text": "que",
+"start": 351.89,
+"end": 351.943
+},
+{
+"text": "normalmente",
+"start": 352.143,
+"end": 352.583
+},
+{
+"text": "recebem",
+"start": 352.663,
+"end": 353.063
+},
+{
+"text": "a",
+"start": 353.143,
+"end": 353.223
+},
+{
+"text": "chuva,",
+"start": 353.303,
+"end": 353.89
+},
+{
+"text": "vem",
+"start": 353.916,
+"end": 354.023
+},
+{
+"text": "a",
+"start": 354.143,
+"end": 354.263
+},
+{
+"text": "seca,",
+"start": 354.383,
+"end": 354.93
+},
+{
+"text": "e",
+"start": 354.956,
+"end": 354.983
+},
+{
+"text": "com",
+"start": 355.063,
+"end": 355.223
+},
+{
+"text": "ela",
+"start": 355.303,
+"end": 355.703
+},
+{
+"text": "incêndios",
+"start": 355.903,
+"end": 356.343
+},
+{
+"text": "florestais",
+"start": 356.423,
+"end": 357.143
+},
+{
+"text": "enormes.",
+"start": 357.303,
+"end": 358.383
+},
+{
+"text": "Na",
+"start": 358.423,
+"end": 358.583
+},
+{
+"text": "Índia,",
+"start": 358.663,
+"end": 359.183
+},
+{
+"text": "as",
+"start": 359.223,
+"end": 359.303
+},
+{
+"text": "monções,",
+"start": 359.383,
+"end": 360.316
+},
+{
+"text": "as",
+"start": 360.37,
+"end": 360.423
+},
+{
+"text": "chuvas",
+"start": 360.543,
+"end": 360.823
+},
+{
+"text": "que",
+"start": 360.863,
+"end": 360.903
+},
+{
+"text": "alimentam",
+"start": 360.943,
+"end": 361.383
+},
+{
+"text": "as",
+"start": 361.463,
+"end": 361.543
+},
+{
+"text": "plantações,",
+"start": 361.583,
+"end": 362.503
+},
+{
+"text": "costumam",
+"start": 362.583,
+"end": 362.823
+},
+{
+"text": "enfraquecer.",
+"start": 362.903,
+"end": 363.996
+},
+{
+"text": "No",
+"start": 364.05,
+"end": 364.103
+},
+{
+"text": "sul",
+"start": 364.183,
+"end": 364.263
+},
+{
+"text": "da",
+"start": 364.343,
+"end": 364.503
+},
+{
+"text": "África,",
+"start": 364.583,
+"end": 365.223
+},
+{
+"text": "a",
+"start": 365.303,
+"end": 365.383
+},
+{
+"text": "seca",
+"start": 365.463,
+"end": 365.783
+},
+{
+"text": "prejudica",
+"start": 365.863,
+"end": 366.343
+},
+{
+"text": "as",
+"start": 366.383,
+"end": 366.423
+},
+{
+"text": "colheitas.",
+"start": 366.503,
+"end": 367.503
+},
+{
+"text": "Do",
+"start": 367.543,
+"end": 367.623
+},
+{
+"text": "outro",
+"start": 367.703,
+"end": 367.943
+},
+{
+"text": "lado",
+"start": 367.983,
+"end": 368.183
+},
+{
+"text": "do",
+"start": 368.223,
+"end": 368.263
+},
+{
+"text": "Pacífico,",
+"start": 368.343,
+"end": 369.196
+},
+{
+"text": "no",
+"start": 369.25,
+"end": 369.303
+},
+{
+"text": "Peru",
+"start": 369.423,
+"end": 369.623
+},
+{
+"text": "e",
+"start": 369.663,
+"end": 369.703
+},
+{
+"text": "no",
+"start": 369.743,
+"end": 369.783
+},
+{
+"text": "Equador,",
+"start": 369.903,
+"end": 370.61
+},
+{
+"text": "o",
+"start": 370.636,
+"end": 370.663
+},
+{
+"text": "deserto",
+"start": 370.823,
+"end": 371.223
+},
+{
+"text": "recebe",
+"start": 371.383,
+"end": 371.703
+},
+{
+"text": "chuvas",
+"start": 371.783,
+"end": 372.103
+},
+{
+"text": "torrenciais,",
+"start": 372.183,
+"end": 373.356
+},
+{
+"text": "enchentes",
+"start": 373.49,
+"end": 374.103
+},
+{
+"text": "e",
+"start": 374.183,
+"end": 374.263
+},
+{
+"text": "deslizamentos.",
+"start": 374.383,
+"end": 375.583
+},
+{
+"text": "E",
+"start": 375.623,
+"end": 375.663
+},
+{
+"text": "no",
+"start": 375.703,
+"end": 375.863
+},
+{
+"text": "sul",
+"start": 375.943,
+"end": 376.103
+},
+{
+"text": "dos",
+"start": 376.183,
+"end": 376.263
+},
+{
+"text": "Estados",
+"start": 376.383,
+"end": 376.663
+},
+{
+"text": "Unidos,",
+"start": 376.783,
+"end": 377.41
+},
+{
+"text": "o",
+"start": 377.436,
+"end": 377.463
+},
+{
+"text": "inverno",
+"start": 377.583,
+"end": 378.103
+},
+{
+"text": "tende",
+"start": 378.143,
+"end": 378.343
+},
+{
+"text": "a",
+"start": 378.383,
+"end": 378.423
+},
+{
+"text": "ser",
+"start": 378.543,
+"end": 378.663
+},
+{
+"text": "mais",
+"start": 378.743,
+"end": 378.903
+},
+{
+"text": "chuvoso.",
+"start": 378.983,
+"end": 380.05
+},
+{
+"text": "Até",
+"start": 380.156,
+"end": 380.303
+},
+{
+"text": "os",
+"start": 380.343,
+"end": 380.423
+},
+{
+"text": "animais",
+"start": 380.623,
+"end": 380.983
+},
+{
+"text": "sentem.",
+"start": 381.063,
+"end": 381.823
+},
+{
+"text": "Nas",
+"start": 381.863,
+"end": 382.023
+},
+{
+"text": "ilhas",
+"start": 382.063,
+"end": 382.263
+},
+{
+"text": "Galápagos,",
+"start": 382.423,
+"end": 383.183
+},
+{
+"text": "focas",
+"start": 383.223,
+"end": 383.543
+},
+{
+"text": "e",
+"start": 383.623,
+"end": 383.703
+},
+{
+"text": "pinguins",
+"start": 383.823,
+"end": 384.263
+},
+{
+"text": "passam",
+"start": 384.343,
+"end": 384.743
+},
+{
+"text": "fome",
+"start": 384.823,
+"end": 385.143
+},
+{
+"text": "quando",
+"start": 385.183,
+"end": 385.303
+},
+{
+"text": "a",
+"start": 385.383,
+"end": 385.423
+},
+{
+"text": "água",
+"start": 385.463,
+"end": 385.703
+},
+{
+"text": "fria",
+"start": 385.783,
+"end": 386.023
+},
+{
+"text": "some.",
+"start": 386.103,
+"end": 386.77
+},
+{
+"text": "E",
+"start": 386.796,
+"end": 386.823
+},
+{
+"text": "nos",
+"start": 386.903,
+"end": 386.983
+},
+{
+"text": "oceanos",
+"start": 387.063,
+"end": 387.463
+},
+{
+"text": "tropicais,",
+"start": 387.503,
+"end": 388.383
+},
+{
+"text": "a",
+"start": 388.423,
+"end": 388.463
+},
+{
+"text": "água",
+"start": 388.503,
+"end": 388.823
+},
+{
+"text": "quente",
+"start": 388.863,
+"end": 389.143
+},
+{
+"text": "demais",
+"start": 389.263,
+"end": 389.703
+},
+{
+"text": "faz",
+"start": 389.743,
+"end": 389.863
+},
+{
+"text": "os",
+"start": 389.943,
+"end": 390.023
+},
+{
+"text": "corais",
+"start": 390.103,
+"end": 390.423
+},
+{
+"text": "perderem",
+"start": 390.543,
+"end": 390.903
+},
+{
+"text": "a",
+"start": 390.983,
+"end": 391.063
+},
+{
+"text": "cor",
+"start": 391.263,
+"end": 391.463
+},
+{
+"text": "e",
+"start": 391.503,
+"end": 391.543
+},
+{
+"text": "morrerem,",
+"start": 391.623,
+"end": 392.303
+},
+{
+"text": "o",
+"start": 392.343,
+"end": 392.383
+},
+{
+"text": "famoso",
+"start": 392.423,
+"end": 392.983
+},
+{
+"text": "branqueamento.",
+"start": 393.023,
+"end": 394.263
+},
+{
+"text": "Um",
+"start": 394.343,
+"end": 394.423
+},
+{
+"text": "único",
+"start": 394.503,
+"end": 394.823
+},
+{
+"text": "pedaço",
+"start": 394.943,
+"end": 395.303
+},
+{
+"text": "de",
+"start": 395.33,
+"end": 395.356
+},
+{
+"text": "oceano",
+"start": 395.383,
+"end": 396.023
+},
+{
+"text": "mexendo",
+"start": 396.063,
+"end": 396.503
+},
+{
+"text": "com",
+"start": 396.703,
+"end": 396.903
+},
+{
+"text": "todos",
+"start": 397.063,
+"end": 397.223
+},
+{
+"text": "os",
+"start": 397.303,
+"end": 397.383
+},
+{
+"text": "continentes.",
+"start": 397.663,
+"end": 398.53
+},
+{
+"text": "E",
+"start": 398.556,
+"end": 398.583
+},
+{
+"text": "o",
+"start": 398.663,
+"end": 398.716
+},
+{
+"text": "Brasil",
+"start": 398.77,
+"end": 399.383
+},
+{
+"text": "está",
+"start": 399.463,
+"end": 399.823
+},
+{
+"text": "bem",
+"start": 399.863,
+"end": 400.023
+},
+{
+"text": "no",
+"start": 400.103,
+"end": 400.263
+},
+{
+"text": "meio",
+"start": 400.343,
+"end": 400.583
+},
+{
+"text": "disso.",
+"start": 400.663,
+"end": 401.303
+},
+{
+"text": "No",
+"start": 402.131,
+"end": 402.211
+},
+{
+"text": "Brasil,",
+"start": 402.291,
+"end": 402.931
+},
+{
+"text": "o",
+"start": 402.971,
+"end": 403.011
+},
+{
+"text": "El",
+"start": 403.091,
+"end": 403.171
+},
+{
+"text": "Niño",
+"start": 403.251,
+"end": 403.491
+},
+{
+"text": "divide",
+"start": 403.651,
+"end": 403.811
+},
+{
+"text": "o",
+"start": 403.851,
+"end": 403.891
+},
+{
+"text": "país",
+"start": 403.931,
+"end": 404.131
+},
+{
+"text": "em",
+"start": 404.251,
+"end": 404.371
+},
+{
+"text": "dois.",
+"start": 404.451,
+"end": 405.171
+},
+{
+"text": "No",
+"start": 405.211,
+"end": 405.251
+},
+{
+"text": "Norte",
+"start": 405.331,
+"end": 405.731
+},
+{
+"text": "e",
+"start": 405.811,
+"end": 405.891
+},
+{
+"text": "no",
+"start": 405.931,
+"end": 405.971
+},
+{
+"text": "Nordeste,",
+"start": 406.051,
+"end": 406.771
+},
+{
+"text": "ele",
+"start": 406.851,
+"end": 406.931
+},
+{
+"text": "costuma",
+"start": 407.011,
+"end": 407.251
+},
+{
+"text": "trazer",
+"start": 407.331,
+"end": 407.651
+},
+{
+"text": "seca.",
+"start": 407.811,
+"end": 408.611
+},
+{
+"text": "Em",
+"start": 408.691,
+"end": 408.771
+},
+{
+"text": "2023,",
+"start": 408.811,
+"end": 409.971
+},
+{
+"text": "durante",
+"start": 410.051,
+"end": 410.371
+},
+{
+"text": "o",
+"start": 410.411,
+"end": 410.451
+},
+{
+"text": "último",
+"start": 410.531,
+"end": 410.851
+},
+{
+"text": "El",
+"start": 410.931,
+"end": 411.011
+},
+{
+"text": "Niño,",
+"start": 411.091,
+"end": 411.571
+},
+{
+"text": "o",
+"start": 411.611,
+"end": 411.651
+},
+{
+"text": "rio",
+"start": 411.731,
+"end": 411.891
+},
+{
+"text": "Negro,",
+"start": 411.971,
+"end": 412.318
+},
+{
+"text": "em",
+"start": 412.344,
+"end": 412.371
+},
+{
+"text": "Manaus,",
+"start": 412.491,
+"end": 413.011
+},
+{
+"text": "chegou",
+"start": 413.091,
+"end": 413.331
+},
+{
+"text": "ao",
+"start": 413.371,
+"end": 413.411
+},
+{
+"text": "nível",
+"start": 413.491,
+"end": 413.811
+},
+{
+"text": "mais",
+"start": 413.891,
+"end": 414.211
+},
+{
+"text": "baixo",
+"start": 414.371,
+"end": 414.691
+},
+{
+"text": "já",
+"start": 414.771,
+"end": 414.931
+},
+{
+"text": "registrado.",
+"start": 415.171,
+"end": 415.811
+},
+{
+"text": "Comunidades",
+"start": 415.971,
+"end": 416.611
+},
+{
+"text": "ficaram",
+"start": 416.691,
+"end": 416.931
+},
+{
+"text": "isoladas,",
+"start": 417.011,
+"end": 417.971
+},
+{
+"text": "barcos",
+"start": 418.051,
+"end": 418.451
+},
+{
+"text": "encalharam",
+"start": 418.531,
+"end": 419.091
+},
+{
+"text": "e",
+"start": 419.251,
+"end": 419.331
+},
+{
+"text": "faltou",
+"start": 419.371,
+"end": 419.651
+},
+{
+"text": "até",
+"start": 419.771,
+"end": 419.971
+},
+{
+"text": "água",
+"start": 420.051,
+"end": 420.291
+},
+{
+"text": "potável.",
+"start": 420.371,
+"end": 421.211
+},
+{
+"text": "Com",
+"start": 421.411,
+"end": 421.491
+},
+{
+"text": "a",
+"start": 421.531,
+"end": 421.571
+},
+{
+"text": "floresta",
+"start": 421.651,
+"end": 422.051
+},
+{
+"text": "mais",
+"start": 422.131,
+"end": 422.371
+},
+{
+"text": "seca,",
+"start": 422.451,
+"end": 423.011
+},
+{
+"text": "as",
+"start": 423.091,
+"end": 423.171
+},
+{
+"text": "queimadas",
+"start": 423.211,
+"end": 423.651
+},
+{
+"text": "também",
+"start": 423.731,
+"end": 424.131
+},
+{
+"text": "ficam",
+"start": 424.211,
+"end": 424.451
+},
+{
+"text": "mais",
+"start": 424.491,
+"end": 424.691
+},
+{
+"text": "fáceis",
+"start": 424.771,
+"end": 425.171
+},
+{
+"text": "de",
+"start": 425.211,
+"end": 425.251
+},
+{
+"text": "se",
+"start": 425.331,
+"end": 425.371
+},
+{
+"text": "espalhar.",
+"start": 425.411,
+"end": 426.051
+},
+{
+"text": "No",
+"start": 426.211,
+"end": 426.291
+},
+{
+"text": "Nordeste,",
+"start": 426.371,
+"end": 427.171
+},
+{
+"text": "o",
+"start": 427.211,
+"end": 427.251
+},
+{
+"text": "El",
+"start": 427.331,
+"end": 427.411
+},
+{
+"text": "Niño",
+"start": 427.491,
+"end": 427.651
+},
+{
+"text": "de",
+"start": 427.691,
+"end": 427.731
+},
+{
+"text": "2015",
+"start": 427.811,
+"end": 427.971
+},
+{
+"text": "e",
+"start": 428.051,
+"end": 428.291
+},
+{
+"text": "2016",
+"start": 428.371,
+"end": 428.611
+},
+{
+"text": "agravou",
+"start": 428.771,
+"end": 430.451
+},
+{
+"text": "uma",
+"start": 430.531,
+"end": 430.611
+},
+{
+"text": "das",
+"start": 430.731,
+"end": 430.851
+},
+{
+"text": "piores",
+"start": 430.931,
+"end": 431.411
+},
+{
+"text": "secas",
+"start": 431.491,
+"end": 431.811
+},
+{
+"text": "do",
+"start": 431.891,
+"end": 431.971
+},
+{
+"text": "sertão",
+"start": 432.131,
+"end": 432.371
+},
+{
+"text": "em",
+"start": 432.451,
+"end": 432.611
+},
+{
+"text": "décadas.",
+"start": 432.691,
+"end": 433.571
+},
+{
+"text": "No",
+"start": 433.811,
+"end": 433.891
+},
+{
+"text": "Sul",
+"start": 434.051,
+"end": 434.291
+},
+{
+"text": "é",
+"start": 434.371,
+"end": 434.411
+},
+{
+"text": "o",
+"start": 434.451,
+"end": 434.491
+},
+{
+"text": "contrário:",
+"start": 434.531,
+"end": 435.331
+},
+{
+"text": "chuva",
+"start": 435.411,
+"end": 435.731
+},
+{
+"text": "demais,",
+"start": 435.811,
+"end": 436.451
+},
+{
+"text": "rios",
+"start": 436.531,
+"end": 436.771
+},
+{
+"text": "transbordando",
+"start": 436.851,
+"end": 437.651
+},
+{
+"text": "e",
+"start": 437.811,
+"end": 437.851
+},
+{
+"text": "enchentes.",
+"start": 437.891,
+"end": 438.891
+},
+{
+"text": "Durante",
+"start": 439.091,
+"end": 439.331
+},
+{
+"text": "o",
+"start": 439.411,
+"end": 439.451
+},
+{
+"text": "El",
+"start": 439.491,
+"end": 439.571
+},
+{
+"text": "Niño",
+"start": 439.651,
+"end": 439.891
+},
+{
+"text": "de",
+"start": 439.931,
+"end": 439.971
+},
+{
+"text": "2023",
+"start": 440.051,
+"end": 440.131
+},
+{
+"text": "e",
+"start": 440.291,
+"end": 440.451
+},
+{
+"text": "2024,",
+"start": 440.504,
+"end": 442.451
+},
+{
+"text": "o",
+"start": 442.491,
+"end": 442.531
+},
+{
+"text": "Rio",
+"start": 442.611,
+"end": 442.691
+},
+{
+"text": "Grande",
+"start": 442.771,
+"end": 443.011
+},
+{
+"text": "do",
+"start": 443.091,
+"end": 443.171
+},
+{
+"text": "Sul",
+"start": 443.251,
+"end": 443.411
+},
+{
+"text": "enfrentou",
+"start": 443.491,
+"end": 443.891
+},
+{
+"text": "chuvas",
+"start": 443.971,
+"end": 444.291
+},
+{
+"text": "fortes",
+"start": 444.371,
+"end": 444.851
+},
+{
+"text": "várias",
+"start": 444.931,
+"end": 445.331
+},
+{
+"text": "vezes,",
+"start": 445.411,
+"end": 446.051
+},
+{
+"text": "até",
+"start": 446.211,
+"end": 446.411
+},
+{
+"text": "a",
+"start": 446.451,
+"end": 446.491
+},
+{
+"text": "tragédia",
+"start": 446.531,
+"end": 447.091
+},
+{
+"text": "de",
+"start": 447.131,
+"end": 447.171
+},
+{
+"text": "maio",
+"start": 447.331,
+"end": 447.571
+},
+{
+"text": "de",
+"start": 447.651,
+"end": 447.691
+},
+{
+"text": "2024,",
+"start": 447.731,
+"end": 449.011
+},
+{
+"text": "a",
+"start": 449.051,
+"end": 449.091
+},
+{
+"text": "maior",
+"start": 449.171,
+"end": 449.651
+},
+{
+"text": "enchente",
+"start": 449.811,
+"end": 450.211
+},
+{
+"text": "da",
+"start": 450.251,
+"end": 450.291
+},
+{
+"text": "história",
+"start": 450.491,
+"end": 450.851
+},
+{
+"text": "do",
+"start": 450.891,
+"end": 450.931
+},
+{
+"text": "estado.",
+"start": 451.011,
+"end": 451.811
+},
+{
+"text": "E",
+"start": 451.838,
+"end": 451.864
+},
+{
+"text": "no",
+"start": 451.891,
+"end": 451.971
+},
+{
+"text": "Sudeste",
+"start": 452.051,
+"end": 452.611
+},
+{
+"text": "e",
+"start": 452.651,
+"end": 452.691
+},
+{
+"text": "no",
+"start": 452.771,
+"end": 452.851
+},
+{
+"text": "Centro-Oeste,",
+"start": 452.931,
+"end": 453.811
+},
+{
+"text": "o",
+"start": 453.891,
+"end": 453.931
+},
+{
+"text": "que",
+"start": 453.971,
+"end": 454.131
+},
+{
+"text": "mais",
+"start": 454.171,
+"end": 454.371
+},
+{
+"text": "aparece",
+"start": 454.451,
+"end": 454.931
+},
+{
+"text": "são",
+"start": 455.011,
+"end": 455.251
+},
+{
+"text": "ondas",
+"start": 455.411,
+"end": 455.651
+},
+{
+"text": "de",
+"start": 455.731,
+"end": 455.811
+},
+{
+"text": "calor.",
+"start": 455.931,
+"end": 456.531
+},
+{
+"text": "Se",
+"start": 456.611,
+"end": 456.691
+},
+{
+"text": "você",
+"start": 456.731,
+"end": 456.931
+},
+{
+"text": "mora",
+"start": 457.011,
+"end": 457.171
+},
+{
+"text": "no",
+"start": 457.251,
+"end": 457.331
+},
+{
+"text": "Sul,",
+"start": 457.411,
+"end": 457.811
+},
+{
+"text": "no",
+"start": 457.851,
+"end": 457.891
+},
+{
+"text": "Nordeste",
+"start": 457.971,
+"end": 458.691
+},
+{
+"text": "ou",
+"start": 458.771,
+"end": 458.851
+},
+{
+"text": "no",
+"start": 458.931,
+"end": 458.971
+},
+{
+"text": "Norte,",
+"start": 459.011,
+"end": 459.731
+},
+{
+"text": "já",
+"start": 459.771,
+"end": 459.891
+},
+{
+"text": "sentiu",
+"start": 460.051,
+"end": 460.371
+},
+{
+"text": "isso",
+"start": 460.451,
+"end": 460.611
+},
+{
+"text": "na",
+"start": 460.691,
+"end": 460.771
+},
+{
+"text": "pele.",
+"start": 460.851,
+"end": 461.491
+},
+{
+"text": "Comenta",
+"start": 461.531,
+"end": 461.731
+},
+{
+"text": "aqui",
+"start": 461.811,
+"end": 461.891
+},
+{
+"text": "embaixo",
+"start": 461.971,
+"end": 462.291
+},
+{
+"text": "de",
+"start": 462.371,
+"end": 462.451
+},
+{
+"text": "onde",
+"start": 462.531,
+"end": 462.691
+},
+{
+"text": "você",
+"start": 462.771,
+"end": 463.091
+},
+{
+"text": "é",
+"start": 463.251,
+"end": 463.411
+},
+{
+"text": "e",
+"start": 463.451,
+"end": 463.491
+},
+{
+"text": "o",
+"start": 463.571,
+"end": 463.651
+},
+{
+"text": "que",
+"start": 463.691,
+"end": 463.731
+},
+{
+"text": "mudou",
+"start": 463.811,
+"end": 464.211
+},
+{
+"text": "aí",
+"start": 464.251,
+"end": 464.371
+},
+{
+"text": "nos",
+"start": 464.451,
+"end": 464.531
+},
+{
+"text": "últimos",
+"start": 464.611,
+"end": 464.931
+},
+{
+"text": "anos.",
+"start": 465.011,
+"end": 465.651
+},
+{
+"text": "E",
+"start": 465.678,
+"end": 465.704
+},
+{
+"text": "se",
+"start": 465.731,
+"end": 465.811
+},
+{
+"text": "você",
+"start": 465.864,
+"end": 465.971
+},
+{
+"text": "tá",
+"start": 466.051,
+"end": 466.211
+},
+{
+"text": "curtindo",
+"start": 466.331,
+"end": 466.691
+},
+{
+"text": "entender",
+"start": 466.771,
+"end": 467.091
+},
+{
+"text": "o",
+"start": 467.131,
+"end": 467.171
+},
+{
+"text": "clima",
+"start": 467.211,
+"end": 467.491
+},
+{
+"text": "desse",
+"start": 467.571,
+"end": 467.811
+},
+{
+"text": "jeito,",
+"start": 467.891,
+"end": 468.451
+},
+{
+"text": "se",
+"start": 468.531,
+"end": 468.611
+},
+{
+"text": "inscreve",
+"start": 468.731,
+"end": 469.091
+},
+{
+"text": "no",
+"start": 469.171,
+"end": 469.251
+},
+{
+"text": "canal,",
+"start": 469.331,
+"end": 469.811
+},
+{
+"text": "porque",
+"start": 469.891,
+"end": 470.131
+},
+{
+"text": "toda",
+"start": 470.211,
+"end": 470.371
+},
+{
+"text": "semana",
+"start": 470.531,
+"end": 470.931
+},
+{
+"text": "tem",
+"start": 471.011,
+"end": 471.091
+},
+{
+"text": "um",
+"start": 471.131,
+"end": 471.171
+},
+{
+"text": "assunto",
+"start": 471.291,
+"end": 471.651
+},
+{
+"text": "novo",
+"start": 471.731,
+"end": 471.971
+},
+{
+"text": "explicado",
+"start": 472.051,
+"end": 472.611
+},
+{
+"text": "com",
+"start": 472.691,
+"end": 472.771
+},
+{
+"text": "mapa.",
+"start": 472.931,
+"end": 473.571
+},
+{
+"text": "O",
+"start": 474.411,
+"end": 474.451
+},
+{
+"text": "El",
+"start": 474.531,
+"end": 474.611
+},
+{
+"text": "Niño",
+"start": 474.691,
+"end": 475.011
+},
+{
+"text": "também",
+"start": 475.091,
+"end": 475.411
+},
+{
+"text": "mexe",
+"start": 475.451,
+"end": 475.731
+},
+{
+"text": "com",
+"start": 475.811,
+"end": 475.891
+},
+{
+"text": "o",
+"start": 475.971,
+"end": 476.051
+},
+{
+"text": "seu",
+"start": 476.091,
+"end": 476.211
+},
+{
+"text": "dinheiro.",
+"start": 476.291,
+"end": 477.091
+},
+{
+"text": "Seca",
+"start": 477.171,
+"end": 477.451
+},
+{
+"text": "em",
+"start": 477.491,
+"end": 477.571
+},
+{
+"text": "regiões",
+"start": 477.651,
+"end": 477.971
+},
+{
+"text": "produtoras",
+"start": 478.091,
+"end": 478.691
+},
+{
+"text": "faz",
+"start": 478.731,
+"end": 478.931
+},
+{
+"text": "cair",
+"start": 479.011,
+"end": 479.251
+},
+{
+"text": "a",
+"start": 479.278,
+"end": 479.304
+},
+{
+"text": "colheita,",
+"start": 479.331,
+"end": 480.051
+},
+{
+"text": "e",
+"start": 480.131,
+"end": 480.211
+},
+{
+"text": "aí",
+"start": 480.251,
+"end": 480.531
+},
+{
+"text": "sobe",
+"start": 480.611,
+"end": 480.851
+},
+{
+"text": "o",
+"start": 480.891,
+"end": 480.931
+},
+{
+"text": "preço",
+"start": 481.011,
+"end": 481.251
+},
+{
+"text": "do",
+"start": 481.291,
+"end": 481.331
+},
+{
+"text": "café,",
+"start": 481.451,
+"end": 482.051
+},
+{
+"text": "do",
+"start": 482.091,
+"end": 482.131
+},
+{
+"text": "açúcar,",
+"start": 482.211,
+"end": 482.851
+},
+{
+"text": "do",
+"start": 482.891,
+"end": 482.931
+},
+{
+"text": "cacau",
+"start": 483.011,
+"end": 483.491
+},
+{
+"text": "e",
+"start": 483.651,
+"end": 483.731
+},
+{
+"text": "de",
+"start": 483.811,
+"end": 483.851
+},
+{
+"text": "outros",
+"start": 483.891,
+"end": 484.131
+},
+{
+"text": "alimentos.",
+"start": 484.211,
+"end": 484.851
+},
+{
+"text": "No",
+"start": 485.171,
+"end": 485.251
+},
+{
+"text": "Brasil,",
+"start": 485.291,
+"end": 485.971
+},
+{
+"text": "boa",
+"start": 486.051,
+"end": 486.291
+},
+{
+"text": "parte",
+"start": 486.371,
+"end": 486.691
+},
+{
+"text": "da",
+"start": 486.731,
+"end": 486.771
+},
+{
+"text": "energia",
+"start": 486.891,
+"end": 487.251
+},
+{
+"text": "vem",
+"start": 487.331,
+"end": 487.491
+},
+{
+"text": "de",
+"start": 487.571,
+"end": 487.731
+},
+{
+"text": "hidrelétricas.",
+"start": 487.811,
+"end": 489.011
+},
+{
+"text": "Quando",
+"start": 489.051,
+"end": 489.171
+},
+{
+"text": "chove",
+"start": 489.251,
+"end": 489.571
+},
+{
+"text": "menos",
+"start": 489.651,
+"end": 489.971
+},
+{
+"text": "nos",
+"start": 490.051,
+"end": 490.131
+},
+{
+"text": "reservatórios,",
+"start": 490.211,
+"end": 491.171
+},
+{
+"text": "as",
+"start": 491.251,
+"end": 491.331
+},
+{
+"text": "usinas",
+"start": 491.411,
+"end": 491.731
+},
+{
+"text": "térmicas,",
+"start": 491.811,
+"end": 492.424
+},
+{
+"text": "que",
+"start": 492.478,
+"end": 492.531
+},
+{
+"text": "são",
+"start": 492.611,
+"end": 492.691
+},
+{
+"text": "mais",
+"start": 492.731,
+"end": 492.931
+},
+{
+"text": "caras,",
+"start": 493.011,
+"end": 493.571
+},
+{
+"text": "entram",
+"start": 493.651,
+"end": 493.971
+},
+{
+"text": "em",
+"start": 494.011,
+"end": 494.051
+},
+{
+"text": "ação,",
+"start": 494.131,
+"end": 494.691
+},
+{
+"text": "e",
+"start": 494.731,
+"end": 494.771
+},
+{
+"text": "a",
+"start": 494.811,
+"end": 494.851
+},
+{
+"text": "conta",
+"start": 494.931,
+"end": 495.171
+},
+{
+"text": "de",
+"start": 495.251,
+"end": 495.331
+},
+{
+"text": "luz",
+"start": 495.371,
+"end": 495.651
+},
+{
+"text": "pode",
+"start": 495.731,
+"end": 495.971
+},
+{
+"text": "subir.",
+"start": 496.051,
+"end": 496.451
+},
+{
+"text": "Até",
+"start": 496.771,
+"end": 497.051
+},
+{
+"text": "o",
+"start": 497.091,
+"end": 497.211
+},
+{
+"text": "peixe",
+"start": 497.331,
+"end": 497.651
+},
+{
+"text": "fica",
+"start": 497.691,
+"end": 497.891
+},
+{
+"text": "mais",
+"start": 497.931,
+"end": 498.131
+},
+{
+"text": "caro.",
+"start": 498.251,
+"end": 498.771
+},
+{
+"text": "Por",
+"start": 498.851,
+"end": 498.931
+},
+{
+"text": "isso,",
+"start": 499.051,
+"end": 499.411
+},
+{
+"text": "governos,",
+"start": 499.491,
+"end": 500.371
+},
+{
+"text": "bancos",
+"start": 500.411,
+"end": 500.771
+},
+{
+"text": "e",
+"start": 500.851,
+"end": 500.931
+},
+{
+"text": "empresas",
+"start": 501.011,
+"end": 501.571
+},
+{
+"text": "acompanham",
+"start": 501.771,
+"end": 502.211
+},
+{
+"text": "as",
+"start": 502.291,
+"end": 502.371
+},
+{
+"text": "previsões",
+"start": 502.451,
+"end": 502.851
+},
+{
+"text": "do",
+"start": 502.931,
+"end": 503.011
+},
+{
+"text": "El",
+"start": 503.051,
+"end": 503.091
+},
+{
+"text": "Niño",
+"start": 503.171,
+"end": 503.411
+},
+{
+"text": "com",
+"start": 503.491,
+"end": 503.651
+},
+{
+"text": "muita",
+"start": 503.731,
+"end": 504.184
+},
+{
+"text": "atenção.",
+"start": 504.318,
+"end": 505.011
+},
+{
+"text": "Alguns",
+"start": 505.891,
+"end": 506.291
+},
+{
+"text": "El",
+"start": 506.371,
+"end": 506.451
+},
+{
+"text": "Niños",
+"start": 506.531,
+"end": 506.851
+},
+{
+"text": "entraram",
+"start": 507.011,
+"end": 507.331
+},
+{
+"text": "pra",
+"start": 507.411,
+"end": 507.491
+},
+{
+"text": "história.",
+"start": 507.651,
+"end": 508.451
+},
+{
+"text": "O",
+"start": 508.491,
+"end": 508.531
+},
+{
+"text": "de",
+"start": 508.611,
+"end": 508.691
+},
+{
+"text": "1982",
+"start": 508.771,
+"end": 509.411
+},
+{
+"text": "e",
+"start": 509.491,
+"end": 509.531
+},
+{
+"text": "1983",
+"start": 509.571,
+"end": 509.811
+},
+{
+"text": "pegou",
+"start": 509.891,
+"end": 512.611
+},
+{
+"text": "o",
+"start": 512.691,
+"end": 512.771
+},
+{
+"text": "mundo",
+"start": 512.851,
+"end": 513.091
+},
+{
+"text": "de",
+"start": 513.171,
+"end": 513.251
+},
+{
+"text": "surpresa.",
+"start": 513.331,
+"end": 514.291
+},
+{
+"text": "O",
+"start": 514.331,
+"end": 514.371
+},
+{
+"text": "de",
+"start": 514.451,
+"end": 514.531
+},
+{
+"text": "1997",
+"start": 514.611,
+"end": 515.291
+},
+{
+"text": "e",
+"start": 515.331,
+"end": 515.371
+},
+{
+"text": "1998",
+"start": 515.411,
+"end": 515.731
+},
+{
+"text": "foi",
+"start": 515.811,
+"end": 518.451
+},
+{
+"text": "chamado",
+"start": 518.531,
+"end": 518.931
+},
+{
+"text": "de",
+"start": 519.011,
+"end": 519.091
+},
+{
+"text": "\"El",
+"start": 519.251,
+"end": 519.411
+},
+{
+"text": "Niño",
+"start": 519.571,
+"end": 519.811
+},
+{
+"text": "do",
+"start": 519.891,
+"end": 520.011
+},
+{
+"text": "século\",",
+"start": 520.131,
+"end": 520.771
+},
+{
+"text": "com",
+"start": 520.851,
+"end": 520.931
+},
+{
+"text": "enchentes",
+"start": 521.091,
+"end": 521.571
+},
+{
+"text": "e",
+"start": 521.611,
+"end": 521.651
+},
+{
+"text": "incêndios",
+"start": 521.811,
+"end": 522.211
+},
+{
+"text": "em",
+"start": 522.331,
+"end": 522.451
+},
+{
+"text": "vários",
+"start": 522.491,
+"end": 522.771
+},
+{
+"text": "continentes.",
+"start": 522.851,
+"end": 523.891
+},
+{
+"text": "O",
+"start": 523.931,
+"end": 523.971
+},
+{
+"text": "de",
+"start": 524.011,
+"end": 524.051
+},
+{
+"text": "2015",
+"start": 524.131,
+"end": 524.291
+},
+{
+"text": "e",
+"start": 524.371,
+"end": 524.611
+},
+{
+"text": "2016",
+"start": 524.731,
+"end": 524.931
+},
+{
+"text": "ajudou",
+"start": 525.011,
+"end": 526.691
+},
+{
+"text": "a",
+"start": 526.771,
+"end": 526.811
+},
+{
+"text": "fazer",
+"start": 526.851,
+"end": 527.171
+},
+{
+"text": "de",
+"start": 527.251,
+"end": 527.411
+},
+{
+"text": "2016",
+"start": 527.451,
+"end": 527.571
+},
+{
+"text": "o",
+"start": 527.731,
+"end": 528.771
+},
+{
+"text": "ano",
+"start": 528.931,
+"end": 529.091
+},
+{
+"text": "mais",
+"start": 529.171,
+"end": 529.491
+},
+{
+"text": "quente",
+"start": 529.531,
+"end": 529.811
+},
+{
+"text": "registrado",
+"start": 529.891,
+"end": 530.451
+},
+{
+"text": "até",
+"start": 530.571,
+"end": 530.731
+},
+{
+"text": "então.",
+"start": 530.771,
+"end": 531.491
+},
+{
+"text": "E",
+"start": 531.518,
+"end": 531.544
+},
+{
+"text": "o",
+"start": 531.571,
+"end": 531.651
+},
+{
+"text": "último,",
+"start": 531.731,
+"end": 532.211
+},
+{
+"text": "de",
+"start": 532.291,
+"end": 532.371
+},
+{
+"text": "2023",
+"start": 532.411,
+"end": 532.531
+},
+{
+"text": "e",
+"start": 532.611,
+"end": 532.811
+},
+{
+"text": "2024,",
+"start": 532.851,
+"end": 534.771
+},
+{
+"text": "veio",
+"start": 534.851,
+"end": 535.091
+},
+{
+"text": "junto",
+"start": 535.131,
+"end": 535.411
+},
+{
+"text": "com",
+"start": 535.531,
+"end": 535.651
+},
+{
+"text": "outro",
+"start": 535.771,
+"end": 535.971
+},
+{
+"text": "recorde:",
+"start": 536.051,
+"end": 536.851
+},
+{
+"text": "2024",
+"start": 536.891,
+"end": 537.011
+},
+{
+"text": "foi",
+"start": 537.091,
+"end": 538.131
+},
+{
+"text": "o",
+"start": 538.171,
+"end": 538.211
+},
+{
+"text": "primeiro",
+"start": 538.411,
+"end": 538.771
+},
+{
+"text": "ano",
+"start": 538.851,
+"end": 539.091
+},
+{
+"text": "inteiro",
+"start": 539.331,
+"end": 539.811
+},
+{
+"text": "com",
+"start": 539.851,
+"end": 539.891
+},
+{
+"text": "a",
+"start": 539.931,
+"end": 539.971
+},
+{
+"text": "temperatura",
+"start": 540.051,
+"end": 540.611
+},
+{
+"text": "média",
+"start": 540.691,
+"end": 541.011
+},
+{
+"text": "do",
+"start": 541.051,
+"end": 541.091
+},
+{
+"text": "planeta",
+"start": 541.171,
+"end": 541.651
+},
+{
+"text": "mais",
+"start": 541.891,
+"end": 542.131
+},
+{
+"text": "de",
+"start": 542.211,
+"end": 542.371
+},
+{
+"text": "um",
+"start": 542.451,
+"end": 542.531
+},
+{
+"text": "grau",
+"start": 542.691,
+"end": 542.931
+},
+{
+"text": "e",
+"start": 543.011,
+"end": 543.091
+},
+{
+"text": "meio",
+"start": 543.171,
+"end": 543.491
+},
+{
+"text": "acima",
+"start": 543.571,
+"end": 544.051
+},
+{
+"text": "da",
+"start": 544.131,
+"end": 544.211
+},
+{
+"text": "era",
+"start": 544.291,
+"end": 544.531
+},
+{
+"text": "pré-industrial.",
+"start": 544.611,
+"end": 545.731
+},
+{
+"text": "E",
+"start": 546.571,
+"end": 546.611
+},
+{
+"text": "isso",
+"start": 546.691,
+"end": 547.011
+},
+{
+"text": "nos",
+"start": 547.091,
+"end": 547.171
+},
+{
+"text": "leva",
+"start": 547.251,
+"end": 547.491
+},
+{
+"text": "até",
+"start": 547.571,
+"end": 547.691
+},
+{
+"text": "agora.",
+"start": 547.731,
+"end": 548.451
+},
+{
+"text": "As",
+"start": 548.531,
+"end": 548.611
+},
+{
+"text": "previsões",
+"start": 548.691,
+"end": 549.171
+},
+{
+"text": "para",
+"start": 549.251,
+"end": 549.411
+},
+{
+"text": "2026",
+"start": 549.451,
+"end": 550.451
+},
+{
+"text": "indicam",
+"start": 550.691,
+"end": 551.091
+},
+{
+"text": "um",
+"start": 551.171,
+"end": 551.251
+},
+{
+"text": "novo",
+"start": 551.331,
+"end": 551.571
+},
+{
+"text": "El",
+"start": 551.651,
+"end": 551.731
+},
+{
+"text": "Niño,",
+"start": 551.811,
+"end": 552.291
+},
+{
+"text": "que",
+"start": 552.331,
+"end": 552.371
+},
+{
+"text": "pode",
+"start": 552.531,
+"end": 552.691
+},
+{
+"text": "ser",
+"start": 552.771,
+"end": 552.931
+},
+{
+"text": "forte.",
+"start": 553.091,
+"end": 553.811
+},
+{
+"text": "O",
+"start": 553.851,
+"end": 553.891
+},
+{
+"text": "fenômeno",
+"start": 553.971,
+"end": 554.371
+},
+{
+"text": "é",
+"start": 554.411,
+"end": 554.451
+},
+{
+"text": "natural",
+"start": 554.731,
+"end": 555.011
+},
+{
+"text": "e",
+"start": 555.171,
+"end": 555.251
+},
+{
+"text": "existe",
+"start": 555.331,
+"end": 555.651
+},
+{
+"text": "há",
+"start": 555.678,
+"end": 555.731
+},
+{
+"text": "milhares",
+"start": 555.851,
+"end": 556.371
+},
+{
+"text": "de",
+"start": 556.451,
+"end": 556.531
+},
+{
+"text": "anos.",
+"start": 556.611,
+"end": 557.331
+},
+{
+"text": "Só",
+"start": 557.371,
+"end": 557.451
+},
+{
+"text": "que",
+"start": 557.491,
+"end": 557.571
+},
+{
+"text": "agora",
+"start": 557.651,
+"end": 558.051
+},
+{
+"text": "ele",
+"start": 558.211,
+"end": 558.291
+},
+{
+"text": "acontece",
+"start": 558.371,
+"end": 558.851
+},
+{
+"text": "num",
+"start": 558.931,
+"end": 559.011
+},
+{
+"text": "planeta",
+"start": 559.131,
+"end": 559.491
+},
+{
+"text": "que",
+"start": 559.571,
+"end": 559.651
+},
+{
+"text": "já",
+"start": 559.811,
+"end": 559.931
+},
+{
+"text": "está",
+"start": 559.971,
+"end": 560.291
+},
+{
+"text": "mais",
+"start": 560.331,
+"end": 560.531
+},
+{
+"text": "quente.",
+"start": 560.571,
+"end": 561.171
+},
+{
+"text": "Por",
+"start": 561.251,
+"end": 561.411
+},
+{
+"text": "isso,",
+"start": 561.491,
+"end": 562.051
+},
+{
+"text": "cada",
+"start": 562.091,
+"end": 562.371
+},
+{
+"text": "El",
+"start": 562.451,
+"end": 562.531
+},
+{
+"text": "Niño",
+"start": 562.611,
+"end": 562.931
+},
+{
+"text": "tende",
+"start": 563.011,
+"end": 563.251
+},
+{
+"text": "a",
+"start": 563.278,
+"end": 563.304
+},
+{
+"text": "empurrar",
+"start": 563.331,
+"end": 563.891
+},
+{
+"text": "os",
+"start": 563.971,
+"end": 564.051
+},
+{
+"text": "recordes",
+"start": 564.251,
+"end": 564.531
+},
+{
+"text": "de",
+"start": 564.611,
+"end": 564.651
+},
+{
+"text": "temperatura",
+"start": 564.691,
+"end": 565.331
+},
+{
+"text": "um",
+"start": 565.491,
+"end": 565.731
+},
+{
+"text": "pouco",
+"start": 565.771,
+"end": 566.051
+},
+{
+"text": "mais",
+"start": 566.131,
+"end": 566.291
+},
+{
+"text": "pra",
+"start": 566.371,
+"end": 566.451
+},
+{
+"text": "cima.",
+"start": 566.531,
+"end": 567.051
+},
+{
+"text": "E",
+"start": 567.251,
+"end": 567.278
+},
+{
+"text": "os",
+"start": 567.304,
+"end": 567.331
+},
+{
+"text": "pesquisadores",
+"start": 567.411,
+"end": 568.211
+},
+{
+"text": "ainda",
+"start": 568.291,
+"end": 568.451
+},
+{
+"text": "estudam",
+"start": 568.611,
+"end": 569.011
+},
+{
+"text": "se",
+"start": 569.091,
+"end": 569.171
+},
+{
+"text": "o",
+"start": 569.198,
+"end": 569.224
+},
+{
+"text": "aquecimento",
+"start": 569.251,
+"end": 569.811
+},
+{
+"text": "global",
+"start": 570.051,
+"end": 570.291
+},
+{
+"text": "vai",
+"start": 570.451,
+"end": 570.531
+},
+{
+"text": "deixar",
+"start": 570.611,
+"end": 570.851
+},
+{
+"text": "esses",
+"start": 570.931,
+"end": 571.091
+},
+{
+"text": "eventos",
+"start": 571.171,
+"end": 571.651
+},
+{
+"text": "mais",
+"start": 571.731,
+"end": 571.971
+},
+{
+"text": "frequentes",
+"start": 572.051,
+"end": 572.771
+},
+{
+"text": "ou",
+"start": 573.011,
+"end": 573.091
+},
+{
+"text": "mais",
+"start": 573.171,
+"end": 573.331
+},
+{
+"text": "intensos.",
+"start": 573.411,
+"end": 574.411
+},
+{
+"text": "Então,",
+"start": 574.691,
+"end": 575.331
+},
+{
+"text": "da",
+"start": 575.411,
+"end": 575.491
+},
+{
+"text": "próxima",
+"start": 575.571,
+"end": 575.891
+},
+{
+"text": "vez",
+"start": 575.971,
+"end": 576.131
+},
+{
+"text": "que",
+"start": 576.211,
+"end": 576.291
+},
+{
+"text": "você",
+"start": 576.331,
+"end": 576.531
+},
+{
+"text": "ouvir",
+"start": 576.571,
+"end": 576.771
+},
+{
+"text": "falar",
+"start": 576.851,
+"end": 577.091
+},
+{
+"text": "de",
+"start": 577.171,
+"end": 577.331
+},
+{
+"text": "seca",
+"start": 577.411,
+"end": 577.731
+},
+{
+"text": "na",
+"start": 577.771,
+"end": 577.811
+},
+{
+"text": "Amazônia,",
+"start": 577.851,
+"end": 578.571
+},
+{
+"text": "enchente",
+"start": 578.691,
+"end": 579.171
+},
+{
+"text": "no",
+"start": 579.251,
+"end": 579.331
+},
+{
+"text": "Sul",
+"start": 579.491,
+"end": 579.731
+},
+{
+"text": "ou",
+"start": 579.891,
+"end": 579.971
+},
+{
+"text": "café",
+"start": 580.131,
+"end": 580.451
+},
+{
+"text": "mais",
+"start": 580.531,
+"end": 580.771
+},
+{
+"text": "caro,",
+"start": 580.891,
+"end": 581.331
+},
+{
+"text": "você",
+"start": 581.371,
+"end": 581.651
+},
+{
+"text": "já",
+"start": 581.691,
+"end": 581.811
+},
+{
+"text": "sabe:",
+"start": 581.891,
+"end": 582.531
+},
+{
+"text": "pode",
+"start": 582.571,
+"end": 582.771
+},
+{
+"text": "ter",
+"start": 582.851,
+"end": 582.931
+},
+{
+"text": "um",
+"start": 583.011,
+"end": 583.091
+},
+{
+"text": "pedaço",
+"start": 583.171,
+"end": 583.491
+},
+{
+"text": "quente",
+"start": 583.651,
+"end": 583.971
+},
+{
+"text": "do",
+"start": 584.051,
+"end": 584.131
+},
+{
+"text": "Pacífico",
+"start": 584.171,
+"end": 584.771
+},
+{
+"text": "por",
+"start": 584.851,
+"end": 584.931
+},
+{
+"text": "trás",
+"start": 585.011,
+"end": 585.251
+},
+{
+"text": "disso.",
+"start": 585.371,
+"end": 586.051
+},
+{
+"text": "E",
+"start": 586.091,
+"end": 586.131
+},
+{
+"text": "me",
+"start": 586.211,
+"end": 586.291
+},
+{
+"text": "conta",
+"start": 586.371,
+"end": 586.531
+},
+{
+"text": "nos",
+"start": 586.611,
+"end": 586.691
+},
+{
+"text": "comentários:",
+"start": 586.731,
+"end": 587.651
+},
+{
+"text": "na",
+"start": 587.691,
+"end": 587.731
+},
+{
+"text": "sua",
+"start": 587.811,
+"end": 587.971
+},
+{
+"text": "cidade",
+"start": 588.051,
+"end": 588.451
+},
+{
+"text": "tá",
+"start": 588.531,
+"end": 588.611
+},
+{
+"text": "mais",
+"start": 588.651,
+"end": 588.851
+},
+{
+"text": "quente",
+"start": 588.931,
+"end": 589.411
+},
+{
+"text": "ou",
+"start": 589.571,
+"end": 589.731
+},
+{
+"text": "chovendo",
+"start": 589.811,
+"end": 590.291
+},
+{
+"text": "mais?",
+"start": 590.371,
+"end": 591.011
+}
+],
+"chapters": [
+{
+"id": "1",
+"title": "Introdução",
+"start": 0.0
+},
+{
+"id": "2",
+"title": "O Pacífico normal",
+"start": 39.958
+},
+{
+"id": "3",
+"title": "O que muda no El Niño",
+"start": 98.149
+},
+{
+"id": "4",
+"title": "De onde vem o nome",
+"start": 159.729
+},
+{
+"id": "5",
+"title": "Como os cientistas medem",
+"start": 204.049
+},
+{
+"id": "5b",
+"title": "El Niño e La Niña",
+"start": 251.223
+},
+{
+"id": "5c",
+"title": "Dá pra prever?",
+"start": 297.683
+},
+{
+"id": "6",
+"title": "Os efeitos no mundo",
+"start": 347.203
+},
+{
+"id": "7",
+"title": "Os efeitos no Brasil",
+"start": 402.051
+},
+{
+"id": "8",
+"title": "O El Niño no seu bolso",
+"start": 474.391
+},
+{
+"id": "9",
+"title": "Os maiores El Niños",
+"start": 505.851
+},
+{
+"id": "10",
+"title": "2026 e o futuro",
+"start": 546.551
+}
+]
+}

@@ -77,9 +77,8 @@ export const S1Gancho: React.FC<{ from: number }> = ({ from }) => {
   const cam = useCamera([
     [0, { lon: -150, lat: 0, zoom: 2.2 }],
     [tAmaz - 20, { lon: -150, lat: 0, zoom: 2.0 }],
-    [tAmaz + 10, { lon: -120, lat: -5, zoom: 1.05 }],
-    [t2026, WORLD],
-    [t2026 + 120, PACIFIC],
+    [tAmaz + 10, { lon: -135, lat: -5, zoom: 0.95 }],
+    [t2026, { lon: -135, lat: -5, zoom: 0.95 }],
   ]);
   const hl = [
     ...(frame >= tAmaz ? [{ ids: ["076"], color: brand.orange, opacity: 0.55 }] : []),
@@ -96,7 +95,7 @@ export const S1Gancho: React.FC<{ from: number }> = ({ from }) => {
         {frame >= tAus ? <MapLabel lon={134} lat={-24} color={brand.orange} size={30}>FOGO</MapLabel> : null}
       </WorldMap>
       <WideLabel instant label="Clima · explicado com mapas" icon="sun" accent="orange" title="Um pedaço do Pacífico" />
-      <Reveal at={tCafe} from="scale" style={{ left: 1560, top: 640 }}>
+      <Reveal at={tCafe} from="scale" style={{ left: 1580, top: 230 }}>
         <Cup size={0.8} />
       </Reveal>
       {frame >= tNino - 4 ? (
@@ -193,10 +192,10 @@ export const S3Muda: React.FC<{ from: number }> = ({ from }) => {
         <div style={{ position: "absolute", left: 600, top: 300, width: 720, opacity: interpolate(frame, [tCiclo, tCiclo + 10, tChuva - 5, tChuva + 5], [0, 1, 1, 0], clamp) }}>
           <GlassCard accent="orange" style={{ padding: "34px 40px", background: "linear-gradient(160deg, rgba(20,18,30,0.92), rgba(10,10,16,0.9))" }}>
             <svg width={640} height={250} viewBox="0 0 640 250">
-              <circle cx={320} cy={125} r={95} fill="none" stroke={brand.orange} strokeWidth={6} strokeDasharray="20 14" strokeDashoffset={-frame * 2} />
-              <text x={110} y={135} textAnchor="middle" fill={brand.ink} fontFamily={brandFont} fontWeight={800} fontSize={30}>vento fraco</text>
-              <text x={530} y={135} textAnchor="middle" fill={brand.orange} fontFamily={brandFont} fontWeight={800} fontSize={30}>oceano quente</text>
-              <text x={320} y={135} textAnchor="middle" fill={brand.lime} fontFamily={brandFont} fontWeight={800} fontSize={60}>↻</text>
+              <circle cx={315} cy={125} r={80} fill="none" stroke={brand.orange} strokeWidth={6} strokeDasharray="20 14" strokeDashoffset={-frame * 2} />
+              <text x={100} y={135} textAnchor="middle" fill={brand.ink} fontFamily={brandFont} fontWeight={800} fontSize={28}>vento fraco</text>
+              <text x={530} y={135} textAnchor="middle" fill={brand.orange} fontFamily={brandFont} fontWeight={800} fontSize={28}>oceano quente</text>
+              <text x={315} y={140} textAnchor="middle" fill={brand.lime} fontFamily={brandFont} fontWeight={800} fontSize={60}>↻</text>
             </svg>
             <div style={{ textAlign: "center", fontWeight: 700, fontSize: 30, color: brand.muted, opacity: frame >= tBj ? 1 : 0 }}>Jacob Bjerknes · 1969</div>
           </GlassCard>
@@ -227,6 +226,7 @@ export const S4Nome: React.FC<{ from: number }> = ({ from }) => {
         <SeaBlob lon={-84} lat={-8} rLon={6} rLat={8} color={brand.orange} opacity={frame >= tNatal ? 0.7 : 0} />
       </WorldMap>
       <WideLabel label="Capítulo 3" icon="star" accent="lime" title="De onde vem o nome" />
+      <div style={{ opacity: frame >= t1972 ? 0 : 1 }}>
       <Reveal at={tNatal} from="scale" style={{ left: 1260, top: 260 }}>
         <Pill accent="orange" solid size={36}>água quente perto do Natal</Pill>
       </Reveal>
@@ -240,6 +240,7 @@ export const S4Nome: React.FC<{ from: number }> = ({ from }) => {
           El Niño = <span style={{ color: brand.lime }}>o Menino</span>
         </GlassCard>
       </Reveal>
+      </div>
       {frame >= t1972 ? (
         <div style={{ position: "absolute", left: 360, top: 240, width: 1200, opacity: interpolate(frame, [t1972, t1972 + 10], [0, 1], clamp) }}>
           <GlassCard accent="orange" style={{ padding: "30px 40px", background: "linear-gradient(160deg, rgba(20,18,30,0.94), rgba(10,10,16,0.92))" }}>
@@ -295,10 +296,10 @@ export const S5Medem: React.FC<{ from: number }> = ({ from }) => {
       <Reveal at={tBr} from="scale" style={{ left: 1240, top: 230 }}>
         <Pill accent="lime" solid size={34}>+6 milhões de km² · ~70% do Brasil</Pill>
       </Reveal>
-      <Reveal at={tMeio} from="left" style={{ left: 1500, top: 330 }}>
+      <Reveal at={tMeio} from="left" style={{ left: 1330, top: 330 }}>
         <div style={{ display: "flex", alignItems: "center", gap: 30 }}>
           <Thermo level={level} height={480} />
-          <div style={{ fontFamily: brandFont, fontWeight: 800, fontSize: 32, lineHeight: 2.2 }}>
+          <div style={{ fontFamily: brandFont, fontWeight: 800, fontSize: 32, lineHeight: 2.2, whiteSpace: "nowrap", color: brand.ink }}>
             <div style={{ color: frame >= tSuper ? brand.orange : brand.muted }}>+2,0 °C muito forte</div>
             <div style={{ color: frame >= tForte ? brand.orangeSoft : brand.muted }}>+1,5 °C forte</div>
             <div style={{ color: brand.lime }}>+0,5 °C El Niño</div>
@@ -553,7 +554,7 @@ export const S8Bolso: React.FC<{ from: number }> = ({ from }) => {
   const item = (at: number, left: number, node: React.ReactNode, label: string) => (
     <Reveal at={at} from="scale" style={{ left, top: 330, width: 380, textAlign: "center" }}>
       <div style={{ height: 330, display: "flex", alignItems: "flex-end", justifyContent: "center" }}>{node}</div>
-      <div style={{ fontFamily: brandFont, fontWeight: 800, fontSize: 40, marginTop: 20 }}>{label}</div>
+      <div style={{ fontFamily: brandFont, fontWeight: 800, fontSize: 40, marginTop: 20, color: brand.ink }}>{label}</div>
     </Reveal>
   );
   return (

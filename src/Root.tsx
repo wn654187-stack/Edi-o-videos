@@ -1,4 +1,4 @@
-import { Composition, Folder } from "remotion";
+import { Still, Composition, Folder } from "remotion";
 import { HelloWorld } from "./HelloWorld";
 import { Logo } from "./HelloWorld/Logo";
 import { Title } from "./HelloWorld/Title";
@@ -16,6 +16,8 @@ import { EnemNaturezaAlt, ENEM_NATUREZA_ALT_SECONDS } from "./EnemNaturezaAlt/En
 import { ElNino, EL_NINO_SECONDS } from "./ElNino/ElNino";
 import { EnemTRI, ENEM_TRI_SECONDS } from "./EnemTRI/EnemTRI";
 import { DecimoTerceiro, DECIMO_TERCEIRO_SECONDS } from "./DecimoTerceiro/DecimoTerceiro";
+import { ElNinoYT, ELNINO_YT_SECONDS } from "./ElNinoYT/ElNinoYT";
+import { ElNinoThumb } from "./ElNinoYT/Thumb";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -218,6 +220,22 @@ export const RemotionRoot: React.FC = () => {
           showCaptions: true,
         }}
       />
+      <Composition
+        id="ElNinoYouTube"
+        component={ElNinoYT}
+        durationInFrames={ELNINO_YT_SECONDS * 30}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          narration: "narracao-elnino-yt.mp3",
+          music: "",
+          musicVolume: 0.15,
+          showCaptions: true,
+        }}
+      />
+      <Still id="ElNinoThumbA" component={ElNinoThumb} width={1920} height={1080} defaultProps={{ variant: "a" as const }} />
+      <Still id="ElNinoThumbB" component={ElNinoThumb} width={1920} height={1080} defaultProps={{ variant: "b" as const }} />
       <Folder name="Elements">
         <Composition
           id="Logo"
