@@ -4,7 +4,7 @@ import { feature } from "topojson-client";
 import type { Feature, FeatureCollection, Geometry } from "geojson";
 import type { GeometryCollection, Topology } from "topojson-specification";
 import world from "world-atlas/countries-50m.json";
-import { brand } from "../brand/theme";
+import { brand, brandFont } from "../brand/theme";
 
 const topo = world as unknown as Topology<{ countries: GeometryCollection }>;
 const countries = (feature(topo, topo.objects.countries) as unknown as FeatureCollection<Geometry, { name: string }>).features;
@@ -137,8 +137,22 @@ export const MapLabel: React.FC<{ lon: number; lat: number; children: React.Reac
   const P = useP();
   const [x, y] = P(lon, lat);
   return (
-    <text x={x + dx} y={y + dy} textAnchor="middle" fill={color} fontFamily="Sora" fontWeight={800} fontSize={size} style={{ paintOrder: "stroke", stroke: "#07070bcc", strokeWidth: 8 }}>
+    <text x={x + dx} y={y + dy} textAnchor="middle" fill={color} fontFamily={brandFont} fontWeight={800} fontSize={size} style={{ paintOrder: "stroke", stroke: "#07070bcc", strokeWidth: 8 }}>
       {children}
     </text>
+  );
+};
+
+/** <clipPath id={id}> holding one country's outline in the current projection. */
+export const CountryClip: React.FC<{ id: string; country: string }> = ({ id, country }) => {
+  const projection = useProjection();
+  const f = countryById(country);
+  const d = f ? geoPath(projection)(f) ?? "" : "";
+  return (
+    <defs>
+      <clipPath id={id}>
+        <path d={d} />
+      </clipPath>
+    </defs>
   );
 };
