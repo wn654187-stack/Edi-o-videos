@@ -1,13 +1,23 @@
-[excited] Cinco assuntos de Matemática que caem todo ano no Enem, em um minuto. Revisa antes de domingo.
+[excited] Cinco assuntos de Matemática que sempre caem no Enem. Revisa em um minuto, antes de domingo. 
 
-Um: porcentagem. Aumentar vinte por cento é multiplicar por um vírgula dois. Descontar vinte por cento é multiplicar por zero vírgula oito. E um aumento seguido de desconto não volta ao valor inicial.
-
-Dois: escala. Numa escala de um para cem mil, um centímetro no mapa é um quilômetro de verdade.
-
-Três: estatística. Média é a soma dividida pela quantidade. Mediana é o valor do meio, com os dados em ordem. Moda é o que mais se repete.
-
-Quatro: geometria. Volume de prisma e de cilindro é sempre a área da base vezes a altura.
-
-Cinco: probabilidade. É o que você quer dividido pelo total de possibilidades. E lembra: no "e", multiplica. No "ou", soma.
-
-Qual desses você mais erra? Comenta aqui. E manda esse vídeo pro seu grupo de estudos!
+Um: porcentagem.
+Aumentar vinte por cento é multiplicar por um vírgula dois.
+Descontar vinte por cento é multiplicar por zero vírgula oito.
+Cem reais viram cento e vinte, e depois noventa e seis.
+Dois: escala.
+Escala de um para cem mil?
+Um centímetro no mapa é um quilômetro de verdade.
+Três: estatística.
+Notas três, cinco, cinco, sete e dez.
+Média é seis: a soma dividida por cinco.
+Mediana é cinco: o valor do meio.
+Moda também é cinco: o que mais repete.
+Quatro: geometria.
+Prisma ou cilindro?
+Volume é a área da base vezes a altura.
+Cinco: probabilidade.
+É o que você quer dividido pelo total.
+Tirar seis num dado: uma chance em seis.
+E lembra: no "e", multiplica. No "ou", soma.
+Qual dos cinco você mais erra?
+Comenta aqui e manda pro seu grupo de estudos!
