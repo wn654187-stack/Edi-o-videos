@@ -1,716 +1,625 @@
 {
-"tempo": 1,
+"tempo": 1.12,
 "words": [
 {
-"text": "Cinco",
-"start": 0.2,
-"end": 0.595
+"text": "5",
+"start": 0.143,
+"end": 0.357
 },
 {
 "text": "assuntos",
-"start": 0.635,
-"end": 1.195
+"start": 0.429,
+"end": 0.786
 },
 {
 "text": "de",
-"start": 1.235,
-"end": 1.465
+"start": 0.857,
+"end": 0.893
 },
 {
 "text": "Matemática",
-"start": 1.505,
-"end": 2.175
+"start": 0.929,
+"end": 1.5
 },
 {
 "text": "que",
-"start": 2.215,
-"end": 2.5
+"start": 1.571,
+"end": 1.643
 },
 {
 "text": "sempre",
-"start": 2.54,
-"end": 2.99
+"start": 1.857,
+"end": 2.143
 },
 {
 "text": "caem",
-"start": 3.03,
-"end": 3.37
+"start": 2.286,
+"end": 2.5
 },
 {
 "text": "no",
-"start": 3.41,
-"end": 3.64
+"start": 2.536,
+"end": 2.571
 },
 {
 "text": "Enem.",
-"start": 3.68,
-"end": 4.02
+"start": 2.643,
+"end": 3.143
 },
 {
 "text": "Revisa",
-"start": 4.31,
-"end": 4.76
+"start": 3.214,
+"end": 3.5
 },
 {
 "text": "em",
-"start": 4.8,
-"end": 5.03
+"start": 3.571,
+"end": 3.643
 },
 {
-"text": "1",
-"start": 5.07,
-"end": 5.245
-},
-{
-"text": "minuto,",
-"start": 5.285,
-"end": 5.735
+"text": "1 minuto,",
+"start": 3.679,
+"end": 4.357
 },
 {
 "text": "antes",
-"start": 5.775,
-"end": 6.17
+"start": 4.5,
+"end": 4.643
 },
 {
 "text": "de",
-"start": 6.21,
-"end": 6.44
+"start": 4.679,
+"end": 4.714
 },
 {
 "text": "domingo.",
-"start": 6.48,
-"end": 6.985
+"start": 4.821,
+"end": 5.571
 },
 {
 "text": "Um:",
-"start": 7.275,
-"end": 7.505
+"start": 5.643,
+"end": 6.143
 },
 {
 "text": "porcentagem.",
-"start": 7.545,
-"end": 8.27
+"start": 6.214,
+"end": 7.214
 },
 {
 "text": "Aumentar",
-"start": 8.56,
-"end": 9.12
+"start": 7.25,
+"end": 7.643
 },
 {
 "text": "20%",
-"start": 9.16,
-"end": 9.39
+"start": 7.786,
+"end": 8.607
 },
 {
 "text": "é",
-"start": 9.43,
-"end": 9.605
+"start": 8.714,
+"end": 8.75
 },
 {
 "text": "multiplicar",
-"start": 9.645,
-"end": 10.37
+"start": 8.786,
+"end": 9.286
 },
 {
 "text": "por",
-"start": 10.41,
-"end": 10.695
+"start": 9.357,
+"end": 9.5
 },
 {
 "text": "1,2.",
-"start": 10.735,
-"end": 10.965
+"start": 9.643,
+"end": 10.857
 },
 {
 "text": "Descontar",
-"start": 11.255,
-"end": 11.87
+"start": 10.964,
+"end": 11.5
 },
 {
 "text": "20%",
-"start": 11.91,
-"end": 12.14
+"start": 11.571,
+"end": 12.321
 },
 {
 "text": "é",
-"start": 12.18,
-"end": 12.355
+"start": 12.429,
+"end": 12.464
 },
 {
 "text": "multiplicar",
-"start": 12.395,
-"end": 13.12
+"start": 12.5,
+"end": 12.929
 },
 {
 "text": "por",
-"start": 13.16,
-"end": 13.445
+"start": 13.071,
+"end": 13.143
 },
 {
 "text": "0,8.",
-"start": 13.485,
-"end": 13.715
+"start": 13.286,
+"end": 14.571
 },
 {
-"text": "R$",
-"start": 14.005,
-"end": 14.18
-},
-{
-"text": "100",
-"start": 14.22,
-"end": 14.505
-},
-{
-"text": "viram",
-"start": 14.545,
-"end": 14.94
-},
-{
-"text": "R$",
-"start": 14.98,
-"end": 15.155
-},
-{
-"text": "120,",
-"start": 15.195,
-"end": 15.48
+"text": "R$ 100 viram R$ 120,",
+"start": 14.643,
+"end": 16.5
 },
 {
 "text": "e",
-"start": 15.52,
-"end": 15.695
+"start": 16.536,
+"end": 16.571
 },
 {
 "text": "depois",
-"start": 15.735,
-"end": 16.185
+"start": 16.643,
+"end": 17.0
 },
 {
-"text": "R$",
-"start": 16.225,
-"end": 16.4
-},
-{
-"text": "96.",
-"start": 16.44,
-"end": 16.67
+"text": "R$ 96.",
+"start": 17.214,
+"end": 18.5
 },
 {
 "text": "Dois:",
-"start": 16.96,
-"end": 17.3
+"start": 18.571,
+"end": 19.143
 },
 {
 "text": "escala.",
-"start": 17.34,
-"end": 17.79
+"start": 19.286,
+"end": 20.0
 },
 {
 "text": "Escala",
-"start": 18.08,
-"end": 18.53
+"start": 20.071,
+"end": 20.429
 },
 {
 "text": "de",
-"start": 18.57,
-"end": 18.8
+"start": 20.5,
+"end": 20.571
 },
 {
-"text": "1",
-"start": 18.84,
-"end": 19.015
+"text": "1:100.000?",
+"start": 20.643,
+"end": 21.857
 },
 {
-"text": "para",
-"start": 19.055,
-"end": 19.395
-},
-{
-"text": "100.000?",
-"start": 19.435,
-"end": 19.885
-},
-{
-"text": "1",
-"start": 20.175,
-"end": 20.35
-},
-{
-"text": "cm",
-"start": 20.39,
-"end": 20.62
+"text": "1 cm",
+"start": 21.929,
+"end": 22.571
 },
 {
 "text": "no",
-"start": 20.66,
-"end": 20.89
+"start": 22.643,
+"end": 22.714
 },
 {
 "text": "mapa",
-"start": 20.93,
-"end": 21.27
+"start": 22.786,
+"end": 23.071
 },
 {
 "text": "é",
-"start": 21.31,
-"end": 21.485
+"start": 23.286,
+"end": 23.5
 },
 {
-"text": "1",
-"start": 21.525,
-"end": 21.7
-},
-{
-"text": "km",
-"start": 21.74,
-"end": 21.97
+"text": "1 km",
+"start": 23.536,
+"end": 24.143
 },
 {
 "text": "de",
-"start": 22.01,
-"end": 22.24
+"start": 24.214,
+"end": 24.25
 },
 {
 "text": "verdade.",
-"start": 22.28,
-"end": 22.785
+"start": 24.286,
+"end": 25.071
 },
 {
 "text": "Três:",
-"start": 23.075,
-"end": 23.415
+"start": 25.143,
+"end": 25.714
 },
 {
 "text": "estatística.",
-"start": 23.455,
-"end": 24.18
+"start": 25.786,
+"end": 26.857
 },
 {
 "text": "Notas",
-"start": 24.47,
-"end": 24.865
+"start": 26.964,
+"end": 27.214
 },
 {
-"text": "3,",
-"start": 24.905,
-"end": 25.08
-},
-{
-"text": "5,",
-"start": 25.12,
-"end": 25.295
-},
-{
-"text": "5,",
-"start": 25.335,
-"end": 25.51
-},
-{
-"text": "7",
-"start": 25.55,
-"end": 25.725
-},
-{
-"text": "e",
-"start": 25.765,
-"end": 25.94
-},
-{
-"text": "10.",
-"start": 25.98,
-"end": 26.21
-},
-{
-"text": "Média",
-"start": 26.5,
-"end": 26.895
-},
-{
-"text": "é",
-"start": 26.935,
-"end": 27.11
-},
-{
-"text": "6:",
-"start": 27.15,
-"end": 27.325
-},
-{
-"text": "a",
-"start": 27.365,
-"end": 27.54
-},
-{
-"text": "soma",
-"start": 27.58,
-"end": 27.92
-},
-{
-"text": "dividida",
-"start": 27.96,
-"end": 28.52
-},
-{
-"text": "por",
-"start": 28.56,
-"end": 28.845
-},
-{
-"text": "5.",
-"start": 28.885,
-"end": 29.06
-},
-{
-"text": "Mediana",
-"start": 29.35,
-"end": 29.855
-},
-{
-"text": "é",
-"start": 29.895,
-"end": 30.07
-},
-{
-"text": "5:",
-"start": 30.11,
-"end": 30.285
-},
-{
-"text": "o",
-"start": 30.325,
+"text": "3, 5, 5, 7 e 10.",
+"start": 27.286,
 "end": 30.5
 },
 {
-"text": "valor",
-"start": 30.54,
-"end": 30.935
-},
-{
-"text": "do",
-"start": 30.975,
-"end": 31.205
-},
-{
-"text": "meio.",
-"start": 31.245,
-"end": 31.585
-},
-{
-"text": "Moda",
-"start": 31.875,
-"end": 32.215
-},
-{
-"text": "também",
-"start": 32.255,
-"end": 32.705
+"text": "Média",
+"start": 30.571,
+"end": 30.929
 },
 {
 "text": "é",
-"start": 32.745,
-"end": 32.92
+"start": 31.0,
+"end": 31.143
+},
+{
+"text": "6:",
+"start": 31.214,
+"end": 31.786
+},
+{
+"text": "a",
+"start": 31.821,
+"end": 31.857
+},
+{
+"text": "soma",
+"start": 32.0,
+"end": 32.214
+},
+{
+"text": "dividida",
+"start": 32.286,
+"end": 32.643
+},
+{
+"text": "por",
+"start": 32.714,
+"end": 32.786
+},
+{
+"text": "5.",
+"start": 32.857,
+"end": 33.5
+},
+{
+"text": "Mediana",
+"start": 33.607,
+"end": 34.071
+},
+{
+"text": "é",
+"start": 34.214,
+"end": 34.357
 },
 {
 "text": "5:",
-"start": 32.96,
-"end": 33.135
+"start": 34.429,
+"end": 34.929
 },
 {
 "text": "o",
-"start": 33.175,
-"end": 33.35
+"start": 34.964,
+"end": 35.0
 },
 {
-"text": "que",
-"start": 33.39,
-"end": 33.675
+"text": "valor",
+"start": 35.143,
+"end": 35.286
 },
 {
-"text": "mais",
-"start": 33.715,
-"end": 34.055
+"text": "do",
+"start": 35.357,
+"end": 35.429
 },
 {
-"text": "repete.",
-"start": 34.095,
-"end": 34.545
+"text": "meio.",
+"start": 35.5,
+"end": 36.143
 },
 {
-"text": "Quatro:",
-"start": 34.835,
-"end": 35.285
+"text": "Moda",
+"start": 36.214,
+"end": 36.5
 },
 {
-"text": "geometria.",
-"start": 35.325,
-"end": 35.94
-},
-{
-"text": "Prisma",
-"start": 36.23,
-"end": 36.68
-},
-{
-"text": "ou",
-"start": 36.72,
-"end": 36.95
-},
-{
-"text": "cilindro?",
-"start": 36.99,
-"end": 37.55
-},
-{
-"text": "Volume",
-"start": 37.84,
-"end": 38.29
+"text": "também",
+"start": 36.643,
+"end": 36.929
 },
 {
 "text": "é",
-"start": 38.33,
-"end": 38.505
+"start": 37.0,
+"end": 37.071
 },
 {
-"text": "a",
-"start": 38.545,
-"end": 38.72
-},
-{
-"text": "área",
-"start": 38.76,
-"end": 39.1
-},
-{
-"text": "da",
-"start": 39.14,
-"end": 39.37
-},
-{
-"text": "base",
-"start": 39.41,
-"end": 39.75
-},
-{
-"text": "vezes",
-"start": 39.79,
-"end": 40.185
-},
-{
-"text": "a",
-"start": 40.225,
-"end": 40.4
-},
-{
-"text": "altura.",
-"start": 40.44,
-"end": 40.89
-},
-{
-"text": "Cinco:",
-"start": 41.18,
-"end": 41.575
-},
-{
-"text": "probabilidade.",
-"start": 41.615,
-"end": 42.45
-},
-{
-"text": "É",
-"start": 42.74,
-"end": 42.915
+"text": "5:",
+"start": 37.143,
+"end": 37.643
 },
 {
 "text": "o",
-"start": 42.955,
-"end": 43.13
+"start": 37.679,
+"end": 37.714
 },
 {
 "text": "que",
-"start": 43.17,
-"end": 43.455
-},
-{
-"text": "você",
-"start": 43.495,
-"end": 43.835
-},
-{
-"text": "quer",
-"start": 43.875,
-"end": 44.215
-},
-{
-"text": "dividido",
-"start": 44.255,
-"end": 44.815
-},
-{
-"text": "pelo",
-"start": 44.855,
-"end": 45.195
-},
-{
-"text": "total.",
-"start": 45.235,
-"end": 45.63
-},
-{
-"text": "Tirar",
-"start": 45.92,
-"end": 46.315
-},
-{
-"text": "6",
-"start": 46.355,
-"end": 46.53
-},
-{
-"text": "num",
-"start": 46.57,
-"end": 46.855
-},
-{
-"text": "dado:",
-"start": 46.895,
-"end": 47.235
-},
-{
-"text": "1",
-"start": 47.275,
-"end": 47.45
-},
-{
-"text": "chance",
-"start": 47.49,
-"end": 47.94
-},
-{
-"text": "em",
-"start": 47.98,
-"end": 48.21
-},
-{
-"text": "6.",
-"start": 48.25,
-"end": 48.425
-},
-{
-"text": "E",
-"start": 48.715,
-"end": 48.89
-},
-{
-"text": "lembra:",
-"start": 48.93,
-"end": 49.38
-},
-{
-"text": "no",
-"start": 49.42,
-"end": 49.65
-},
-{
-"text": "\"e\",",
-"start": 49.69,
-"end": 49.865
-},
-{
-"text": "multiplica.",
-"start": 49.905,
-"end": 50.575
-},
-{
-"text": "No",
-"start": 50.615,
-"end": 50.845
-},
-{
-"text": "\"ou\",",
-"start": 50.885,
-"end": 51.115
-},
-{
-"text": "soma.",
-"start": 51.155,
-"end": 51.495
-},
-{
-"text": "Qual",
-"start": 51.785,
-"end": 52.125
-},
-{
-"text": "dos",
-"start": 52.165,
-"end": 52.45
-},
-{
-"text": "cinco",
-"start": 52.49,
-"end": 52.885
-},
-{
-"text": "você",
-"start": 52.925,
-"end": 53.265
+"start": 37.786,
+"end": 37.857
 },
 {
 "text": "mais",
-"start": 53.305,
-"end": 53.645
+"start": 37.929,
+"end": 38.071
+},
+{
+"text": "repete.",
+"start": 38.143,
+"end": 38.929
+},
+{
+"text": "Quatro:",
+"start": 38.964,
+"end": 39.571
+},
+{
+"text": "geometria.",
+"start": 39.643,
+"end": 40.571
+},
+{
+"text": "Prisma",
+"start": 40.607,
+"end": 41.0
+},
+{
+"text": "ou",
+"start": 41.143,
+"end": 41.214
+},
+{
+"text": "cilindro?",
+"start": 41.286,
+"end": 42.071
+},
+{
+"text": "Volume",
+"start": 42.143,
+"end": 42.571
+},
+{
+"text": "é",
+"start": 42.714,
+"end": 42.786
+},
+{
+"text": "a",
+"start": 42.821,
+"end": 42.857
+},
+{
+"text": "área",
+"start": 42.893,
+"end": 43.071
+},
+{
+"text": "da",
+"start": 43.143,
+"end": 43.214
+},
+{
+"text": "base",
+"start": 43.286,
+"end": 43.571
+},
+{
+"text": "vezes",
+"start": 43.786,
+"end": 44.071
+},
+{
+"text": "a",
+"start": 44.096,
+"end": 44.119
+},
+{
+"text": "altura.",
+"start": 44.143,
+"end": 44.857
+},
+{
+"text": "Cinco:",
+"start": 44.929,
+"end": 45.5
+},
+{
+"text": "probabilidade.",
+"start": 45.607,
+"end": 46.643
+},
+{
+"text": "É",
+"start": 46.679,
+"end": 46.714
+},
+{
+"text": "o",
+"start": 46.75,
+"end": 46.786
+},
+{
+"text": "que",
+"start": 46.821,
+"end": 46.857
+},
+{
+"text": "você",
+"start": 46.929,
+"end": 47.143
+},
+{
+"text": "quer",
+"start": 47.214,
+"end": 47.429
+},
+{
+"text": "dividido",
+"start": 47.571,
+"end": 48.0
+},
+{
+"text": "pelo",
+"start": 48.036,
+"end": 48.143
+},
+{
+"text": "total.",
+"start": 48.214,
+"end": 48.857
+},
+{
+"text": "Tirar",
+"start": 48.929,
+"end": 49.214
+},
+{
+"text": "6",
+"start": 49.357,
+"end": 49.571
+},
+{
+"text": "num",
+"start": 49.643,
+"end": 49.714
+},
+{
+"text": "dado:",
+"start": 49.786,
+"end": 50.357
+},
+{
+"text": "1 chance em 6.",
+"start": 50.429,
+"end": 51.929
+},
+{
+"text": "E",
+"start": 51.964,
+"end": 52.0
+},
+{
+"text": "lembra:",
+"start": 52.071,
+"end": 52.643
+},
+{
+"text": "no",
+"start": 52.75,
+"end": 52.857
+},
+{
+"text": "\"e\",",
+"start": 52.893,
+"end": 53.286
+},
+{
+"text": "multiplica.",
+"start": 53.429,
+"end": 54.143
+},
+{
+"text": "No",
+"start": 54.179,
+"end": 54.214
+},
+{
+"text": "\"ou\",",
+"start": 54.357,
+"end": 54.857
+},
+{
+"text": "soma.",
+"start": 54.893,
+"end": 55.5
+},
+{
+"text": "Qual",
+"start": 55.571,
+"end": 55.643
+},
+{
+"text": "dos",
+"start": 55.714,
+"end": 55.857
+},
+{
+"text": "cinco",
+"start": 55.929,
+"end": 56.071
+},
+{
+"text": "você",
+"start": 56.143,
+"end": 56.357
+},
+{
+"text": "mais",
+"start": 56.393,
+"end": 56.571
 },
 {
 "text": "erra?",
-"start": 53.685,
-"end": 54.025
+"start": 56.643,
+"end": 57.071
 },
 {
 "text": "Comenta",
-"start": 54.315,
-"end": 54.82
+"start": 57.143,
+"end": 57.429
 },
 {
 "text": "aqui",
-"start": 54.86,
-"end": 55.2
+"start": 57.5,
+"end": 57.714
 },
 {
 "text": "e",
-"start": 55.24,
-"end": 55.415
+"start": 57.821,
+"end": 57.929
 },
 {
 "text": "manda",
-"start": 55.455,
-"end": 55.85
+"start": 58.036,
+"end": 58.143
 },
 {
 "text": "pro",
-"start": 55.89,
-"end": 56.175
+"start": 58.214,
+"end": 58.286
 },
 {
 "text": "seu",
-"start": 56.215,
-"end": 56.5
+"start": 58.321,
+"end": 58.429
 },
 {
 "text": "grupo",
-"start": 56.54,
-"end": 56.935
+"start": 58.536,
+"end": 58.643
 },
 {
 "text": "de",
-"start": 56.975,
-"end": 57.205
+"start": 58.667,
+"end": 58.69
 },
 {
 "text": "estudos!",
-"start": 57.245,
-"end": 57.75
+"start": 58.714,
+"end": 59.382
 }
-],
-"provisional": true
+]
 }

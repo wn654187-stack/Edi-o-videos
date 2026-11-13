@@ -127,6 +127,16 @@ words = [{"text": w["text"], "start": w["start"] / tempo, "end": w["end"] / temp
 
 # Spelled-out numbers merged into digits (caption display only). Longest first.
 NUMBERS = [
+    (["cem", "reais", "viram", "cento", "e", "vinte"], "R$ 100 viram R$ 120"),
+    (["noventa", "e", "seis"], "R$ 96"),
+    (["um", "para", "cem", "mil"], "1:100.000"),
+    (["um", "vírgula", "dois"], "1,2"),
+    (["zero", "vírgula", "oito"], "0,8"),
+    (["um", "centímetro"], "1 cm"),
+    (["um", "quilômetro"], "1 km"),
+    (["uma", "chance", "em", "seis"], "1 chance em 6"),
+    (["três", "cinco", "cinco", "sete", "e", "dez"], "3, 5, 5, 7 e 10"),
+    (["um", "minuto"], "1 minuto"),
     (["dia", "trinta", "de", "novembro"], "dia 30/11"),
     (["vinte", "de", "dezembro"], "20/12"),
     (["três", "mil", "reais"], "R$ 3.000"),
@@ -165,7 +175,7 @@ CONTEXT = {("trinta", "delegados"): "30", ("um", "voto"): "1",
            ("sete", "em"): "7", ("dez", "brasileiros"): "10",
            ("setenta", "quilos"): "70", ("cinco", "toneladas"): "5",
            ("trinta", "segundos"): "30", ("doze", "dias"): "12", ("sete", "dias"): "7", ("quatro", "lances"): "4", ("quatro", "satélites"): "4", ("trinta", "questões"): "30", ("três", "coisas"): "3", ("quinze", "dias"): "15", ("seis", "meses"): "6",
-           ("três", "pedreiros"): "3", ("seis", "pedreiros"): "6"}
+           ("três", "pedreiros"): "3", ("seis", "a"): "6", ("seis", "num"): "6", ("cinco", "o"): "5", ("cinco", "mediana"): "5", ("cinco", "assuntos"): "5", ("seis", "pedreiros"): "6"}
 
 
 def norm(t):

@@ -62,7 +62,7 @@ export const S2Porcentagem: React.FC<{ from: number }> = ({ from }) => {
   const cue = useCue(from);
   const tUp = cue("Aumentar");
   const tDown = cue("Descontar");
-  const tEx = cue("100", from);
+  const tEx = cue("R$ 100 viram R$ 120");
   return (
     <BrandScene label="1 · Porcentagem" icon="tag" accent="lime" title="×1,2 e ×0,8">
       <Hero top={450}>
@@ -113,8 +113,8 @@ const Ruler: React.FC<{ lit: number }> = ({ lit }) => (
 export const S3Escala: React.FC<{ from: number }> = ({ from }) => {
   const frame = useCurrentFrame();
   const cue = useCue(from);
-  const tCm = cue("cm");
-  const tKm = cue("km");
+  const tCm = cue("1 cm");
+  const tKm = cue("1 km");
   return (
     <BrandScene label="2 · Escala" icon="pin" accent="blue" title="1 : 100.000">
       <Reveal at={2} from="scale" style={{ left: 90, top: 520 }}>
