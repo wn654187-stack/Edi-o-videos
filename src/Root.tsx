@@ -20,6 +20,7 @@ import { ElNinoYT, ELNINO_YT_SECONDS } from "./ElNinoYT/ElNinoYT";
 import { ElNinoThumb } from "./ElNinoYT/Thumb";
 import { ElNinoShort, ELNINO_SHORT_SECONDS } from "./ElNinoShort/ElNinoShort";
 import { ElNinoCover } from "./ElNinoShort/Cover";
+import { RevisaoMatematica, REVISAO_MATEMATICA_SECONDS } from "./RevisaoMatematica/RevisaoMatematica";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -253,6 +254,20 @@ export const RemotionRoot: React.FC = () => {
         }}
       />
       <Still id="ElNinoCoverVertical" component={ElNinoCover} width={1080} height={1920} />
+      <Composition
+        id="RevisaoMatematicaVertical"
+        component={RevisaoMatematica}
+        durationInFrames={REVISAO_MATEMATICA_SECONDS * 30}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          narration: "",
+          music: "",
+          musicVolume: 0.2,
+          showCaptions: true,
+        }}
+      />
       <Folder name="Elements">
         <Composition
           id="Logo"

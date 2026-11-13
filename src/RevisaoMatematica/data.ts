@@ -27,7 +27,6 @@ export const useCue = (from: number) => {
 
 export const VIDEO_SECONDS = Math.ceil(WORDS[WORDS.length - 1].end + 2.4);
 
-const s2 = at("primeira") - 0.35;
 
 const s2 = at("porcentagem") - 0.6;
 const s3 = at("escala", s2) - 0.6;
