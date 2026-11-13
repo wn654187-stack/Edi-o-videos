@@ -21,6 +21,7 @@ import { ElNinoThumb } from "./ElNinoYT/Thumb";
 import { ElNinoShort, ELNINO_SHORT_SECONDS } from "./ElNinoShort/ElNinoShort";
 import { ElNinoCover } from "./ElNinoShort/Cover";
 import { RevisaoMatematica, REVISAO_MATEMATICA_SECONDS } from "./RevisaoMatematica/RevisaoMatematica";
+import { RevisaoMatematicaCover } from "./RevisaoMatematica/Cover";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -268,6 +269,7 @@ export const RemotionRoot: React.FC = () => {
           showCaptions: true,
         }}
       />
+      <Still id="RevisaoMatematicaCover" component={RevisaoMatematicaCover} width={1080} height={1920} />
       <Folder name="Elements">
         <Composition
           id="Logo"
