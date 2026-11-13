@@ -1,0 +1,665 @@
+{
+"tempo": 1.12,
+"words": [
+{
+"text": "Hoje",
+"start": 0.122,
+"end": 0.214
+},
+{
+"text": "é",
+"start": 0.25,
+"end": 0.286
+},
+{
+"text": "dia",
+"start": 0.357,
+"end": 0.5
+},
+{
+"text": "17 de novembro,",
+"start": 0.571,
+"end": 2.0
+},
+{
+"text": "o",
+"start": 2.036,
+"end": 2.071
+},
+{
+"text": "dia",
+"start": 2.214,
+"end": 2.357
+},
+{
+"text": "do",
+"start": 2.429,
+"end": 2.571
+},
+{
+"text": "tal",
+"start": 2.643,
+"end": 2.786
+},
+{
+"text": "apagão",
+"start": 2.857,
+"end": 3.286
+},
+{
+"text": "mundial.",
+"start": 3.393,
+"end": 3.964
+},
+{
+"text": "Spoiler:",
+"start": 4.143,
+"end": 4.857
+},
+{
+"text": "ele",
+"start": 4.964,
+"end": 5.071
+},
+{
+"text": "não",
+"start": 5.214,
+"end": 5.429
+},
+{
+"text": "vai",
+"start": 5.5,
+"end": 5.643
+},
+{
+"text": "acontecer.",
+"start": 5.75,
+"end": 6.464
+},
+{
+"text": "Segundo",
+"start": 6.714,
+"end": 7.0
+},
+{
+"text": "as",
+"start": 7.036,
+"end": 7.071
+},
+{
+"text": "checagens,",
+"start": 7.107,
+"end": 7.786
+},
+{
+"text": "o",
+"start": 7.821,
+"end": 7.857
+},
+{
+"text": "boato",
+"start": 7.929,
+"end": 8.214
+},
+{
+"text": "nasceu",
+"start": 8.321,
+"end": 8.571
+},
+{
+"text": "de",
+"start": 8.643,
+"end": 8.679
+},
+{
+"text": "um",
+"start": 8.714,
+"end": 8.857
+},
+{
+"text": "post",
+"start": 9.0,
+"end": 9.143
+},
+{
+"text": "da",
+"start": 9.179,
+"end": 9.214
+},
+{
+"text": "Defesa",
+"start": 9.286,
+"end": 9.571
+},
+{
+"text": "Civil",
+"start": 9.643,
+"end": 10.0
+},
+{
+"text": "com",
+"start": 10.071,
+"end": 10.214
+},
+{
+"text": "dicas",
+"start": 10.286,
+"end": 10.571
+},
+{
+"text": "de",
+"start": 10.643,
+"end": 10.714
+},
+{
+"text": "kit",
+"start": 10.786,
+"end": 11.0
+},
+{
+"text": "de",
+"start": 11.071,
+"end": 11.107
+},
+{
+"text": "emergência.",
+"start": 11.143,
+"end": 11.893
+},
+{
+"text": "Era",
+"start": 12.071,
+"end": 12.214
+},
+{
+"text": "só",
+"start": 12.286,
+"end": 12.357
+},
+{
+"text": "orientação,",
+"start": 12.429,
+"end": 13.214
+},
+{
+"text": "mas",
+"start": 13.286,
+"end": 13.429
+},
+{
+"text": "na",
+"start": 13.464,
+"end": 13.5
+},
+{
+"text": "internet",
+"start": 13.786,
+"end": 14.071
+},
+{
+"text": "virou",
+"start": 14.143,
+"end": 14.357
+},
+{
+"text": "aviso",
+"start": 14.429,
+"end": 14.857
+},
+{
+"text": "de",
+"start": 14.929,
+"end": 14.964
+},
+{
+"text": "apagão.",
+"start": 15.0,
+"end": 15.786
+},
+{
+"text": "E",
+"start": 15.821,
+"end": 15.857
+},
+{
+"text": "um",
+"start": 15.893,
+"end": 15.929
+},
+{
+"text": "apagão",
+"start": 16.0,
+"end": 16.357
+},
+{
+"text": "no",
+"start": 16.429,
+"end": 16.5
+},
+{
+"text": "mundo",
+"start": 16.643,
+"end": 16.857
+},
+{
+"text": "inteiro",
+"start": 17.0,
+"end": 17.286
+},
+{
+"text": "é",
+"start": 17.357,
+"end": 17.571
+},
+{
+"text": "praticamente",
+"start": 17.607,
+"end": 18.214
+},
+{
+"text": "impossível.",
+"start": 18.286,
+"end": 19.036
+},
+{
+"text": "Não",
+"start": 19.214,
+"end": 19.286
+},
+{
+"text": "existe",
+"start": 19.357,
+"end": 19.714
+},
+{
+"text": "uma",
+"start": 19.786,
+"end": 19.857
+},
+{
+"text": "rede",
+"start": 19.929,
+"end": 20.071
+},
+{
+"text": "elétrica",
+"start": 20.143,
+"end": 20.5
+},
+{
+"text": "mundial:",
+"start": 20.607,
+"end": 21.214
+},
+{
+"text": "cada",
+"start": 21.25,
+"end": 21.429
+},
+{
+"text": "país",
+"start": 21.571,
+"end": 21.857
+},
+{
+"text": "tem",
+"start": 21.929,
+"end": 22.0
+},
+{
+"text": "a",
+"start": 22.036,
+"end": 22.071
+},
+{
+"text": "sua.",
+"start": 22.143,
+"end": 22.429
+},
+{
+"text": "No",
+"start": 22.786,
+"end": 22.857
+},
+{
+"text": "Brasil,",
+"start": 22.893,
+"end": 23.429
+},
+{
+"text": "quase",
+"start": 23.464,
+"end": 23.714
+},
+{
+"text": "tudo",
+"start": 23.929,
+"end": 24.071
+},
+{
+"text": "é",
+"start": 24.143,
+"end": 24.214
+},
+{
+"text": "ligado",
+"start": 24.286,
+"end": 24.571
+},
+{
+"text": "no",
+"start": 24.607,
+"end": 24.643
+},
+{
+"text": "Sistema",
+"start": 24.714,
+"end": 25.143
+},
+{
+"text": "Interligado",
+"start": 25.286,
+"end": 25.929
+},
+{
+"text": "Nacional,",
+"start": 26.0,
+"end": 26.571
+},
+{
+"text": "controlado",
+"start": 26.643,
+"end": 27.143
+},
+{
+"text": "pelo",
+"start": 27.214,
+"end": 27.429
+},
+{
+"text": "ONS.",
+"start": 27.5,
+"end": 28.286
+},
+{
+"text": "Apagão",
+"start": 28.643,
+"end": 28.929
+},
+{
+"text": "de",
+"start": 29.0,
+"end": 29.036
+},
+{
+"text": "verdade",
+"start": 29.071,
+"end": 29.571
+},
+{
+"text": "acontece,",
+"start": 29.643,
+"end": 30.286
+},
+{
+"text": "sim.",
+"start": 30.429,
+"end": 30.714
+},
+{
+"text": "Em",
+"start": 30.857,
+"end": 31.0
+},
+{
+"text": "agosto",
+"start": 31.107,
+"end": 31.429
+},
+{
+"text": "de",
+"start": 31.5,
+"end": 31.536
+},
+{
+"text": "2023,",
+"start": 31.571,
+"end": 32.536
+},
+{
+"text": "faltou",
+"start": 32.643,
+"end": 32.929
+},
+{
+"text": "luz",
+"start": 33.0,
+"end": 33.214
+},
+{
+"text": "em",
+"start": 33.321,
+"end": 33.429
+},
+{
+"text": "25 estados",
+"start": 33.5,
+"end": 34.5
+},
+{
+"text": "e",
+"start": 34.571,
+"end": 34.607
+},
+{
+"text": "no",
+"start": 34.643,
+"end": 34.714
+},
+{
+"text": "Distrito",
+"start": 34.821,
+"end": 35.071
+},
+{
+"text": "Federal.",
+"start": 35.143,
+"end": 35.643
+},
+{
+"text": "Mas",
+"start": 35.786,
+"end": 35.929
+},
+{
+"text": "foi",
+"start": 36.0,
+"end": 36.071
+},
+{
+"text": "uma",
+"start": 36.143,
+"end": 36.214
+},
+{
+"text": "falha",
+"start": 36.357,
+"end": 36.571
+},
+{
+"text": "no",
+"start": 36.607,
+"end": 36.643
+},
+{
+"text": "sistema,",
+"start": 36.714,
+"end": 37.429
+},
+{
+"text": "não",
+"start": 37.5,
+"end": 37.643
+},
+{
+"text": "uma",
+"start": 37.714,
+"end": 37.786
+},
+{
+"text": "previsão.",
+"start": 37.857,
+"end": 38.571
+},
+{
+"text": "Ter",
+"start": 38.786,
+"end": 38.857
+},
+{
+"text": "um",
+"start": 38.929,
+"end": 39.0
+},
+{
+"text": "kit",
+"start": 39.071,
+"end": 39.214
+},
+{
+"text": "em",
+"start": 39.286,
+"end": 39.357
+},
+{
+"text": "casa",
+"start": 39.393,
+"end": 39.714
+},
+{
+"text": "é",
+"start": 39.786,
+"end": 39.929
+},
+{
+"text": "boa",
+"start": 40.0,
+"end": 40.071
+},
+{
+"text": "ideia:",
+"start": 40.143,
+"end": 40.786
+},
+{
+"text": "água,",
+"start": 40.929,
+"end": 41.286
+},
+{
+"text": "lanterna,",
+"start": 41.393,
+"end": 42.071
+},
+{
+"text": "pilhas",
+"start": 42.107,
+"end": 42.5
+},
+{
+"text": "e",
+"start": 42.571,
+"end": 42.607
+},
+{
+"text": "carregador",
+"start": 42.643,
+"end": 43.071
+},
+{
+"text": "portátil.",
+"start": 43.143,
+"end": 43.821
+},
+{
+"text": "Só",
+"start": 44.0,
+"end": 44.071
+},
+{
+"text": "não",
+"start": 44.143,
+"end": 44.214
+},
+{
+"text": "precisa",
+"start": 44.321,
+"end": 44.571
+},
+{
+"text": "de",
+"start": 44.643,
+"end": 44.786
+},
+{
+"text": "pânico.",
+"start": 44.821,
+"end": 45.429
+},
+{
+"text": "Manda",
+"start": 45.643,
+"end": 45.857
+},
+{
+"text": "pra",
+"start": 45.893,
+"end": 45.929
+},
+{
+"text": "quem",
+"start": 46.0,
+"end": 46.071
+},
+{
+"text": "te",
+"start": 46.143,
+"end": 46.214
+},
+{
+"text": "mandou",
+"start": 46.286,
+"end": 46.429
+},
+{
+"text": "esse",
+"start": 46.5,
+"end": 46.571
+},
+{
+"text": "boato",
+"start": 46.643,
+"end": 46.929
+},
+{
+"text": "no",
+"start": 47.0,
+"end": 47.071
+},
+{
+"text": "grupo",
+"start": 47.179,
+"end": 47.286
+},
+{
+"text": "da",
+"start": 47.321,
+"end": 47.357
+},
+{
+"text": "família!",
+"start": 47.429,
+"end": 48.023
+}
+]
+}

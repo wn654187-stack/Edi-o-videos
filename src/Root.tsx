@@ -22,6 +22,8 @@ import { ElNinoShort, ELNINO_SHORT_SECONDS } from "./ElNinoShort/ElNinoShort";
 import { ElNinoCover } from "./ElNinoShort/Cover";
 import { RevisaoMatematica, REVISAO_MATEMATICA_SECONDS } from "./RevisaoMatematica/RevisaoMatematica";
 import { RevisaoMatematicaCover } from "./RevisaoMatematica/Cover";
+import { Apagao, APAGAO_SECONDS } from "./Apagao/Apagao";
+import { ApagaoCover } from "./Apagao/Cover";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -270,6 +272,21 @@ export const RemotionRoot: React.FC = () => {
         }}
       />
       <Still id="RevisaoMatematicaCover" component={RevisaoMatematicaCover} width={1080} height={1920} />
+      <Composition
+        id="ApagaoVertical"
+        component={Apagao}
+        durationInFrames={APAGAO_SECONDS * 30}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          narration: "narracao-apagao.mp3",
+          music: "",
+          musicVolume: 0.2,
+          showCaptions: true,
+        }}
+      />
+      <Still id="ApagaoCover" component={ApagaoCover} width={1080} height={1920} />
       <Folder name="Elements">
         <Composition
           id="Logo"
