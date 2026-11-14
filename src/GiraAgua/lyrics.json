@@ -1,0 +1,864 @@
+{
+"words": [
+{
+"text": "Sobe,",
+"start": 0.06,
+"end": 0.36
+},
+{
+"text": "sobe,",
+"start": 0.56,
+"end": 0.86
+},
+{
+"text": "a",
+"start": 0.94,
+"end": 1.02
+},
+{
+"text": "água",
+"start": 1.18,
+"end": 1.42
+},
+{
+"text": "sobe.",
+"start": 1.56,
+"end": 2.04
+},
+{
+"text": "Evaporação.",
+"start": 2.2,
+"end": 3.28
+},
+{
+"text": "Condensação.",
+"start": 3.34,
+"end": 3.82
+},
+{
+"text": "Chove,",
+"start": 4.019,
+"end": 4.38
+},
+{
+"text": "chove,",
+"start": 4.54,
+"end": 4.9
+},
+{
+"text": "cai",
+"start": 5.08,
+"end": 5.26
+},
+{
+"text": "no",
+"start": 5.32,
+"end": 5.4
+},
+{
+"text": "chão.",
+"start": 5.54,
+"end": 6.0
+},
+{
+"text": "Precipitação.",
+"start": 6.04,
+"end": 7.42
+},
+{
+"text": "Gira,",
+"start": 8.06,
+"end": 8.4
+},
+{
+"text": "gira,",
+"start": 8.56,
+"end": 8.9
+},
+{
+"text": "gira.",
+"start": 9.06,
+"end": 9.32
+},
+{
+"text": "O",
+"start": 9.36,
+"end": 9.4
+},
+{
+"text": "ciclo",
+"start": 9.54,
+"end": 9.98
+},
+{
+"text": "não",
+"start": 10.06,
+"end": 10.26
+},
+{
+"text": "para,",
+"start": 10.32,
+"end": 10.66
+},
+{
+"text": "não.",
+"start": 11.08,
+"end": 11.54
+},
+{
+"text": "O",
+"start": 12.08,
+"end": 12.18
+},
+{
+"text": "sol",
+"start": 12.3,
+"end": 12.54
+},
+{
+"text": "esquentou",
+"start": 12.6,
+"end": 13.26
+},
+{
+"text": "o",
+"start": 13.36,
+"end": 13.42
+},
+{
+"text": "mar",
+"start": 13.56,
+"end": 13.8
+},
+{
+"text": "e",
+"start": 13.84,
+"end": 13.86
+},
+{
+"text": "o",
+"start": 13.9,
+"end": 13.98
+},
+{
+"text": "rio,",
+"start": 14.04,
+"end": 14.3
+},
+{
+"text": "a",
+"start": 14.4,
+"end": 14.44
+},
+{
+"text": "água",
+"start": 14.64,
+"end": 14.84
+},
+{
+"text": "virou",
+"start": 14.92,
+"end": 15.24
+},
+{
+"text": "vapor",
+"start": 15.32,
+"end": 15.82
+},
+{
+"text": "e",
+"start": 15.86,
+"end": 15.96
+},
+{
+"text": "ninguém",
+"start": 16.04,
+"end": 16.74
+},
+{
+"text": "viu.",
+"start": 16.78,
+"end": 16.98
+},
+{
+"text": "Sobe",
+"start": 17.06,
+"end": 17.36
+},
+{
+"text": "levinha,",
+"start": 17.4,
+"end": 17.86
+},
+{
+"text": "sobe",
+"start": 18.06,
+"end": 18.4
+},
+{
+"text": "sem",
+"start": 18.54,
+"end": 18.74
+},
+{
+"text": "pressa.",
+"start": 18.78,
+"end": 19.16
+},
+{
+"text": "Evaporação",
+"start": 19.22,
+"end": 20.3
+},
+{
+"text": "é",
+"start": 20.38,
+"end": 20.5
+},
+{
+"text": "como",
+"start": 20.56,
+"end": 20.76
+},
+{
+"text": "começa.",
+"start": 20.8,
+"end": 21.8
+},
+{
+"text": "Lá",
+"start": 22.28,
+"end": 22.4
+},
+{
+"text": "no",
+"start": 22.44,
+"end": 22.56
+},
+{
+"text": "alto",
+"start": 22.64,
+"end": 22.96
+},
+{
+"text": "faz",
+"start": 23.06,
+"end": 23.32
+},
+{
+"text": "um",
+"start": 23.36,
+"end": 23.48
+},
+{
+"text": "friozinho,",
+"start": 23.56,
+"end": 24.24
+},
+{
+"text": "o",
+"start": 24.3,
+"end": 24.36
+},
+{
+"text": "vapor",
+"start": 24.4,
+"end": 24.76
+},
+{
+"text": "vira",
+"start": 24.82,
+"end": 25.24
+},
+{
+"text": "gotinha",
+"start": 25.3,
+"end": 25.94
+},
+{
+"text": "bem",
+"start": 26.06,
+"end": 26.16
+},
+{
+"text": "pequenininho.",
+"start": 26.2,
+"end": 26.76
+},
+{
+"text": "Gotinha",
+"start": 26.82,
+"end": 27.48
+},
+{
+"text": "com",
+"start": 27.54,
+"end": 27.76
+},
+{
+"text": "gotinha,",
+"start": 27.8,
+"end": 28.24
+},
+{
+"text": "que",
+"start": 28.3,
+"end": 28.38
+},
+{
+"text": "bonito",
+"start": 28.42,
+"end": 28.74
+},
+{
+"text": "de",
+"start": 28.82,
+"end": 28.96
+},
+{
+"text": "ver.",
+"start": 29.06,
+"end": 29.26
+},
+{
+"text": "Condensação",
+"start": 29.32,
+"end": 30.24
+},
+{
+"text": "faz",
+"start": 30.3,
+"end": 30.42
+},
+{
+"text": "a",
+"start": 30.46,
+"end": 30.5
+},
+{
+"text": "nuvem",
+"start": 30.56,
+"end": 30.76
+},
+{
+"text": "nascer.",
+"start": 30.82,
+"end": 31.42
+},
+{
+"text": "Sobe,",
+"start": 32.56,
+"end": 32.88
+},
+{
+"text": "sobe,",
+"start": 33.06,
+"end": 33.36
+},
+{
+"text": "a",
+"start": 33.42,
+"end": 33.52
+},
+{
+"text": "água",
+"start": 33.7,
+"end": 33.94
+},
+{
+"text": "sobe.",
+"start": 34.06,
+"end": 34.54
+},
+{
+"text": "Evaporação.",
+"start": 34.88,
+"end": 35.5
+},
+{
+"text": "Vira",
+"start": 35.56,
+"end": 35.98
+},
+{
+"text": "nuvem",
+"start": 36.06,
+"end": 36.48
+},
+{
+"text": "lá",
+"start": 36.56,
+"end": 36.74
+},
+{
+"text": "no",
+"start": 36.8,
+"end": 36.92
+},
+{
+"text": "céu.",
+"start": 37.04,
+"end": 37.52
+},
+{
+"text": "Condensação.",
+"start": 37.58,
+"end": 38.44
+},
+{
+"text": "Chove,",
+"start": 38.52,
+"end": 38.94
+},
+{
+"text": "chove,",
+"start": 39.02,
+"end": 39.5
+},
+{
+"text": "cai",
+"start": 39.56,
+"end": 39.76
+},
+{
+"text": "no",
+"start": 39.82,
+"end": 39.94
+},
+{
+"text": "chão.",
+"start": 40.02,
+"end": 40.3
+},
+{
+"text": "Gira,",
+"start": 40.56,
+"end": 40.9
+},
+{
+"text": "gira,",
+"start": 41.06,
+"end": 41.4
+},
+{
+"text": "gira.",
+"start": 41.56,
+"end": 41.86
+},
+{
+"text": "O",
+"start": 41.9,
+"end": 41.96
+},
+{
+"text": "ciclo",
+"start": 42.04,
+"end": 42.26
+},
+{
+"text": "não",
+"start": 42.32,
+"end": 42.5
+},
+{
+"text": "para,",
+"start": 42.56,
+"end": 42.88
+},
+{
+"text": "não.",
+"start": 43.08,
+"end": 43.54
+},
+{
+"text": "Nuvem",
+"start": 44.56,
+"end": 44.88
+},
+{
+"text": "pesada",
+"start": 44.92,
+"end": 45.48
+},
+{
+"text": "não",
+"start": 45.56,
+"end": 45.68
+},
+{
+"text": "aguenta,",
+"start": 45.74,
+"end": 46.0
+},
+{
+"text": "não.",
+"start": 46.08,
+"end": 46.52
+},
+{
+"text": "Pinga,",
+"start": 46.56,
+"end": 46.76
+},
+{
+"text": "pinga,",
+"start": 46.82,
+"end": 47.0
+},
+{
+"text": "pinga.",
+"start": 47.08,
+"end": 47.42
+},
+{
+"text": "É",
+"start": 47.46,
+"end": 47.5
+},
+{
+"text": "precipitação.",
+"start": 47.54,
+"end": 48.4
+},
+{
+"text": "Chuva,",
+"start": 48.54,
+"end": 48.86
+},
+{
+"text": "granizo",
+"start": 48.92,
+"end": 49.38
+},
+{
+"text": "ou",
+"start": 49.44,
+"end": 49.52
+},
+{
+"text": "neve",
+"start": 49.58,
+"end": 49.8
+},
+{
+"text": "a",
+"start": 49.84,
+"end": 49.88
+},
+{
+"text": "cair.",
+"start": 49.94,
+"end": 50.28
+},
+{
+"text": "A",
+"start": 50.52,
+"end": 50.54
+},
+{
+"text": "água",
+"start": 50.7,
+"end": 50.86
+},
+{
+"text": "do",
+"start": 50.9,
+"end": 51.0
+},
+{
+"text": "céu",
+"start": 51.06,
+"end": 51.26
+},
+{
+"text": "volta",
+"start": 51.32,
+"end": 51.74
+},
+{
+"text": "pra",
+"start": 51.78,
+"end": 52.0
+},
+{
+"text": "cá",
+"start": 52.08,
+"end": 52.3
+},
+{
+"text": "e",
+"start": 52.36,
+"end": 52.5
+},
+{
+"text": "pra",
+"start": 52.54,
+"end": 52.72
+},
+{
+"text": "ali.",
+"start": 52.9,
+"end": 53.42
+},
+{
+"text": "A",
+"start": 54.62,
+"end": 54.72
+},
+{
+"text": "plantinha",
+"start": 54.78,
+"end": 55.24
+},
+{
+"text": "também",
+"start": 55.3,
+"end": 55.5
+},
+{
+"text": "sua,",
+"start": 55.58,
+"end": 55.96
+},
+{
+"text": "que",
+"start": 56.02,
+"end": 56.1
+},
+{
+"text": "sensação!",
+"start": 56.16,
+"end": 56.72
+},
+{
+"text": "Solta",
+"start": 56.78,
+"end": 57.0
+},
+{
+"text": "a",
+"start": 57.0,
+"end": 57.02
+},
+{
+"text": "água",
+"start": 57.08,
+"end": 57.26
+},
+{
+"text": "pela",
+"start": 57.3,
+"end": 57.5
+},
+{
+"text": "folha,",
+"start": 57.56,
+"end": 57.76
+},
+{
+"text": "é",
+"start": 57.84,
+"end": 57.9
+},
+{
+"text": "a",
+"start": 57.94,
+"end": 57.96
+},
+{
+"text": "transpiração.",
+"start": 58.02,
+"end": 58.78
+},
+{
+"text": "Entra",
+"start": 59.08,
+"end": 59.26
+},
+{
+"text": "na",
+"start": 59.3,
+"end": 59.4
+},
+{
+"text": "terra,",
+"start": 59.46,
+"end": 59.98
+},
+{
+"text": "corre",
+"start": 60.06,
+"end": 60.26
+},
+{
+"text": "pro",
+"start": 60.3,
+"end": 60.4
+},
+{
+"text": "rio,",
+"start": 60.46,
+"end": 60.76
+},
+{
+"text": "volta",
+"start": 61.08,
+"end": 61.38
+},
+{
+"text": "pro",
+"start": 61.4,
+"end": 61.52
+},
+{
+"text": "mar",
+"start": 61.56,
+"end": 61.8
+},
+{
+"text": "e",
+"start": 61.84,
+"end": 61.88
+},
+{
+"text": "começa",
+"start": 61.92,
+"end": 62.18
+},
+{
+"text": "o",
+"start": 62.22,
+"end": 62.26
+},
+{
+"text": "desafio.",
+"start": 62.3,
+"end": 62.96
+},
+{
+"text": "Sobe,",
+"start": 63.56,
+"end": 63.86
+},
+{
+"text": "sobe,",
+"start": 64.06,
+"end": 64.36
+},
+{
+"text": "a",
+"start": 64.7,
+"end": 64.72
+},
+{
+"text": "água",
+"start": 64.739,
+"end": 64.94
+},
+{
+"text": "sobe.",
+"start": 65.06,
+"end": 65.519
+},
+{
+"text": "Evaporação.",
+"start": 66.12,
+"end": 66.52
+},
+{
+"text": "Vira",
+"start": 66.56,
+"end": 66.98
+},
+{
+"text": "nuvem",
+"start": 67.08,
+"end": 67.5
+},
+{
+"text": "lá",
+"start": 67.56,
+"end": 67.74
+},
+{
+"text": "no",
+"start": 67.8,
+"end": 67.94
+},
+{
+"text": "céu.",
+"start": 68.04,
+"end": 68.46
+},
+{
+"text": "Condensação.",
+"start": 68.46,
+"end": 69.46
+},
+{
+"text": "Chove,",
+"start": 69.54,
+"end": 69.96
+},
+{
+"text": "chove,",
+"start": 70.02,
+"end": 70.5
+},
+{
+"text": "cai",
+"start": 70.56,
+"end": 70.76
+},
+{
+"text": "no",
+"start": 70.82,
+"end": 70.94
+},
+{
+"text": "chão.",
+"start": 71.02,
+"end": 71.48
+},
+{
+"text": "Gira,",
+"start": 71.56,
+"end": 71.98
+},
+{
+"text": "gira,",
+"start": 72.06,
+"end": 72.4
+},
+{
+"text": "gira.",
+"start": 72.56,
+"end": 72.86
+},
+{
+"text": "O",
+"start": 72.9,
+"end": 72.96
+},
+{
+"text": "ciclo",
+"start": 73.04,
+"end": 73.26
+},
+{
+"text": "não",
+"start": 73.32,
+"end": 73.5
+},
+{
+"text": "para,",
+"start": 73.56,
+"end": 73.88
+},
+{
+"text": "não",
+"start": 74.08,
+"end": 74.48
+}
+]
+}

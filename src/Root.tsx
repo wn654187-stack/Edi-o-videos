@@ -27,6 +27,7 @@ import { ApagaoCover } from "./Apagao/Cover";
 import { TRICover } from "./EnemTRI/Cover";
 import { SimAmazoniaVideo, SIM_AMAZONIA_SECONDS } from "./SimAmazonia/SimAmazoniaVideo";
 import { SimAmazoniaCover } from "./SimAmazonia/Cover";
+import { GiraAgua, GIRA_SECONDS } from "./GiraAgua/GiraAgua";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -306,6 +307,7 @@ export const RemotionRoot: React.FC = () => {
         }}
       />
       <Still id="SimAmazoniaCover" component={SimAmazoniaCover} width={1080} height={1920} />
+      <Composition id="GiraAguaVertical" component={GiraAgua} durationInFrames={GIRA_SECONDS * 30} fps={30} width={1080} height={1920} />
       <Folder name="Elements">
         <Composition
           id="Logo"
