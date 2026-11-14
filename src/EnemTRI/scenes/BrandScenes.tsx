@@ -176,6 +176,7 @@ export const Scene3Coerencia: React.FC<{ from: number }> = ({ from }) => {
       </Reveal>
       <Row label="7 acertos · errou fáceis, acertou difíceis" pattern={[false, false, false, true, true, true, true, true, true, true]} tag="CHUTE? NOTA SOBE MENOS" accent="orange" at={cue("erra")} tagAt={cue("chute")} top={620} />
       <Row label="7 acertos · acertou fáceis, errou difíceis" pattern={[true, true, true, true, true, true, true, false, false, false]} tag="COERENTE: GANHA MAIS" accent="lime" at={cue("acerta", at("Já", from))} tagAt={cue("coerência")} top={890} />
+      <BrandPrompt at={cue("chute")} duration={80} accent="orange">COMENTA: você chuta ou deixa em branco?</BrandPrompt>
     </BrandScene>
   );
 };
@@ -198,7 +199,7 @@ export const Scene4Dicas: React.FC<{ from: number }> = ({ from }) => {
       <Tip at={cue("capricha")} top={520} text={<>Capricha nas <span style={{ color: brand.lime }}>fáceis</span></>} />
       <Tip at={cue("branco")} top={700} text={<>Nenhuma <span style={{ color: brand.lime }}>em branco</span></>} />
       <Tip at={cue("Errar")} top={880} text={<>Errar <span style={{ color: brand.lime }}>não tira ponto</span></>} />
-      <BrandPrompt at={4} accent="orange">COMENTA: quantas acertou no 1º dia?</BrandPrompt>
+      <BrandPrompt at={4}>SALVA pra lembrar no domingo 📌</BrandPrompt>
     </BrandScene>
   );
 };

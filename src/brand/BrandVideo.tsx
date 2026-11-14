@@ -2,6 +2,7 @@ import React from "react";
 import { AbsoluteFill, Audio, Sequence, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { BrandBackground } from "./Background";
 import { BrandCaptions } from "./Captions";
+import { HookLine, HookTitle } from "./HookTitle";
 import { brand, brandFont } from "./theme";
 
 type TimedWord = { text: string; start: number; end: number };
@@ -23,8 +24,12 @@ export const BrandVideo: React.FC<
     tag: string;
     glow?: string;
     glow2?: string;
+    /** Optional giant title over the first ~2 s (stops the scroll). */
+    hook?: { lines: HookLine[]; until?: number };
+    /** Optional sound effect played at frame 0 (file in public/). */
+    sfx?: string;
   }
-> = ({ narration, music, musicVolume, showCaptions, scenes, sceneStarts, words, colorOf, tag, glow, glow2 }) => {
+> = ({ narration, music, musicVolume, showCaptions, scenes, sceneStarts, words, colorOf, tag, glow, glow2, hook, sfx }) => {
   const frame = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
   return (
@@ -44,7 +49,9 @@ export const BrandVideo: React.FC<
         <span style={{ width: 14, height: 14, borderRadius: "50%", background: brand.orange, boxShadow: `0 0 12px ${brand.orange}` }} />
         {tag}
       </div>
+      {hook ? <HookTitle lines={hook.lines} until={hook.until} /> : null}
       {showCaptions ? <BrandCaptions words={words} colorOf={colorOf} /> : null}
+      {sfx ? <Audio src={staticFile(sfx)} volume={0.55} /> : null}
       {narration ? <Audio src={staticFile(narration)} /> : null}
       {music ? <Audio src={staticFile(music)} volume={musicVolume} loop /> : null}
     </AbsoluteFill>
