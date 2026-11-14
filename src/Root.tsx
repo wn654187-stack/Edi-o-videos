@@ -24,6 +24,7 @@ import { RevisaoMatematica, REVISAO_MATEMATICA_SECONDS } from "./RevisaoMatemati
 import { RevisaoMatematicaCover } from "./RevisaoMatematica/Cover";
 import { Apagao, APAGAO_SECONDS } from "./Apagao/Apagao";
 import { ApagaoCover } from "./Apagao/Cover";
+import { TRICover } from "./EnemTRI/Cover";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -287,6 +288,7 @@ export const RemotionRoot: React.FC = () => {
         }}
       />
       <Still id="ApagaoCover" component={ApagaoCover} width={1080} height={1920} />
+      <Still id="TRICover" component={TRICover} width={1080} height={1920} />
       <Folder name="Elements">
         <Composition
           id="Logo"
