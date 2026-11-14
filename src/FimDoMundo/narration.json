@@ -1,0 +1,815 @@
+{
+"tempo": 1.12,
+"words": [
+{
+"text": "O",
+"start": 0.122,
+"end": 0.143
+},
+{
+"text": "mundo",
+"start": 0.179,
+"end": 0.429
+},
+{
+"text": "deveria",
+"start": 0.464,
+"end": 0.714
+},
+{
+"text": "ter",
+"start": 0.786,
+"end": 0.857
+},
+{
+"text": "acabado",
+"start": 0.929,
+"end": 1.357
+},
+{
+"text": "ontem.",
+"start": 1.5,
+"end": 2.107
+},
+{
+"text": "Sexta-feira,",
+"start": 2.357,
+"end": 3.214
+},
+{
+"text": "13 de novembro de 2026.",
+"start": 3.286,
+"end": 5.643
+},
+{
+"text": "E",
+"start": 5.714,
+"end": 5.786
+},
+{
+"text": "quem",
+"start": 5.821,
+"end": 5.929
+},
+{
+"text": "marcou",
+"start": 6.0,
+"end": 6.286
+},
+{
+"text": "a",
+"start": 6.321,
+"end": 6.357
+},
+{
+"text": "data",
+"start": 6.429,
+"end": 6.786
+},
+{
+"text": "não",
+"start": 6.857,
+"end": 7.071
+},
+{
+"text": "foi",
+"start": 7.107,
+"end": 7.214
+},
+{
+"text": "profeta.",
+"start": 7.357,
+"end": 8.0
+},
+{
+"text": "Foi",
+"start": 8.047,
+"end": 8.143
+},
+{
+"text": "uma",
+"start": 8.214,
+"end": 8.286
+},
+{
+"text": "equação.",
+"start": 8.357,
+"end": 9.357
+},
+{
+"text": "Em",
+"start": 9.393,
+"end": 9.429
+},
+{
+"text": "1960,",
+"start": 9.5,
+"end": 10.929
+},
+{
+"text": "três",
+"start": 10.964,
+"end": 11.071
+},
+{
+"text": "cientistas",
+"start": 11.143,
+"end": 11.714
+},
+{
+"text": "publicaram",
+"start": 11.786,
+"end": 12.214
+},
+{
+"text": "na",
+"start": 12.25,
+"end": 12.286
+},
+{
+"text": "revista",
+"start": 12.393,
+"end": 12.643
+},
+{
+"text": "Science",
+"start": 12.786,
+"end": 13.214
+},
+{
+"text": "uma",
+"start": 13.286,
+"end": 13.5
+},
+{
+"text": "fórmula",
+"start": 13.571,
+"end": 13.929
+},
+{
+"text": "pra",
+"start": 14.0,
+"end": 14.071
+},
+{
+"text": "população",
+"start": 14.179,
+"end": 14.643
+},
+{
+"text": "do",
+"start": 14.714,
+"end": 14.786
+},
+{
+"text": "planeta.",
+"start": 14.893,
+"end": 15.5
+},
+{
+"text": "E",
+"start": 15.536,
+"end": 15.571
+},
+{
+"text": "ela",
+"start": 15.643,
+"end": 15.714
+},
+{
+"text": "acertava",
+"start": 15.786,
+"end": 16.071
+},
+{
+"text": "a",
+"start": 16.107,
+"end": 16.143
+},
+{
+"text": "história",
+"start": 16.25,
+"end": 16.571
+},
+{
+"text": "quase",
+"start": 16.643,
+"end": 17.0
+},
+{
+"text": "perfeitamente:",
+"start": 17.143,
+"end": 18.214
+},
+{
+"text": "quanto",
+"start": 18.25,
+"end": 18.5
+},
+{
+"text": "mais",
+"start": 18.571,
+"end": 18.786
+},
+{
+"text": "gente,",
+"start": 18.821,
+"end": 19.357
+},
+{
+"text": "mais",
+"start": 19.429,
+"end": 19.643
+},
+{
+"text": "rápido",
+"start": 19.714,
+"end": 20.0
+},
+{
+"text": "a",
+"start": 20.036,
+"end": 20.071
+},
+{
+"text": "população",
+"start": 20.143,
+"end": 20.5
+},
+{
+"text": "crescia.",
+"start": 20.571,
+"end": 21.357
+},
+{
+"text": "Só",
+"start": 21.393,
+"end": 21.5
+},
+{
+"text": "que",
+"start": 21.571,
+"end": 21.786
+},
+{
+"text": "tem",
+"start": 21.857,
+"end": 21.929
+},
+{
+"text": "um",
+"start": 21.964,
+"end": 22.0
+},
+{
+"text": "detalhe.",
+"start": 22.143,
+"end": 22.857
+},
+{
+"text": "Embaixo",
+"start": 22.964,
+"end": 23.286
+},
+{
+"text": "da",
+"start": 23.357,
+"end": 23.393
+},
+{
+"text": "fração,",
+"start": 23.429,
+"end": 24.071
+},
+{
+"text": "a",
+"start": 24.119,
+"end": 24.167
+},
+{
+"text": "conta",
+"start": 24.214,
+"end": 24.536
+},
+{
+"text": "é",
+"start": 24.571,
+"end": 24.786
+},
+{
+"text": "2026,87,",
+"start": 24.821,
+"end": 27.179
+},
+{
+"text": "menos",
+"start": 27.357,
+"end": 27.643
+},
+{
+"text": "o",
+"start": 27.714,
+"end": 27.786
+},
+{
+"text": "ano.",
+"start": 27.857,
+"end": 28.357
+},
+{
+"text": "Quando",
+"start": 28.393,
+"end": 28.571
+},
+{
+"text": "o",
+"start": 28.607,
+"end": 28.643
+},
+{
+"text": "ano",
+"start": 28.714,
+"end": 28.786
+},
+{
+"text": "chega",
+"start": 28.929,
+"end": 29.143
+},
+{
+"text": "nesse",
+"start": 29.25,
+"end": 29.429
+},
+{
+"text": "número,",
+"start": 29.5,
+"end": 30.0
+},
+{
+"text": "o",
+"start": 30.024,
+"end": 30.047
+},
+{
+"text": "denominador",
+"start": 30.071,
+"end": 30.714
+},
+{
+"text": "vira",
+"start": 30.786,
+"end": 30.929
+},
+{
+"text": "zero.",
+"start": 31.071,
+"end": 31.643
+},
+{
+"text": "E",
+"start": 31.679,
+"end": 31.714
+},
+{
+"text": "a",
+"start": 31.75,
+"end": 31.786
+},
+{
+"text": "população",
+"start": 31.857,
+"end": 32.429
+},
+{
+"text": "vai",
+"start": 32.643,
+"end": 32.786
+},
+{
+"text": "pro",
+"start": 32.857,
+"end": 32.929
+},
+{
+"text": "infinito.",
+"start": 33.0,
+"end": 33.714
+},
+{
+"text": "No",
+"start": 33.786,
+"end": 33.857
+},
+{
+"text": "começo",
+"start": 33.929,
+"end": 34.214
+},
+{
+"text": "deste",
+"start": 34.321,
+"end": 34.5
+},
+{
+"text": "ano,",
+"start": 34.571,
+"end": 34.857
+},
+{
+"text": "a",
+"start": 34.893,
+"end": 34.929
+},
+{
+"text": "fórmula",
+"start": 35.071,
+"end": 35.357
+},
+{
+"text": "já",
+"start": 35.429,
+"end": 35.5
+},
+{
+"text": "previa",
+"start": 35.571,
+"end": 35.929
+},
+{
+"text": "mais",
+"start": 35.964,
+"end": 36.143
+},
+{
+"text": "de",
+"start": 36.214,
+"end": 36.286
+},
+{
+"text": "200 bilhões",
+"start": 36.321,
+"end": 37.571
+},
+{
+"text": "de",
+"start": 37.607,
+"end": 37.643
+},
+{
+"text": "pessoas.",
+"start": 37.714,
+"end": 38.571
+},
+{
+"text": "Na",
+"start": 38.607,
+"end": 38.643
+},
+{
+"text": "vida",
+"start": 38.714,
+"end": 38.857
+},
+{
+"text": "real?",
+"start": 39.0,
+"end": 39.286
+},
+{
+"text": "Uns",
+"start": 39.429,
+"end": 39.786
+},
+{
+"text": "8,3 bilhões.",
+"start": 39.857,
+"end": 41.464
+},
+{
+"text": "O",
+"start": 41.643,
+"end": 41.679
+},
+{
+"text": "que",
+"start": 41.714,
+"end": 41.786
+},
+{
+"text": "deu",
+"start": 41.821,
+"end": 41.929
+},
+{
+"text": "errado?",
+"start": 42.036,
+"end": 42.536
+},
+{
+"text": "Bem",
+"start": 42.714,
+"end": 42.857
+},
+{
+"text": "na",
+"start": 43.071,
+"end": 43.143
+},
+{
+"text": "época",
+"start": 43.214,
+"end": 43.429
+},
+{
+"text": "do",
+"start": 43.5,
+"end": 43.596
+},
+{
+"text": "artigo,",
+"start": 43.69,
+"end": 44.071
+},
+{
+"text": "o",
+"start": 44.107,
+"end": 44.143
+},
+{
+"text": "crescimento",
+"start": 44.214,
+"end": 44.714
+},
+{
+"text": "bateu",
+"start": 44.786,
+"end": 45.036
+},
+{
+"text": "o",
+"start": 45.071,
+"end": 45.143
+},
+{
+"text": "pico:",
+"start": 45.214,
+"end": 45.786
+},
+{
+"text": "passava",
+"start": 45.857,
+"end": 46.143
+},
+{
+"text": "de",
+"start": 46.25,
+"end": 46.357
+},
+{
+"text": "2%",
+"start": 46.429,
+"end": 47.107
+},
+{
+"text": "ao",
+"start": 47.143,
+"end": 47.214
+},
+{
+"text": "ano.",
+"start": 47.286,
+"end": 47.857
+},
+{
+"text": "Hoje",
+"start": 47.929,
+"end": 48.214
+},
+{
+"text": "está",
+"start": 48.286,
+"end": 48.5
+},
+{
+"text": "abaixo",
+"start": 48.643,
+"end": 48.929
+},
+{
+"text": "de",
+"start": 49.0,
+"end": 49.071
+},
+{
+"text": "1%,",
+"start": 49.143,
+"end": 49.929
+},
+{
+"text": "porque",
+"start": 49.964,
+"end": 50.071
+},
+{
+"text": "as",
+"start": 50.107,
+"end": 50.143
+},
+{
+"text": "famílias",
+"start": 50.214,
+"end": 50.571
+},
+{
+"text": "passaram",
+"start": 50.679,
+"end": 50.929
+},
+{
+"text": "a",
+"start": 50.953,
+"end": 50.976
+},
+{
+"text": "ter",
+"start": 51.0,
+"end": 51.143
+},
+{
+"text": "menos",
+"start": 51.214,
+"end": 51.429
+},
+{
+"text": "filhos.",
+"start": 51.5,
+"end": 52.143
+},
+{
+"text": "A",
+"start": 52.214,
+"end": 52.286
+},
+{
+"text": "ONU",
+"start": 52.357,
+"end": 52.571
+},
+{
+"text": "prevê",
+"start": 52.643,
+"end": 52.857
+},
+{
+"text": "que",
+"start": 52.893,
+"end": 52.929
+},
+{
+"text": "a",
+"start": 52.964,
+"end": 53.0
+},
+{
+"text": "população",
+"start": 53.071,
+"end": 53.571
+},
+{
+"text": "para",
+"start": 53.643,
+"end": 53.857
+},
+{
+"text": "de",
+"start": 53.893,
+"end": 53.929
+},
+{
+"text": "crescer",
+"start": 54.0,
+"end": 54.357
+},
+{
+"text": "nos",
+"start": 54.429,
+"end": 54.571
+},
+{
+"text": "anos",
+"start": 54.643,
+"end": 54.786
+},
+{
+"text": "2080,",
+"start": 54.857,
+"end": 56.0
+},
+{
+"text": "perto",
+"start": 56.071,
+"end": 56.214
+},
+{
+"text": "de",
+"start": 56.286,
+"end": 56.429
+},
+{
+"text": "10,3 bilhões.",
+"start": 56.571,
+"end": 58.429
+},
+{
+"text": "A",
+"start": 58.464,
+"end": 58.5
+},
+{
+"text": "lição:",
+"start": 58.571,
+"end": 59.286
+},
+{
+"text": "nenhuma",
+"start": 59.393,
+"end": 59.786
+},
+{
+"text": "curva",
+"start": 59.857,
+"end": 60.143
+},
+{
+"text": "cresce",
+"start": 60.214,
+"end": 60.5
+},
+{
+"text": "pra",
+"start": 60.571,
+"end": 60.643
+},
+{
+"text": "sempre.",
+"start": 60.714,
+"end": 61.429
+},
+{
+"text": "Você",
+"start": 61.5,
+"end": 61.571
+},
+{
+"text": "já",
+"start": 61.643,
+"end": 61.786
+},
+{
+"text": "tinha",
+"start": 61.833,
+"end": 61.929
+},
+{
+"text": "ouvido",
+"start": 61.964,
+"end": 62.214
+},
+{
+"text": "falar",
+"start": 62.31,
+"end": 62.5
+},
+{
+"text": "desse",
+"start": 62.571,
+"end": 62.714
+},
+{
+"text": "fim",
+"start": 62.786,
+"end": 62.857
+},
+{
+"text": "do",
+"start": 62.929,
+"end": 63.0
+},
+{
+"text": "mundo?",
+"start": 63.036,
+"end": 63.5
+},
+{
+"text": "Comenta",
+"start": 63.571,
+"end": 63.857
+},
+{
+"text": "aí.",
+"start": 63.893,
+"end": 64.257
+}
+]
+}

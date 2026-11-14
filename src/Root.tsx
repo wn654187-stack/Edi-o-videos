@@ -24,6 +24,8 @@ import { RevisaoMatematica, REVISAO_MATEMATICA_SECONDS } from "./RevisaoMatemati
 import { RevisaoMatematicaCover } from "./RevisaoMatematica/Cover";
 import { Apagao, APAGAO_SECONDS } from "./Apagao/Apagao";
 import { ApagaoCover } from "./Apagao/Cover";
+import { FimDoMundo, FIM_DO_MUNDO_SECONDS } from "./FimDoMundo/FimDoMundo";
+import { FimDoMundoCover } from "./FimDoMundo/Cover";
 import { TRICover } from "./EnemTRI/Cover";
 import { SimAmazoniaVideo, SIM_AMAZONIA_SECONDS } from "./SimAmazonia/SimAmazoniaVideo";
 import { SimAmazoniaCover } from "./SimAmazonia/Cover";
@@ -292,6 +294,21 @@ export const RemotionRoot: React.FC = () => {
         }}
       />
       <Still id="ApagaoCover" component={ApagaoCover} width={1080} height={1920} />
+      <Composition
+        id="FimDoMundoVertical"
+        component={FimDoMundo}
+        durationInFrames={FIM_DO_MUNDO_SECONDS * 30}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          narration: "narracao-fim-do-mundo.mp3",
+          music: "",
+          musicVolume: 0.2,
+          showCaptions: true,
+        }}
+      />
+      <Still id="FimDoMundoCover" component={FimDoMundoCover} width={1080} height={1920} />
       <Still id="TRICover" component={TRICover} width={1080} height={1920} />
       <Composition
         id="SimAmazoniaVertical"

@@ -127,6 +127,15 @@ words = [{"text": w["text"], "start": w["start"] / tempo, "end": w["end"] / temp
 
 # Spelled-out numbers merged into digits (caption display only). Longest first.
 NUMBERS = [
+    (["dois", "mil", "e", "vinte", "e", "seis", "vírgula", "oitenta", "e", "sete"], "2026,87"),
+    (["treze", "de", "novembro", "de", "dois", "mil", "e", "vinte", "e", "seis"], "13 de novembro de 2026"),
+    (["mil", "novecentos", "e", "sessenta"], "1960"),
+    (["dois", "mil", "e", "oitenta"], "2080"),
+    (["duzentos", "bilhões"], "200 bilhões"),
+    (["oito", "vírgula", "três", "bilhões"], "8,3 bilhões"),
+    (["dez", "vírgula", "três", "bilhões"], "10,3 bilhões"),
+    (["dois", "por", "cento"], "2%"),
+    (["um", "por", "cento"], "1%"),
     (["ano", "trinta", "e", "cinco"], "Ano 35"),
     (["ano", "cinquenta"], "Ano 50"),
     (["ano", "vinte"], "Ano 20"),
