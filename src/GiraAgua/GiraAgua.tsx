@@ -11,38 +11,164 @@ export const GIRA_SECONDS = 77;
 
 const norm = (t: string) => t.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z]/g, "");
 
-/** Visual track: [start s, end s, kind, file, motion]. Videos are 10 s Kling clips; stills get gentle camera moves. */
-type Shot = { from: number; to: number; src: string; video?: boolean; motion?: "zoomIn" | "zoomOut" | "panUp" | "panDown" | "panLeft" | "float"; flip?: boolean };
+/** Visual track — every second is moving footage. Kling clips are cut on the lyric
+ * beats (start = seconds into the clip, rate = playback speed); the two moments
+ * without a clip are "living" stills animated here (bob, vapour, flowing water). */
+type Shot = { from: number; to: number; src: string; start?: number; rate?: number; flip?: boolean; living?: "leaf" | "river" };
 const SHOTS: Shot[] = [
-  { from: 0, to: 10, src: "gira/v1.mp4", video: true },
-  { from: 10, to: 12.1, src: "gira/q1.png", motion: "zoomIn" },
-  { from: 12.1, to: 22.1, src: "gira/v2.mp4", video: true },
-  { from: 22.1, to: 32.3, src: "gira/q3.png", motion: "float" },
-  { from: 32.3, to: 42.3, src: "gira/v1.mp4", video: true, flip: true },
-  { from: 42.3, to: 44.3, src: "gira/q2.png", motion: "panUp" },
-  { from: 44.3, to: 54.3, src: "gira/v3.mp4", video: true },
-  { from: 54.3, to: 58.9, src: "gira/q5.png", motion: "zoomIn" },
-  { from: 58.9, to: 63.4, src: "gira/q6.png", motion: "panDown" },
-  { from: 63.4, to: GIRA_SECONDS, src: "gira/q7.png", motion: "zoomOut" },
+  { from: 0, to: 12.1, src: "gira/v1.mp4", rate: 0.83 },
+  { from: 12.1, to: 22.1, src: "gira/v2.mp4" },
+  { from: 22.1, to: 29.2, src: "gira/v4.mp4", rate: 0.7 },
+  { from: 29.2, to: 32.3, src: "gira/v3.mp4" },
+  { from: 32.3, to: 35.4, src: "gira/v2.mp4", start: 3 },
+  { from: 35.4, to: 38.4, src: "gira/v4.mp4", start: 2 },
+  { from: 38.4, to: 40.5, src: "gira/v3.mp4", start: 5 },
+  { from: 40.5, to: 44.3, src: "gira/v1.mp4", start: 4, flip: true },
+  { from: 44.3, to: 54.3, src: "gira/v3.mp4" },
+  { from: 54.3, to: 58.9, src: "gira/q5.png", living: "leaf" },
+  { from: 58.9, to: 63.4, src: "gira/q6.png", living: "river" },
+  { from: 63.4, to: 66.3, src: "gira/v2.mp4", start: 6 },
+  { from: 66.3, to: 69.3, src: "gira/v4.mp4", start: 1.5 },
+  { from: 69.3, to: 71.5, src: "gira/v3.mp4", start: 2 },
+  { from: 71.5, to: GIRA_SECONDS, src: "gira/v1.mp4", start: 2, rate: 0.95 },
 ];
 
-const Still: React.FC<{ src: string; motion: Shot["motion"]; dur: number }> = ({ src, motion, dur }) => {
+/** Soft-masked copy of the character region that bobs/breathes over the still. */
+const Bob: React.FC<{ src: string; cx: number; cy: number; r: number; base: React.CSSProperties; amp?: number }> = ({ src, cx, cy, r, base, amp = 1 }) => {
+  const f = useCurrentFrame();
+  const mask = `radial-gradient(ellipse ${r * 100}% ${r * 62}% at ${cx * 100}% ${cy * 100}%, #000 55%, transparent 100%)`;
+  return (
+    <AbsoluteFill style={{ WebkitMaskImage: mask, maskImage: mask }}>
+      <Img
+        src={staticFile(src)}
+        style={{
+          ...base,
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          transformOrigin: `${cx * 100}% ${cy * 100 + 15}%`,
+          transform: `${base.transform ?? ""} translateY(${Math.sin(f / 4.2) * -9 * amp}px) scale(${1 + 0.018 * amp * Math.sin(f / 4.2)}) rotate(${Math.sin(f / 9) * 1.6 * amp}deg)`,
+        }}
+      />
+    </AbsoluteFill>
+  );
+};
+
+const Butterfly: React.FC<{ x: number; y: number; color: string; delay: number }> = ({ x, y, color, delay }) => {
+  const f = useCurrentFrame() + delay;
+  const flap = Math.abs(Math.sin(f / 2.2));
+  return (
+    <div style={{ position: "absolute", left: x + Math.sin(f / 25) * 160 + f * 2.2, top: y + Math.sin(f / 11) * 50 - f * 1.2 }}>
+      <svg width={90} height={70} viewBox="-45 -35 90 70" style={{ overflow: "visible" }}>
+        <g transform={`scale(${0.25 + 0.75 * flap} 1)`}>
+          <path d="M0 0 C-30 -45 -55 -10 -30 6 C-45 30 -10 30 0 6 C10 30 45 30 30 6 C55 -10 30 -45 0 0Z" fill={color} stroke="#3a1d00" strokeWidth={3} />
+        </g>
+        <rect x={-3} y={-14} width={6} height={30} rx={3} fill="#3a1d00" />
+      </svg>
+    </div>
+  );
+};
+
+const LivingStill: React.FC<{ src: string; kind: "leaf" | "river"; dur: number }> = ({ src, kind, dur }) => {
   const f = useCurrentFrame();
   const p = f / dur;
-  const t = (a: number, b: number) => a + (b - a) * p;
-  const style: React.CSSProperties =
-    motion === "zoomIn"
-      ? { scale: t(1.0, 1.12) }
-      : motion === "zoomOut"
-        ? { scale: t(1.18, 1.02) }
-        : motion === "panUp"
-          ? { scale: 1.15, translate: `0px ${t(60, -60)}px` }
-          : motion === "panDown"
-            ? { scale: 1.15, translate: `0px ${t(-60, 60)}px` }
-            : motion === "panLeft"
-              ? { scale: 1.15, translate: `${t(50, -50)}px 0px` }
-              : { scale: 1.06, translate: `0px ${Math.sin(f / 20) * 14}px`, rotate: `${Math.sin(f / 30) * 0.8}deg` };
-  return <Img src={staticFile(src)} style={{ width: "100%", height: "100%", objectFit: "cover", ...style }} />;
+  const base: React.CSSProperties = kind === "leaf" ? { transform: `scale(${1.04 + 0.08 * p})`, transformOrigin: "45% 45%" } : { transform: `scale(${1.1}) translateY(${-40 + 80 * p}px)` };
+  return (
+    <AbsoluteFill style={{ overflow: "hidden" }}>
+      <Img src={staticFile(src)} style={{ width: "100%", height: "100%", objectFit: "cover", ...base }} />
+      {kind === "leaf" ? (
+        <>
+          {/* sun rays turning */}
+          <AbsoluteFill style={{ mixBlendMode: "screen", opacity: 0.35 }}>
+            <div style={{ position: "absolute", left: 1000 - 900, top: 60 - 900, width: 1800, height: 1800, background: "repeating-conic-gradient(from 0deg, rgba(255,240,180,0.55) 0deg 6deg, transparent 6deg 18deg)", rotate: `${f * 0.4}deg`, WebkitMaskImage: "radial-gradient(circle, #000 0%, transparent 60%)", maskImage: "radial-gradient(circle, #000 0%, transparent 60%)" }} />
+          </AbsoluteFill>
+          <Bob src={src} cx={0.47} cy={0.42} r={0.3} base={base} />
+          {/* water vapour leaving the leaf */}
+          {Array.from({ length: 22 }).map((_, i) => {
+            const life = 70;
+            const t = (f + i * 9) % life;
+            const x = 180 + ((i * 97) % 700) + Math.sin((f + i * 13) / 9) * 25;
+            const y = 1180 - t * 9 - (i % 3) * 40;
+            const s = 14 + (i % 4) * 8;
+            return <div key={i} style={{ position: "absolute", left: x, top: y, width: s, height: s, borderRadius: "50%", border: "3px solid rgba(255,255,255,0.9)", background: "radial-gradient(circle at 30% 30%, #ffffff, rgba(160,220,255,0.35))", opacity: interpolate(t, [0, 10, life - 15, life], [0, 0.9, 0.9, 0]) }} />;
+          })}
+          {/* wisps */}
+          {Array.from({ length: 4 }).map((_, i) => (
+            <div key={`w${i}`} style={{ position: "absolute", left: 250 + i * 160, top: 1050 - ((f * 5 + i * 120) % 700), width: 70, height: 220, borderRadius: "50%", background: "rgba(255,255,255,0.35)", filter: "blur(18px)", rotate: `${Math.sin((f + i * 20) / 12) * 18}deg` }} />
+          ))}
+          <Butterfly x={-60} y={420} color="#ff9a1f" delay={0} />
+          <Butterfly x={-300} y={760} color="#4aa8ff" delay={40} />
+        </>
+      ) : (
+        <>
+          {/* flowing streaks down the river */}
+          {Array.from({ length: 46 }).map((_, i) => {
+            const life = 40 + (i % 5) * 6;
+            const t = ((f * 1.0 + i * 7) % life) / life;
+            const pts = [
+              [0.36, 0.07],
+              [0.42, 0.3],
+              [0.52, 0.55],
+              [0.6, 0.8],
+              [0.66, 1.05],
+            ];
+            const k = t * (pts.length - 1);
+            const j = Math.min(Math.floor(k), pts.length - 2);
+            const u = k - j;
+            const spread = (((i * 53) % 100) / 100 - 0.5) * (0.08 + t * 0.5);
+            const x = (pts[j][0] + (pts[j + 1][0] - pts[j][0]) * u + spread) * 1080;
+            const y = (pts[j][1] + (pts[j + 1][1] - pts[j][1]) * u) * 1920;
+            const len = 40 + t * 110;
+            return <div key={i} style={{ position: "absolute", left: x, top: y, width: 10 + t * 10, height: len, borderRadius: 99, background: "rgba(255,255,255,0.85)", rotate: "-18deg", opacity: interpolate(t, [0, 0.15, 0.85, 1], [0, 0.9, 0.9, 0]), filter: "blur(1.5px)" }} />;
+          })}
+          <Bob src={src} cx={0.55} cy={0.6} r={0.42} base={base} amp={0.45} />
+          {/* splashes around the droplet */}
+          {Array.from({ length: 16 }).map((_, i) => {
+            const life = 22;
+            const t = (f + i * 5) % life;
+            const ang = (i / 16) * Math.PI * 2;
+            const r = 230 + t * 9;
+            const x = 600 + Math.cos(ang) * r;
+            const y = 1250 + Math.sin(ang) * r * 0.35 - Math.sin((t / life) * Math.PI) * 120;
+            const s = 12 + (i % 3) * 6;
+            return <div key={`s${i}`} style={{ position: "absolute", left: x, top: y, width: s, height: s, borderRadius: "50%", background: "#ffffff", boxShadow: "0 0 10px #bfe9ff", opacity: interpolate(t, [0, 4, life], [0, 1, 0]) }} />;
+          })}
+        </>
+      )}
+    </AbsoluteFill>
+  );
+};
+
+/** Clip with a little zoom punch on the cut. */
+const Clip: React.FC<{ s: Shot }> = ({ s }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const punch = spring({ frame, fps, config: { damping: 14, stiffness: 180 } });
+  return (
+    <AbsoluteFill style={{ transform: `${s.flip ? "scaleX(-1) " : ""}scale(${interpolate(punch, [0, 1], [1.12, 1.03]) + frame * 0.0006})` }}>
+      <OffthreadVideo src={staticFile(s.src)} muted startFrom={Math.round((s.start ?? 0) * fps)} playbackRate={s.rate ?? 1} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+    </AbsoluteFill>
+  );
+};
+
+const Flash: React.FC = () => {
+  const f = useCurrentFrame();
+  return <AbsoluteFill style={{ background: "#ffffff", opacity: interpolate(f, [0, 5], [0.55, 0], { extrapolateRight: "clamp" }) }} />;
+};
+
+/** Confetti for the last chorus. */
+const Confetti: React.FC = () => {
+  const f = useCurrentFrame();
+  const cols = ["#ffe14d", "#ff6fa8", "#4aa8ff", "#5fd35a", "#ff8a3d"];
+  return (
+    <AbsoluteFill style={{ pointerEvents: "none" }}>
+      {Array.from({ length: 40 }).map((_, i) => {
+        const x = ((i * 211) % 1080) + Math.sin((f + i * 10) / 10) * 40;
+        const y = -60 + ((f * (7 + (i % 4) * 2) + i * 90) % 2050);
+        return <div key={i} style={{ position: "absolute", left: x, top: y, width: 22, height: 34, borderRadius: 5, background: cols[i % 5], rotate: `${f * (4 + (i % 5)) + i * 30}deg`, scale: `${Math.abs(Math.sin((f + i * 7) / 6)) * 0.8 + 0.2} 1` }} />;
+      })}
+    </AbsoluteFill>
+  );
 };
 
 /** Sparkle particles for the whole clip (water shimmer). */
@@ -150,13 +276,16 @@ export const GiraAgua: React.FC = () => {
         const dur = Math.round((s.to - s.from) * fps);
         return (
           <Sequence key={i} from={from} durationInFrames={dur}>
-            <AbsoluteFill style={{ transform: s.flip ? "scaleX(-1)" : undefined }}>
-              {s.video ? <OffthreadVideo src={staticFile(s.src)} muted style={{ width: "100%", height: "100%", objectFit: "cover" }} /> : <Still src={s.src} motion={s.motion} dur={dur} />}
-            </AbsoluteFill>
+            {s.living ? <LivingStill src={s.src} kind={s.living} dur={dur} /> : <Clip s={s} />}
+            {/* white flash on the cut */}
+            {i > 0 ? <Flash /> : null}
           </Sequence>
         );
       })}
       <Sparkles />
+      <Sequence from={Math.round(63.4 * fps)}>
+        <Confetti />
+      </Sequence>
       <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(0,0,0,0) 55%, rgba(16,36,92,0.55) 100%)" }} />
       {/* title on the first seconds */}
       {frame < 2.2 * fps ? (
