@@ -877,3 +877,49 @@ const SceneFade: React.FC<{ instant?: boolean; children: React.ReactNode }> = ({
   const o = instant ? 1 : interpolate(frame, [0, 10], [0, 1], clamp);
   return <AbsoluteFill style={{ opacity: o }}>{children}</AbsoluteFill>;
 };
+
+/** Vertical cover (1080×1920), same painted-silhouette style as the video. */
+export const HiroshimaCover: React.FC = () => (
+  <AbsoluteFill style={{ background: "#0d0b10" }}>
+    <svg width={W} height={H}>
+      <defs>
+        <linearGradient id="hcSky" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stopColor="#120f22" />
+          <stop offset="0.45" stopColor="#3a2f4f" />
+          <stop offset="0.72" stopColor="#a0606a" />
+          <stop offset="0.86" stopColor="#f0a874" />
+        </linearGradient>
+        <radialGradient id="hcSun" cx="0.5" cy="0.5" r="0.5">
+          <stop offset="0" stopColor="#ffe6b8" stopOpacity={0.9} />
+          <stop offset="1" stopColor="#ffe6b8" stopOpacity={0} />
+        </radialGradient>
+        <Paint id="hcP" scale={16} freq={0.02} seed={4} />
+      </defs>
+      <rect width={W} height={H} fill="url(#hcSky)" />
+      <circle cx={540} cy={1420} r={520} fill="url(#hcSun)" />
+      <PaintedCloud x={560} y={1180} s={2.2} light="#c2afc0" shade="#5b4a63" seed="hca" filter="hcP" puffs={11} />
+      <PaintedCloud x={200} y={1290} s={1.1} light="#a08a9e" shade="#4c3e55" seed="hcb" filter="hcP" />
+      <path d={ridge("hcr", 1450, 60)} fill="#2a2236" />
+      <path d={town("hct1", 1560, -20, 360, 50, 120)} fill="#0f0c14" />
+      <path d={town("hct2", 1560, 720, 1110, 50, 120)} fill="#0f0c14" />
+      <DomeSil x={540} base={1565} color="#0f0c14" ruined />
+      <Windows seed="hcw1" baseY={1560} x0={20} x1={340} color="#ffcf84" n={10} />
+      <Windows seed="hcw2" baseY={1560} x0={740} x1={1060} color="#ffcf84" n={10} />
+      <rect x={0} y={1560} width={W} height={360} fill="#0d0b10" />
+      <Crane x={820} y={330} s={1.1} color="#e85a4f" rot={-12} flap={0.6} />
+      <Crane x={250} y={1000} s={0.7} color="#f2b33d" rot={8} flap={0.2} />
+    </svg>
+    <div style={{ position: "absolute", left: 0, right: 0, top: 210, textAlign: "center", fontFamily: brandFont, fontWeight: 700, fontSize: 32, letterSpacing: 6, color: "#f7f1e6", opacity: 0.85 }}>WILL TE EXPLICA · HISTÓRIA</div>
+    <div style={{ position: "absolute", left: 40, right: 40, top: 430, textAlign: "center", fontFamily: brandFont, fontWeight: 800, color: "#f7f1e6", textShadow: "0 8px 40px rgba(0,0,0,0.85)" }}>
+      <div style={{ fontSize: 130, lineHeight: 0.98, letterSpacing: -4 }}>UMA NUVEM</div>
+      <div style={{ fontSize: 100, lineHeight: 1.04, letterSpacing: -3 }}>DECIDIU QUAL</div>
+      <div style={{ fontSize: 100, lineHeight: 1.04, letterSpacing: -3 }}>CIDADE IA</div>
+      <div style={{ fontSize: 124, lineHeight: 1.08, letterSpacing: -4, color: "#ff9b6e", textShadow: "0 0 50px #ff9b6e88" }}>DESAPARECER</div>
+    </div>
+    <div style={{ position: "absolute", left: 0, right: 0, top: 1650, textAlign: "center" }}>
+      <span style={{ display: "inline-block", padding: "16px 40px", background: "rgba(10,8,12,0.6)", borderTop: "3px solid #ffd77a", borderBottom: "3px solid #ffd77a", fontFamily: brandFont, fontWeight: 800, fontSize: 46, letterSpacing: 6, color: "#f7f1e6" }}>
+        HIROSHIMA · NAGASAKI · 1945
+      </span>
+    </div>
+  </AbsoluteFill>
+);
