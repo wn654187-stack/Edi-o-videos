@@ -1,0 +1,640 @@
+{
+"tempo": 1.05,
+"words": [
+{
+"text": "Uma",
+"start": 0.076,
+"end": 0.229
+},
+{
+"text": "nuvem",
+"start": 0.305,
+"end": 0.686
+},
+{
+"text": "decidiu",
+"start": 0.8,
+"end": 1.219
+},
+{
+"text": "qual",
+"start": 1.333,
+"end": 1.448
+},
+{
+"text": "cidade",
+"start": 1.524,
+"end": 1.981
+},
+{
+"text": "ia",
+"start": 2.057,
+"end": 2.133
+},
+{
+"text": "desaparecer.",
+"start": 2.21,
+"end": 3.2
+},
+{
+"text": "6 de agosto de 1945,",
+"start": 3.505,
+"end": 6.476
+},
+{
+"text": "8h15 da manhã.",
+"start": 6.552,
+"end": 7.848
+},
+{
+"text": "Um",
+"start": 8.076,
+"end": 8.152
+},
+{
+"text": "avião",
+"start": 8.267,
+"end": 8.457
+},
+{
+"text": "americano",
+"start": 8.533,
+"end": 9.067
+},
+{
+"text": "solta",
+"start": 9.219,
+"end": 9.448
+},
+{
+"text": "uma",
+"start": 9.562,
+"end": 9.676
+},
+{
+"text": "única",
+"start": 9.752,
+"end": 10.057
+},
+{
+"text": "bomba",
+"start": 10.21,
+"end": 10.438
+},
+{
+"text": "sobre",
+"start": 10.514,
+"end": 10.743
+},
+{
+"text": "Hiroshima.",
+"start": 10.781,
+"end": 11.581
+},
+{
+"text": "Em",
+"start": 11.81,
+"end": 11.962
+},
+{
+"text": "segundos,",
+"start": 12.076,
+"end": 12.8
+},
+{
+"text": "a",
+"start": 12.838,
+"end": 12.876
+},
+{
+"text": "cidade",
+"start": 12.952,
+"end": 13.257
+},
+{
+"text": "vira",
+"start": 13.333,
+"end": 13.562
+},
+{
+"text": "fogo.",
+"start": 13.638,
+"end": 14.4
+},
+{
+"text": "Até",
+"start": 14.514,
+"end": 14.667
+},
+{
+"text": "o",
+"start": 14.705,
+"end": 14.743
+},
+{
+"text": "fim",
+"start": 14.781,
+"end": 14.857
+},
+{
+"text": "do",
+"start": 14.933,
+"end": 15.01
+},
+{
+"text": "ano,",
+"start": 15.086,
+"end": 15.467
+},
+{
+"text": "cerca",
+"start": 15.543,
+"end": 15.695
+},
+{
+"text": "de",
+"start": 15.771,
+"end": 16.0
+},
+{
+"text": "140 mil",
+"start": 16.114,
+"end": 16.99
+},
+{
+"text": "pessoas",
+"start": 17.143,
+"end": 17.6
+},
+{
+"text": "morrem.",
+"start": 17.676,
+"end": 18.59
+},
+{
+"text": "Três",
+"start": 18.667,
+"end": 18.819
+},
+{
+"text": "dias",
+"start": 18.895,
+"end": 19.048
+},
+{
+"text": "depois,",
+"start": 19.124,
+"end": 19.81
+},
+{
+"text": "o",
+"start": 19.886,
+"end": 19.962
+},
+{
+"text": "alvo",
+"start": 20.076,
+"end": 20.419
+},
+{
+"text": "era",
+"start": 20.495,
+"end": 20.571
+},
+{
+"text": "Kokura.",
+"start": 20.648,
+"end": 21.562
+},
+{
+"text": "Mas",
+"start": 21.676,
+"end": 21.79
+},
+{
+"text": "nuvens",
+"start": 21.867,
+"end": 22.248
+},
+{
+"text": "e",
+"start": 22.286,
+"end": 22.324
+},
+{
+"text": "fumaça",
+"start": 22.362,
+"end": 22.857
+},
+{
+"text": "cobriam",
+"start": 22.933,
+"end": 23.39
+},
+{
+"text": "a",
+"start": 23.416,
+"end": 23.441
+},
+{
+"text": "cidade.",
+"start": 23.467,
+"end": 24.305
+},
+{
+"text": "O",
+"start": 24.343,
+"end": 24.381
+},
+{
+"text": "avião",
+"start": 24.495,
+"end": 24.686
+},
+{
+"text": "desviou.",
+"start": 24.762,
+"end": 25.6
+},
+{
+"text": "Às",
+"start": 25.714,
+"end": 25.867
+},
+{
+"text": "11h02,",
+"start": 25.905,
+"end": 26.743
+},
+{
+"text": "a",
+"start": 26.781,
+"end": 26.819
+},
+{
+"text": "bomba",
+"start": 26.895,
+"end": 27.124
+},
+{
+"text": "caiu",
+"start": 27.2,
+"end": 27.429
+},
+{
+"text": "em",
+"start": 27.505,
+"end": 27.581
+},
+{
+"text": "Nagasaki.",
+"start": 27.619,
+"end": 28.648
+},
+{
+"text": "Mais",
+"start": 28.762,
+"end": 28.876
+},
+{
+"text": "74 mil",
+"start": 28.952,
+"end": 30.248
+},
+{
+"text": "mortos.",
+"start": 30.324,
+"end": 31.314
+},
+{
+"text": "Seis",
+"start": 31.39,
+"end": 31.543
+},
+{
+"text": "dias",
+"start": 31.619,
+"end": 31.848
+},
+{
+"text": "depois,",
+"start": 31.924,
+"end": 32.61
+},
+{
+"text": "o",
+"start": 32.648,
+"end": 32.686
+},
+{
+"text": "Japão",
+"start": 32.762,
+"end": 33.067
+},
+{
+"text": "se",
+"start": 33.143,
+"end": 33.219
+},
+{
+"text": "rendeu.",
+"start": 33.333,
+"end": 34.057
+},
+{
+"text": "Em",
+"start": 34.133,
+"end": 34.21
+},
+{
+"text": "Hiroshima,",
+"start": 34.248,
+"end": 35.048
+},
+{
+"text": "uma",
+"start": 35.124,
+"end": 35.2
+},
+{
+"text": "menina",
+"start": 35.276,
+"end": 35.581
+},
+{
+"text": "de",
+"start": 35.695,
+"end": 35.81
+},
+{
+"text": "dois",
+"start": 35.886,
+"end": 36.114
+},
+{
+"text": "anos",
+"start": 36.19,
+"end": 36.419
+},
+{
+"text": "sobreviveu:",
+"start": 36.457,
+"end": 37.41
+},
+{
+"text": "Sadako",
+"start": 37.562,
+"end": 37.943
+},
+{
+"text": "Sasaki.",
+"start": 38.019,
+"end": 38.933
+},
+{
+"text": "Aos",
+"start": 39.01,
+"end": 39.162
+},
+{
+"text": "doze,",
+"start": 39.238,
+"end": 39.771
+},
+{
+"text": "a",
+"start": 39.81,
+"end": 39.848
+},
+{
+"text": "radiação",
+"start": 39.924,
+"end": 40.381
+},
+{
+"text": "cobrou",
+"start": 40.495,
+"end": 40.762
+},
+{
+"text": "o",
+"start": 40.8,
+"end": 40.838
+},
+{
+"text": "preço:",
+"start": 40.952,
+"end": 41.6
+},
+{
+"text": "leucemia.",
+"start": 41.676,
+"end": 42.667
+},
+{
+"text": "No",
+"start": 42.705,
+"end": 42.743
+},
+{
+"text": "hospital,",
+"start": 42.819,
+"end": 43.505
+},
+{
+"text": "ela",
+"start": 43.581,
+"end": 43.657
+},
+{
+"text": "dobrou",
+"start": 43.733,
+"end": 44.114
+},
+{
+"text": "tsurus",
+"start": 44.19,
+"end": 44.571
+},
+{
+"text": "de",
+"start": 44.61,
+"end": 44.648
+},
+{
+"text": "papel.",
+"start": 44.724,
+"end": 45.486
+},
+{
+"text": "A",
+"start": 45.524,
+"end": 45.562
+},
+{
+"text": "lenda",
+"start": 45.638,
+"end": 45.867
+},
+{
+"text": "diz",
+"start": 45.943,
+"end": 46.171
+},
+{
+"text": "que",
+"start": 46.248,
+"end": 46.324
+},
+{
+"text": "1.000 tsurus",
+"start": 46.476,
+"end": 47.162
+},
+{
+"text": "realizam",
+"start": 47.276,
+"end": 47.543
+},
+{
+"text": "um",
+"start": 47.619,
+"end": 47.695
+},
+{
+"text": "desejo.",
+"start": 47.797,
+"end": 48.533
+},
+{
+"text": "O",
+"start": 48.571,
+"end": 48.61
+},
+{
+"text": "dela",
+"start": 48.686,
+"end": 48.99
+},
+{
+"text": "era",
+"start": 49.219,
+"end": 49.371
+},
+{
+"text": "viver.",
+"start": 49.448,
+"end": 50.286
+},
+{
+"text": "Sadako",
+"start": 50.4,
+"end": 50.743
+},
+{
+"text": "morreu",
+"start": 50.819,
+"end": 51.124
+},
+{
+"text": "em",
+"start": 51.2,
+"end": 51.276
+},
+{
+"text": "1955.",
+"start": 51.352,
+"end": 53.41
+},
+{
+"text": "Hoje,",
+"start": 53.486,
+"end": 53.943
+},
+{
+"text": "tsurus",
+"start": 54.019,
+"end": 54.4
+},
+{
+"text": "do",
+"start": 54.438,
+"end": 54.476
+},
+{
+"text": "mundo",
+"start": 54.629,
+"end": 54.781
+},
+{
+"text": "inteiro",
+"start": 54.857,
+"end": 55.314
+},
+{
+"text": "chegam",
+"start": 55.39,
+"end": 55.695
+},
+{
+"text": "ao",
+"start": 55.733,
+"end": 55.771
+},
+{
+"text": "Memorial",
+"start": 55.848,
+"end": 56.229
+},
+{
+"text": "da",
+"start": 56.305,
+"end": 56.381
+},
+{
+"text": "Paz.",
+"start": 56.457,
+"end": 57.029
+},
+{
+"text": "Comenta",
+"start": 57.219,
+"end": 57.524
+},
+{
+"text": "um",
+"start": 57.6,
+"end": 57.676
+},
+{
+"text": "tsuru",
+"start": 57.752,
+"end": 58.057
+},
+{
+"text": "se",
+"start": 58.095,
+"end": 58.133
+},
+{
+"text": "você",
+"start": 58.21,
+"end": 58.362
+},
+{
+"text": "conhecia",
+"start": 58.438,
+"end": 58.819
+},
+{
+"text": "essa",
+"start": 58.895,
+"end": 58.971
+},
+{
+"text": "história.",
+"start": 59.086,
+"end": 59.684
+}
+]
+}
