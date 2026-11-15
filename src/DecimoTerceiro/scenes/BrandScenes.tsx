@@ -95,7 +95,7 @@ export const Scene2Parcela1: React.FC<{ from: number }> = ({ from }) => {
           <Pill accent="lime" solid size={36}>SEM DESCONTO</Pill>
         </Reveal>
       </div>
-      <BrandPrompt at={6}>+ SEGUE: seu dinheiro explicado</BrandPrompt>
+      <BrandPrompt at={6}>+ SEGUE: série Seu Bolso 💸</BrandPrompt>
     </BrandScene>
   );
 };
@@ -127,13 +127,16 @@ const Bar: React.FC<{ label: string; top: number; at: number; cuts?: { at: numbe
 export const Scene3Parcela2: React.FC<{ from: number }> = ({ from }) => {
   const cue = useCue(from);
   return (
-    <BrandScene label="2ª parcela · até 20/12" icon="calendar" accent="orange" title="Com desconto">
+    <BrandScene label="2ª parcela · até 18/12" icon="calendar" accent="orange" title="Com desconto">
       <Bar label="1ª parcela · 30/11" top={500} at={2} />
-      <Bar label="2ª parcela · 20/12" top={720} at={cue("20/12")} cuts={[{ at: cue("INSS"), w: 0.16, text: "INSS" }, { at: cue("Imposto"), w: 0.12, text: "IR" }]} />
-      <Reveal at={cue("menor")} from="scale" style={{ left: 0, right: 0, top: 980, textAlign: "center" }}>
+      <Bar label="2ª parcela · até sex. 18/12" top={720} at={cue("20/12")} cuts={[{ at: cue("INSS"), w: 0.16, text: "INSS" }, { at: cue("Imposto"), w: 0.12, text: "IR" }]} />
+      <Reveal at={cue("menor")} from="scale" style={{ left: 0, right: 0, top: 1000, textAlign: "center" }}>
         <Pill accent="orange" solid size={38}>por isso vem menor</Pill>
       </Reveal>
-      <div style={{ position: "absolute", right: 80, top: 1050, fontFamily: brandFont, fontWeight: 600, fontSize: 24, color: brand.muted }}>proporções ilustrativas</div>
+      <Reveal at={cue("20/12") + 6} from="scale" style={{ left: 0, right: 0, top: 905, textAlign: "center" }}>
+        <Pill accent="blue" size={30}>20/12 cai num domingo → paga até sexta, 18/12</Pill>
+      </Reveal>
+      <div style={{ position: "absolute", right: 80, top: 460, fontFamily: brandFont, fontWeight: 600, fontSize: 24, color: brand.muted }}>proporções ilustrativas</div>
     </BrandScene>
   );
 };
@@ -178,6 +181,7 @@ export const Scene4Proporcional: React.FC<{ from: number }> = ({ from }) => {
       <Reveal at={t6} from="scale" style={{ left: 0, right: 0, top: 940, textAlign: "center" }}>
         <Pill accent="lime" solid size={38}>6 meses = metade do 13º</Pill>
       </Reveal>
+      <BrandPrompt at={cue("trabalhado.")} duration={150} accent="orange">MANDA pra quem trabalha de carteira assinada 📲</BrandPrompt>
     </BrandScene>
   );
 };
@@ -209,6 +213,7 @@ export const Scene5Direitos: React.FC<{ from: number }> = ({ from }) => {
       <Reveal at={cue("demitido")} from="left" style={{ left: 75, top: 500, width: 930 }}>
         <GlassCard accent="lime" style={{ padding: "22px 30px", fontWeight: 700, fontSize: 38 }}>
           Demitido sem justa causa? <span style={{ color: brand.lime }}>Recebe o proporcional</span>
+          <div style={{ fontWeight: 600, fontSize: 28, opacity: 0.75, marginTop: 6 }}>pediu demissão também recebe · só justa causa perde</div>
         </GlassCard>
       </Reveal>
       <Reveal at={cue("empresa")} from="scale" style={{ left: 330, top: 670 }}>
@@ -217,6 +222,7 @@ export const Scene5Direitos: React.FC<{ from: number }> = ({ from }) => {
       <Reveal at={cue("Denuncia")} from="scale" style={{ left: 0, right: 0, top: 1070, textAlign: "center" }}>
         <Pill accent="lime" solid size={34}>Denuncie no Ministério do Trabalho</Pill>
       </Reveal>
+      <BrandPrompt at={cue("multada") + 4} duration={70}>SALVA pra conferir no dia 30 📌</BrandPrompt>
     </BrandScene>
   );
 };
