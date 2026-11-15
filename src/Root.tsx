@@ -16,6 +16,7 @@ import { EnemNaturezaAlt, ENEM_NATUREZA_ALT_SECONDS } from "./EnemNaturezaAlt/En
 import { ElNino, EL_NINO_SECONDS } from "./ElNino/ElNino";
 import { EnemTRI, ENEM_TRI_SECONDS } from "./EnemTRI/EnemTRI";
 import { DecimoTerceiro, DECIMO_TERCEIRO_SECONDS } from "./DecimoTerceiro/DecimoTerceiro";
+import { DecimoTerceiroCover } from "./DecimoTerceiro/Cover";
 import { ElNinoYT, ELNINO_YT_SECONDS } from "./ElNinoYT/ElNinoYT";
 import { ElNinoThumb } from "./ElNinoYT/Thumb";
 import { ElNinoShort, ELNINO_SHORT_SECONDS } from "./ElNinoShort/ElNinoShort";
@@ -308,6 +309,7 @@ export const RemotionRoot: React.FC = () => {
           showCaptions: true,
         }}
       />
+      <Still id="DecimoTerceiroCover" component={DecimoTerceiroCover} width={1080} height={1920} />
       <Still id="FimDoMundoCover" component={FimDoMundoCover} width={1080} height={1920} />
       <Still id="TRICover" component={TRICover} width={1080} height={1920} />
       <Composition
