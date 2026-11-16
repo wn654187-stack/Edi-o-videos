@@ -9,6 +9,7 @@ import { F1Halo, F1_HALO_SECONDS } from "./F1Halo/F1Halo";
 import { EnemNatureza, ENEM_NATUREZA_SECONDS } from "./EnemNatureza/EnemNatureza";
 import { EnemMatematica, ENEM_MATEMATICA_SECONDS } from "./EnemMatematica/EnemMatematica";
 import { BlackFriday, BLACK_FRIDAY_SECONDS } from "./BlackFriday/BlackFriday";
+import { BlackFridayCover } from "./BlackFriday/Cover";
 import { VarPenalti, VAR_PENALTI_SECONDS } from "./VarPenalti/VarPenalti";
 import { ComoFuncionaGPS, GPS_SECONDS } from "./ComoFuncionaGPS/ComoFuncionaGPS";
 import { EnemNaturezaQuiz, ENEM_NATUREZA_QUIZ_SECONDS } from "./EnemNaturezaQuiz/EnemNaturezaQuiz";
@@ -311,6 +312,7 @@ export const RemotionRoot: React.FC = () => {
         }}
       />
       <Composition id="HiroshimaVertical" component={Hiroshima} durationInFrames={HIROSHIMA_SECONDS * 30} fps={30} width={1080} height={1920} />
+      <Still id="BlackFridayCover" component={BlackFridayCover} width={1080} height={1920} />
       <Still id="HiroshimaCover" component={HiroshimaCover} width={1080} height={1920} />
       <Still id="DecimoTerceiroCover" component={DecimoTerceiroCover} width={1080} height={1920} />
       <Still id="FimDoMundoCover" component={FimDoMundoCover} width={1080} height={1920} />
